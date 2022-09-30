@@ -77,6 +77,9 @@
 
 ####  1.2.4. <a name='Sites-1'></a>Sites
 
+- [Documentation officielle Terraform](https://www.terraform.io/docs/)
+- [Best practices Terraform (Google Cloud)](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
+
 ###  1.3. <a name='CloudFormation'></a>CloudFormation
 
 ####  1.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
