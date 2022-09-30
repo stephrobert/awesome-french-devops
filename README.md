@@ -285,6 +285,8 @@ des tutoriels.
 
 ###  7.1. <a name='Gitlab-CICD'></a>Gitlab-CI/CD
 
+- [Cheatsheet GitLab](https://dev.to/jphi_baconnais/series/12928)
+
 ###  7.2. <a name='GithubActions'></a>Github Actions
 
 ###  7.3. <a name='Jenkins'></a>Jenkins
