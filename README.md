@@ -285,6 +285,9 @@ des tutoriels.
 
 ###  7.1. <a name='Gitlab-CICD'></a>Gitlab-CI/CD
 
+- [Commencer simplement avec GitLab CI](https://dev.to/jphi_baconnais/commencer-simplement-avec-gitlabci-53fa)
+- [Comment organiser son travail avec GitLab](https://dev.to/zenika/comment-organiser-son-travail-avec-gitlab-42da)
+
 ###  7.2. <a name='GithubActions'></a>Github Actions
 
 ###  7.3. <a name='Jenkins'></a>Jenkins
