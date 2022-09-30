@@ -11,7 +11,15 @@
 	* 2.3. [MOOC](#MOOC-1)
 	* 2.4. [Sites](#Sites)
 * 3. [Rust](#Rust)
+	* 3.1. [Livres Gratuits](#LivresGratuits-1)
+	* 3.2. [Livres](#Livres-1)
+	* 3.3. [MOOC](#MOOC-1)
+	* 3.4. [Sites](#Sites-1)
 * 4. [Ruby](#Ruby)
+	* 4.1. [Livres Gratuits](#LivresGratuits-1)
+	* 4.2. [Livres](#Livres-1)
+	* 4.3. [MOOC](#MOOC-1)
+	* 4.4. [Sites](#Sites-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -56,6 +64,23 @@ des tutoriels.
 
 **Site officiel** : [Rust-lang.org](https://www.rust-lang.org/fr) (Fr).
 
+###  3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+###  3.2. <a name='Livres-1'></a>Livres
+
+###  3.3. <a name='MOOC-1'></a>MOOC
+
+###  3.4. <a name='Sites-1'></a>Sites
+
+
 ##  4. <a name='Ruby'></a>Ruby
 
 **Site officiel** : [Ruby-lang.fr](https://www.ruby-lang.org/fr/) (Fr).
+
+###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+###  4.2. <a name='Livres-1'></a>Livres
+
+###  4.3. <a name='MOOC-1'></a>MOOC
+
+###  4.4. <a name='Sites-1'></a>Sites
