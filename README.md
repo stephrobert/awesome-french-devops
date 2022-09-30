@@ -127,6 +127,7 @@ Devops**.
 - [Xavki](https://www.youtube.com/c/xavki-linux)
 - [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 - [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
+- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU) 
 
 ##  6. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
