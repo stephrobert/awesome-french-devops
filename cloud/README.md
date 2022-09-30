@@ -3,6 +3,7 @@
 * 1. [AWS](#AWS)
 * 2. [GCP](#GCP)
 * 3. [Azure](#Azure)
+* 4. [Autres](#Autres)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -14,3 +15,7 @@
 ##  2. <a name='GCP'></a>GCP
 
 ##  3. <a name='Azure'></a>Azure
+
+##  4. <a name='Autre'></a>Autre
+
+- [Expérimentations sur Alibabacloud](https://blog.zenika.com/2022/03/18/decouverte-dalibaba-cloud/)
