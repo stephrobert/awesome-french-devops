@@ -42,6 +42,11 @@
 		* 1.8.2. [Livres](#Livres-1)
 		* 1.8.3. [MOOC](#MOOC-1)
 		* 1.8.4. [Sites](#Sites-1)
+	* 1.9. [Azure Resource Manager](#ARM)
+		* 1.9.1. [Livres Gratuits](#LivresGratuits-1)
+		* 1.9.2. [Livres](#Livres-1)
+		* 1.9.3. [MOOC](#MOOC-1)
+		* 1.9.4. [Sites](#Sites-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -133,3 +138,15 @@
 ####  1.8.3. <a name='MOOC-1'></a>MOOC
 
 ####  1.8.4. <a name='Sites-1'></a>Sites
+
+###  1.9. <a name='ARM'></a>Azure Resource Manager
+
+####  1.9.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+####  1.9.2. <a name='Livres-1'></a>Livres
+
+####  1.9.3. <a name='MOOC-1'></a>MOOC
+
+####  1.9.4. <a name='Sites-1'></a>Sites
+
+- [Documentation officielle Azure Resource Manager](https://learn.microsoft.com/fr-fr/azure/azure-resource-manager/management/)
