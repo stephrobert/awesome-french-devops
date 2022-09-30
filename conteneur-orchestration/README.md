@@ -6,6 +6,7 @@
 * 2. [Orchestrateurs](#Orchestrateurs)
 	* 2.1. [Kubernetes](#Kubernetes)
 	* 2.2. [Nomad](#Nomad)
+    * 2.3. [Docker Swarm](#Swarm)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -23,3 +24,5 @@
 ###  2.1. <a name='Kubernetes'></a>Kubernetes
 
 ###  2.2. <a name='Nomad'></a>Nomad
+
+###  2.3. <a name='Swarm'></a>Docker Swarm
