@@ -314,6 +314,9 @@ des tutoriels.
 
 ###  9.3. <a name='Azure'></a>Azure
 
+###  9.4. <a name='Autre'></a>Autre
+- [Expérimentations sur Alibabacloud](https://blog.zenika.com/2022/03/18/decouverte-dalibaba-cloud/)
+
 ##  10. <a name='Surveillance'></a>Surveillance
 
 ###  10.1. <a name='Logging:'></a>Logging :
@@ -376,9 +379,10 @@ Devops**.
 - [Xavki](https://www.youtube.com/c/xavki-linux)
 - [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 - [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU) 
+- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
 ##  14. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+
