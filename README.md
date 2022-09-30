@@ -8,7 +8,7 @@
 	* 2.3. [Réseaux et Sécurité Informatique](/reseau-securite/README.md)
 	* 2.4. [Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
 	* 2.5. [Infrastructure as Code](/infra-as-code/README.md)
-	* 2.6. [Pipelines de CI/CD :](/ci-cd/README.md)
+	* 2.6. [Pipelines de CI/CD](/ci-cd/README.md)
 	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 	* 2.8. [Clouders](/cloud/README.md)
 	* 2.9. [Surveillance](/surveillance/README.md)
@@ -18,6 +18,7 @@
 * 4. [Communautés](#Communauts)
 * 5. [Chaines Youtube](#ChainesYoutube)
 * 6. [Des comptes Twitters](#DescomptesTwitters)
+* 7. [Contribution](#Contribution)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -80,9 +81,9 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 ###  2.1. <a name='Administrationdeserveursadmin-serveursREADME.md'></a>[Administration de serveurs](/admin-serveurs/README.md)
 ###  2.2. <a name='LangagesdeProgrammationlangages-programmationREADME.md'></a>[Langages de Programmation](/langages-programmation/README.md)
 ###  2.3. <a name='RseauxetScuritInformatiquereseau-securiteREADME.md'></a>[Réseaux et Sécurité Informatique](/reseau-securite/README.md)
-###  2.4. <a name='ConfigurationetmaintenancedeServeursgestion-configurationREADME.md'></a>[Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
+###  2.4. <a name='ConfigurationetmaintenancedeServeursconfiguration-serveursREADME.md'></a>[Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
 ###  2.5. <a name='InfrastructureasCodeinfra-as-codeREADME.md'></a>[Infrastructure as Code](/infra-as-code/README.md)
-###  2.6. <a name='PipelinesdeCICD:ci-cdREADME.md'></a>[Pipelines de CI/CD :](/ci-cd/README.md)
+###  2.6. <a name='PipelinesdeCICD:ci-cdREADME.md'></a>[Pipelines de CI/CD](/ci-cd/README.md)
 ###  2.7. <a name='ConteneursetOrchestrateursconteneur-orchestrationREADME.md'></a>[Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 ###  2.8. <a name='ClouderscloudREADME.md'></a>[Clouders](/cloud/README.md)
 ###  2.9. <a name='SurveillancesurveillanceREADME.md'></a>[Surveillance](/surveillance/README.md)
@@ -132,7 +133,7 @@ Devops**.
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 
-# Contribution
+##  7. <a name='Contribution'></a>Contribution
 
 Toute contribution est la bienvenue.
 
