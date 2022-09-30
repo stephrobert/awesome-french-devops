@@ -47,8 +47,8 @@ C'est dans ce cadre que vous serez amener à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
-- **en rouge** les plus courants
-- **en orange** moins courants
+- **en magenta** les plus courants
+- **en bleu** moins courants
 - **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
 
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
@@ -127,7 +127,7 @@ Devops**.
 - [Xavki](https://www.youtube.com/c/xavki-linux)
 - [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 - [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU) 
+- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
 ##  6. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
