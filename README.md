@@ -62,6 +62,7 @@
 	* 8.2. [Orchestrateurs](#Orchestrateurs)
 		* 8.2.1. [Kubernetes](#Kubernetes)
 		* 8.2.2. [Nomad](#Nomad)
+        * 8.2.3. [Docker Swarm](#Swarm)
 * 9. [Clouders](#Clouders)
 	* 9.1. [AWS](#AWS)
 	* 9.2. [GCP](#GCP)
@@ -306,6 +307,8 @@ des tutoriels.
 
 ####  8.2.2. <a name='Nomad'></a>Nomad
 
+####  8.2.3. <a name='Swarm'></a>Docker Swarm
+
 ##  9. <a name='Clouders'></a>Clouders
 
 ###  9.1. <a name='AWS'></a>AWS
@@ -376,7 +379,7 @@ Devops**.
 - [Xavki](https://www.youtube.com/c/xavki-linux)
 - [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 - [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU) 
+- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
 ##  14. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
