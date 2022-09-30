@@ -115,6 +115,7 @@ Devops**.
 - [Claranet notsosecure](https://notsosecure.com/blog)
 - [publicissapient](http://blog.engineering.publicissapient.fr)
 - [eazytraining](https://eazytraining.fr/blog/)
+- [Zenika](https://blog.zenika.com/)
 
 ##  4. <a name='Communauts'></a>Communautés
 
@@ -130,3 +131,9 @@ Devops**.
 
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+
+# Contribution
+
+Toute contribution est la bienvenue.
+
+Plus d'informations dans [ce fichier](./CONTRIBUTING.md).
