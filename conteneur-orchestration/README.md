@@ -67,6 +67,10 @@
 
 ####  2.1.4. <a name='Sites-1'></a>Sites
 
+- [Documentation](https://kubernetes.io/docs/home/)
+- [Blog](https://kubernetes.io/blog/)
+
+
 ###  2.2. <a name='Nomad'></a>Nomad
 
 ####  2.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
