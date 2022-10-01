@@ -131,8 +131,11 @@ Devops**.
 
 ##  6. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
+
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+- [Idriss Neumann](https://twitter.com/idriss_neumann)
+- [Xavki](https://twitter.com/xavki_off)
 
 ##  7. <a name='Contribution'></a>Contribution
 
