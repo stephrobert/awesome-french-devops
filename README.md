@@ -109,16 +109,18 @@ Devops**.
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
-- [linkvalue](https://blog.link-value.fr/)
-- [eleven-labs](https://blog.eleven-labs.com)
-- [d2si](https://blog.d2si.io)
-- [wescale](https://blog.wescale.fr)
-- [ovh](https://www.ovh.com/blog)
-- [scaleway](https://blog.scaleway.com)
-- [journalduhacker](https://www.journalduhacker.net)
-- [Claranet notsosecure](https://notsosecure.com/blog)
-- [publicissapient](http://blog.engineering.publicissapient.fr)
+- [Devoteam Revolve](https://blog.revolve.team/)
 - [eazytraining](https://eazytraining.fr/blog/)
+- [Eleven Labs](https://blog.eleven-labs.com)
+- [GitHub](https://github.blog/)
+- [Le Journal Du Hacker](https://www.journalduhacker.net)
+- [linkvalue](https://blog.link-value.fr/)
+- [NotSoSecure Claranet Cyber Security](https://notsosecure.com/blog)
+- [Publicis Sapient](http://blog.engineering.publicissapient.fr)
+- [OVHcloud](https://blog.ovhcloud.com/)
+- [Red Hat](https://www.redhat.com/fr/blog)
+- [Scaleway](https://blog.scaleway.com)
+- [Wescale](https://blog.wescale.fr)
 - [Zenika](https://blog.zenika.com/)
 
 ##  4. <a name='Livres'></a>Livres
