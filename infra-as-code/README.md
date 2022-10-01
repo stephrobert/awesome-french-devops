@@ -7,6 +7,7 @@
 		* 1.1.2. [Livres](#Livres)
 		* 1.1.3. [MOOC](#MOOC)
 		* 1.1.4. [Sites](#Sites)
+		* 1.1.5. [Vidéos](#Vidos)
 	* 1.2. [Terraform](#Terraform)
 		* 1.2.1. [Livres Gratuits](#LivresGratuits-1)
 		* 1.2.2. [Livres](#Livres-1)
@@ -27,6 +28,7 @@
 		* 1.5.2. [Livres](#Livres-1)
 		* 1.5.3. [MOOC](#MOOC-1)
 		* 1.5.4. [Sites](#Sites-1)
+		* 1.5.5. [Videos](#Videos)
 	* 1.6. [Puppet](#Puppet)
 		* 1.6.1. [Livres Gratuits](#LivresGratuits-1)
 		* 1.6.2. [Livres](#Livres-1)
@@ -42,7 +44,7 @@
 		* 1.8.2. [Livres](#Livres-1)
 		* 1.8.3. [MOOC](#MOOC-1)
 		* 1.8.4. [Sites](#Sites-1)
-	* 1.9. [Azure Resource Manager](#ARM)
+	* 1.9. [Azure Resource Manager](#AzureResourceManager)
 		* 1.9.1. [Livres Gratuits](#LivresGratuits-1)
 		* 1.9.2. [Livres](#Livres-1)
 		* 1.9.3. [MOOC](#MOOC-1)
@@ -57,6 +59,9 @@
 
 ###  1.1. <a name='Vagrant'></a>Vagrant
 
+**Site officiel** [vagrantup.com](https://www.vagrantup.com/)
+**Documentation** [vagrantup.com/docs](https://www.vagrantup.com/docs)
+
 ####  1.1.1. <a name='LivresGratuits'></a>Livres Gratuits
 
 ####  1.1.2. <a name='Livres'></a>Livres
@@ -66,6 +71,17 @@
 ####  1.1.4. <a name='Sites'></a>Sites
 
 - [Apprendre et Maitriser Vagrant](http://blog.stephane-robert.info/post/introduction-vagrant/)
+- [Apprendre Vagrant](https://grafikart.fr/tutoriels/vagrant)
+- [Utiliser les inventaires dynamiques Vagrant avec ansible](https://blog.stephane-robert.info/post/vagrant-ansible-inventaire-dynamique.md/)
+- [Ajouter des disques à vagrant tournant sous libvirt](https://blog.stephane-robert.info/post/vagrant-libvirt-disk-qcow2/)
+- [Utiliser des boxes Vagrant Docker avec Windows Sytem Linux 2](https://blog.stephane-robert.info/post/vagrant-wsl2-docker/)
+- [Vagrant - Les commandes à retenir](https://loopbin.dev/tutos/vagrant-les-commandes-a-retenir/)
+- [Vagrant et la virtualisation pour faciliter le développement](https://www.synbioz.com/blog/tech/vagrant-et-la-virtualisation-pour-faciliter-le-developpement)
+
+####  1.1.5. <a name='Vidos'></a>Vidéos
+
+- [Tutoriel vidéo Vagrant : Créer une VM avec Vagrant | Grafikart](https://grafikart.fr/tutoriels/vm-vagrant-chef-solo-482)
+- [Formation Gratuite Complète Vagrant pour DevOps : Déployez vos outils DevOps automatiquement + labs](https://www.youtube.com/watch?v=z4209uoIbmk)
 
 ###  1.2. <a name='Terraform'></a>Terraform
 
@@ -128,7 +144,11 @@
 - [Comment utiliser les templates Jinja](https://blog.stephane-robert.info/post/ansible-template-jinja/)
 - [Comment utiliser des blocks dans vos playbooks et rôles Ansible](https://blog.stephane-robert.info/post/ansible-blocks/)
 - [Maîtriser les inventaires statiques Ansible](https://blog.stephane-robert.info/post/ansible-inventaire-static-precedence-tips/)
-- [Utiliser les inventaires dynamique Ansible](https://blog.stephane-robert.info/post/ansible-inventaire-dynamique-vagrant/)
+- [Utiliser les inventaires dynamiques Ansible](https://blog.stephane-robert.info/post/ansible-inventaire-dynamique-vagrant/)
+
+####  1.5.5. <a name='Videos'></a>Videos
+
+- [Xavki - La playlist sur Ansible (127 vidéos)](https://www.youtube.com/playlist?list=PLn6POgpklwWoCpLKOSw3mXCqbRocnhrh-)
 
 ###  1.6. <a name='Puppet'></a>Puppet
 
@@ -160,7 +180,7 @@
 
 ####  1.8.4. <a name='Sites-1'></a>Sites
 
-###  1.9. <a name='ARM'></a>Azure Resource Manager
+###  1.9. <a name='AzureResourceManager'></a>Azure Resource Manager
 
 ####  1.9.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
