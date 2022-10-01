@@ -1,3 +1,5 @@
+name: CI Readme
+
 on:
   pull_request:
     branches: [main]
