@@ -3,22 +3,25 @@
 <!-- vscode-markdown-toc -->
 * 1. [Introduction](#Introduction)
 * 2. [Liens vers les catégories d'outils](#Liensverslescatgoriesdoutils)
-	* 2.1. [Administration de serveurs](/admin-serveurs/README.md)
-	* 2.2. [Langages de Programmation](/langages-programmation/README.md)
-	* 2.3. [Réseaux et Sécurité Informatique](/reseau-securite/README.md)
-	* 2.4. [Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
-	* 2.5. [Infrastructure as Code](/infra-as-code/README.md)
-	* 2.6. [Pipelines de CI/CD](/ci-cd/README.md)
-	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
-	* 2.8. [Clouders](/cloud/README.md)
-	* 2.9. [Surveillance](/surveillance/README.md)
+	* 2.1. [[Administration de serveurs](/admin-serveurs/README.md)](#Administrationdeserveursadmin-serveursREADME.md)
+	* 2.2. [[Langages de Programmation](/langages-programmation/README.md)](#LangagesdeProgrammationlangages-programmationREADME.md)
+	* 2.3. [[Réseaux et Sécurité Informatique](/reseau-securite/README.md)](#RseauxetScuritInformatiquereseau-securiteREADME.md)
+	* 2.4. [[Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)](#ConfigurationetmaintenancedeServeursconfiguration-serveursREADME.md)
+	* 2.5. [[Infrastructure as Code](/infra-as-code/README.md)](#InfrastructureasCodeinfra-as-codeREADME.md)
+	* 2.6. [[Pipelines de CI/CD](/ci-cd/README.md)](#PipelinesdeCICDci-cdREADME.md)
+	* 2.7. [[Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)](#ConteneursetOrchestrateursconteneur-orchestrationREADME.md)
+	* 2.8. [[Clouders](/cloud/README.md)](#ClouderscloudREADME.md)
+	* 2.9. [[Surveillance](/surveillance/README.md)](#SurveillancesurveillanceREADME.md)
 * 3. [Blogs Devops](#BlogsDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
 	* 3.2. [Sociétés](#Socits)
-* 4. [Communautés](#Communauts)
-* 5. [Chaines Youtube](#ChainesYoutube)
-* 6. [Des comptes Twitters](#DescomptesTwitters)
-* 7. [Contribution](#Contribution)
+* 4. [Livres](#Livres)
+* 5. [Communautés](#Communauts)
+* 6. [Chaines Youtube](#ChainesYoutube)
+* 7. [Des comptes Twitters](#DescomptesTwitters)
+* 8. [Des slacks](#Desslacks)
+* 9. [Podcats](#Podcats)
+* 10. [Contribution](#Contribution)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -83,7 +86,7 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 ###  2.3. <a name='RseauxetScuritInformatiquereseau-securiteREADME.md'></a>[Réseaux et Sécurité Informatique](/reseau-securite/README.md)
 ###  2.4. <a name='ConfigurationetmaintenancedeServeursconfiguration-serveursREADME.md'></a>[Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
 ###  2.5. <a name='InfrastructureasCodeinfra-as-codeREADME.md'></a>[Infrastructure as Code](/infra-as-code/README.md)
-###  2.6. <a name='PipelinesdeCICD:ci-cdREADME.md'></a>[Pipelines de CI/CD](/ci-cd/README.md)
+###  2.6. <a name='PipelinesdeCICDci-cdREADME.md'></a>[Pipelines de CI/CD](/ci-cd/README.md)
 ###  2.7. <a name='ConteneursetOrchestrateursconteneur-orchestrationREADME.md'></a>[Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 ###  2.8. <a name='ClouderscloudREADME.md'></a>[Clouders](/cloud/README.md)
 ###  2.9. <a name='SurveillancesurveillanceREADME.md'></a>[Surveillance](/surveillance/README.md)
@@ -118,26 +121,38 @@ Devops**.
 - [eazytraining](https://eazytraining.fr/blog/)
 - [Zenika](https://blog.zenika.com/)
 
-##  4. <a name='Communauts'></a>Communautés
+##  4. <a name='Livres'></a>Livres
+
+##  5. <a name='Communauts'></a>Communautés
 
 - [Compagnons du Devops](https://www.compagnons-devops.fr/)
 
-##  5. <a name='ChainesYoutube'></a>Chaines Youtube
+##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
 - [Xavki](https://www.youtube.com/c/xavki-linux)
 - [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 - [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 - [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
-##  6. <a name='DescomptesTwitters'></a>Des comptes Twitters
+##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
-- [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+- [DamyR](https://twitter.com/damyr_fr)
 - [Idriss Neumann](https://twitter.com/idriss_neumann)
+- [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+- [Mcorbin](https://twitter.com/_mcorbin)
 - [Xavki](https://twitter.com/xavki_off)
 
-##  7. <a name='Contribution'></a>Contribution
+##  8. <a name='Desslacks'></a>Des slacks
+
+- [comwork-cloud](https://t.co/kQcXNqtoNZ)
+
+##  9. <a name='Podcats'></a>Podcats
+
+- [Radio DevOps](https://lydra.fr/radio-devops/)
+
+##  10. <a name='Contribution'></a>Contribution
 
 Toute contribution est la bienvenue.
 
