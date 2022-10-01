@@ -38,7 +38,7 @@
 ###  1.2. <a name='Livres'></a>Livres
 
 - [Apprenez à programmer en Python](https://amzn.to/3QWe77T) de Vincent Le Goff
-- [Python 3 - Les fondamentaux du langage](https://amzn.to/3pNP76D)
+- [Python 3 - Les fondamentaux du langage](https://amzn.to/3pNP76D) de Sébastien Chazallet
 
 ###  1.3. <a name='MOOC'></a>MOOC
 
@@ -84,3 +84,23 @@ des tutoriels.
 ###  4.3. <a name='MOOC-1'></a>MOOC
 
 ###  4.4. <a name='Sites-1'></a>Sites
+
+## PHP
+
+**Site officiel** : [www.php.net/manual/fr](https://www.php.net/manual/fr/)
+
+#### Livres Gratuits
+
+#### Livres
+
+- [PHP 8 - Développez un site web dynamique et
+  interactif](https://amzn.to/3fuDEHo) de Olivier Heurtel
+- [Design Patterns en PHP - Les 23 modèles de conception : descriptions et
+  solutions illustrées en UML2 et PHP (2e édition)](https://amzn.to/3Coj58m ) de Sébastien Ferrandez
+#### MOOC
+
+#### Sites
+
+### Comptes Twitter
+
+- [Yoan Bernabeu](https://twitter.com/yOyO38)
