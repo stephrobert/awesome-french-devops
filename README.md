@@ -123,6 +123,10 @@ Devops**.
 
 ##  4. <a name='Livres'></a>Livres
 
+- [Découvrir DevOps - 2e éd. - L'essentiel pour tous les métiers : L'essentiel pour tous les métiers](https://amzn.to/3roccO9)
+- [Mettre en oeuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
+  Comment évoluer vers une DSI agile Broché](https://amzn.to/3e0d4pg)
+
 ##  5. <a name='Communauts'></a>Communautés
 
 * [Compagnons du Devops](https://www.compagnons-devops.fr/)
@@ -136,13 +140,14 @@ Devops**.
 
 ##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
-
-* [Aurélie Vache](https://mobile.twitter.com/aurelievache)
-* [DamyR](https://twitter.com/damyr_fr)
-* [Idriss Neumann](https://twitter.com/idriss_neumann)
-* [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
-* [Mcorbin](https://twitter.com/_mcorbin)
-* [Xavki](https://twitter.com/xavki_off)
+- [Aurélie Vache](https://mobile.twitter.com/aurelievache)
+- [DamyR](https://twitter.com/damyr_fr)
+- [Idriss Neumann](https://twitter.com/idriss_neumann)
+- [Juliette Audema](https://twitter.com/ajuliettedev)
+- [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+- [Mcorbin](https://twitter.com/_mcorbin)
+- [Xavki](https://twitter.com/xavki_off)
+- [Zwindler](https://twitter.com/zwindler)
 
 ##  8. <a name='Desslacks'></a>Des slacks
 
@@ -150,7 +155,8 @@ Devops**.
 
 ##  9. <a name='Podcats'></a>Podcats
 
-* [Radio DevOps](https://lydra.fr/radio-devops/)
+- [Radio DevOps](https://lydra.fr/radio-devops/)
+- [DevObs](https://devobs.p7t.tech/)
 
 ##  10. <a name='Contribution'></a>Contribution
 
