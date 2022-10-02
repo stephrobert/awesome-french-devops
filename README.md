@@ -106,6 +106,8 @@ Devops**.
 * [grottedubarbu](https://www.grottedubarbu.fr)
 * [jesuisundev](https://www.jesuisundev.com)
 * [la forge](https://lafor.ge/)
+* [mcorbin](https://www.mcorbin.fr/)
+
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
@@ -131,6 +133,7 @@ Devops**.
 ##  5. <a name='Communauts'></a>Communautés
 
 * [Compagnons du Devops](https://www.compagnons-devops.fr/)
+* [SRE France](https://sre-france.github.io/)
 
 ##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
@@ -138,6 +141,7 @@ Devops**.
 * [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
+* [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
 
 ##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
@@ -161,13 +165,19 @@ Devops**.
 
 - [Radio DevOps](https://lydra.fr/radio-devops/)
 - [DevObs](https://devobs.p7t.tech/)
+- [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
 
-##  10. <a name='Contribuer'></a>Contribuer
+
+## 10. <a name='Tutorials'></a>Tutorials
+- [DevOpsSec](https://devopssec.fr/)
+
+
+##  11. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 - Ajoutez un lien ou plusieurs par pull request.
 - Ajoutez le lien :* [le-lien](http://example.com/) - Une courte phrase
