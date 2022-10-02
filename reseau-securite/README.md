@@ -17,6 +17,8 @@
 
 ###  1.2. <a name='Livres'></a>Livres
 
+- [Réseaux 6e édition](https://amzn.to/3dWVQJs)
+
 ###  1.3. <a name='MOOC'></a>MOOC
 
 [Les Réseaux Locaux](https://www.fun-mooc.fr/fr/cours/les-reseaux-locaux/)
