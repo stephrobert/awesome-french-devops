@@ -21,7 +21,8 @@
 * 7. [Des comptes Twitters](#DescomptesTwitters)
 * 8. [Des slacks](#Desslacks)
 * 9. [Podcats](#Podcats)
-* 10. [Contribution](#Contribution)
+* 10. [Contribuer](#Contribuer)
+	* 10.1. [Lignes directrices](#Lignesdirectrices)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -158,8 +159,17 @@ Devops**.
 - [Radio DevOps](https://lydra.fr/radio-devops/)
 - [DevObs](https://devobs.p7t.tech/)
 
-##  10. <a name='Contribution'></a>Contribution
+##  10. <a name='Contribuer'></a>Contribuer
 
-Toute contribution est la bienvenue.
+Vos contributions sont toutes les bienvenues ! Elles doivent être non
+commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-Plus d'informations dans [ce fichier](./CONTRIBUTING.md).
+###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
+
+- Ajoutez un lien ou plusieurs par pull request.
+- Ajoutez le lien :* [le-lien](http://example.com/) - Une courte phrase
+  de description (concise et courte) ponctuée par un point.
+- Ajoutez une section si nécessaire.
+- Recherchez les demandes d'extraction ou les problèmes précédents avant d'en créer un nouveau, car le vôtre peut être un doublon.
+- Vérifiez votre orthographe et votre grammaire.
+- Supprimez tout espace blanc de fin.
