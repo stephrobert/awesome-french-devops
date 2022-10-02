@@ -10,10 +10,12 @@
 	* 2.5. [Infrastructure as Code](/infra-as-code/README.md)
 	* 2.6. [Pipelines de CI/CD](/ci-cd/README.md)
 	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
+	* 2.8. [Clouders](/cloud/README.md)
 	* 2.9. [Surveillance](/surveillance/README.md)
 * 3. [Blogs Devops](#BlogsDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
-	* 3.2. [Sociétés](#Socits)
+	* 3.2. [Tutorials](#Tutorials)
+	* 3.3. [Sociétés](#Socits)
 * 4. [Livres](#Livres)
 * 5. [Communautés](#Communauts)
 * 6. [Chaines Youtube](#ChainesYoutube)
@@ -98,18 +100,22 @@ Devops**.
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
 
-* [Zwindler's Reflection](https://blog.zwindler.fr/)
 * [Bruno Levasseur](https://blog.levassb.ovh/)
-* [damyr](https://www.damyr.fr)
 * [dadall](https://www.dadall.info)
-* [tferdinand](https://tferdinand.net)
+* [damyr](https://www.damyr.fr)
 * [grottedubarbu](https://www.grottedubarbu.fr)
 * [jesuisundev](https://www.jesuisundev.com)
 * [la forge](https://lafor.ge/)
 * [mcorbin](https://www.mcorbin.fr/)
+* [Stephane ROBERT](https://blog.stephane-robert.info/)
+* [tferdinand](https://tferdinand.net)
+* [Zwindler's Reflection](https://blog.zwindler.fr/)
 
+###  3.2. <a name='Tutorials'></a>Tutorials
 
-###  3.2. <a name='Socits'></a>Sociétés
+- [DevOpsSec](https://devopssec.fr/)
+
+###  3.3. <a name='Socits'></a>Sociétés
 
 * [Devoteam Revolve](https://blog.revolve.team/)
 * [eazytraining](https://eazytraining.fr/blog/)
@@ -167,17 +173,12 @@ Devops**.
 - [DevObs](https://devobs.p7t.tech/)
 - [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
 
-
-## 10. <a name='Tutorials'></a>Tutorials
-- [DevOpsSec](https://devopssec.fr/)
-
-
-##  11. <a name='Contribuer'></a>Contribuer
+##  10. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 - Ajoutez un lien ou plusieurs par pull request.
 - Ajoutez le lien :* [le-lien](http://example.com/) - Une courte phrase
