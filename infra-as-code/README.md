@@ -118,8 +118,9 @@
 
 ###  1.5. <a name='Ansible'></a>Ansible
 
-**Site officiel** : [ansible.com](https://www.ansible.com/)
-**Documentation** : [](https://docs.ansible.com/ansible/latest/index.html)
+- Site officiel : [Ansible.com](https://www.ansible.com/)
+
+- Documentation : [Documentation](https://docs.ansible.com/ansible/latest/index.html)
 
 ####  1.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 

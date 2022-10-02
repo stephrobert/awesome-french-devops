@@ -3,15 +3,14 @@
 <!-- vscode-markdown-toc -->
 * 1. [Introduction](#Introduction)
 * 2. [Liens vers les catégories d'outils](#Liensverslescatgoriesdoutils)
-	* 2.1. [[Administration de serveurs](/admin-serveurs/README.md)](#Administrationdeserveursadmin-serveursREADME.md)
-	* 2.2. [[Langages de Programmation](/langages-programmation/README.md)](#LangagesdeProgrammationlangages-programmationREADME.md)
-	* 2.3. [[Réseaux et Sécurité Informatique](/reseau-securite/README.md)](#RseauxetScuritInformatiquereseau-securiteREADME.md)
-	* 2.4. [[Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)](#ConfigurationetmaintenancedeServeursconfiguration-serveursREADME.md)
-	* 2.5. [[Infrastructure as Code](/infra-as-code/README.md)](#InfrastructureasCodeinfra-as-codeREADME.md)
-	* 2.6. [[Pipelines de CI/CD](/ci-cd/README.md)](#PipelinesdeCICDci-cdREADME.md)
-	* 2.7. [[Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)](#ConteneursetOrchestrateursconteneur-orchestrationREADME.md)
-	* 2.8. [[Clouders](/cloud/README.md)](#ClouderscloudREADME.md)
-	* 2.9. [[Surveillance](/surveillance/README.md)](#SurveillancesurveillanceREADME.md)
+	* 2.1. [Administration de serveurs](/admin-serveurs/README.md)
+	* 2.2. [Langages de Programmation](/langages-programmation/README.md)
+	* 2.3. [Réseaux et Sécurité Informatique](/reseau-securite/README.md)
+	* 2.4. [Configuration et maintenance de Serveurs](/configuration-serveurs/README.md)
+	* 2.5. [Infrastructure as Code](/infra-as-code/README.md)
+	* 2.6. [Pipelines de CI/CD](/ci-cd/README.md)
+	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
+	* 2.9. [Surveillance](/surveillance/README.md)
 * 3. [Blogs Devops](#BlogsDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
 	* 3.2. [Sociétés](#Socits)
@@ -36,9 +35,9 @@ les outils Devops ? Par quoi dois-je commencer ?**
 Je parle bien d'outils DevOps et non de la culture elle-même. Si vous êtes
 intéressé par ce seul sujet je vous conseille de suivre les liens ci-dessous.
 
-- [Découvrez la méthodologie DevOps sur
+* [Découvrez la méthodologie DevOps sur
   OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
-- [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
+* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
 
 Par contre, pour **mettre en œuvre avec succès le DevOps** on se doit de
 connaître un **certain nombre d'outils**. Pour rappel, **l'approche DevOps** met
@@ -50,9 +49,9 @@ C'est dans ce cadre que vous serez amener à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
-- **en magenta** les plus courants
-- **en bleu** moins courants
-- **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
+* **en magenta** les plus courants
+* **en bleu** moins courants
+* **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
 
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
 grands sujets :_
@@ -98,28 +97,29 @@ Devops**.
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
 
-- [Zwindler's Reflection](https://blog.zwindler.fr/)
-- [Bruno Levasseur](https://blog.levassb.ovh/)
-- [damyr](https://www.damyr.fr)
-- [dadall](https://www.dadall.info)
-- [tferdinand](https://tferdinand.net)
-- [grottedubarbu](https://www.grottedubarbu.fr)
-- [jesuisundev](https://www.jesuisundev.com)
-- [la forge](https://lafor.ge/)
+* [Zwindler's Reflection](https://blog.zwindler.fr/)
+* [Bruno Levasseur](https://blog.levassb.ovh/)
+* [damyr](https://www.damyr.fr)
+* [dadall](https://www.dadall.info)
+* [tferdinand](https://tferdinand.net)
+* [grottedubarbu](https://www.grottedubarbu.fr)
+* [jesuisundev](https://www.jesuisundev.com)
+* [la forge](https://lafor.ge/)
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
-- [linkvalue](https://blog.link-value.fr/)
-- [eleven-labs](https://blog.eleven-labs.com)
-- [d2si](https://blog.d2si.io)
-- [wescale](https://blog.wescale.fr)
-- [ovh](https://www.ovh.com/blog)
-- [scaleway](https://blog.scaleway.com)
-- [journalduhacker](https://www.journalduhacker.net)
-- [Claranet notsosecure](https://notsosecure.com/blog)
-- [publicissapient](http://blog.engineering.publicissapient.fr)
-- [eazytraining](https://eazytraining.fr/blog/)
-- [Zenika](https://blog.zenika.com/)
+* [Devoteam Revolve](https://blog.revolve.team/)
+* [eazytraining](https://eazytraining.fr/blog/)
+* [Eleven Labs](https://blog.eleven-labs.com)
+* [Le Journal Du Hacker](https://www.journalduhacker.net)
+* [LinkValue](https://blog.link-value.fr/)
+* [NotSoSecure Claranet Cyber Security](https://notsosecure.com/blog)
+* [Publicis Sapient](http://blog.engineering.publicissapient.fr)
+* [OVHcloud](https://blog.ovhcloud.com/)
+* [Red Hat](https://www.redhat.com/fr/blog)
+* [Scaleway](https://blog.scaleway.com)
+* [Wescale](https://blog.wescale.fr)
+* [Zenika](https://blog.zenika.com/)
 
 ##  4. <a name='Livres'></a>Livres
 
@@ -129,14 +129,14 @@ Devops**.
 
 ##  5. <a name='Communauts'></a>Communautés
 
-- [Compagnons du Devops](https://www.compagnons-devops.fr/)
+* [Compagnons du Devops](https://www.compagnons-devops.fr/)
 
 ##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
-- [Xavki](https://www.youtube.com/c/xavki-linux)
-- [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
-- [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
+* [Xavki](https://www.youtube.com/c/xavki-linux)
+* [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
+* [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
+* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
 ##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
@@ -151,7 +151,7 @@ Devops**.
 
 ##  8. <a name='Desslacks'></a>Des slacks
 
-- [comwork-cloud](https://t.co/kQcXNqtoNZ)
+* [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
 ##  9. <a name='Podcats'></a>Podcats
 
