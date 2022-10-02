@@ -144,9 +144,11 @@ Devops**.
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [DamyR](https://twitter.com/damyr_fr)
 - [Idriss Neumann](https://twitter.com/idriss_neumann)
+- [Imrane](https://twitter.com/ImraneSubstack)
 - [Juliette Audema](https://twitter.com/ajuliettedev)
 - [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 - [Mcorbin](https://twitter.com/_mcorbin)
+- [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 - [Xavki](https://twitter.com/xavki_off)
 - [Zwindler](https://twitter.com/zwindler)
 
