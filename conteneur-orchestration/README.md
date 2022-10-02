@@ -63,6 +63,8 @@
 
 ####  2.1.2. <a name='Livres-1'></a>Livres
 
+* [Understanding Kubernetes in a visual way](https://www.amazon.fr/dp/B0BB619188/) - Aurélie Vache
+
 ####  2.1.3. <a name='MOOC-1'></a>MOOC
 
 ####  2.1.4. <a name='Sites-1'></a>Sites
