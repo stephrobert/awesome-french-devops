@@ -1,6 +1,6 @@
 # Awesome French Devops [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<!-* vscode-markdown-toc -->
+<!-- vscode-markdown-toc -->
 * 1. [Introduction](#Introduction)
 * 2. [Liens vers les catégories d'outils](#Liensverslescatgoriesdoutils)
 	* 2.1. [Administration de serveurs](/admin-serveurs/README.md)
@@ -22,11 +22,11 @@
 * 9. [Podcats](#Podcats)
 * 10. [Contribution](#Contribution)
 
-<!-* vscode-markdown-toc-config
+<!-- vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-* /vscode-markdown-toc -->
+<!-- /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
 
 **C'est une question qui revient souvent. Comment je démarre si je veux maîtriser
