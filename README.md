@@ -1,6 +1,6 @@
 # Awesome French Devops [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<!-- vscode-markdown-toc -->
+<!-* vscode-markdown-toc -->
 * 1. [Introduction](#Introduction)
 * 2. [Liens vers les catégories d'outils](#Liensverslescatgoriesdoutils)
 	* 2.1. [Administration de serveurs](/admin-serveurs/README.md)
@@ -22,11 +22,11 @@
 * 9. [Podcats](#Podcats)
 * 10. [Contribution](#Contribution)
 
-<!-- vscode-markdown-toc-config
+<!-* vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+<!-* /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
 
 **C'est une question qui revient souvent. Comment je démarre si je veux maîtriser
@@ -35,9 +35,9 @@ les outils Devops ? Par quoi dois-je commencer ?**
 Je parle bien d'outils DevOps et non de la culture elle-même. Si vous êtes
 intéressé par ce seul sujet je vous conseille de suivre les liens ci-dessous.
 
-- [Découvrez la méthodologie DevOps sur
+* [Découvrez la méthodologie DevOps sur
   OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
-- [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
+* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
 
 Par contre, pour **mettre en œuvre avec succès le DevOps** on se doit de
 connaître un **certain nombre d'outils**. Pour rappel, **l'approche DevOps** met
@@ -49,9 +49,9 @@ C'est dans ce cadre que vous serez amener à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
-- **en magenta** les plus courants
-- **en bleu** moins courants
-- **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
+* **en magenta** les plus courants
+* **en bleu** moins courants
+* **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
 
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
 grands sujets :_
@@ -97,60 +97,60 @@ Devops**.
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
 
-- [Zwindler's Reflection](https://blog.zwindler.fr/)
-- [Bruno Levasseur](https://blog.levassb.ovh/)
-- [damyr](https://www.damyr.fr)
-- [dadall](https://www.dadall.info)
-- [tferdinand](https://tferdinand.net)
-- [grottedubarbu](https://www.grottedubarbu.fr)
-- [jesuisundev](https://www.jesuisundev.com)
-- [la forge](https://lafor.ge/)
+* [Zwindler's Reflection](https://blog.zwindler.fr/)
+* [Bruno Levasseur](https://blog.levassb.ovh/)
+* [damyr](https://www.damyr.fr)
+* [dadall](https://www.dadall.info)
+* [tferdinand](https://tferdinand.net)
+* [grottedubarbu](https://www.grottedubarbu.fr)
+* [jesuisundev](https://www.jesuisundev.com)
+* [la forge](https://lafor.ge/)
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
-- [Devoteam Revolve](https://blog.revolve.team/)
-- [eazytraining](https://eazytraining.fr/blog/)
-- [Eleven Labs](https://blog.eleven-labs.com)
-- [Le Journal Du Hacker](https://www.journalduhacker.net)
-- [LinkValue](https://blog.link-value.fr/)
-- [NotSoSecure Claranet Cyber Security](https://notsosecure.com/blog)
-- [Publicis Sapient](http://blog.engineering.publicissapient.fr)
-- [OVHcloud](https://blog.ovhcloud.com/)
-- [Red Hat](https://www.redhat.com/fr/blog)
-- [Scaleway](https://blog.scaleway.com)
-- [Wescale](https://blog.wescale.fr)
-- [Zenika](https://blog.zenika.com/)
+* [Devoteam Revolve](https://blog.revolve.team/)
+* [eazytraining](https://eazytraining.fr/blog/)
+* [Eleven Labs](https://blog.eleven-labs.com)
+* [Le Journal Du Hacker](https://www.journalduhacker.net)
+* [LinkValue](https://blog.link-value.fr/)
+* [NotSoSecure Claranet Cyber Security](https://notsosecure.com/blog)
+* [Publicis Sapient](http://blog.engineering.publicissapient.fr)
+* [OVHcloud](https://blog.ovhcloud.com/)
+* [Red Hat](https://www.redhat.com/fr/blog)
+* [Scaleway](https://blog.scaleway.com)
+* [Wescale](https://blog.wescale.fr)
+* [Zenika](https://blog.zenika.com/)
 
 ##  4. <a name='Livres'></a>Livres
 
 ##  5. <a name='Communauts'></a>Communautés
 
-- [Compagnons du Devops](https://www.compagnons-devops.fr/)
+* [Compagnons du Devops](https://www.compagnons-devops.fr/)
 
 ##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
-- [Xavki](https://www.youtube.com/c/xavki-linux)
-- [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
-- [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-- [Inpulse.tv - Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
+* [Xavki](https://www.youtube.com/c/xavki-linux)
+* [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
+* [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
+* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 
 ##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 
-- [Aurélie Vache](https://mobile.twitter.com/aurelievache)
-- [DamyR](https://twitter.com/damyr_fr)
-- [Idriss Neumann](https://twitter.com/idriss_neumann)
-- [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
-- [Mcorbin](https://twitter.com/_mcorbin)
-- [Xavki](https://twitter.com/xavki_off)
+* [Aurélie Vache](https://mobile.twitter.com/aurelievache)
+* [DamyR](https://twitter.com/damyr_fr)
+* [Idriss Neumann](https://twitter.com/idriss_neumann)
+* [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+* [Mcorbin](https://twitter.com/_mcorbin)
+* [Xavki](https://twitter.com/xavki_off)
 
 ##  8. <a name='Desslacks'></a>Des slacks
 
-- [comwork-cloud](https://t.co/kQcXNqtoNZ)
+* [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
 ##  9. <a name='Podcats'></a>Podcats
 
-- [Radio DevOps](https://lydra.fr/radio-devops/)
+* [Radio DevOps](https://lydra.fr/radio-devops/)
 
 ##  10. <a name='Contribution'></a>Contribution
 
