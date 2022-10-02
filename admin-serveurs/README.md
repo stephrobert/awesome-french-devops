@@ -4,6 +4,7 @@
 	* 1.1. [Livres gratuits](#Livresgratuits)
 	* 1.2. [Livres](#Livres)
 	* 1.3. [MOOC](#MOOC)
+	* 1.4. [Sites](#Sites)
 * 2. [Windows](#Windows)
 	* 2.1. [Livres gratuits](#Livresgratuits-1)
 	* 2.2. [Livres](#Livres-1)
@@ -35,6 +36,10 @@
 ###  1.3. <a name='MOOC'></a>MOOC
 
 - [Maîtriser le shell Bash](https://www.fun-mooc.fr/fr/cours/maitriser-le-shell-bash/)
+
+###  1.4. <a name='Sites'></a>Sites
+
+- [La programmation Shell](https://frederic-lang.developpez.com/tutoriels/linux/prog-shell/)
 
 ##  2. <a name='Windows'></a>Windows
 
