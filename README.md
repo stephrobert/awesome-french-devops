@@ -143,6 +143,7 @@ Devops**.
 
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [DamyR](https://twitter.com/damyr_fr)
+- [David Aparicio](https://twitter.com/dadideo)
 - [Idriss Neumann](https://twitter.com/idriss_neumann)
 - [Imrane](https://twitter.com/ImraneSubstack)
 - [Juliette Audema](https://twitter.com/ajuliettedev)
