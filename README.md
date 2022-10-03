@@ -140,6 +140,7 @@ Devops**.
 
 * [Compagnons du Devops](https://www.compagnons-devops.fr/)
 * [SRE France](https://sre-france.github.io/)
+* [DevObs](https://discord.gg/kKUty5pfCQ)
 
 ##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
