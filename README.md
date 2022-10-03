@@ -21,7 +21,7 @@
 * 6. [Chaines Youtube](#ChainesYoutube)
 * 7. [Des comptes Twitters](#DescomptesTwitters)
 * 8. [Des slacks](#Desslacks)
-* 9. [Podcats](#Podcats)
+* 9. [Podcasts](#Podcasts)
 * 10. [Contribuer](#Contribuer)
 	* 10.1. [Lignes directrices](#Lignesdirectrices)
 
@@ -170,11 +170,12 @@ Devops**.
 
 * [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
-##  9. <a name='Podcats'></a>Podcats
+##  9. <a name='Podcasts'></a>Podcasts
 
 - [Radio DevOps](https://lydra.fr/radio-devops/)
 - [DevObs](https://devobs.p7t.tech/)
 - [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
+- [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
 
 ##  10. <a name='Contribuer'></a>Contribuer
 
