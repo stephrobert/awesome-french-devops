@@ -137,6 +137,10 @@ Devops**.
 - [Découvrir DevOps - 2e éd. - L'essentiel pour tous les métiers : L'essentiel pour tous les métiers](https://amzn.to/3roccO9)
 - [Mettre en oeuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
   Comment évoluer vers une DSI agile Broché](https://amzn.to/3e0d4pg)
+- Livres blancs « Culture Devops » par Octo :
+  - [Culture Devops - Volume 1](https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-1)
+  - [Culture Devops - Volume 2](https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-2)
+  - [Culture Devops - Volume 3](https://publication.octo.com/fr/telechargement-livre-blanc-culture-devops-vol-3)
 
 ##  5. <a name='Communauts'></a>Communautés
 
