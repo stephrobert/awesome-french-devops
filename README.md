@@ -110,6 +110,7 @@ Devops**.
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
+* [Frédéric Léger](https://www.webofmars.com/blog/)
 
 ###  3.2. <a name='Tutorials'></a>Tutorials
 
