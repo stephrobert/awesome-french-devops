@@ -82,7 +82,10 @@
 ####  2.1.4. <a name='Sites-1'></a>Sites
 
 - [Documentation](https://kubernetes.io/docs/home/)
+- [Documentation française](https://kubernetes.io/fr/docs/home/)
 - [Blog](https://kubernetes.io/blog/)
+- [Discuss Kubernetes](https://discuss.kubernetes.io/)
+- [Wiki SFEIR Kubernetes](https://wiki.sfeir.com/kubernetes/)
 
 ####  2.1.5. <a name='Vidos-1'></a>Vidéos
 
