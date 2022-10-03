@@ -117,6 +117,7 @@ Devops**.
 
 ###  3.3. <a name='Socits'></a>Sociétés
 
+* [Bearstech](https://bearstech.com/societe/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
 * [eazytraining](https://eazytraining.fr/blog/)
 * [Eleven Labs](https://blog.eleven-labs.com)
