@@ -22,8 +22,10 @@
 ###  1.2. <a name='Centreon'></a>Centreon
 
 ###  1.3. <a name='Prometheus'></a>Prometheus
+- [Prometheus x Grafana par Xavki >50 vidéos](https://xavki.blog/prometheus-grafana-tutoriaux-francais/)
 
 ###  1.4. <a name='Grafana'></a>Grafana
+- [Prometheus x Grafana par Xavki >50 vidéos](https://xavki.blog/prometheus-grafana-tutoriaux-francais/)
 
 ##  2. <a name='Monitoring:'></a>Monitoring :
 
