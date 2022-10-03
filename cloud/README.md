@@ -15,7 +15,7 @@
 	* 3.2. [Livres](#Livres-1)
 	* 3.3. [MOOC](#MOOC-1)
 	* 3.4. [Sites](#Sites-1)
-* 4. [Autre](#Autre)
+* 4. [Autres](#Autres)
 	* 4.1. [Livres Gratuits](#LivresGratuits-1)
 	* 4.2. [Livres](#Livres-1)
 	* 4.3. [MOOC](#MOOC-1)
@@ -56,7 +56,7 @@
 
 ###  3.4. <a name='Sites-1'></a>Sites
 
-##  4. <a name='Autre'></a>Autre
+##  4. <a name='Autres'></a>Autres 
 
 ###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
@@ -67,3 +67,4 @@
 ###  4.4. <a name='Sites-1'></a>Sites
 
 - [Expérimentations sur Alibabacloud](https://blog.zenika.com/2022/03/18/decouverte-dalibaba-cloud/)
+- [À la découverte de Scaleway Public Cloud](https://blog.zenika.com/2022/09/07/a-la-decouverte-de-scaleway-public-cloud/)
