@@ -61,17 +61,23 @@
 
 ####  2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
+* [Kubernetes Resource Reference](https://github.com/feloy/kubernetes-resources-reference/releases/tag/v1.19)
+* [Kubectl Reference](https://github.com/feloy/kubectl-reference/releases/tag/v1.18.0)
+
 ####  2.1.2. <a name='Livres-1'></a>Livres
 
 * [Understanding Kubernetes in a visual way](https://www.amazon.fr/dp/B0BB619188/) - Aurélie Vache
+* [Kubernetes](https://www.amazon.fr/dp/1484264932) - Philippe Martin
 
 ####  2.1.3. <a name='MOOC-1'></a>MOOC
 
 ####  2.1.4. <a name='Sites-1'></a>Sites
 
 - [Documentation](https://kubernetes.io/docs/home/)
+- [Documentation française](https://kubernetes.io/fr/docs/home/)
 - [Blog](https://kubernetes.io/blog/)
-
+- [Wiki SFEIR Kubernetes](https://wiki.sfeir.com/kubernetes/)
+- [Discuss Kubernetes](https://discuss.kubernetes.io/)
 
 ###  2.2. <a name='Nomad'></a>Nomad
 
