@@ -173,12 +173,16 @@ Devops**.
 - [DevObs](https://devobs.p7t.tech/)
 - [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
 
-##  10. <a name='Contribuer'></a>Contribuer
+##  10. <a name='Formations'></a>Contenus de formation
+
+- [DevOps (en)](https://devops.training.barpilot.io "Contenu de formation sur tout le devops") [github](https://github.com/guilhem/devops-training)
+
+##  11. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 - Ajoutez un lien ou plusieurs par pull request.
 - Ajoutez le lien :* [le-lien](http://example.com/) - Une courte phrase
