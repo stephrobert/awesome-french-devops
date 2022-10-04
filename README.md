@@ -61,7 +61,7 @@ outils que vous serez amené à **rencontrer le plus souvent** :
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
 grands sujets :_
 
-![mind mapping outils devops](media/formation-outils-devops.webp)
+![mind mapping outils devops](media/formation-outils-devops.png)
 
 1. **Administration de serveurs** : Savoir configurer et dépanner un serveur Linux ou
    Windows
