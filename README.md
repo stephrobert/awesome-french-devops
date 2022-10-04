@@ -54,7 +54,7 @@ C'est dans ce cadre que vous serez amener à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
-* **en magenta** les plus courants
+* **en violet** les plus courants
 * **en bleu** moins courants
 * **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
 
