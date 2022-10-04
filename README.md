@@ -129,7 +129,6 @@ Devops**.
 * [Ippon](https://blog.ippon.fr)
 * [Le Journal Du Hacker](https://www.journalduhacker.net)
 * [LinkValue](https://blog.link-value.fr/)
-* [MicroLinux](https://blog.microlinux.fr/)
 * [NotSoSecure Claranet Cyber Security](https://notsosecure.com/blog)
 * [OVHcloud](https://blog.ovhcloud.com/)
 * [Publicis Sapient](http://blog.engineering.publicissapient.fr)
