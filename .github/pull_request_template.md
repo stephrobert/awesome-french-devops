@@ -6,7 +6,7 @@
 
 # En soumettant cette pull request, je confirme avoir lu et respecté les exigences ci-dessous.
 
-Ne pas le faire correctement entraînera simplement la fermeture cette demande
+Ne pas le faire correctement entraînera simplement la fermeture de cette demande
 et la perte de temps pour tout le monde.
 
 - [ ] J'ai lu et compris les [directives de contribution](https://github.com/stephrobert/awesome-french-devops/blob/main/README.md#10-contribuer)
