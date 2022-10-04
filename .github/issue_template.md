@@ -1,13 +1,15 @@
-<!-- Veuillez remplir les champs **gras**, soumettre la demande de pull request. NE RIEN SOUMETTRE SI VOUS ÉCHOUEZ À L'UNE DE CES RÈGLES -->
+---
+nom: Ajout ou Correction d'un lien
+descritipion du lien :
+lien: ''
+section: ''
+---
 
-**[Insérez vos liens ICI.]**
+## Régles
 
-**[Dîtes en quelques mots pourquoi elle devrait être ajouté ici.]**
-
-# En soumettant cette pull request, je confirme avoir lu et respecté les exigences ci-dessous.
-
-Ne pas le faire correctement entraînera simplement la fermeture de cette demande
-et la perte de temps pour tout le monde.
+En soumettant cette demande, je confirme avoir lu et respecté les exigences
+ci-dessous. Ne pas le faire correctement entraînera simplement la fermeture de
+cette demande et la perte de temps pour tout le monde
 
 - [ ] J'ai lu et compris les [directives de contribution](https://github.com/stephrobert/awesome-french-devops/blob/main/README.md#10-contribuer)
 - [ ] Le contenu du ou des liens sont écrits en Francais. Exception faire des
@@ -18,3 +20,4 @@ et la perte de temps pour tout le monde.
 - [ ] Le(s) lien(s)que j'ai ajoutée n'est pas un doublon.
 - [ ] Cette pull request a un titre descriptif. Par exemple, `Ajout du site https://site.fr`, pas `Maj de` ou `Ajout`.
 - [ ] J'ai écris en Markdown.
+
