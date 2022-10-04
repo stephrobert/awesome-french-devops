@@ -176,8 +176,3 @@ des tutoriels.
 ####  6.3.2. <a name='Vscode'></a>Vscode
 
 #####  6.3.1. <a name='Liens'></a>Liens
-
-- [Apprenez Vim
-  Progressivement](http://yannesposito.com/Scratch/fr/blog/Learn-Vim-Progressively/)
-
-
