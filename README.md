@@ -145,7 +145,7 @@ Devops**.
 * [Compagnons du Devops](https://www.compagnons-devops.fr/)
 * [SRE France](https://sre-france.github.io/)
 * [DevObs](https://discord.gg/kKUty5pfCQ)
-* [OpenBaR - build-and-run](bit.ly/2RmZttz)
+* [OpenBaR - build-and-run](https://bit.ly/2RmZttz)
 
 ##  6. <a name='ChainesYoutube'></a>Chaines Youtube
 
