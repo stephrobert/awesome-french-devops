@@ -1,4 +1,4 @@
-<!-- Please fill in the **bold** fields, submit the pull request and tick the checkboxes. DO NOT SUBMIT ANYTHING IF YOU FAIL ANY OF THIS RULES -->
+<!-- Veuillez remplir les champs **gras**, soumettre la demande de pull request. NE RIEN SOUMETTRE SI VOUS ÉCHOUEZ À L'UNE DE CES RÈGLES -->
 
 **[Insérez vos liens ICI.]**
 
