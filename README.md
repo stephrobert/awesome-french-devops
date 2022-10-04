@@ -12,7 +12,7 @@
 	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 	* 2.8. [Clouders](/cloud/README.md)
 	* 2.9. [Surveillance](/surveillance/README.md)
-* 3. [Blogs Devops](#BlogsDevops)
+* 3. [Sites Devops](#BlogsDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
 	* 3.2. [Tutorials](#Tutorials)
 	* 3.3. [Sociétés](#Socits)
