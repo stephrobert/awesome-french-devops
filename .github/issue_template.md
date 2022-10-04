@@ -1,11 +1,13 @@
 ---
-nom: Ajout ou Correction d'un lien
-descritipion du lien :
-lien: ''
+name: Ajout ou Correction d'un lien
+about : Ajout de liens de cette liste
+title: ''
 section: ''
 ---
 
-## Régles
+# Ajout ou corrections de lien(s)
+
+## **Régles**
 
 En soumettant cette demande, je confirme avoir lu et respecté les exigences
 ci-dessous. Ne pas le faire correctement entraînera simplement la fermeture de
@@ -21,3 +23,20 @@ cette demande et la perte de temps pour tout le monde
 - [ ] Cette pull request a un titre descriptif. Par exemple, `Ajout du site https://site.fr`, pas `Maj de` ou `Ajout`.
 - [ ] J'ai écris en Markdown.
 
+---
+
+## Vos liens
+
+Ajouter autant de ces blocs que de liens :
+
+<!--
+- Fichier : README.md ou section/README.md
+- Section : Par exemple Prometheus/Sites pour le fichier surveillance/README.md
+- Lien : Votre lien
+- Description: Qu'est ce qui selon vous permet de retrouver ce contenu référencé ici.
+-->
+
+- Fichier :
+- Section :
+- Lien :
+- Description :
