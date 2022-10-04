@@ -36,6 +36,9 @@
 
 ###  1.4. <a name='Sites'></a>Sites
 
+- [Le podcast AWS en français](https://aws.amazon.com/fr/blogs/france/podcasts/)
+- [Trouver les didacticiels de prise en main adaptés à vos besoins AWS](https://aws.amazon.com/fr/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&getting-started-all.sort-order=asc&awsf.getting-started-category=*all&awsf.getting-started-level=*all&awsf.getting-started-content-type=*all)
+
 ##  2. <a name='GCP'></a>GCP
 
 ###  2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
@@ -56,7 +59,7 @@
 
 ###  3.4. <a name='Sites-1'></a>Sites
 
-##  4. <a name='Autres'></a>Autres 
+##  4. <a name='Autres'></a>Autres
 
 ###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
