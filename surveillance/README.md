@@ -22,7 +22,12 @@
 		* 1.4.2. [Livres](#Livres-1)
 		* 1.4.3. [MOOC](#MOOC-1)
 		* 1.4.4. [Sites](#Sites-1)
-	* 1.5. [Videos](#Videos-1)
+	* 1.5. [OpenTelemetry](#OpenTelemetry)
+	    * 1.5.1. [Livres Gratuits](#LivresGratuits-1)
+		* 1.5.2. [Livres](#Livres-1)
+		* 1.5.3. [MOOC](#MOOC-1)
+		* 1.5.4. [Sites](#Sites-1)
+	* 1.6. [Videos](#Videos-1)
 * 2. [Monitoring :](#Monitoring:)
 	* 2.1. [Splunk](#Splunk)
 		* 2.1.1. [Livres Gratuits](#LivresGratuits-1)
@@ -109,9 +114,26 @@
 - [Découvrir Prometheus et Grafana par l’exemple](https://blog.zwindler.fr/2020/04/13/decouvrir-prometheus-et-grafana-par-lexemple/)
 - [Grafana : Superviser tous vos serveurs et périphériques avec classe](https://www.tech2tech.fr/grafana-superviser-tous-vos-serveurs-et-peripheriques/)
 
-###  1.5. <a name='Videos-1'></a>Videos
+###  1.5. <a name='OpenTelemetry'></a>OpenTelemetry
 
-- [Prometheus x Grafana par Xavki >50 vidéos](https://xavki.blog/prometheus-grafana-tutoriaux-francais/)
+**Site Officiel** : [opentelemetry.io](https://opentelemetry.io/)
+**Projet** : [OpenTelemetry](https://github.com/open-telemetry)
+
+####  1.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+####  1.5.2. <a name='Livres-1'></a>Livres
+
+####  1.5.3. <a name='MOOC-1'></a>MOOC
+
+####  1.5.4. <a name='Sites-1'></a>Sites
+
+- [Introduction à OpenTelemetry pour les débutants](https://geekflare.com/fr/opentelemetry-introduction/)
+- [OpenTelemetry : le feedback utilisateur à la portée de tous.](https://itexpert.fr/blog/opentelemetry/)
+
+###  1.6. <a name='Videos-1'></a>Videos
+
+- [Comment OpenTelemetry peut transformer votre monitoring en unifiant vos logs](https://www.youtube.com/watch?v=dGMN3keJuXA)
+- [Suivez vos applications à la trace grâce à OpenTelemetry](https://youtu.be/NXYAtkEm_hk)
 
 ##  2. <a name='Monitoring:'></a>Monitoring :
 
