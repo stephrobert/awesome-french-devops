@@ -187,7 +187,9 @@ commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
 ###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
-- Ajoutez un lien ou plusieurs par pull request.
+- Ajoutez un lien ou plusieurs par [pull
+  request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
+  ou par [Issue](https://github.com/stephrobert/awesome-french-devops/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 - Le lien pointe sur du contenu en Français. Excepté les liens vers les sites
   officiels des produits cités.
 - Ajoutez une section si nécessaire.
