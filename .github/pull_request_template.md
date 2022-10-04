@@ -1,0 +1,20 @@
+<!-- Please fill in the **bold** fields, submit the pull request and tick the checkboxes. DO NOT SUBMIT ANYTHING IF YOU FAIL ANY OF THIS RULES -->
+
+**[Insérez vos liens ICI.]**
+
+**[Dîtes en quelques mots pourquoi elle devrait être ajouté ici.]**
+
+# En soumettant cette pull request, je confirme avoir lu et respecté les exigences ci-dessous.
+
+Ne pas le faire correctement entraînera simplement la fermeture cette demande
+et la perte de temps pour tout le monde.
+
+- [ ] J'ai lu et compris les [directives de contribution](https://github.com/stephrobert/awesome-french-devops/blob/main/README.md#10-contribuer)
+- [ ] Le contenu du ou des liens sont écrits en Francais. Exception faire des
+  URL des sites officiels des produits Devops.
+- [ ] Le(s) lien(s) que j'ai ajouté **n'est pas à but commerciale**. Par exemple
+  ne renvoie pas vers un formulaire de contact pour télécharger un livre blanc
+  ou des ressources payantes.
+- [ ] Le(s) lien(s)que j'ai ajoutée n'est pas un doublon.
+- [ ] Cette pull request a un titre descriptif. Par exemple, `Ajout du site https://site.fr`, pas `Maj de` ou `Ajout`.
+- [ ] J'ai écris en Markdown.
