@@ -43,6 +43,7 @@
 ###  1.4. <a name='Sites'></a>Sites
 
 - [La programmation Shell](https://frederic-lang.developpez.com/tutoriels/linux/prog-shell/)
+- [Wiki Archlinux (version en francais)](https://wiki.archlinux.org/title/Main_page_(Fran%C3%A7ais))
 
 ##  2. <a name='Windows'></a>Windows
 
