@@ -188,9 +188,9 @@ commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 ###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 - Ajoutez un lien ou plusieurs par pull request.
-- Ajoutez le lien :* [le-lien](http://example.com/) - Une courte phrase
-  de description (concise et courte) ponctuée par un point.
+- Le lien pointe sur du contenu en Français. Excepté les liens vers les sites
+  officiels des produits cités.
 - Ajoutez une section si nécessaire.
-- Recherchez les demandes d'extraction ou les problèmes précédents avant d'en créer un nouveau, car le vôtre peut être un doublon.
+- Eviter les doublons.
 - Vérifiez votre orthographe et votre grammaire.
 - Supprimez tout espace blanc de fin.
