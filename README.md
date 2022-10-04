@@ -44,11 +44,11 @@ Ce dépot a pour objectifs de :
 **C'est une question qui revient souvent. Comment je démarre si je veux
 maîtriser les outils Devops ? Par quoi dois-je commencer ?**
 
-Par contre, pour **mettre en œuvre avec succès le DevOps** on se doit de
-connaître un **certain nombre d'outils**. Pour rappel, **l'approche DevOps** met
-l'accent sur **l'automatisation des processus** de **développement de
-logiciels** tels que la **construction (build)**, les **tests**, la **mise en
-production**, les **mesures** et la **détection d'incidents**, ...
+Pour **mettre en œuvre avec succès le DevOps** on se doit de connaître un
+**certain nombre d'outils**. Pour rappel, **l'approche DevOps** met l'accent sur
+**l'automatisation des processus** de **développement de logiciels** tels que la
+**construction (build)**, les **tests**, la **mise en production**, les
+**mesures** et la **détection d'incidents**, ...
 
 C'est dans ce cadre que vous serez amener à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
