@@ -131,6 +131,7 @@ Devops**.
 * [Scaleway](https://blog.scaleway.com)
 * [Wescale](https://blog.wescale.fr)
 * [Zenika](https://blog.zenika.com/)
+* [Webofmars](https://webofmars.com/)
 
 ##  4. <a name='Livres'></a>Livres
 
