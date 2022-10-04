@@ -17,7 +17,7 @@
 
 ###  1.2. <a name='Livres'></a>Livres
 
-- [Réseaux 6e édition](https://amzn.to/3dWVQJs)
+- Tanenbaum [Réseaux 6e édition](https://amzn.to/3dWVQJs)
 
 ###  1.3. <a name='MOOC'></a>MOOC
 
