@@ -12,18 +12,19 @@
 	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 	* 2.8. [Clouders](/cloud/README.md)
 	* 2.9. [Surveillance](/surveillance/README.md)
-* 3. [Sites Devops](#BlogsDevops)
+* 3. [Sites Devops](#SitesDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
 	* 3.2. [Tutorials](#Tutorials)
 	* 3.3. [Sociétés](#Socits)
 * 4. [Livres](#Livres)
 * 5. [Communautés](#Communauts)
-* 6. [Chaines Youtube](#ChainesYoutube)
-* 7. [Des comptes Twitters](#DescomptesTwitters)
-* 8. [Des slacks](#Desslacks)
-* 9. [Podcasts](#Podcasts)
-* 10. [Contribuer](#Contribuer)
-	* 10.1. [Lignes directrices](#Lignesdirectrices)
+* 6. [Mooc](#Mooc)
+* 7. [Chaines Youtube](#ChainesYoutube)
+* 8. [Des comptes Twitters](#DescomptesTwitters)
+* 9. [Des slacks](#Desslacks)
+* 10. [Podcasts](#Podcasts)
+* 11. [Contribuer](#Contribuer)
+	* 11.1. [Lignes directrices](#Lignesdirectrices)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -32,15 +33,16 @@
 <!-- /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
 
-**C'est une question qui revient souvent. Comment je démarre si je veux maîtriser
-les outils Devops ? Par quoi dois-je commencer ?**
+Ce dépot a pour objectifs de :
 
-Je parle bien d'outils DevOps et non de la culture elle-même. Si vous êtes
-intéressé par ce seul sujet je vous conseille de suivre les liens ci-dessous.
+* d'aider à démarrer sa formation et à monter en compétences sur la culture et
+  les outils DevOps. Il y a une petite roadmap décrivant le parcours pour les
+  débutants.
+* recenser tous les liens pointant sur du contenu en Français pour remplir cet
+  objectif.
 
-* [Découvrez la méthodologie DevOps sur
-  OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
-* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
+**C'est une question qui revient souvent. Comment je démarre si je veux
+maîtriser les outils Devops ? Par quoi dois-je commencer ?**
 
 Par contre, pour **mettre en œuvre avec succès le DevOps** on se doit de
 connaître un **certain nombre d'outils**. Pour rappel, **l'approche DevOps** met
@@ -93,7 +95,7 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 ###  2.8. <a name='ClouderscloudREADME.md'></a>[Clouders](/cloud/README.md)
 ###  2.9. <a name='SurveillancesurveillanceREADME.md'></a>[Surveillance](/surveillance/README.md)
 
-##  3. <a name='BlogsDevops'></a>Blogs Devops
+##  3. <a name='SitesDevops'></a>Sites Devops
 
 Voici une liste non exhaustive ou vous trouverez de bons articles sur les **outils
 Devops**.
@@ -117,6 +119,8 @@ Devops**.
 - [DevOpsSec](https://devopssec.fr/)
 
 ###  3.3. <a name='Socits'></a>Sociétés
+
+* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
 
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
@@ -147,7 +151,12 @@ Devops**.
 * [DevObs](https://discord.gg/kKUty5pfCQ)
 * [OpenBaR - build-and-run](bit.ly/2RmZttz)
 
-##  6. <a name='ChainesYoutube'></a>Chaines Youtube
+##  6. <a name='Mooc'></a>Mooc
+
+* [Découvrez la méthodologie DevOps sur
+  OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
+
+##  7. <a name='ChainesYoutube'></a>Chaines Youtube
 
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 * [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
@@ -155,7 +164,7 @@ Devops**.
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
 
-##  7. <a name='DescomptesTwitters'></a>Des comptes Twitters
+##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 - [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 - [DamyR](https://twitter.com/damyr_fr)
@@ -169,23 +178,23 @@ Devops**.
 - [Xavki](https://twitter.com/xavki_off)
 - [Zwindler](https://twitter.com/zwindler)
 
-##  8. <a name='Desslacks'></a>Des slacks
+##  9. <a name='Desslacks'></a>Des slacks
 
 * [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
-##  9. <a name='Podcasts'></a>Podcasts
+##  10. <a name='Podcasts'></a>Podcasts
 
 - [Radio DevOps](https://lydra.fr/radio-devops/)
 - [DevObs](https://devobs.p7t.tech/)
 - [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
 - [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
 
-##  10. <a name='Contribuer'></a>Contribuer
+##  11. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  10.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 - Ajoutez un lien ou plusieurs par [pull
   request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
