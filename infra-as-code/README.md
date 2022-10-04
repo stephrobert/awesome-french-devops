@@ -95,6 +95,7 @@
 
 - [Documentation officielle Terraform](https://www.terraform.io/docs/)
 - [Best practices Terraform (Google Cloud)](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
+- [Comment développer votre propre plugin Terraform ? | FRANCE DEVOPS](https://youtu.be/oNHABU-8xfs?t=307)
 
 ###  1.3. <a name='CloudFormation'></a>CloudFormation
 
