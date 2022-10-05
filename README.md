@@ -12,10 +12,10 @@
 	* 2.7. [Conteneurs et Orchestrateurs](/conteneur-orchestration/README.md)
 	* 2.8. [Clouders](/cloud/README.md)
 	* 2.9. [Surveillance](/surveillance/README.md)
-* 3. [Sites Devops](#SitesDevops)
+* 3. [Sites parlant du Devops](#SitesDevops)
 	* 3.1. [Blogs Perso](#BlogsPerso)
-	* 3.2. [Tutorials](#Tutorials)
-	* 3.3. [Sociétés](#Socits)
+	* 3.2. [Sociétés](#Socits)
+	* 3.3. [Articles](#Articles)
 * 4. [Livres](#Livres)
 * 5. [Communautés](#Communauts)
 * 6. [Mooc](#Mooc)
@@ -33,7 +33,7 @@
 <!-- /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
 
-Ce dépot a pour objectifs de :
+Ce dépôt a pour objectifs de :
 
 * d'aider à démarrer sa formation et à monter en compétences sur la culture et
   les outils DevOps. Il y a une petite roadmap décrivant le parcours pour les
@@ -55,8 +55,8 @@ ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
 * **en violet** les plus courants
-* **en bleu** moins courants
-* **en jaune** très peu rencontrés (mais c'est bien de les connaître de nom)
+* **en bleu** les moins courants
+* **en jaune** les très peu rencontrés (mais c'est bien de les connaître de nom)
 
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
 grands sujets :_
@@ -95,7 +95,7 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 ###  2.8. <a name='ClouderscloudREADME.md'></a>[Clouders](/cloud/README.md)
 ###  2.9. <a name='SurveillancesurveillanceREADME.md'></a>[Surveillance](/surveillance/README.md)
 
-##  3. <a name='SitesDevops'></a>Sites Devops
+##  3. <a name='SitesDevops'></a>Sites parlant du Devops
 
 Voici une liste non exhaustive ou vous trouverez de bons articles sur les **outils
 Devops**.
@@ -114,14 +114,7 @@ Devops**.
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
 * [Frédéric Léger](https://www.webofmars.com/blog/)
 
-###  3.2. <a name='Tutorials'></a>Tutorials
-
-- [DevOpsSec](https://devopssec.fr/)
-
-###  3.3. <a name='Socits'></a>Sociétés
-
-* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
-* [Accelerate vu par Zenika](https://blog.zenika.com/2021/08/18/accelerate-vu-par-zenika/)
+###  3.2. <a name='Socits'></a>Sociétés
 
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
@@ -139,10 +132,15 @@ Devops**.
 * [Zenika](https://blog.zenika.com/)
 * [Webofmars](https://www.webofmars.com/blog/)
 
+###  3.3. <a name='Articles'></a>Articles
+
+* [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
+* [Accelerate vu par Zenika](https://blog.zenika.com/2021/08/18/accelerate-vu-par-zenika/)
+
 ##  4. <a name='Livres'></a>Livres
 
-- [Découvrir DevOps - 2e éd. - L'essentiel pour tous les métiers : L'essentiel pour tous les métiers](https://amzn.to/3roccO9)
-- [Mettre en oeuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
+* [Découvrir DevOps - 2e éd. - L'essentiel pour tous les métiers : L'essentiel pour tous les métiers](https://amzn.to/3roccO9)
+* [Mettre en œuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
   Comment évoluer vers une DSI agile Broché](https://amzn.to/3e0d4pg)
 
 ##  5. <a name='Communauts'></a>Communautés
@@ -155,6 +153,7 @@ Devops**.
 
 ##  6. <a name='Mooc'></a>Mooc
 
+* [DevOpsSec](https://devopssec.fr/category/comprendre-le-devops)
 * [Découvrez la méthodologie DevOps sur
   OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
 
@@ -169,17 +168,17 @@ Devops**.
 
 ##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
-- [Aurélie Vache](https://mobile.twitter.com/aurelievache)
-- [DamyR](https://twitter.com/damyr_fr)
-- [David Aparicio](https://twitter.com/dadideo)
-- [Idriss Neumann](https://twitter.com/idriss_neumann)
-- [Imrane](https://twitter.com/ImraneSubstack)
-- [Juliette Audema](https://twitter.com/ajuliettedev)
-- [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
-- [Mcorbin](https://twitter.com/_mcorbin)
-- [Stéphane ROBERT](https://twitter.com/RobertStphane19)
-- [Xavki](https://twitter.com/xavki_off)
-- [Zwindler](https://twitter.com/zwindler)
+* [Aurélie Vache](https://mobile.twitter.com/aurelievache)
+* [DamyR](https://twitter.com/damyr_fr)
+* [David Aparicio](https://twitter.com/dadideo)
+* [Idriss Neumann](https://twitter.com/idriss_neumann)
+* [Imrane](https://twitter.com/ImraneSubstack)
+* [Juliette Audema](https://twitter.com/ajuliettedev)
+* [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
+* [Mcorbin](https://twitter.com/_mcorbin)
+* [Stéphane ROBERT](https://twitter.com/RobertStphane19)
+* [Xavki](https://twitter.com/xavki_off)
+* [Zwindler](https://twitter.com/zwindler)
 
 ##  9. <a name='Desslacks'></a>Des slacks
 
@@ -187,10 +186,10 @@ Devops**.
 
 ##  10. <a name='Podcasts'></a>Podcasts
 
-- [Radio DevOps](https://lydra.fr/radio-devops/)
-- [DevObs](https://devobs.p7t.tech/)
-- [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
-- [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
+* [Radio DevOps](https://lydra.fr/radio-devops/)
+* [DevObs](https://devobs.p7t.tech/)
+* [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
+* [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
 
 ##  11. <a name='Contribuer'></a>Contribuer
 
@@ -199,12 +198,12 @@ commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
 ###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
-- Ajoutez un lien ou plusieurs par [pull
+* Ajoutez un lien ou plusieurs par [pull
   request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
   ou par [Issue](https://github.com/stephrobert/awesome-french-devops/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-- Le lien pointe sur du contenu en Français. Excepté les liens vers les sites
+* Le lien pointe sur du contenu en Français. Excepté les liens vers les sites
   officiels des produits cités.
-- Ajoutez une section si nécessaire.
-- Eviter les doublons.
-- Vérifiez votre orthographe et votre grammaire.
-- Supprimez tout espace blanc de fin.
+* Ajoutez une section si nécessaire.
+* Éviter les doublons.
+* Vérifiez votre orthographe et votre grammaire.
+* Supprimez tout espace blanc de fin.
