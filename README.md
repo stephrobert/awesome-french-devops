@@ -121,6 +121,7 @@ Devops**.
 ###  3.3. <a name='Socits'></a>Sociétés
 
 * [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
+* [Accelerate vu par Zenika](https://blog.zenika.com/2021/08/18/accelerate-vu-par-zenika/)
 
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
@@ -150,6 +151,7 @@ Devops**.
 * [SRE France](https://sre-france.github.io/)
 * [DevObs](https://discord.gg/kKUty5pfCQ)
 * [OpenBaR - build-and-run](https://bit.ly/2RmZttz)
+* [France DevOps](https://www.francedevops.fr/)
 
 ##  6. <a name='Mooc'></a>Mooc
 
@@ -163,6 +165,7 @@ Devops**.
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
+* [France DevOps](https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA)
 
 ##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
