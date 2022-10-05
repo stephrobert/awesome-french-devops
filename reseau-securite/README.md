@@ -17,7 +17,7 @@
 
 ###  1.2. <a name='Livres'></a>Livres
 
-- Tanenbaum [Réseaux 6e édition](https://amzn.to/3dWVQJs)
+- [Réseaux 6e édition](https://amzn.to/3dWVQJs) de Andrew Tanenbaum 
 
 ###  1.3. <a name='MOOC'></a>MOOC
 
