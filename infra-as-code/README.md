@@ -49,6 +49,12 @@
 		* 1.9.2. [Livres](#Livres-1)
 		* 1.9.3. [MOOC](#MOOC-1)
 		* 1.9.4. [Sites](#Sites-1)
+	* 2.1. [Choas Monkey](#ChaosMonkey)
+		* 2.1.1. [Livres Gratuits](#LivresGratuits-1)
+		* 2.1.2. [Livres](#Livres-1)
+		* 2.1.3. [MOOC](#MOOC-1)
+		* 2.1.4. [Sites](#Sites-1)
+		* 2.1.5. [Videos](#Videos)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -193,3 +199,22 @@
 ####  1.9.4. <a name='Sites-1'></a>Sites
 
 - [Documentation officielle Azure Resource Manager](https://learn.microsoft.com/fr-fr/azure/azure-resource-manager/management/)
+
+###  2.1. <a name='ChaosMonkey'></a>Chaos Monkey
+
+- Site officiel : [Chaos Monkey](https://netflix.github.io/chaosmonkey/)
+
+####  2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+####  2.1.2. <a name='Livres-1'></a>Livres
+
+####  2.1.3. <a name='MOOC-1'></a>MOOC
+
+####  2.1.4. <a name='Sites-1'></a>Sites
+
+- [Ingénierie du chaos — Chaos Engineering in French — Partie 1 : (pour)quoi ?](https://medium.com/@crochefolle/ingénierie-du-chaos-chaos-engineering-in-french-ea17310c8824)
+- [Ingénierie du chaos — Chaos Engineering in French — Partie 2 : Où en sommes-nous ?](https://medium.com/paris-chaos-engineering-community/ingénierie-du-chaos-chaos-engineering-in-french-partie-2-où-en-sommes-nous-8e899e519832)
+
+####  2.1.5. <a name='Videos'></a>Videos
+
+- [Chaos Monkey - Devops - La Minute Agile Scrum 125](https://www.youtube.com/watch?v=zM5KE1DC9U0&t=159s)
