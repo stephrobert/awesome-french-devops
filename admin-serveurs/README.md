@@ -33,8 +33,8 @@
 - [Linux - Administration système et exploitation des services réseau (4e
   édition)](https://amzn.to/3CC3L8D) de Philippe Blanquet
 - Administration Linux par la pratique de Kiki Novak
-  - [Tome 1 - Les fondamentaux de l'administration système](https://www.editions-eyrolles.com/Livre/9782212677386/administration-linux-par-la-pratique)
-  - [Tome 2 - Configurer les services les plus courants](https://www.editions-eyrolles.com/Livre/9782212679496/administration-linux-par-la-pratique-tome-2)
+  - [Tome 1 - Les fondamentaux de l'administration système](https://amzn.to/3yhr5Ws)
+  - [Tome 2 - Configurer les services les plus courants](https://amzn.to/3EimS8T)
 
 ###  1.3. <a name='MOOC'></a>MOOC
 
