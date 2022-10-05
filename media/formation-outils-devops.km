@@ -18,8 +18,8 @@
                     "priority": 1,
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -2.4999999006589633,
-                        "y": 45.833331512080406
+                        "x": -13.24999977027369,
+                        "y": -68.91666731445326
                     },
                     "background": "#4f81bd",
                     "color": "#ffffff"
@@ -58,8 +58,8 @@
                     "expandState": "expand",
                     "layout": null,
                     "layout_mind_offset": {
-                        "x": -12.499999503294816,
-                        "y": 56.66666441493578
+                        "x": -8.499999503294816,
+                        "y": -39.33333558506422
                     },
                     "background": "#4f81bd",
                     "color": "#ffffff"
@@ -201,8 +201,8 @@
                     "priority": 3,
                     "expandState": "expand",
                     "layout_mind_offset": {
-                        "x": -14.999999776482753,
-                        "y": 62.08333555401998
+                        "x": -2.9999997764827526,
+                        "y": -23.916664445980018
                     },
                     "layout": null,
                     "background": "#4f81bd",
@@ -243,7 +243,11 @@
                                             "text": "IP",
                                             "background": "#5f497a",
                                             "color": "#ffffff",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout_right_offset": {
+                                                "x": 7.499999888241291,
+                                                "y": -16.24999975785613
+                                            }
                                         },
                                         "children": [
                                             {
@@ -299,8 +303,8 @@
                                     "text": "Layer 4 / Transport Layer",
                                     "background": "#fabf8f",
                                     "layout_right_offset": {
-                                        "x": 49.66666222943218,
-                                        "y": -5.666666600439271
+                                        "x": 50.916662210805725,
+                                        "y": 8.083333194669649
                                     },
                                     "expandState": "expand",
                                     "font-weight": "bold"
@@ -335,8 +339,8 @@
                                     "text": "Layer 7 / Application Layer",
                                     "background": "#fabf8f",
                                     "layout_right_offset": {
-                                        "x": 66,
-                                        "y": 0
+                                        "x": 52.250000204890966,
+                                        "y": 14.999999776482468
                                     },
                                     "expandState": "expand",
                                     "font-weight": "bold"
@@ -555,8 +559,8 @@
                     "created": 1664897924060,
                     "text": "Serveurs",
                     "layout_mind_offset": {
-                        "x": -16.666666004392823,
-                        "y": 70.8333305186697
+                        "x": -588.6666660043928,
+                        "y": -899.1666694813302
                     },
                     "layout": null,
                     "priority": 5,
