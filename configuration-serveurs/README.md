@@ -35,19 +35,20 @@
 		* 3.2.4. [Sites](#Sites-1)
 	* 3.3. [PostgreSQL](#PostgreSQL)
 		* 3.3.1. [Livres Gratuits](#LivresGratuits-1)
-	* 3.4. [Livres](#Livres-1)
-	* 3.5. [MOOC](#MOOC-1)
-	* 3.6. [Sites](#Sites-1)
-	* 3.7. [MongoDB](#MongoDB)
-		* 3.7.1. [Livres Gratuits](#LivresGratuits-1)
-		* 3.7.2. [Livres](#Livres-1)
-		* 3.7.3. [MOOC](#MOOC-1)
-		* 3.7.4. [Sites](#Sites-1)
-	* 3.8. [OracleDB](#OracleDB)
-		* 3.8.1. [Livres Gratuits](#LivresGratuits-1)
-		* 3.8.2. [Livres](#Livres-1)
-		* 3.8.3. [MOOC](#MOOC-1)
-		* 3.8.4. [Sites](#Sites-1)
+		* 3.3.2. [Livres](#Livres-1)
+		* 3.3.3. [MOOC](#MOOC-1)
+		* 3.3.4. [Sites](#Sites-1)
+		* 3.3.5. [Vidéos](#Vidos)
+	* 3.4. [MongoDB](#MongoDB)
+		* 3.4.1. [Livres Gratuits](#LivresGratuits-1)
+		* 3.4.2. [Livres](#Livres-1)
+		* 3.4.3. [MOOC](#MOOC-1)
+		* 3.4.4. [Sites](#Sites-1)
+	* 3.5. [OracleDB](#OracleDB)
+		* 3.5.1. [Livres Gratuits](#LivresGratuits-1)
+		* 3.5.2. [Livres](#Livres-1)
+		* 3.5.3. [MOOC](#MOOC-1)
+		* 3.5.4. [Sites](#Sites-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -108,7 +109,7 @@
 
 #####  3.1.1. <a name='MOOC'></a>MOOC
 
-- [Bases de données relationnelles : apprendre pour utiliser](https://www.fun-mooc.fr/fr/cours/bases-de-donnees-relationnelles-apprendre-pour-utiliser/)
+* [Bases de données relationnelles : apprendre pour utiliser](https://www.fun-mooc.fr/fr/cours/bases-de-donnees-relationnelles-apprendre-pour-utiliser/)
 
 ####  3.1.3. <a name='Sites-1'></a>Sites
 
@@ -126,28 +127,32 @@
 
 ####  3.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
-###  3.4. <a name='Livres-1'></a>Livres
+####  3.3.2. <a name='Livres-1'></a>Livres
 
-###  3.5. <a name='MOOC-1'></a>MOOC
+####  3.3.3. <a name='MOOC-1'></a>MOOC
 
-###  3.6. <a name='Sites-1'></a>Sites
+####  3.3.4. <a name='Sites-1'></a>Sites
 
-###  3.7. <a name='MongoDB'></a>MongoDB
+####  3.3.5. <a name='Vidos'></a>Vidéos
 
-####  3.7.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+* [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWonHjoGXXSIXJWYzPSy2FeJ)
 
-####  3.7.2. <a name='Livres-1'></a>Livres
+###  3.4. <a name='MongoDB'></a>MongoDB
 
-####  3.7.3. <a name='MOOC-1'></a>MOOC
+####  3.4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
-####  3.7.4. <a name='Sites-1'></a>Sites
+####  3.4.2. <a name='Livres-1'></a>Livres
 
-###  3.8. <a name='OracleDB'></a>OracleDB
+####  3.4.3. <a name='MOOC-1'></a>MOOC
 
-####  3.8.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+####  3.4.4. <a name='Sites-1'></a>Sites
 
-####  3.8.2. <a name='Livres-1'></a>Livres
+###  3.5. <a name='OracleDB'></a>OracleDB
 
-####  3.8.3. <a name='MOOC-1'></a>MOOC
+####  3.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
-####  3.8.4. <a name='Sites-1'></a>Sites
+####  3.5.2. <a name='Livres-1'></a>Livres
+
+####  3.5.3. <a name='MOOC-1'></a>MOOC
+
+####  3.5.4. <a name='Sites-1'></a>Sites
