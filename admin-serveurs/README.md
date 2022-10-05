@@ -32,6 +32,9 @@
   l'administration système](https://amzn.to/3QY8Igo) de Sébastien Chazallet
 - [Linux - Administration système et exploitation des services réseau (4e
   édition)](https://amzn.to/3CC3L8D) de Philippe Blanquet
+- Administration Linux par la pratique de Kiki Novak
+  - [Tome 1 - Les fondamentaux de l'administration système](https://amzn.to/3yhr5Ws)
+  - [Tome 2 - Configurer les services les plus courants](https://amzn.to/3EimS8T)
 
 ###  1.3. <a name='MOOC'></a>MOOC
 
@@ -40,6 +43,8 @@
 ###  1.4. <a name='Sites'></a>Sites
 
 - [La programmation Shell](https://frederic-lang.developpez.com/tutoriels/linux/prog-shell/)
+- [MicroLinux](https://blog.microlinux.fr/)
+- [Wiki Archlinux (version en francais)](https://wiki.archlinux.org/title/Main_page_(Fran%C3%A7ais))
 
 ##  2. <a name='Windows'></a>Windows
 
