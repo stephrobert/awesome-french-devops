@@ -5,17 +5,17 @@
 	* 1.2. [Livres](#Livres)
 	* 1.3. [MOOC](#MOOC)
 	* 1.4. [Sites](#Sites)
-* 2. [Vidéos](#Vidos)
-* 3. [Github Actions](#GithubActions)
+	* 1.5. [Vidéos](#Vidos)
+* 2. [Github Actions](#GithubActions)
+	* 2.1. [Livres Gratuits](#LivresGratuits-1)
+	* 2.2. [Livres](#Livres-1)
+	* 2.3. [MOOC](#MOOC-1)
+	* 2.4. [Sites](#Sites-1)
+* 3. [Jenkins](#Jenkins)
 	* 3.1. [Livres Gratuits](#LivresGratuits-1)
 	* 3.2. [Livres](#Livres-1)
 	* 3.3. [MOOC](#MOOC-1)
 	* 3.4. [Sites](#Sites-1)
-* 4. [Jenkins](#Jenkins)
-	* 4.1. [Livres Gratuits](#LivresGratuits-1)
-	* 4.2. [Livres](#Livres-1)
-	* 4.3. [MOOC](#MOOC-1)
-	* 4.4. [Sites](#Sites-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -47,13 +47,23 @@
 - [Optimiser la durée de vos pipelines avec les DAG](https://blog.stephane-robert.info/post/dag-needs-gitlab-ci/)
 - [Créer des releases](https://blog.stephane-robert.info/post/gitlab-ci-release/)
 
-##  2. <a name='Vidos'></a>Vidéos
+###  1.5. <a name='Vidos'></a>Vidéos
 
 - [xavki](https://xavki.blog/gitlab-tutorials-et-formation/) 127 Vidéos
 
-##  3. <a name='GithubActions'></a>Github Actions
+##  2. <a name='GithubActions'></a>Github Actions
 
 **Site Officiel** : [github.com](https://fr.github.com/)
+
+###  2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+###  2.2. <a name='Livres-1'></a>Livres
+
+###  2.3. <a name='MOOC-1'></a>MOOC
+
+###  2.4. <a name='Sites-1'></a>Sites
+
+##  3. <a name='Jenkins'></a>Jenkins
 
 ###  3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
@@ -62,13 +72,3 @@
 ###  3.3. <a name='MOOC-1'></a>MOOC
 
 ###  3.4. <a name='Sites-1'></a>Sites
-
-##  4. <a name='Jenkins'></a>Jenkins
-
-###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
-
-###  4.2. <a name='Livres-1'></a>Livres
-
-###  4.3. <a name='MOOC-1'></a>MOOC
-
-###  4.4. <a name='Sites-1'></a>Sites
