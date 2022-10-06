@@ -16,6 +16,7 @@
 	* 3.2. [Livres](#Livres-1)
 	* 3.3. [MOOC](#MOOC-1)
 	* 3.4. [Sites](#Sites-1)
+	* 3.5. [Vidéos](#Vidos-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -73,7 +74,7 @@
 
 ###  3.4. <a name='Sites-1'></a>Sites
 
-### Vidéos
+###  3.5. <a name='Vidos-1'></a>Vidéos
 
 * [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWr19VXuoVgIr32HCu0MGNt9)
   35 vidéos
