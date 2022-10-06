@@ -23,7 +23,7 @@
 		* 1.4.3. [MOOC](#MOOC-1)
 		* 1.4.4. [Sites](#Sites-1)
 	* 1.5. [OpenTelemetry](#OpenTelemetry)
-	    * 1.5.1. [Livres Gratuits](#LivresGratuits-1)
+		* 1.5.1. [Livres Gratuits](#LivresGratuits-1)
 		* 1.5.2. [Livres](#Livres-1)
 		* 1.5.3. [MOOC](#MOOC-1)
 		* 1.5.4. [Sites](#Sites-1)
@@ -39,6 +39,7 @@
 		* 2.2.2. [Livres](#Livres-1)
 		* 2.2.3. [MOOC](#MOOC-1)
 		* 2.2.4. [Sites](#Sites-1)
+		* 2.2.5. [Vidéos](#Vidos)
 	* 2.3. [Datadog](#Datadog)
 		* 2.3.1. [Livres Gratuits](#LivresGratuits-1)
 		* 2.3.2. [Livres](#Livres-1)
@@ -83,18 +84,19 @@
 
 ####  1.3.2. <a name='Livres-1'></a>Livres
 
-- [Prometheus et Grafana - Surveillez vos applications et composants
+* [Prometheus et Grafana - Surveillez vos applications et composants
   système](https://amzn.to/3C32ENz) de Yannig Perré
 
 ####  1.3.3. <a name='MOOC-1'></a>MOOC
 
 ####  1.3.4. <a name='Sites-1'></a>Sites
 
-- [Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes](https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/)
+* [Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes](https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/)
 
 ####  1.3.5. <a name='Videos'></a>Videos
 
-- [Prometheus x Grafana par Xavki >50 vidéos](https://xavki.blog/prometheus-grafana-tutoriaux-francais/)
+* [Prometheus x Grafana par
+  Xavki](https://xavki.blog/prometheus-grafana-tutoriaux-francais/) 53 vidéos
 
 ###  1.4. <a name='Grafana'></a>Grafana
 
@@ -105,14 +107,14 @@
 
 ####  1.4.2. <a name='Livres-1'></a>Livres
 
-- [Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes](https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/)
+* [Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes](https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/)
 
 ####  1.4.3. <a name='MOOC-1'></a>MOOC
 
 ####  1.4.4. <a name='Sites-1'></a>Sites
 
-- [Découvrir Prometheus et Grafana par l’exemple](https://blog.zwindler.fr/2020/04/13/decouvrir-prometheus-et-grafana-par-lexemple/)
-- [Grafana : Superviser tous vos serveurs et périphériques avec classe](https://www.tech2tech.fr/grafana-superviser-tous-vos-serveurs-et-peripheriques/)
+* [Découvrir Prometheus et Grafana par l’exemple](https://blog.zwindler.fr/2020/04/13/decouvrir-prometheus-et-grafana-par-lexemple/)
+* [Grafana : Superviser tous vos serveurs et périphériques avec classe](https://www.tech2tech.fr/grafana-superviser-tous-vos-serveurs-et-peripheriques/)
 
 ###  1.5. <a name='OpenTelemetry'></a>OpenTelemetry
 
@@ -127,13 +129,13 @@
 
 ####  1.5.4. <a name='Sites-1'></a>Sites
 
-- [Introduction à OpenTelemetry pour les débutants](https://geekflare.com/fr/opentelemetry-introduction/)
-- [OpenTelemetry : le feedback utilisateur à la portée de tous.](https://itexpert.fr/blog/opentelemetry/)
+* [Introduction à OpenTelemetry pour les débutants](https://geekflare.com/fr/opentelemetry-introduction/)
+* [OpenTelemetry : le feedback utilisateur à la portée de tous.](https://itexpert.fr/blog/opentelemetry/)
 
 ###  1.6. <a name='Videos-1'></a>Videos
 
-- [Comment OpenTelemetry peut transformer votre monitoring en unifiant vos logs](https://www.youtube.com/watch?v=dGMN3keJuXA)
-- [Suivez vos applications à la trace grâce à OpenTelemetry](https://youtu.be/NXYAtkEm_hk)
+* [Comment OpenTelemetry peut transformer votre monitoring en unifiant vos logs](https://www.youtube.com/watch?v=dGMN3keJuXA)
+* [Suivez vos applications à la trace grâce à OpenTelemetry](https://youtu.be/NXYAtkEm_hk)
 
 ##  2. <a name='Monitoring:'></a>Monitoring :
 
@@ -156,6 +158,11 @@
 ####  2.2.3. <a name='MOOC-1'></a>MOOC
 
 ####  2.2.4. <a name='Sites-1'></a>Sites
+
+####  2.2.5. <a name='Vidos'></a>Vidéos
+
+* [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWrgJXXvbjlFPyHf8Q5a9n2b)
+  80 vidéos
 
 ###  2.3. <a name='Datadog'></a>Datadog
 

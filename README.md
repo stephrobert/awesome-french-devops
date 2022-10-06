@@ -156,6 +156,9 @@ Devops**.
 * [DevOpsSec](https://devopssec.fr/category/comprendre-le-devops)
 * [Découvrez la méthodologie DevOps sur
   OpenClassRooms](https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops)
+* [Devenir Devops (vidéos) par
+  xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWrBPMKFniOiMyLMdxlgFhrG)
+  60 vidéos
 
 ##  7. <a name='ChainesYoutube'></a>Chaines Youtube
 
