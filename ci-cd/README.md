@@ -72,3 +72,8 @@
 ###  3.3. <a name='MOOC-1'></a>MOOC
 
 ###  3.4. <a name='Sites-1'></a>Sites
+
+### Vidéos
+
+* [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWr19VXuoVgIr32HCu0MGNt9)
+  35 vidéos
