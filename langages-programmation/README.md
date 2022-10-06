@@ -29,6 +29,7 @@
 * 6. [Outils](#Outils)
 	* 6.1. [Gestion de versions de code](#Gestiondeversionsdecode)
 		* 6.1.1. [Git](#Git)
+		* 6.1.2. [Vidéos](#Vidos)
 	* 6.2. [Outils de Build](#OutilsdeBuild)
 		* 6.2.1. [Makefile](#Makefile)
 	* 6.3. [Editeurs](#Editeurs)
@@ -147,6 +148,11 @@ des tutoriels.
 
 - [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/fr/)
 - [Pro Git](http://www.git-scm.com/book/fr/)
+
+####  6.1.2. <a name='Vidos'></a>Vidéos
+
+* [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWrRoZZXv0xf71mvT4E0QDOF)
+  35 vidéos
 
 ###  6.2. <a name='OutilsdeBuild'></a>Outils de Build
 
