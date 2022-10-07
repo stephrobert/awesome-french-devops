@@ -100,7 +100,7 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 
 ##  3. <a name='SitesDevops'></a>Sites parlant du Devops
 
-Voici une liste non exhaustive ou vous trouverez de bons articles sur les **outils
+Voici une liste non exhaustive où vous trouverez de bons articles sur les **outils
 Devops**.
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
