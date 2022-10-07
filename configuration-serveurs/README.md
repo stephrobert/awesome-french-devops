@@ -113,11 +113,14 @@
 
 ####  3.1.3. <a name='Sites-1'></a>Sites
 
-###  3.2. <a name='MySQL'></a>MySQL
+###  3.2. <a name='MySQL'></a>MySQL et MariaDB
 
 ####  3.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ####  3.2.2. <a name='Livres-1'></a>Livres
+
+* [MySQL 8 - Administration et optimisation](https://amzn.to/3EnxN0U) de Stéphane Combaudon
+* [MariaDB - Administration et optimisation](https://amzn.to/3McK5uW) de Stéphane Combaudon
 
 ####  3.2.3. <a name='MOOC-1'></a>MOOC
 
@@ -128,6 +131,11 @@
 ####  3.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ####  3.3.2. <a name='Livres-1'></a>Livres
+
+* [PostgreSQL – Architecture et notions avancées](https://amzn.to/3fE1YGL) de Guillaume Lelarge et Julien Rouhaud
+* [PostgreSQL - Principes de base de l'utilisation de la base de données](https://amzn.to/3ecuUFt) de Sébastien Lardière
+* [PostgreSQL - Administration et exploitation de vos bases de données (4e
+  édition)](https://amzn.to/3ynGhBA) de Sébastien Lardière
 
 ####  3.3.3. <a name='MOOC-1'></a>MOOC
 
