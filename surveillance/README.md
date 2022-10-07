@@ -141,6 +141,9 @@
 
 ###  2.1. <a name='Splunk'></a>Splunk
 
+* **Site officiel** : [Splunk.com/](https://www.splunk.com/)
+* **Blog officiel** : [https://www.splunk.com/en_us/blog](https://www.splunk.com/en_us/blog)
+
 ####  2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ####  2.1.2. <a name='Livres-1'></a>Livres
@@ -165,6 +168,9 @@
   80 vidéos
 
 ###  2.3. <a name='Datadog'></a>Datadog
+
+* **Site officiel** : [Datadog.com](https://www.datadoghq.com/)
+* **Blog officiel** : [https://www.datadoghq.com/blog](https://www.datadoghq.com/blog/)
 
 ####  2.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
