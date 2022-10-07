@@ -129,6 +129,8 @@
 
 ####  3.3.2. <a name='Livres-1'></a>Livres
 
+- [PostgreSQL - Architecture et notions avancées](https://www.d-booker.fr/bases-de-donnees/722-1265-architecture-et-notions-avancees-4ed-9782822710572.html) - Guillaume Lelarge, Julien Rouhaud
+
 ####  3.3.3. <a name='MOOC-1'></a>MOOC
 
 ####  3.3.4. <a name='Sites-1'></a>Sites
