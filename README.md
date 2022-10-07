@@ -59,7 +59,10 @@ outils que vous serez amené à **rencontrer le plus souvent** :
 * **en jaune** les très peu rencontrés (mais c'est bien de les connaître de nom)
 
 _Si vous débutez il faut suivre l'ordre indiqué par les nombres devant les
-grands sujets :_
+grands sujets_
+
+_Si vous ne connaissez absolument rien au devops commencez par lire ces
+[Livres](#Livres) ou suivre ces [Mooc](#Mooc)._
 
 ![mind mapping outils devops](media/formation-outils-devops.png)
 
