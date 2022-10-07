@@ -72,6 +72,9 @@
 
 ###  2.2. <a name='Livres-1'></a>Livres
 
+* [Le langage Go - Les fondamentaux du langage: Les fondamentaux du langage](https://amzn.to/3e8LgPG) de Frédéric G. Marand
+* [PROGRAMMER EN GO : Pourquoi ? Comment ?](https://amzn.to/3VazRiF) de Rudy Rigot
+
 ###  2.3. <a name='MOOC-1'></a>MOOC
 
 ###  2.4. <a name='Sites'></a>Sites
@@ -90,6 +93,9 @@ des tutoriels.
 
 ###  3.2. <a name='Livres-1'></a>Livres
 
+* [Programmer avec Rust - pour une programmation système rapide et sûre](https://amzn.to/3McIYvg) de Jim Blandy et Jason Orendorff
+* [Rust: Développez des programmes robustes et sécurisés](https://amzn.to/3ehaxHh) de Benoît Prieur
+
 ###  3.3. <a name='MOOC-1'></a>MOOC
 
 ###  3.4. <a name='Sites-1'></a>Sites
@@ -102,9 +108,9 @@ des tutoriels.
 
 ###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
-
-
 ###  4.2. <a name='Livres-1'></a>Livres
+
+* [Ruby on Rails](https://amzn.to/3rAUbwn) de Dave Thomas
 
 ###  4.3. <a name='MOOC-1'></a>MOOC
 

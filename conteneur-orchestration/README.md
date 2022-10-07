@@ -44,6 +44,12 @@
 
 ####  1.1.2. <a name='Livres'></a>Livres
 
+* [Docker - Pratique des architectures à base de conteneurs - 2e éd.: Pratique
+  des architectures à base de conteneurs](https://amzn.to/3CHdHxe) de
+  Pierre-Yves Cloux
+	[Docker et conteneurs - 3e éd.: Architectures, développement, usages et outils](https://amzn.to/3Mifxbo) de
+  Pierre-Yves Cloux
+
 ####  1.1.3. <a name='MOOC'></a>MOOC
 
 ####  1.1.4. <a name='Sites'></a>Sites
@@ -75,6 +81,9 @@
 
 ####  2.1.2. <a name='Livres-1'></a>Livres
 
+* [Kubernetes - Maîtrisez l'orchestrateur des infrastructures du futur:
+  Maîtrisez l'orchestrateur des infrastructures du
+  futur](https://amzn.to/3CG12e8) de Kelsey Hightower
 * [Understanding Kubernetes in a visual way](https://www.amazon.fr/dp/B0BB619188/) - Aurélie Vache
 
 ####  2.1.3. <a name='MOOC-1'></a>MOOC
