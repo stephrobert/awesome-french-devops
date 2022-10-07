@@ -32,6 +32,13 @@
 
 ###  1.2. <a name='Livres'></a>Livres
 
+* [AWS : Gérez votre infrastructure sur la plateforme cloud
+  d'Amazon](https://amzn.to/3T2fSkl) de Nicolas Duminil
+* [Microsoft Azure - Gérez votre Système d'Information dans le Cloud](https://amzn.to/3CAsyZt) de Philippe Païola
+* [Amazon Web Service Guide de l'administrateur - Les bonnes pratiques pour
+  administrer le cloud d'Amazon - collection O'Reilly](https://amzn.to/3RJAMUk)
+  de Federico Lucifredi
+
 ###  1.3. <a name='MOOC'></a>MOOC
 
 ###  1.4. <a name='Sites'></a>Sites
@@ -54,6 +61,9 @@
 ###  3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ###  3.2. <a name='Livres-1'></a>Livres
+
+* [Débuter avec Azure - Concepts fondamentaux et mise en
+  œuvre](https://amzn.to/3C9folC) de Thierry Bollet
 
 ###  3.3. <a name='MOOC-1'></a>MOOC
 

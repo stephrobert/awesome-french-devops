@@ -142,6 +142,7 @@ Devops**.
 * [Découvrir DevOps - 2e éd. - L'essentiel pour tous les métiers : L'essentiel pour tous les métiers](https://amzn.to/3roccO9)
 * [Mettre en œuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
   Comment évoluer vers une DSI agile Broché](https://amzn.to/3e0d4pg)
+* [DevOps - Intégrez et déployez en continu](https://amzn.to/3fRVnsA) de Ernesto Leite
 
 ##  5. <a name='Communauts'></a>Communautés
 
