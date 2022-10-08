@@ -66,6 +66,11 @@
 * [Démarrer avec les conteneurs Docker](https://blog.stephane-robert.info/post/introduction-docker/)
 * [Initiation à Docker](https://xebia-france.github.io/docker-initiation/groups/io.html)
 * [Sécuriser l'utilisation de Docker](https://blog.stephane-robert.info/post/docker-rootless-securite-seccomp-namespace-capabilities/)
+* **Chérie, j'ai rétréci Docker**: Optimisation de la taille des images
+  * [Partie 1](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part1/)
+  * [Partie 2](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
+  * [Partie 3](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
+
 
 ####  1.1.5. <a name='Vidos'></a>Vidéos
 
