@@ -127,6 +127,7 @@
 
 ####  2.1.5. <a name='Vidos-1'></a>Vidéos
 
+* [Aurélie Vache](https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg) 20 Vidéos
 * [xavki](https://www.youtube.com/playlist?list=PLn6POgpklwWqfzaosSgX2XEKpse5VY2v5)
   72 vidéos
 
