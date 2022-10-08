@@ -120,6 +120,7 @@ Devops**.
 ###  3.2. <a name='Socits'></a>Sociétés
 
 * [Bearstech](https://bearstech.com/societe/blog/)
+* [Blackcreeper](https://www.blackcreeper.com/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
 * [Eazytraining](https://eazytraining.fr/blog/)
 * [Eleven Labs](https://blog.eleven-labs.com)
@@ -183,6 +184,7 @@ Devops**.
 ##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 * [Aurélie Vache](https://mobile.twitter.com/aurelievache)
+* [Cocadmin](https://twitter.com/cocadmin)
 * [DamyR](https://twitter.com/damyr_fr)
 * [David Aparicio](https://twitter.com/dadideo)
 * [Idriss Neumann](https://twitter.com/idriss_neumann)
@@ -191,6 +193,7 @@ Devops**.
 * [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 * [Mcorbin](https://twitter.com/_mcorbin)
 * [Michée Lengronne](https://twitter.com/MicheeLengronne)
+* [Nicolas Hug](https://twitter.com/KrustyHack)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
