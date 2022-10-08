@@ -123,6 +123,7 @@ Devops**.
 * [Devoteam Revolve](https://blog.revolve.team/)
 * [Eazytraining](https://eazytraining.fr/blog/)
 * [Eleven Labs](https://blog.eleven-labs.com)
+* [Enix](https://enix.io/fr/blog/)
 * [Ippon](https://blog.ippon.fr)
 * [Le Journal Du Hacker](https://www.journalduhacker.net)
 * [LinkValue](https://blog.link-value.fr/)
@@ -166,12 +167,18 @@ Devops**.
 
 ##  7. <a name='ChainesYoutube'></a>Chaines Youtube
 
-* [Xavki](https://www.youtube.com/c/xavki-linux)
+* [Aurelie Vache](https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg)
+* [CocAdmin](https://www.youtube.com/c/cocadmin)
 * [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
+* [Cookie Connecté](https://www.youtube.com/channel/UC5cs06DgLFeyLIF_II7lWCQ)
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
-* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
 * [France DevOps](https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA)
+* [KrustyHack](https://www.youtube.com/channel/UCM0mnsNbecIi_IAPXtHb-TA)
+* [Le TechLab de Christophe Casalegno](https://www.youtube.com/channel/UCIlCglg-Gl6eNtllSB95gMA)
+* [Limawin](https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw)
+* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
+* [Xavki](https://www.youtube.com/c/xavki-linux)
 
 ##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
@@ -183,6 +190,7 @@ Devops**.
 * [Juliette Audema](https://twitter.com/ajuliettedev)
 * [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 * [Mcorbin](https://twitter.com/_mcorbin)
+* [Michée Lengronne](https://twitter.com/MicheeLengronne)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
@@ -195,7 +203,7 @@ Devops**.
 
 * [Radio DevOps](https://lydra.fr/radio-devops/)
 * [DevObs](https://devobs.p7t.tech/)
-* [Message a caractere informatique](https://www.clever-cloud.com/fr/podcast/)
+* [Message a caractère informatique](https://www.clever-cloud.com/fr/podcast/)
 * [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
 
 ##  11. <a name='Contribuer'></a>Contribuer
