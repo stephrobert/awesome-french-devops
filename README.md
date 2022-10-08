@@ -193,6 +193,7 @@ Devops**.
 * [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 * [Mcorbin](https://twitter.com/_mcorbin)
 * [Michée Lengronne](https://twitter.com/MicheeLengronne)
+* [Nicolas Hug](https://twitter.com/KrustyHack)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
