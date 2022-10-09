@@ -177,7 +177,7 @@ Devops**.
 * [France DevOps](https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA)
 * [KrustyHack](https://www.youtube.com/channel/UCM0mnsNbecIi_IAPXtHb-TA)
 * [Le TechLab de Christophe Casalegno](https://www.youtube.com/channel/UCIlCglg-Gl6eNtllSB95gMA)
-* [Limawin](https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw)
+* [Limawi](https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw)
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 
