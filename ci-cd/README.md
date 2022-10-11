@@ -36,27 +36,29 @@
 
 ###  1.4. <a name='Sites'></a>Sites
 
-- [Commencer simplement avec GitLab CI](https://dev.to/jphi_baconnais/commencer-simplement-avec-gitlabci-53fa)
-- [Comment organiser son travail avec GitLab](https://dev.to/zenika/comment-organiser-son-travail-avec-gitlab-42da)
-- [Utilisation la CLI de gitlab](https://blog.stephane-robert.info/post/gitlab-cli/)
-- [Valider son Gitlab CI et le lancer localement](https://blog.stephane-robert.info/post/gitlab-valider-ci-yml/)
-- [Utiliser des pipelines dynamiques](https://blog.stephane-robert.info/post/gitlab-pipeline-dynamique/)
-- [Utiliser la container registry](https://blog.stephane-robert.info/post/gitlab-container-docker-registry/)
-- [Utiliser les règles de conditions](https://blog.stephane-robert.info/post/gitlab-rules/)
-- [Utiliser des pipelines parent-enfant](https://blog.stephane-robert.info/post/gitlab-trigger/)
-- [Utiliser des templates de pipelines](https://blog.stephane-robert.info/post/gitlab-template-ci/)
-- [Optimiser la durée de vos pipelines avec les DAG](https://blog.stephane-robert.info/post/dag-needs-gitlab-ci/)
-- [Créer des releases](https://blog.stephane-robert.info/post/gitlab-ci-release/)
+* [Commencer simplement avec GitLab CI](https://dev.to/jphi_baconnais/commencer-simplement-avec-gitlabci-53fa)
+* [Comment organiser son travail avec GitLab](https://dev.to/zenika/comment-organiser-son-travail-avec-gitlab-42da)
+* [Utilisation la CLI de gitlab](https://blog.stephane-robert.info/post/gitlab-cli/)
+* [Valider son Gitlab CI et le lancer localement](https://blog.stephane-robert.info/post/gitlab-valider-ci-yml/)
+* [Utiliser des pipelines dynamiques](https://blog.stephane-robert.info/post/gitlab-pipeline-dynamique/)
+* [Utiliser la container registry](https://blog.stephane-robert.info/post/gitlab-container-docker-registry/)
+* [Utiliser les règles de conditions](https://blog.stephane-robert.info/post/gitlab-rules/)
+* [Utiliser des pipelines parent-enfant](https://blog.stephane-robert.info/post/gitlab-trigger/)
+* [Utiliser des templates de pipelines](https://blog.stephane-robert.info/post/gitlab-template-ci/)
+* [Optimiser la durée de vos pipelines avec les DAG](https://blog.stephane-robert.info/post/dag-needs-gitlab-ci/)
+* [Créer des releases](https://blog.stephane-robert.info/post/gitlab-ci-release/)
 
 ###  1.5. <a name='Vidos'></a>Vidéos
 
-- [xavki](https://xavki.blog/gitlab-tutorials-et-formation/) 127 Vidéos
+* [xavki](https://xavki.blog/gitlab-tutorials-et-formation/) 127 Vidéos
 
 ##  2. <a name='GithubActions'></a>Github Actions
 
 **Site Officiel** : [github.com](https://fr.github.com/)
 
 ###  2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+* [Apprenez Github](https://riptutorial.com/Download/github-fr.pdf)
 
 ###  2.2. <a name='Livres-1'></a>Livres
 

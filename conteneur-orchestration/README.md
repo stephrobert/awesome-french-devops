@@ -47,7 +47,12 @@
 
 ###  1.1. <a name='Docker'></a>Docker
 
+**Site Officiel**: [docker.com](https://www.docker.com/)
+
 ####  1.1.1. <a name='LivresGratuits'></a>Livres Gratuits
+
+* [Introduction à Docker [PDF]](https://halshs.archives-ouvertes.fr/cel-02285669/file/Introduction%20%C3%A0%20Docker.pdf)
+* [Apprenez Docker](https://riptutorial.com/Download/docker-fr.pdf)
 
 ####  1.1.2. <a name='Livres'></a>Livres
 
@@ -112,6 +117,8 @@
 ###  2.1. <a name='Kubernetes'></a>Kubernetes
 
 ####  2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+* [Apprenez Kubernetes](https://riptutorial.com/Download/kubernetes-fr.pdf)
 
 ####  2.1.2. <a name='Livres-1'></a>Livres
 

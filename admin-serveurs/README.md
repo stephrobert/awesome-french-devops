@@ -24,6 +24,7 @@
 * [Programmation Bash](https://upload.wikimedia.org/wikipedia/commons/1/1a/Programmation_Bash-fr.pdf)
 * [Guide avancé d'écriture des scripts Bash](https://abs.traduc.org/abs-fr/)
 * [Le cahier de l'administrateur Debian](https://debian-handbook.info/browse/fr-FR/stable/)
+* [Apprenez BASH](https://riptutorial.com/Download/bash-fr.pdf)
 
 ###  1.2. <a name='Livres'></a>Livres
 

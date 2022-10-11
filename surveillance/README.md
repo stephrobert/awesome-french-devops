@@ -156,6 +156,8 @@
 
 ####  2.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
+* [Apprenez ElasticSearch](https://riptutorial.com/Download/elasticsearch-fr.pdf)
+
 ####  2.2.2. <a name='Livres-1'></a>Livres
 
 ####  2.2.3. <a name='MOOC-1'></a>MOOC
