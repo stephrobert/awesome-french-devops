@@ -189,6 +189,7 @@ Devops**.
 * [David Aparicio](https://twitter.com/dadideo)
 * [Idriss Neumann](https://twitter.com/idriss_neumann)
 * [Imrane](https://twitter.com/ImraneSubstack)
+* [Jerôme Petazzoni](https://twitter.com/jpetazzo)
 * [Juliette Audema](https://twitter.com/ajuliettedev)
 * [Katia HIMEUR TALHI](https://mobile.twitter.com/katia_tal)
 * [Mcorbin](https://twitter.com/_mcorbin)
