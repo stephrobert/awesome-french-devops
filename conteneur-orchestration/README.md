@@ -36,6 +36,7 @@
 		* 2.3.2. [Livres](#Livres-1)
 		* 2.3.3. [MOOC](#MOOC-1)
 		* 2.3.4. [Sites](#Sites-1)
+		* 2.3.5. [Vidéos](#Vidos-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -75,7 +76,7 @@
   * [Partie 1](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part1/)
   * [Partie 2](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
   * [Partie 3](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
-
+* [Démarrer avec Docker](https://blog.stephane-robert.info/post/introduction-docker/)
 
 ####  1.1.5. <a name='Vidos'></a>Vidéos
 
@@ -136,6 +137,7 @@
 * [Blog](https://kubernetes.io/blog/)
 * [Discuss Kubernetes](https://discuss.kubernetes.io/)
 * [Wiki SFEIR Kubernetes](https://wiki.sfeir.com/kubernetes/)
+* [Introduction à Kubernetes](https://blog.stephane-robert.info/post/introduction-kubernetes/)
 
 ####  2.1.5. <a name='Vidos-1'></a>Vidéos
 
@@ -153,6 +155,8 @@
 
 ####  2.2.4. <a name='Sites-1'></a>Sites
 
+* [Introduction à l'orchestrateur Nomad](https://blog.stephane-robert.info/post/introduction-hashicorp-nomad/)
+
 ###  2.3. <a name='DockerSwarm'></a>Docker Swarm
 
 ####  2.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
@@ -162,3 +166,16 @@
 ####  2.3.3. <a name='MOOC-1'></a>MOOC
 
 ####  2.3.4. <a name='Sites-1'></a>Sites
+
+* [Introduction à Docker-Swarm](https://www.grottedubarbu.fr/introduction-docker-swarm/)
+* [Comprendre, Gérer et Manipuler un cluster Docker Swarm](https://devopssec.fr/article/comprendre-gerer-manipuler-un-cluster-docker-swarm)
+* [L’orchestration avec Docker Swarm](https://www.aneo.eu/lorchestration-docker-swarm/)
+* [Tutoriel Docker Swarm](https://www.webblog.tophebergeur.com/tutoriel-docker-swarm.html)
+
+####  2.3.5. <a name='Vidos-1'></a>Vidéos
+
+* Xavki :
+  * [PLAY WITH DOCKER](https://www.youtube.com/watch?v=uQ5PpdVmaBw)
+  * [INITIALISATION DU CLUSTER](https://www.youtube.com/watch?v=U_chRBeEiyU)
+  * [Lancement d'un premier service](https://www.youtube.com/watch?v=0ndWQd2nEsg)
+  * [Déploiement en multi-service](https://www.youtube.com/watch?v=eRAIUwi36Vc)
