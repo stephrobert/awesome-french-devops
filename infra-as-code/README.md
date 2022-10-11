@@ -132,6 +132,8 @@
 
 ####  1.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
+* [Apprenez Ansible](https://riptutorial.com/Download/ansible-fr.pdf)
+
 ####  1.5.2. <a name='Livres-1'></a>Livres
 
 * [Ansible - Gérez la configuration de vos serveurs et le déploiement de vos
@@ -206,7 +208,7 @@
 
 ###  2.1. <a name='ChaosMonkey'></a>Chaos Monkey
 
-- Site officiel : [Chaos Monkey](https://netflix.github.io/chaosmonkey/)
+* Site officiel : [Chaos Monkey](https://netflix.github.io/chaosmonkey/)
 
 ####  2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
@@ -216,9 +218,9 @@
 
 ####  2.1.4. <a name='Sites-1'></a>Sites
 
-- [Ingénierie du chaos — Chaos Engineering in French — Partie 1 : (pour)quoi ?](https://medium.com/@crochefolle/ingénierie-du-chaos-chaos-engineering-in-french-ea17310c8824)
-- [Ingénierie du chaos — Chaos Engineering in French — Partie 2 : Où en sommes-nous ?](https://medium.com/paris-chaos-engineering-community/ingénierie-du-chaos-chaos-engineering-in-french-partie-2-où-en-sommes-nous-8e899e519832)
+* [Ingénierie du chaos — Chaos Engineering in French — Partie 1 : (pour)quoi ?](https://medium.com/@crochefolle/ingénierie-du-chaos-chaos-engineering-in-french-ea17310c8824)
+* [Ingénierie du chaos — Chaos Engineering in French — Partie 2 : Où en sommes-nous ?](https://medium.com/paris-chaos-engineering-community/ingénierie-du-chaos-chaos-engineering-in-french-partie-2-où-en-sommes-nous-8e899e519832)
 
 ####  2.1.5. <a name='Videos'></a>Videos
 
-- [Chaos Monkey - Devops - La Minute Agile Scrum 125](https://www.youtube.com/watch?v=zM5KE1DC9U0&t=159s)
+* [Chaos Monkey - Devops - La Minute Agile Scrum 125](https://www.youtube.com/watch?v=zM5KE1DC9U0&t=159s)

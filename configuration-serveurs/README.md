@@ -117,6 +117,8 @@
 
 ####  3.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
+* [Apprenez Mysql](https://riptutorial.com/Download/mysql-fr.pdf)
+
 ####  3.2.2. <a name='Livres-1'></a>Livres
 
 * [MySQL 8 - Administration et optimisation](https://amzn.to/3EnxN0U) de Stéphane Combaudon
@@ -129,6 +131,8 @@
 ###  3.3. <a name='PostgreSQL'></a>PostgreSQL
 
 ####  3.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+* [Apprenez PostgreSQL](https://riptutorial.com/Download/postgresql-fr.pdf)
 
 ####  3.3.2. <a name='Livres-1'></a>Livres
 
@@ -148,6 +152,8 @@
 ###  3.4. <a name='MongoDB'></a>MongoDB
 
 ####  3.4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+* [Apprenez MongoDB](https://riptutorial.com/Download/mongodb-fr.pdf)
 
 ####  3.4.2. <a name='Livres-1'></a>Livres
 
