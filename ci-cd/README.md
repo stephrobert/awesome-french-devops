@@ -69,6 +69,9 @@
 
 ##  3. <a name='Jenkins'></a>Jenkins
 
+**Site officiel** : [jenkins.io](https://www.jenkins.io/)
+**Blog** : [Jenkins Community Blog](https://www.jenkins.io/node/)
+
 ###  3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ###  3.2. <a name='Livres-1'></a>Livres
@@ -76,6 +79,8 @@
 ###  3.3. <a name='MOOC-1'></a>MOOC
 
 ###  3.4. <a name='Sites-1'></a>Sites
+
+* [Formatux : Serveur d’Intégration Continue Jenkins](https://www.formatux.fr/formatux-devops/module-040-jenkins/index.html)
 
 ###  3.5. <a name='Vidos-1'></a>Vidéos
 
