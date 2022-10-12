@@ -159,6 +159,8 @@
 * [Comment utiliser des blocks dans vos playbooks et rôles Ansible](https://blog.stephane-robert.info/post/ansible-blocks/)
 * [Maîtriser les inventaires statiques Ansible](https://blog.stephane-robert.info/post/ansible-inventaire-static-precedence-tips/)
 * [Utiliser les inventaires dynamiques Ansible](https://blog.stephane-robert.info/post/ansible-inventaire-dynamique-vagrant/)
+* [Formatux :Ansible niveau 1](https://www.formatux.fr/formatux-devops/module-020-ansible-niveau1/index.html)
+* [Formatux :Ansible niveau 2](https://www.formatux.fr/formatux-devops/module-021-ansible-niveau2/index.html)
 
 ####  1.5.5. <a name='Videos'></a>Videos
 
@@ -173,6 +175,8 @@
 ####  1.6.3. <a name='MOOC-1'></a>MOOC
 
 ####  1.6.4. <a name='Sites-1'></a>Sites
+
+* [Gestion de configurations avec Puppet](https://www.formatux.fr/formatux-devops/module-010-puppet/index.html)
 
 ###  1.7. <a name='Chef'></a>Chef
 
