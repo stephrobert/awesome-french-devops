@@ -101,7 +101,7 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 ##  3. <a name='SitesDevops'></a>Sites parlant du Devops
 
 Voici une liste non exhaustive où vous trouverez de bons articles sur les
-**outils Devops**. Regardez dans le dépôt, J'y ai déposé mon export
+**outils Devops**. Regardez dans le dépôt, j'y ai déposé mon export
 [feedly](https://feedly.com/) avec tous les flux RSS et Atom que je suis pour
 faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./feedly.opml)
 
@@ -136,6 +136,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Publicis Sapient](http://blog.engineering.publicissapient.fr)
 * [Red Hat](https://www.redhat.com/fr/blog)
 * [Scaleway](https://blog.scaleway.com)
+* [Soat](blog.soat.fr)
 * [Wescale](https://blog.wescale.fr)
 * [Zenika](https://blog.zenika.com/)
 * [Webofmars](https://www.webofmars.com/blog/)
