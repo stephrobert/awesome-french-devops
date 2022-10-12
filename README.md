@@ -100,8 +100,10 @@ menant soit vers des sites, soit des livres (**en cours d'élaboration**) :
 
 ##  3. <a name='SitesDevops'></a>Sites parlant du Devops
 
-Voici une liste non exhaustive où vous trouverez de bons articles sur les **outils
-Devops**.
+Voici une liste non exhaustive où vous trouverez de bons articles sur les
+**outils Devops**. Regardez dans le dépôt, J'y ai déposé mon export
+[feedly](https://feedly.com/) avec tous les flux RSS et Atom que je suis pour
+faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./feedly.opml)
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
 
