@@ -119,6 +119,7 @@ Devops**.
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
+* [April : Promouvoir et défendre le logiciel libre](https://april.org/)
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Blackcreeper](https://www.blackcreeper.com/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
@@ -209,6 +210,7 @@ Devops**.
 * [DevObs](https://devobs.p7t.tech/)
 * [Message a caractère informatique](https://www.clever-cloud.com/fr/podcast/)
 * [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
+* [Emission libre à vous de l'april #156](https://www.libreavous.org/154-devops-le-monde-du-libre-sobriete-energetique)
 
 ##  11. <a name='Contribuer'></a>Contribuer
 
