@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Stéphane subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="DevOps Blogs" title="DevOps Blogs">
+            <outline type="rss" text="Sharing UNIX knowledge on Le blog de Nrz" title="Sharing UNIX knowledge on Le blog de Nrz" xmlUrl="http://www.unix-experience.fr/fr/feed/" htmlUrl="https://www.unix-experience.fr/"/>
+            <outline type="rss" text="xavki" title="xavki" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCs_AZuYXi6NA9tkdbhjItHQ" htmlUrl="https://www.youtube.com/channel/UCs_AZuYXi6NA9tkdbhjItHQ"/>
+            <outline type="rss" text="G33Keries.org" title="G33Keries.org" xmlUrl="https://geekeries.org/feed/" htmlUrl="https://geekeries.org/"/>
+            <outline type="rss" text="Le blog de Seboss666" title="Le blog de Seboss666" xmlUrl="http://blog.seboss666.info/feed/" htmlUrl="https://blog.seboss666.info"/>
+            <outline type="rss" text="(mcorbin.fr)" title="(mcorbin.fr)" xmlUrl="https://mcorbin.fr/feed.xml" htmlUrl="https://mcorbin.fr"/>
+            <outline type="rss" text="Blog Devoteam Revolve" title="Blog Devoteam Revolve" xmlUrl="http://blog.d2-si.fr/feed/" htmlUrl="https://blog.revolve.team/"/>
+            <outline type="rss" text="FAUN Publication" title="FAUN Publication" xmlUrl="https://faun.pub/feed" htmlUrl="https://faun.pub?source=rss----10d1a7495d39---4"/>
+            <outline type="rss" text="Blog Linkvalue — société de conseil IT" title="Blog Linkvalue — société de conseil IT" xmlUrl="https://blog.link-value.fr/feed" htmlUrl="https://blog.link-value.fr?source=rss----5ade5ed56de3---4"/>
+            <outline type="rss" text="OCTO Talks !" title="OCTO Talks !" xmlUrl="http://blog.octo.com/feed/" htmlUrl="https://blog.octo.com/"/>
+            <outline type="rss" text="Archives des Archi &amp; techno - OCTO Talks !" title="Archives des Archi &amp; techno - OCTO Talks !" xmlUrl="http://blog.octo.com/category/architecture-et-technologies/feed/" htmlUrl="https://blog.octo.com/category/architecture-et-technologies/"/>
+            <outline type="rss" text="Be Root !" title="Be Root !" xmlUrl="http://feeds2.feedburner.com/BeRoot" htmlUrl="https://www.be-root.com"/>
+            <outline type="rss" text="Lydra | Artisans DevOps" title="Lydra | Artisans DevOps" xmlUrl="https://lydra.fr/feed/" htmlUrl="https://lydra.fr"/>
+            <outline type="rss" text="Devoxx FR" title="Devoxx FR" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsVPQfo5RZErDL41LoWvk0A" htmlUrl="https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A"/>
+            <outline type="rss" text="Le Blog Utux" title="Le Blog Utux" xmlUrl="https://utux.fr/feed.php?rss" htmlUrl="https://utux.fr/"/>
+            <outline type="rss" text="Enix" title="Enix" xmlUrl="https://enix.io/fr/blog/feed.xml" htmlUrl="https://enix.io/fr/blog/"/>
+            <outline type="rss" text="Le blog d'alter way" title="Le blog d'alter way" xmlUrl="http://blog.osones.com/feeds/all.atom.xml" htmlUrl="https://blog.alterway.fr/"/>
+            <outline type="rss" text="DevOps – Publicis Sapient Engineering – Engineering Done Right" title="DevOps – Publicis Sapient Engineering – Engineering Done Right" xmlUrl="http://blog.xebia.fr/category/devops/feed/" htmlUrl="https://blog.engineering.publicissapient.fr"/>
+            <outline type="rss" text="TFerdinand.net" title="TFerdinand.net" xmlUrl="https://tferdinand.net/rss/" htmlUrl="https://tferdinand.net/"/>
+            <outline type="rss" text="Blog de dada" title="Blog de dada" xmlUrl="http://www.dadall.info/blog/index.php?feed/atom" htmlUrl="https://www.dadall.info/"/>
+            <outline type="rss" text="Blog tech" title="Blog tech" xmlUrl="https://www.synbioz.com/blog/tech/rss.xml" htmlUrl="https://www.synbioz.com/blog/tech"/>
+            <outline type="rss" text="Piotr's TechBlog" title="Piotr's TechBlog" xmlUrl="https://piotrminkowski.com/feed/" htmlUrl="https://piotrminkowski.com/"/>
+            <outline type="rss" text="Le blog des experts WeScale - DevOps, Cloud et passion" title="Le blog des experts WeScale - DevOps, Cloud et passion" xmlUrl="http://blog.wescale.fr/feed/" htmlUrl="https://blog.wescale.fr/"/>
+            <outline type="rss" text="DevObs" title="DevObs" xmlUrl="http://devobs.p7t.tech/feed" htmlUrl="http://devobs.p7t.tech/"/>
+            <outline type="rss" text="Zwindler's Reflection" title="Zwindler's Reflection" xmlUrl="https://blog.zwindler.fr/feed/" htmlUrl="https://blog.zwindler.fr/"/>
+            <outline type="rss" text="Blog - The New Stack" title="Blog - The New Stack" xmlUrl="http://thenewstack.io/blog/feed/" htmlUrl="https://thenewstack.io"/>
+            <outline type="rss" text="La Grotte du Barbu" title="La Grotte du Barbu" xmlUrl="https://www.grottedubarbu.fr/rss/" htmlUrl="https://www.grottedubarbu.fr/"/>
+            <outline type="rss" text="Padok" title="Padok" xmlUrl="https://www.padok.fr/blog/rss.xml" htmlUrl="https://www.padok.fr/blog"/>
+            <outline type="rss" text="Arrested DevOps" title="Arrested DevOps" xmlUrl="http://feeds.podtrac.com/9R4aYQzOnl4$" htmlUrl="https://www.arresteddevops.com"/>
+            <outline type="rss" text="DamyR" title="DamyR" xmlUrl="https://www.damyr.fr/index.xml" htmlUrl="https://www.damyr.fr/"/>
+            <outline type="rss" text="Syloe" title="Syloe" xmlUrl="https://blog.syloe.com/feed/" htmlUrl="https://www.syloe.com"/>
+            <outline type="rss" text="The Abyss Project" title="The Abyss Project" xmlUrl="https://www.abyssproject.net/feed/" htmlUrl="https://www.abyssproject.net/"/>
+            <outline type="rss" text="ROBERT Stéphane - Devops" title="ROBERT Stéphane - Devops" xmlUrl="https://blog.stephane-robert.info/feed.xml" htmlUrl="https://blog.stephane-robert.info/"/>
+            <outline type="rss" text="mickael-baron.fr" title="mickael-baron.fr" xmlUrl="https://mickael-baron.fr/feed.xml" htmlUrl="https://mickael-baron.fr/"/>
+            <outline type="rss" text="Xavki" title="Xavki" xmlUrl="https://xavki.blog/feed/" htmlUrl="https://xavki.blog"/>
+            <outline type="rss" text="devopssec.fr" title="devopssec.fr" xmlUrl="https://devopssec.fr/rss.xml" htmlUrl="https://devopssec.fr/articles"/>
+            <outline type="rss" text="cocadmin" title="cocadmin" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVRJ6D343dX-x730MRP8tNw" htmlUrl="https://www.youtube.com/channel/UCVRJ6D343dX-x730MRP8tNw"/>
+        </outline>
+        <outline text="Cloud" title="Cloud">
+            <outline type="rss" text="The DigitalOcean Blog" title="The DigitalOcean Blog" xmlUrl="https://www.digitalocean.com/blog/feed.atom" htmlUrl="https://www.digitalocean.com/blog/rss"/>
+            <outline type="rss" text="Google Cloud" title="Google Cloud" xmlUrl="https://www.blog.google/products/google-cloud/rss/" htmlUrl="https://blog.google/products/google-cloud/"/>
+            <outline type="rss" text="Containers &amp; Kubernetes" title="Containers &amp; Kubernetes" xmlUrl="https://cloudblog.withgoogle.com/products/containers-kubernetes/rss/" htmlUrl="https://cloud.google.com/blog/products/containers-kubernetes/"/>
+            <outline type="rss" text="AWS News Blog" title="AWS News Blog" xmlUrl="http://aws.typepad.com/aws/atom.xml" htmlUrl="https://aws.amazon.com/blogs/aws/"/>
+            <outline type="rss" text="Serverless" title="Serverless" xmlUrl="https://cloudblog.withgoogle.com/products/serverless/rss/" htmlUrl="https://cloud.google.com/blog/products/serverless/"/>
+            <outline type="rss" text=" Amazon Web Services" title=" Amazon Web Services" xmlUrl="https://aws.amazon.com/fr/blogs/france/feed/" htmlUrl="https://aws.amazon.com/fr/blogs/france/"/>
+            <outline type="rss" text="OVHcloud Blog" title="OVHcloud Blog" xmlUrl="https://www.ovh.com/fr/blog/feed/" htmlUrl="https://blog.ovhcloud.com/"/>
+            <outline type="rss" text="Google Cloud Platform (GCP) - Release notes" title="Google Cloud Platform (GCP) - Release notes" xmlUrl="https://cloud.google.com/feeds/gcp-release-notes.xml"/>
+            <outline type="rss" text="AWS Architecture Blog" title="AWS Architecture Blog" xmlUrl="http://www.awsarchitectureblog.com/atom.xml" htmlUrl="https://aws.amazon.com/blogs/architecture/"/>
+            <outline type="rss" text="AWS Well-Architected Labs" title="AWS Well-Architected Labs" xmlUrl="https://wellarchitectedlabs.com/index.xml" htmlUrl="https://wellarchitectedlabs.com/"/>
+            <outline type="rss" text="AWS Compute Blog" title="AWS Compute Blog" xmlUrl="https://aws.amazon.com/blogs/compute/feed/" htmlUrl="https://aws.amazon.com/blogs/compute/"/>
+            <outline type="rss" text="Cloud Blog" title="Cloud Blog" xmlUrl="https://cloudblog.withgoogle.com/rss/" htmlUrl="https://cloud.google.com/blog/"/>
+        </outline>
+        <outline text="Languages" title="Languages">
+            <outline type="rss" text="Golangprojects.com" title="Golangprojects.com" xmlUrl="http://www.golangprojects.com/rss.xml" htmlUrl="https://www.golangprojects.com"/>
+            <outline type="rss" text="Rust Blog" title="Rust Blog" xmlUrl="http://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/"/>
+            <outline type="rss" text="Go (Golang) Programming Blog - Ardan Labs on" title="Go (Golang) Programming Blog - Ardan Labs on" xmlUrl="https://www.goinggo.net/index.xml" htmlUrl="https://www.ardanlabs.com/blog/"/>
+            <outline type="rss" text="Visual Studio Code - Code Editing. Redefined." title="Visual Studio Code - Code Editing. Redefined." xmlUrl="https://code.visualstudio.com/feed.xml" htmlUrl="https://code.visualstudio.com/"/>
+            <outline type="rss" text="Inside Rust Blog" title="Inside Rust Blog" xmlUrl="https://blog.rust-lang.org/inside-rust/feed.xml" htmlUrl="https://blog.rust-lang.org/inside-rust/"/>
+            <outline type="rss" text="Real Python" title="Real Python" xmlUrl="https://realpython.com/atom.xml" htmlUrl="https://realpython.com/"/>
+            <outline type="rss" text="The Go Blog" title="The Go Blog" xmlUrl="http://blog.golang.org/feeds/posts/default" htmlUrl="http://blog.golang.org/"/>
+        </outline>
+        <outline text="DevOps Culture" title="DevOps Culture">
+            <outline type="rss" text="LinuxFr.org : les dépêches" title="LinuxFr.org : les dépêches" xmlUrl="http://linuxfr.org/news.atom" htmlUrl="https://linuxfr.org/news"/>
+            <outline type="rss" text="Publicis Sapient Engineering – Engineering Done Right" title="Publicis Sapient Engineering – Engineering Done Right" xmlUrl="http://blog.xebia.fr/feed/" htmlUrl="https://blog.engineering.publicissapient.fr"/>
+            <outline type="rss" text="DevOps &amp; SRE" title="DevOps &amp; SRE" xmlUrl="https://cloudblog.withgoogle.com/products/devops-sre/rss/" htmlUrl="https://cloud.google.com/blog/products/devops-sre/"/>
+        </outline>
+        <outline text="Must Read" title="Must Read"/>
+        <outline text="DevOps Tools" title="DevOps Tools">
+            <outline type="rss" text="Kubernetes – Production-Grade Container Orchestration" title="Kubernetes – Production-Grade Container Orchestration" xmlUrl="http://kubernetesio.blogspot.com/feeds/posts/default" htmlUrl="https://kubernetes.io/"/>
+            <outline type="rss" text="Grafana Labs Blog on Grafana Labs" title="Grafana Labs Blog on Grafana Labs" xmlUrl="http://grafana.org/blog/index.xml" htmlUrl="https://grafana.com/blog/"/>
+            <outline type="rss" text="Release notes from ansible" title="Release notes from ansible" xmlUrl="https://github.com/ansible/ansible/releases.atom" htmlUrl="https://github.com/ansible/ansible/releases"/>
+            <outline type="rss" text="Engineering – Docker" title="Engineering – Docker" xmlUrl="https://blog.docker.com/category/engineering/feed/" htmlUrl="https://www.docker.com"/>
+            <outline type="rss" text="Semaphore" title="Semaphore" xmlUrl="https://semaphoreci.com/community/tutorials.atom" htmlUrl="https://semaphoreci.com"/>
+            <outline type="rss" text="Codefresh" title="Codefresh" xmlUrl="http://blog.codefresh.io/rss/" htmlUrl="https://codefresh.io/"/>
+            <outline type="rss" text="Puppet.com Blog RSS Feed" title="Puppet.com Blog RSS Feed" xmlUrl="http://feeds.feedburner.com/PuppetLabs" htmlUrl="https://puppet.com"/>
+            <outline type="rss" text="the monitor on Modern monitoring &amp; security" title="the monitor on Modern monitoring &amp; security" xmlUrl="http://feeds.feedburner.com/Datadog" htmlUrl="https://www.datadoghq.com/blog/"/>
+            <outline type="rss" text="Learnk8s" title="Learnk8s" xmlUrl="https://learnk8s.io/rss.xml" htmlUrl="https://learnk8s.io"/>
+            <outline type="rss" text="API Technology and Open Source Blog | Kong Inc." title="API Technology and Open Source Blog | Kong Inc." xmlUrl="http://blog.mashape.com/rss" htmlUrl="https://konghq.com/blog"/>
+            <outline type="rss" text="Weaveworks" title="Weaveworks" xmlUrl="https://www.weave.works/blog/" htmlUrl="https://www.weave.works/"/>
+            <outline type="rss" text="WSL - Windows Command Line" title="WSL - Windows Command Line" xmlUrl="https://blogs.msdn.microsoft.com/commandline/tag/wsl/feed/" htmlUrl="https://devblogs.microsoft.com/commandline/tag/wsl/"/>
+            <outline type="rss" text="Tech Archives - NGINX" title="Tech Archives - NGINX" xmlUrl="https://www.nginx.com/category/tech/feed/" htmlUrl="https://www.nginx.com"/>
+            <outline type="rss" text="Elastic Blog - Elasticsearch, Kibana, and ELK Stack" title="Elastic Blog - Elasticsearch, Kibana, and ELK Stack" xmlUrl="https://www.elastic.co/fr/blog/feed" htmlUrl="https://www.elastic.co"/>
+            <outline type="rss" text="Windows Command Line" title="Windows Command Line" xmlUrl="https://blogs.msdn.microsoft.com/commandline/feed/" htmlUrl="https://devblogs.microsoft.com/commandline/"/>
+            <outline type="rss" text="Ansible Blog" title="Ansible Blog" xmlUrl="http://www.ansible.com/blog/rss.xml" htmlUrl="https://www.ansible.com/blog"/>
+            <outline type="rss" text="The Crossplane Blog" title="The Crossplane Blog" xmlUrl="https://blog.crossplane.io/rss/" htmlUrl="https://blog.crossplane.io/"/>
+            <outline type="rss" text="memo-linux.com" title="memo-linux.com" xmlUrl="http://memo-linux.com/feed/" htmlUrl="https://memo-linux.com"/>
+            <outline type="rss" text="HashiCorp Solutions Engineering Blog" title="HashiCorp Solutions Engineering Blog" xmlUrl="https://medium.com/feed/hashicorp-engineering" htmlUrl="https://medium.com/hashicorp-engineering?source=rss----9a924bda51d6---4"/>
+            <outline type="rss" text="HashiCorp Blog" title="HashiCorp Blog" xmlUrl="http://www.hashicorp.com/feed.xml" htmlUrl="https://hashicorp.com/blog"/>
+            <outline type="rss" text="buildah.io" title="buildah.io" xmlUrl="https://buildah.io/feed.xml" htmlUrl="https://buildah.io/"/>
+            <outline type="rss" text="Argo Project" title="Argo Project" xmlUrl="https://blog.argoproj.io/feed" htmlUrl="https://blog.argoproj.io?source=rss----21be29067291---4"/>
+            <outline type="rss" text="Docker" title="Docker" xmlUrl="http://blog.docker.io/feed/" htmlUrl="https://www.docker.com"/>
+            <outline type="rss" text="GitLab" title="GitLab" xmlUrl="https://www.gitlab.com/atom.xml" htmlUrl="https://about.gitlab.com/blog/"/>
+            <outline type="rss" text="Chef Release Announcements - Chef Questions" title="Chef Release Announcements - Chef Questions" xmlUrl="https://discourse.chef.io/c/chef-release.rss" htmlUrl="https://discourse.chef.io/c/chef-release/9"/>
+            <outline type="rss" text="Gruntwork" title="Gruntwork" xmlUrl="https://blog.gruntwork.io/feed" htmlUrl="https://blog.gruntwork.io?source=rss----f6262bc8ce7a---4"/>
+            <outline type="rss" text="Planet Puppet" title="Planet Puppet" xmlUrl="http://www.planetpuppet.org/?type=atom10" htmlUrl="http://www.planetpuppet.org/"/>
+            <outline type="rss" text="OpenTelemetry" title="OpenTelemetry" xmlUrl="https://medium.com/feed/opentelemetry" htmlUrl="https://medium.com/opentelemetry?source=rss----9a8242585b1c---4"/>
+            <outline type="rss" text="Redis" title="Redis" xmlUrl="http://redislabs.com/feed" htmlUrl="https://redis.com/"/>
+            <outline type="rss" text="Fluentd Blog" title="Fluentd Blog" xmlUrl="http://www.fluentd.org/blog/feed.rss" htmlUrl="https://www.fluentd.org/blog"/>
+            <outline type="rss" text="Jenkins Blog" title="Jenkins Blog" xmlUrl="http://feeds.feedburner.com/ContinuousBlog" htmlUrl="https://www.jenkins.io/"/>
+            <outline type="rss" text="Blog on Helm" title="Blog on Helm" xmlUrl="https://helm.sh/blog/index.xml" htmlUrl="https://helm.sh/blog/"/>
+        </outline>
+        <outline text="DevOps Info" title="DevOps Info">
+            <outline type="rss" text="Human Coders News : DevOps" title="Human Coders News : DevOps" xmlUrl="http://news.humancoders.com/t/devops/items/feed.rss" htmlUrl="https://news.humancoders.com/t/devops"/>
+            <outline type="rss" text="TOOLinux----" title="TOOLinux----" xmlUrl="http://www.toolinux.com/backend.php3" htmlUrl="http://toolinux.com/"/>
+            <outline type="rss" text="Le Courrier du hacker - archives" title="Le Courrier du hacker - archives" xmlUrl="https://lecourrierduhacker.com/rss.xml" htmlUrl="https://lecourrierduhacker.com"/>
+            <outline type="rss" text="Framasoft - Toute l'actualité" title="Framasoft - Toute l'actualité" xmlUrl="http://framapack.org/~framaflux/rss.php" htmlUrl="https://framasoft.org"/>
+            <outline type="rss" text="Human Coders News : Cloud" title="Human Coders News : Cloud" xmlUrl="http://news.humancoders.com/t/cloud/items/feed.rss" htmlUrl="https://news.humancoders.com/t/cloud"/>
+            <outline type="rss" text="Cloud Native Computing Foundation" title="Cloud Native Computing Foundation" xmlUrl="https://www.cncf.io/feed" htmlUrl="https://www.cncf.io"/>
+        </outline>
+    </body>
+</opml>
