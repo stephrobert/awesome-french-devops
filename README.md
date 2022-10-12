@@ -118,6 +118,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [tferdinand](https://tferdinand.net)
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
 * [Frédéric Léger](https://www.webofmars.com/blog/)
+* [TheBidouilleur](https://thebidouilleur.xyz)
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
