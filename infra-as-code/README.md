@@ -168,6 +168,8 @@
 
 ###  1.6. <a name='Puppet'></a>Puppet
 
+**Site Officiel** : [puppet.com](https://puppet.com/)
+
 ####  1.6.1. <a name='LivresGratuits-1'></a>Livres Gratuits
 
 ####  1.6.2. <a name='Livres-1'></a>Livres
@@ -177,6 +179,7 @@
 ####  1.6.4. <a name='Sites-1'></a>Sites
 
 * [Gestion de configurations avec Puppet](https://www.formatux.fr/formatux-devops/module-010-puppet/index.html)
+* [Introduction à Puppet](https://blog.stephane-robert.info/post/introduction-puppet/)
 
 ###  1.7. <a name='Chef'></a>Chef
 
