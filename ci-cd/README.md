@@ -81,6 +81,7 @@
 ###  3.4. <a name='Sites-1'></a>Sites
 
 * [Formatux : Serveur d’Intégration Continue Jenkins](https://www.formatux.fr/formatux-devops/module-040-jenkins/index.html)
+* [Introduction aux déploiements et configurations automatisés avec Puppet](https://connect.ed-diamond.com/Linux-Pratique/lp-115/introduction-aux-deploiements-et-configurations-automatises-avec-puppet)
 
 ###  3.5. <a name='Vidos-1'></a>Vidéos
 
