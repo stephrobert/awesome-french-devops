@@ -105,6 +105,12 @@ des tutoriels.
 
 * [Tutoriels Rust](https://blog.guillaume-gomez.fr/Rust/) (pleins de liens)
 
+### Videos
+
+* [Introduction au langage Rust avec Visual Studio Code et
+  Rustlings](https://www.youtube.com/watch?v=--2ssQxE5EU&t=15s) par
+Pentiminax
+
 ##  4. <a name='Ruby'></a>Ruby
 
 **Site officiel** : [Ruby-lang.fr](https://www.ruby-lang.org/fr/) (Fr).
