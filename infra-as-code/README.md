@@ -194,6 +194,8 @@
 
 ####  1.7.4. <a name='Sites-1'></a>Sites
 
+* [Chef - Introduction à l'outil de Gestion de Configuration Chef Infra](http://localhost:1313/post/introduction-chef-solo/)
+
 ###  1.8. <a name='Salt'></a>Salt
 
 ####  1.8.1. <a name='LivresGratuits-1'></a>Livres Gratuits
