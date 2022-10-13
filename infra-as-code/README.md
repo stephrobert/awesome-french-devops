@@ -180,6 +180,9 @@
 
 * [Gestion de configurations avec Puppet](https://www.formatux.fr/formatux-devops/module-010-puppet/index.html)
 * [Introduction à Puppet](https://blog.stephane-robert.info/post/introduction-puppet/)
+* [Gérer un fichier avec Puppet](https://blog.engineering.publicissapient.fr/2014/01/20/puppet-recipes-01-gerer-un-fichier-avec-puppet/)
+* [Hiera](https://blog.engineering.publicissapient.fr/2014/02/19/puppet-recipes-02-hiera/)
+* [Test Unitaires](https://blog.engineering.publicissapient.fr/2014/05/21/puppet-recipes-03-tests-unitaires/)
 
 ###  1.7. <a name='Chef'></a>Chef
 
