@@ -1,5 +1,7 @@
 # Awesome French Devops [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+🚩 Soutenez ce projet en y mettant simplement une petite étoile. 🌟
+
 <!-- vscode-markdown-toc -->
 * 1. [Introduction](#Introduction)
 * 2. [Liens vers les catégories d'outils](#Liensverslescatgoriesdoutils)
