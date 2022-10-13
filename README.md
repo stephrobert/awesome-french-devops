@@ -23,8 +23,9 @@
 * 8. [Des comptes Twitters](#DescomptesTwitters)
 * 9. [Des slacks](#Desslacks)
 * 10. [Podcasts](#Podcasts)
-* 11. [Contribuer](#Contribuer)
-	* 11.1. [Lignes directrices](#Lignesdirectrices)
+* 11. [Conférences](#Conferences)
+* 12. [Contribuer](#Contribuer)
+	* 12.1. [Lignes directrices](#Lignesdirectrices)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -209,18 +210,26 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 ##  10. <a name='Podcasts'></a>Podcasts
 
-* [Radio DevOps](https://lydra.fr/radio-devops/)
-* [DevObs](https://devobs.p7t.tech/)
-* [Message à caractère informatique](https://www.clever-cloud.com/fr/podcast/)
-* [Electro Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/)
+* [Dans ton kube](https://dtk.p7t.tech/) Parle de Kubernetes
+* [DevObs](https://devobs.p7t.tech/) Le magazine et observatoire du DevOps
+* [Electro
+  Monkeys](https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/) Les concepts et les technologies cloud natives
 * [Émission libre à vous de l'april #154](https://www.libreavous.org/154-devops-le-monde-du-libre-sobriete-energetique)
+* [Message à caractère informatique](https://www.clever-cloud.com/fr/podcast/)
+* [Radio DevOps](https://lydra.fr/radio-devops/) Le mouvement DevOps
+* [WeSpeakCloud](https://www.podcastics.com/podcast/wespeakcloud/) Les
+  problématiques complexes comme la sécurité ou le DevOps
 
-##  11. <a name='Contribuer'></a>Contribuer
+## 11. <a name='Conferences'></a>Conférences
+
+Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
+
+##  12. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  11.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  12.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 * Ajoutez un lien ou plusieurs par [pull
   request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
