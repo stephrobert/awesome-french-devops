@@ -111,6 +111,8 @@ des tutoriels.
   Rustlings](https://www.youtube.com/watch?v=--2ssQxE5EU&t=15s) par
 Pentiminax
 
+* [Parlons peu, parlons rust](https://www.youtube.com/c/ParlonspeuparlonsRust/videos) par @o0ignition0o
+
 ##  4. <a name='Ruby'></a>Ruby
 
 **Site officiel** : [Ruby-lang.fr](https://www.ruby-lang.org/fr/) (Fr).
