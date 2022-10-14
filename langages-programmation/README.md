@@ -71,8 +71,6 @@
 
 ###  2.1. <a name='LivresGratuits'></a>Livres Gratuits
 
-* [Apprenez Rust](https://riptutorial.com/Download/rust-fr.pdf)
-
 ###  2.2. <a name='Livres-1'></a>Livres
 
 * [Le langage Go - Les fondamentaux du langage: Les fondamentaux du langage](https://amzn.to/3e8LgPG) de Frédéric G. Marand
@@ -90,6 +88,8 @@ des tutoriels.
 **Site officiel** : [Rust-lang.org](https://www.rust-lang.org/fr) (Fr).
 
 ###  3.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+* [Apprenez Rust](https://riptutorial.com/Download/rust-fr.pdf)
 
 * [Traduction du Rust book en
   français](https://jimskapt.github.io/rust-book-fr/)
@@ -110,6 +110,8 @@ des tutoriels.
 * [Introduction au langage Rust avec Visual Studio Code et
   Rustlings](https://www.youtube.com/watch?v=--2ssQxE5EU&t=15s) par
 Pentiminax
+
+* [Parlons peu, parlons rust](https://www.youtube.com/c/ParlonspeuparlonsRust/videos) par @o0ignition0o
 
 ##  4. <a name='Ruby'></a>Ruby
 

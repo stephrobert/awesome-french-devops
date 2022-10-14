@@ -53,7 +53,7 @@ Pour **mettre en œuvre avec succès le DevOps** on se doit de connaître un
 **construction (build)**, les **tests**, la **mise en production**, les
 **mesures** et la **détection d'incidents**, ...
 
-C'est dans ce cadre que vous serez amener à connaître un certain nombre de
+C'est dans ce cadre que vous serez amené à connaître un certain nombre de
 ces outils. Je vous propose ce **mind-map** qui représente un peu tous les
 outils que vous serez amené à **rencontrer le plus souvent** :
 
@@ -121,6 +121,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [scalastic](https://scalastic.io/)
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
+* [TheBidouilleur](https://thebidouilleur.xyz)
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
 
 ###  3.2. <a name='Socits'></a>Sociétés
@@ -241,6 +242,6 @@ commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 * Le lien pointe sur du contenu en Français. Excepté les liens vers les sites
   officiels des produits cités.
 * Ajoutez une section si nécessaire.
-* Éviter les doublons.
+* Évitez les doublons.
 * Vérifiez votre orthographe et votre grammaire.
 * Supprimez tout espace blanc de fin.
