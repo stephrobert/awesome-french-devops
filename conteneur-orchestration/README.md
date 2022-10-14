@@ -54,6 +54,7 @@
 
 * [Introduction à Docker [PDF]](https://halshs.archives-ouvertes.fr/cel-02285669/file/Introduction%20%C3%A0%20Docker.pdf)
 * [Apprenez Docker](https://riptutorial.com/Download/docker-fr.pdf)
+* [Recommentation de sécurité relatives aux déploiement de conteneur Docker](https://www.ssi.gouv.fr/uploads/2020/12/docker_fiche_technique.pdf) ANSSI-FT-082
 
 ####  1.1.2. <a name='Livres'></a>Livres
 
@@ -66,6 +67,7 @@
 ####  1.1.3. <a name='MOOC'></a>MOOC
 
 * [Optimisez votre déploiement en créant des conteneurs avec Docker](https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker/6211458-lancez-votre-premier-conteneur-en-local)
+* [devopssec.fr : Apprendre Docker](https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section)
 
 ####  1.1.4. <a name='Sites'></a>Sites
 
@@ -78,9 +80,11 @@
   * [Partie 3](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
 * [Démarrer avec Docker](https://blog.stephane-robert.info/post/introduction-docker/)
 
-####  1.1.5. <a name='Vidos'></a>Vidéos
+####  1.1.5. <a name='Videos'></a>Vidéos
 
 * [xavki](https://www.youtube.com/watch?v=fdlZqRZXWOc) 30 Vidéos
+* [cocadmin : Débutez de Zéro avec Docker](https://www.youtube.com/playlist?list=PL8SZiccjllt1jz9DsD4MPYbbiGOR_FYHu) 8 Vidéos
+* [Docker sur Windows et Mac : Devoxx France](https://www.youtube.com/watch?v=8VAYSn2DmJM)
 
 ###  1.2. <a name='Podman'></a>Podman
 
