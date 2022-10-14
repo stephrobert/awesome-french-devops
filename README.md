@@ -113,14 +113,15 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Bruno Levasseur](https://blog.levassb.ovh/)
 * [dadall](https://www.dadall.info)
 * [damyr](https://www.damyr.fr)
+* [Frédéric Léger](https://www.webofmars.com/blog/)
 * [grottedubarbu](https://www.grottedubarbu.fr)
 * [jesuisundev](https://www.jesuisundev.com)
 * [la forge](https://lafor.ge/)
 * [mcorbin](https://www.mcorbin.fr/)
+* [scalastic](https://scalastic.io/)
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
-* [Frédéric Léger](https://www.webofmars.com/blog/)
 
 ###  3.2. <a name='Socits'></a>Sociétés
 
@@ -128,6 +129,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Blackcreeper](https://www.blackcreeper.com/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
+* [EasyTeam](https://easyteam.fr/blog/)
 * [Eazytraining](https://eazytraining.fr/blog/)
 * [Eleven Labs](https://blog.eleven-labs.com)
 * [Enix](https://enix.io/fr/blog/)
