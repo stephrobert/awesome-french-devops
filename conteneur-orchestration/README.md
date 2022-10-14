@@ -80,7 +80,7 @@
   * [Partie 3](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
 * [Démarrer avec Docker](https://blog.stephane-robert.info/post/introduction-docker/)
 
-####  1.1.5. <a name='Videos'></a>Vidéos
+####  1.1.5. <a name='Vidos'></a>Vidéos
 
 * [xavki](https://www.youtube.com/watch?v=fdlZqRZXWOc) 30 Vidéos
 * [cocadmin : Débutez de Zéro avec Docker](https://www.youtube.com/playlist?list=PL8SZiccjllt1jz9DsD4MPYbbiGOR_FYHu) 8 Vidéos
