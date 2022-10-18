@@ -209,6 +209,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
+* [TheBidouilleur](https://twitter.com/TheBidouilleur)
 
 ##  9. <a name='Desslacks'></a>Des slacks
 
