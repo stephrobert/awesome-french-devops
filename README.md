@@ -206,8 +206,10 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Michée Lengronne](https://twitter.com/MicheeLengronne)
 * [Nicolas Hug](https://twitter.com/KrustyHack)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
+* [TheBidouilleur](https://twitter.com/TheBidouilleur)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
+
 
 ##  9. <a name='Desslacks'></a>Des slacks
 
