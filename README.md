@@ -151,7 +151,6 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 * [Mieux comprendre DevOps](https://aws.amazon.com/fr/devops/what-is-devops/)
 * [Accelerate vu par Zenika](https://blog.zenika.com/2021/08/18/accelerate-vu-par-zenika/)
-* [Apprendre Docker avec une tasse de café](https://docker.avec.une-tasse-de.cafe/)
 
 ##  4. <a name='Livres'></a>Livres
 
