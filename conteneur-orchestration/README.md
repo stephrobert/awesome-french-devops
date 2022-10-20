@@ -131,7 +131,8 @@
 * [Kubernetes - Maîtrisez l'orchestrateur des infrastructures du futur:
   Maîtrisez l'orchestrateur des infrastructures du
   futur](https://amzn.to/3CG12e8) de Kelsey Hightower
-* [Understanding Kubernetes in a visual way](https://www.amazon.fr/dp/B0BB619188/) - Aurélie Vache
+* [Understanding Kubernetes in a visual way](https://amzn.to/3Tfa5IM) - Aurélie Vache
+* [Kubernetes: Gérez la plateforme de déploiement de vos applications conteneurisées](https://amzn.to/3CQJVF8) - Yannig Perré
 
 ####  2.1.3. <a name='KubernetesMOOC'></a>MOOC
 
