@@ -229,7 +229,8 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 ## 11. <a name='Conferences'></a>Conférences
 
-Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
+* Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
+* Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : [scraly/developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda)
 
 ##  12. <a name='Contribuer'></a>Contribuer
 
