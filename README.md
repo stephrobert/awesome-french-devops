@@ -142,7 +142,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Publicis Sapient](http://blog.engineering.publicissapient.fr)
 * [Red Hat](https://www.redhat.com/fr/blog)
 * [Scaleway](https://blog.scaleway.com)
-* [Soat](blog.soat.fr)
+* [Soat](https://blog.soat.fr)
 * [Wescale](https://blog.wescale.fr)
 * [Zenika](https://blog.zenika.com/)
 * [Webofmars](https://www.webofmars.com/blog/)
