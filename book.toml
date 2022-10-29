@@ -8,7 +8,7 @@ title = "Awesome French Devops"
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
-marker = "{:toc}"
+marker = "<!--- toc -->"
 
 [output.html]
 # site-url = "/mdBook/"

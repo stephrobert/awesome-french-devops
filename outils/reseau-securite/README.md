@@ -1,5 +1,5 @@
 # Réseaux et Sécurité Informatique
-{:toc}
+<!--- toc -->
 ## Réseaux
 
 ### Livres gratuits

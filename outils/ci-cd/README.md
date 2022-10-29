@@ -1,5 +1,5 @@
 # Pipelines de CI/CD :
-{:toc}
+<!--- toc -->
 ## Gitlab-CI/CD
 
 **Site officiel** : [about.gitlab.com](https://about.gitlab.com/fr-fr/)

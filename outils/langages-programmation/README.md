@@ -1,5 +1,5 @@
 # Langages de Programmation
-{:toc}
+<!--- toc -->
 ## Python
 
 **Site officiel** : [Python.org](https://www.python.org/)
