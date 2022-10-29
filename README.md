@@ -20,12 +20,12 @@ Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 
 **Donc ce dépôt a pour objectifs** :
 
-* d'aider à démarrer sa formation et à monter en compétences sur la culture
-  et/ou les outils DevOps
-* de recenser tous les liens pointant sur du **contenu en français** pour
+* d'aider à **démarrer sa formation** et à **monter en compétences** sur la
+  **culture et/ou les outils DevOps**.
+* de **recenser tous les liens pointant sur du contenu en français** pour
   remplir cet objectif.
-* de générer via un pipeline un livre aux formats PDF et Epub à partir de son
-  contenu.
+* de générer via un pipeline un **livre aux formats PDF et Epub** à partir de
+  son contenu.
 
 ## Structure du projet
 
@@ -44,7 +44,7 @@ points.
   * [Administrations de serveurs](outils/admin-serveurs/)
   * [Langage de Programmation](outils/langages-programmation/)
   * [Réseaux et Sécurité](outils/reseau-securite/)
-  * [Configuration de serveurs](outils/admin-serveurs/)
+  * [Configuration de serveurs](outils/configuration-serveurs/)
   * [Infrastructure As Code](outils/infra-as-code/)
     * [Provisionnement](outils/infra-as-code/provision/)
     * [Gestion de Configuration](outils/infra-as-code/gestion-configuration/)

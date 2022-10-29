@@ -15,16 +15,16 @@ grands sujets_
 
 ![mind mapping outils devops](/media/formation-outils-devops.png)
 
-1. **[Administration de serveurs](/admin-serveurs/README.md)**: Savoir configurer et dépanner un serveur Linux ou Windows
-2. **[Langages de Programmation](/langages-programmation/README.md)**: Savoir écrire des petits programmes
+1. **[Administration de serveurs](/admin-serveurs/)**: Savoir configurer et dépanner un serveur Linux ou Windows
+2. **[Langages de Programmation](/langages-programmation/)**: Savoir écrire des petits programmes
 3. **Connaitre les [rudiments des réseaux et de la Sécurité
-   Informatique](/reseau-securite/README.md)**(Adresse IP, Firewalls, Routage)
-4. **[Configuration et maintenance de serveurs](/configuration-serveurs/README.md)**: WEB, Cache et de Base de Données.
-5. **Savoir écrire du [code d'infrastructure](/infra-as-code/README.md)**
-6. **Savoir écrire des [pipelines de CI/CD](/ci-cd/README.md)**
-7. **Savoir [construire et Orchestrer des conteneurs](/conteneur-orchestration/README.md)**: applications cloud native
-8. **Connaître les principaux [Clouders](/cloud/README.md)**.
-9. **Mise en place d'outils de [Surveillance et de Centralisation de logs](/surveillance/README.md)**
+   Informatique](/reseau-securite/)**(Adresse IP, Firewalls, Routage)
+4. **[Configuration et maintenance de serveurs](/configuration-serveurs/)**: WEB, Cache et de Base de Données.
+5. **Savoir écrire du [code d'infrastructure](/infra-as-code/)**
+6. **Savoir écrire des [pipelines de CI/CD](/ci-cd/)**
+7. **Savoir [construire et Orchestrer des conteneurs](/conteneur-orchestration/)**: applications cloud native
+8. **Connaître les principaux [Clouders](/cloud/)**.
+9. **Mise en place d'outils de [Surveillance et de Centralisation de logs](/surveillance/)**
 
 Vous pouvez démarrer plusieurs sujets en parallèle, mais pas trop tout de même.
 Par exemple pour la partie Administration de Serveurs, vous pouvez lire en //

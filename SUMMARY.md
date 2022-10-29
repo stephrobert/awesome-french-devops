@@ -11,7 +11,7 @@
   - [Administration de serveurs](outils/admin-serveurs/README.md)
   - [Langage de Programmation](outils/langages-programmation/README.md)
   - [Réseaux et Sécurité](outils/reseau-securite/README.md)
-  - [Configuration de serveurs](outils/admin-serveurs/README.md)
+  - [Configuration de serveurs](outils/configuration-serveurs/README.md)
   - [Infrastructure As Code](outils/infra-as-code/README.md)
     - [Provisionnement](outils/infra-as-code/provision/README.md)
     - [Gestion de Configuration](outils/infra-as-code/gestion-configuration/README.md)
