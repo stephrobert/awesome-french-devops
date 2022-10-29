@@ -1,6 +1,6 @@
 # Administration de serveurs
 
-<!--- toc -->
+<!-- toc -->
 
 ## Linux
 
