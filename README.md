@@ -40,12 +40,18 @@ points.
   * [Ingénieur Systèmes](metiers/systeme/)
   * [Ingénieur en Automatisation](metiers/automate/)
   * [Ingénieurs de Tests](metiers/tests/)
-* [Les outils DevOps](outils/) : Tous les outils et technologies classés par
-  genre.
-  * [Gestion de serveurs](admin-serveurs/)
-  * [Infrastructure As Code](infra-as-code/)
-    * [Provisionnement](infra-as-code/provision/)
-    * [Gestion de Configuration](infra-as-code/gestion-configuration/)
+* [Les outils DevOps](outils/)
+  * [Administrations de serveurs](outils/admin-serveurs/)
+  * [Langage de Programmation](outils/langages-programmation/)
+  * [Réseaux et Sécurité](outils/reseau-securite/)
+  * [Configuration de serveurs](outils/admin-serveurs/)
+  * [Infrastructure As Code](outils/infra-as-code/)
+    * [Provisionnement](outils/infra-as-code/provision/)
+    * [Gestion de Configuration](outils/infra-as-code/gestion-configuration/)
+  * [Pipelines CI/CD](outils/ci-cd/)
+  * [Conteneurs et Orchestrateurs](outils/conteneur-orchestration/)
+  * [Cloud](outils/cloud/)
+  * [Monitoring et Surveillance](outils/surveillance/)
 * [Les liens Devops](bookmarks/) : Une grande liste de liens, de comptes
   twitter, de comptes slack, de chaines youtube et des conférences.
 * [Contribuer](contribute/) : Comment contribuer au projet.
