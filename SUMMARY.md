@@ -9,6 +9,8 @@
   - [Ingénieurs de Tests](metiers/tests/README.md)
 - [Les outils DevOps](outils/README.md)
   - [Administration de serveurs](outils/admin-serveurs/README.md)
+    - [Linux](outils/admin-serveurs/linux/README.md)
+    - [Windows](outils/admin-serveurs/windows/README.md)
   - [Langage de Programmation](outils/langages-programmation/README.md)
   - [Réseaux et Sécurité](outils/reseau-securite/README.md)
   - [Configuration de serveurs](outils/configuration-serveurs/README.md)
