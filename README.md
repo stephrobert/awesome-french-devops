@@ -3,11 +3,22 @@
 
 ## Introduction
 
-**C'est une question qui revient souvent. Comment je débute si je veux
-maîtriser les outils Devops ? Par quoi dois-je commencer ? C'est pour répondre a
-ces besoins que j'ai décidé de créer ce dépôt Github**
+* C'est quoi DevOps ?
+* Par quoi dois-je commencer ?
+* Comment je débute si je veux maîtriser les outils Devops ?
 
-Donc ce dépôt a pour objectifs :
+**Ce sont des questions qui reviennent souvent. C'est pour y répondre que
+j'ai décidé de créer ce dépôt Github**
+
+## Objectifs de ce projet
+
+Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
+
+* [La démarche DevOps](devops/)
+* [Un certain nombre de type d'outils ou de technologies](outils/)** dont la
+  liste est fonction du poste que vous souhaitez occuper où que vous occupez.
+
+**Donc ce dépôt a pour objectifs** :
 
 * d'aider à démarrer sa formation et à monter en compétences sur la culture
   et/ou les outils DevOps
@@ -16,21 +27,19 @@ Donc ce dépôt a pour objectifs :
 * de générer via un pipeline un livre aux formats PDF et Epub à partir de son
   contenu.
 
-Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
+## Structure du projet
 
-* [La démarche DevOps](devops/)
-* [Un certain nombre de type d'outils ou de technologies](outils/)** dont la
-  liste est fonction du poste que vous souhaitez occuper où que vous occupez.
-
-Voici la liste des différents chapitres :
+Le dépôt/livre contient un ensemble de chapitres qui abordent les différents
+points.
 
 * [La démarche DevOps](devops/) : L'historique, les principes de la démarche
   DevOps.
 * [Les fiches Métiers](metiers/) : Les `fiches de poste` des Métiers pouvant
   utiliser la démarche DevOps.
-  * [Développeur](metiers/dev/)
-  * [Intégrateur](metiers/int/)
-  * [suite](#)
+  * [Développeur](metiers/developpeur/)
+  * [Ingénieur Systèmes](metiers/systeme/)
+  * [Ingénieur en Automatisation](metiers/automate/)
+  * [Ingénieurs de Tests](metiers/tests/)
 * [Les outils DevOps](outils/) : Tous les outils et technologies classés par
   genre.
   * [Gestion de serveurs](admin-serveurs/)
@@ -40,3 +49,9 @@ Voici la liste des différents chapitres :
 * [Les liens Devops](bookmarks/) : Une grande liste de liens, de comptes
   twitter, de comptes slack, de chaines youtube et des conférences.
 * [Contribuer](contribute/) : Comment contribuer au projet.
+
+**Remarque importante** :
+Étant donné que DevOps couvre l'ensemble du cycle de vie du développement
+logiciel, cela signifie que vous travaillez avec de nombreuses technologies. De
+plus, DevOps continue d'évoluer et de nombreux nouveaux outils sont développés
+en permanence.
