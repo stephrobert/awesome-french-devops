@@ -32,7 +32,7 @@ Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 Le dépôt/livre contient un ensemble de chapitres qui abordent les différents
 points.
 
-* [La démarche DevOps](devops/) : L'historique, les principes de la démarche
+* [La démarche DevOps](demarche-devops/) : L'historique, les principes de la démarche
   DevOps.
 * [Les fiches Métiers](metiers/) : Les `fiches de poste` des Métiers pouvant
   utiliser la démarche DevOps.
