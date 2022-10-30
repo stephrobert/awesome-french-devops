@@ -1,5 +1,6 @@
 # Summary
 
+- [Avant-Propos](avant-propos.md)
 - [Introduction](./README.md)
 - [La démarche DevOps](demarche-devops/README.md)
 - [Les fiches Métiers](metiers/README.md)
