@@ -27,14 +27,16 @@ Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 * de générer via un pipeline un **livre aux formats PDF et Epub** à partir de
   son contenu.
 
+Étant donné que DevOps couvre l'ensemble du cycle de vie du développement
+logiciel, cela signifie que vous travaillez avec de nombreuses technologies. De
+plus, DevOps continue d'évoluer et de nombreux nouveaux outils sont développés,
+en permanence, alors tous ne seront pas dans ce livre.
+
 ## Structure du projet
 
 Ce dépôt est devenu aussi un projet de livre et donc sa structure correspond à
 un ensemble de chapitres couvrant l'ensemble de la formation à la démarche
-DevOps. Étant donné que DevOps couvre l'ensemble du cycle de vie du
-développement logiciel, cela signifie que vous travaillez avec de nombreuses
-technologies. De plus, DevOps continue d'évoluer et de nombreux nouveaux outils
-sont développés, en permanence, alors tous ne seront pas dans ce livre.
+DevOps.
 
 * [La démarche DevOps](demarche-devops/README.md) : L'historique, les principes de la démarche
   DevOps.
