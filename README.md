@@ -15,8 +15,12 @@ j'ai décidé de créer ce dépôt Github**
 Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 
 * [La démarche DevOps](demarche-devops/)
-* [Un certain nombre de type d'outils ou de technologies](outils/)** dont la
-  liste est fonction du poste que vous souhaitez occuper où que vous occupez.
+* [Un certain nombre de type d'outils ou de technologies](outils/)** : Étant
+  donné que le DevOps couvre l'ensemble du cycle de vie d'un logiciel, cela
+  signifie que vous travaillez avec de nombreuses technologies. La liste des
+  outils que vous devez connaitre est fonction du poste que vous souhaitez
+  occuper où que vous occupez. C'est pour cela que j'ai créé des [fiches
+  métiers](metiers/)
 
 **Donc ce dépôt a pour objectifs** :
 
@@ -27,10 +31,8 @@ Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 * de générer via un pipeline un **livre aux formats PDF et Epub** à partir de
   son contenu.
 
-Étant donné que DevOps couvre l'ensemble du cycle de vie du développement
-logiciel, cela signifie que vous travaillez avec de nombreuses technologies. De
-plus, DevOps continue d'évoluer et de nombreux nouveaux outils sont développés,
-en permanence, alors tous ne seront pas dans ce livre.
+**Point Important** : DevOps continuant d'évoluer et de nombreux nouveaux outils
+sont développés, en permanence, alors tous ne seront pas dans ce livre.
 
 ## Structure du projet
 
