@@ -43,6 +43,7 @@ points.
 * [Les outils DevOps](outils/)
   * [Administrations de serveurs](outils/admin-serveurs/)
   * [Langage de Programmation](outils/langages-programmation/)
+    * [Python](outils/langages-programmation/python/)
   * [Réseaux et Sécurité](outils/reseau-securite/)
   * [Configuration de serveurs](outils/configuration-serveurs/)
   * [Infrastructure As Code](outils/infra-as-code/)
