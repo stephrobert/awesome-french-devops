@@ -1,45 +1,31 @@
 # Le cycle de vie DevOps
 
-Pour cela, on représente le DevOps comme un cycle continu où l’on passe d’une
-phase projet à une phase de surveillance, dès que cette phase est terminée, un
-nouveau cycle démarre. La durée d'un cycle doit être le plus court possible.
+<!-- toc -->
 
-## Les différentes phases
+Le cycle de vie Devops est représenté par un signe infini permettant de bien
+rappeler sa nature continue et itérative. On retrouve dans cette représentation
+la suite des phases par lequel un projet doit passer à chaque révolution. Une
+révolution, appelée Sprint, doit avoir une durée limitée dans le temps, en
+général 2 semaines.
 
-* **Planifier** : Cette phase permet de définir la valeur commerciale et les
-   exigences attendues.
-* **Réaliser** : Cette phase inclut la conception logicielle et la création du
+![Cycle Devops](cycle.png)
+
+## Les différentes phases du cycle de vie DevOps
+
+* **Plan** : Cette phase permet de définir les objectifs et les
+   exigences attendues à la fin d'un cycle.
+* **Create** : Cette phase inclut la conception logicielle et la création du
    code logiciel et s'appuie sur des logiciels de gestion de version.
-* **Assembler** : Cette phase consiste à assembler les versions logicielles et à
-   exploiter des outils automatisés pour compiler et intégrer le code en vue de
-   sa mise en production.
-* **Tester** : Cette phase comprend des tests continus, qu'ils soient manuels ou
-   automatisés, et vise à assurer une qualité de code optimale.
-* **Déployer** : Cette phase peut inclure des outils de gestion, de
-   coordination, de planification et d'automatisation de la mise en production
-   des produits.
-* **Exploiter** :
-* **Surveiller** : Cette phase permet d'identifier les problèmes affectant une
-   version logicielle en production et de collecter les informations
-   correspondantes à l'aide des logiciels
+* **Verify** : Cette phase comprend des tests, qu'ils soient manuels ou
+   automatisés, visant à assurer une non-régression du code suite à une
+   modification.
+* **Package** : Cette phase consiste à assembler le code et intégrer ses
+  composants dont il dépend et d'en faire un artefact qui sera utilisé sur
+  l'ensemble des environnements.
+* **Release** : Cette phase consiste à déployer les artefacts en s'appuyant sur
+  des outils permettant de séquencer ces opérations.
+* **Configure** : Cette phase consiste à configurer les environnements.
+* **Monitor** : Cette phase permet de collecter des informations permettant
+   d'identifier des problèmes affectant le logiciel en production.
 
-## Chaîne d'outils DevOps
 
-Les adeptes des pratiques DevOps intègrent souvent des outils compatibles DevOps
-dans leur « chaîne d'outils » pour rationaliser, accélérer et automatiser
-davantage les différentes étapes du workflow (ou « pipeline ») de fourniture des
-logiciels. Ces outils renforcent les principes fondamentaux du DevOps tels que
-l'automatisation, la collaboration et l'intégration entre les équipes chargées
-du développement et des opérations. Voici quelques exemples d'outils employés à
-différentes étapes du cycle de vie DevOps.
-
-* **Planification**: Jira, Azure DevOps,
-* **Réalisation**:
-* **Assemblage**: Docker, Ansible, Puppet, Chef, Gradle, Maven ou JFrog,
-   Artifactory.
-* **Test**: JUnit, Codeception, Selenium, Vagrant, TestNG ou BlazeMeter, .
-* **Déploiement**: Puppet, Chef, Ansible, Jenkins, Kubernetes, OpenShift,
-   OpenStack, Docker ou Jira.
-* **Exploitation**: Ansible, Puppet, PowerShell, Chef, Salt ou Otter.
-* **Supervision**: New Relic, Datadog, Grafana, Wireshark, Splunk,
-   Nagios ou Slack

@@ -1,112 +1,167 @@
 # Comment est née la démarche DevOps
 
+<!-- toc -->
+
 Contrairement à des normes, comme l'ITIL qui ont été commandé par des
 organisations ou des gouvernements, le mouvement DevOps est lui issu d'une
-succession de conférences, les **DevOpsDays**, qui se sont déroulées à partir de
-2008. C'est pour cette raison qu'il n'existe pas de définition écrite ou de
-manifeste comme pour les méthodes agiles. Parmi les noms les plus reconnus, nous
-retrouvons :
+succession de conférences, dont les [**DevOpsDays**](https://devopsdays.org/),
+qui se sont déroulées à partir de 2008. C'est pour cette raison qu'il n'existe
+pas de définition écrite ou de manifeste comme pour les méthodes agiles. Parmi
+les noms les plus connus et reconnus, nous retrouvons :
 
-* Andrew Shafer
-* Pierre Debois qui est à l'origine du nom DevOps,
-* Jez Humble auteur du livre [*Accelerate*](https://amzn.to/3zR5cyb)
-* Gene Kim auteur du livre [*The Phoenix Project*](https://amzn.to/3UcOotc)
+* **Andrew Shafer** organisateur de la première conférence “Agile Infrastructure.”
+  en aout 2008 à Toronto. Il n'y eut qu'une seule personne présente Patrick
+  Debois.
+* **John Allspaw** et **Paul Hammond** qui en Juin 2009 donne une conférence
+  intitulé "10 déploiements par jour : coopération Dev et Ops sur Flickr."
+* **Patrick Debois** qui est à l'origine du mot DevOps en créant les DevOpsDays.
+* **Damon Edwards** et **John Willis** auteur des principes connus sous le nom
+  de CAMS ou CALMS.
+* **Jez Humble** auteur du livre [_Accelerate_](https://amzn.to/3zR5cyb)
+* **Gene Kim** auteur du livre [_The Phoenix Project_](https://amzn.to/3UcOotc)
 
 Le constat qu'ils tiraient est que le cloisonnement des équipes de développement
-et des opérations était contre-productive. Les développeurs écrivaient le code
-de l'application et les administrateurs système se chargeaient de son
-intégration et de son déploiement et tout cela en ne communiquant que par des
-demandes de services, *request* en anglais, et de changements, *change* en
-anglais. Cela conduisait à des incompréhensions, des allers-retours à répétition
-et a beaucoup d'incidents.
+et des opérations était contre-productif.
 
 ## Un peu d'histoire
 
-### Les méthodes traditionnelles
+Revenons en arrière pour comprendre d'où le DevOps tire ses racines. On va
+partir loin dans le temps jusqu'au début de l'ère industrielle. Nous allons nous
+intéresser aux méthodes d'organisation du travail, puis aux méthodes de gestion
+de projets sans trop rentrer dans les détails. Pour le moment cela vous paraitra
+étrange, mais au fil de la lecture, vous comprendrez pourquoi certaines méthodes
+ont été retenues dans la démarche DevOps au fil de son élaboration.
 
-Il faut se souvenir qu'à cette époque les méthodes de gestion de projet agiles,
-dites itératives sont venues remplacer les méthodes traditionnelles, dites
-linéaires : cascade ou cycle en V.
+### Méthodes d'organisation du travail
 
-Une méthode dite "traditionnelle" est composée d'étapes qui se succèdent les
-unes après les autre. Par exemple pour le modèle en Cascade :
+Dès l'aube de la révolution industrielle, on est au XVIIIe siècle, on a
+cherché à améliorer la productivité pour passer de l'artisanat à la production
+de masse de biens de consommation.
 
-* Recueil des exigences du client.
-* Constitution du cahier des charges fonctionnel par analyse des exigences du
-  client et ajout de celles demandées par des normes.
-* Conception du produit afin qu'il soit fabriqué en série et remplisse les
-  exigences du cahier des charges
-* Pre-Production : le produit est assemblé et déployé
-* Validation : le produit est testé afin de voir s'il répond aux exigences
-* Production : le produit est installé et utilisé.
+#### L'organisation Scientifique du Travail
 
-![Méthode en cascade](/media/cascade.png)
+La première fut le _taylorisme_ ou aussi appelé _OST_, organisation scientifique
+du travail. Taylor est parti du constat qu'il est impossible de réaliser une
+_production de masse_ sans un minimum d'organisation et de discipline. Les
+grands principes :
 
-Chacune de ces étapes ne peut commencer sans que la précédente ne soit terminée,
-conduisant à un *effet tunnel*. Il peut se passer de très longues périodes entre
-l'expression des besoins du client et la mise en service du produit. Lors de la
-livraison, on constate souvent des déphasages entre les besoins initiaux
-exprimés par le client et le produit livré. De plus, certaines fonctionnalités
-se révèlent finalement inutiles alors que d'autres, découvertes en cours de
-route, pourraient donner plus de valeur au produit.
+* Le travail complexe est décomposé en tâches élémentaires et hiérarchisées qui
+  s'exécutent de manière successive et répétitive
+* Chaque titulaire de tâche se voit assigner un poste physiquement fixe (ou
+  comportant très peu de déplacements)
+* Les objets à produire ou transformés sont rendus mobiles par un procédé de
+  convoyage adapté.
 
-### Les méthodes Agiles
+Mais, largement critiqué par **Charlie Chaplin** dans **les temps Modernes**
+cette méthode de travail montre ses limites par son côté aliénant ayant même des
+répercutions sur la santé physique et mentale des opérateurs. Les hommes étaient
+devenus des machines où il n'y avait plus de place pour la réflexion. Pourtant,
+ces méthodes d'Organisation existent toujours dans certains domaines.
 
-Les méthodologies agiles (Scrum, RAD, Extreme Progamming...) sont différentes au
-sens où le développement d'un produit devient incrémentale et inclut le client
-tout au long de ce processus. Ces méthodes sont en fait des adaptations des
-méthodes de production de l'industrie, appelé Lean, au développement de
-logiciels.
+#### Le Toyotisme appelé Lean
 
-### Le Lean
+Le Lean, _maigre_ en anglais, est une méthode de gestion de production mise au
+point au Japon dans les années 50, par Toyota, d'où son nom de Toyotisme. Cette
+méthode est axée sur la recherche de la performance que ce soit en termes de
+productivité, de qualité, de délais, et de coûts. Son émergence est due au
+contexte devenu de plus en plus concurrentiel : car les consommateurs
+recherchent avant tout le meilleur rapport qualité/prix.
 
-Le Lean, maigre en anglais, est une méthode de gestion de production mise au
-point au Japon par le Système de Production Toyota. Cette méthode est axée sur
-la recherche de la performance que ce soit en termes de productivité, de
-qualité, de délais, et de coûts. L'amélioration continue a pour objectif
-d'augmenter la valeur globale du produit en cherchant à éliminer les
-gaspillages, *muda* en japonais, qui sont toutes les choses qui finissent à la
-poubelle comme les déplacements inutiles, les pertes de temps, les pannes, des
-fonctionnalités que le client ne veut pas.
+Le Lean, cette fois fait appel à l'ensemble des employés d'une entreprise pour
+identifier puis éliminer toutes les activités non rentables de l'entreprise. Le
+Lean cherche donc à supprimer tous les gaspillages, **muda** en japonais :
 
-Le Lean a été décliné à d'autres domaines :
+* La surproduction générant de stocks inutiles et coûteux.
+* Les stocks inutiles entre les postes.
+* Les goulets d'étranglement donnant des délais d'attente inutiles.
+* Les traitements superflus n'apportant pas de valeur ajoutée.
+* Les déplacements inutiles pour éviter les pertes de temps.
+* Les outils inadaptés faisant baisser la qualité de production.
+* Les défauts de fabrication afin d'éviter les retouches et les rebuts.
 
-* à la gestion des organisations avec le *Lean management* qui a ajouté à la
-  chasse aux gaspillages deux autres démons :
-  * les excès : *muri* en japonais comme la surcharge de travail engendrée par
-    des processus non adaptés ou contre productive.
-  * la variabilité ou l'irrégularité, *mura* en japonais, en termes de temps de
-    production et de qualité produite.
-* à l'industrie informatique avec le *Lean IT*
-* au développement Logiciel avec *Lean software development*
-* aux services *Lean Services*
+Cette démarche ne s'arrête jamais, car elle repose sur la notion
+**d'amélioration continue**, **kaizen** en japonais, avec la participation de
+tous les employés.
+
+Pour répondre à ses objectifs de nombreux outils ont été mis au point. On
+retrouve la méthode des 5S, le SMED, le TOM, le PDCA ou aussi appelé roue de
+Deming. PCDA pour Plan ➔ Do ➔ Check ➔ Act. Ce cycle reboucle jusqu'à ce qu'une
+solution atteigne l'objectif fixé.
+
+![Roue de deming](deming.png)
+
+Par la suite le Lean a été décliné à d'autres domaines que l'industrie :
+
+* A la gestion des organisations avec le _Lean management_.
+* à l'industrie informatique avec le _Lean IT_
+* au développement Logiciel avec _Lean software development_
+* aux services _Lean Services_
 * ...
 
-#### Le manifest Agile
+### La gestion de projets
 
-Le Manifeste pour le développement agile de logiciels est un texte rédigé aux
-États-Unis en 2001 par dix-sept experts du développement logiciels. Ils
-estimaient que le taux important d'échecs des projets de développements
-logiciels était dû à la lourdeur des méthodes traditionnelles inspirées du génie
-civil et s'appuyant sur un cycle de développement en cascade. Chacun d'entre
-eux avait déjà mis au point et expérimenté de nouvelles méthodes plus légères.
-Les méthodes agiles ne sont donc pas apparues avec le manifeste agile. Cependant
-celui-ci a défini leurs dénominateurs communs et consacré le terme d'« agile »
-pour les référencer. Les valeurs et les principes du manifeste agile sont
-défendus et promus par l'Agile Alliance créée par certains des signataires.8
+Les méthodes d'organisation du travail ne s'attachent qu'à la recherche de
+l'optimisation de la productivité. Mais quelles méthodes existent pour gérer des
+projets ? Petit ou grand. Des projets l'homme en a toujours eu sinon nous ne
+serions où nous en sommes actuellement. Pour construire une pyramide, un temple
+ou un pont voir une centrale nucléaire, il faut s'organiser sinon on va perdre
+du temps voir rencontrer un échec. En effet, il va falloir coordonner un
+ensemble d’activités et d’actions dans le but de répondre à un besoin client, et
+cela, dans un délai déterminé. Je vais détailler les deux grandes familles de
+méthodes de gestion de projets que l'on rencontre dans le domaine du
+développement logiciel.
 
-En s'appuyant sur leur expérience combinée du développement logiciel, les
-dix-sept signataires du manifeste ont proclamé qu'ils attachaient de
-l'importance « aux individus et leurs interactions plutôt qu'aux processus et
-aux outils », « à un logiciel fonctionnel plutôt qu’à une documentation
-exhaustive », « à la collaboration avec les clients plutôt qu'à la négociation
-contractuelle » et « à l’adaptation au changement plutôt qu'à l'exécution d’un
-plan ». Cela signifie que les éléments à gauche du mot « plutôt » dans chaque
-citation sont réputés avoir plus de valeur que ceux à droite, bien qu'il y ait
-aussi de la valeur dans ces derniers. Ces quatre citations sont appelées les
-quatre « valeurs » du manifeste agile.
+#### Les méthodes traditionnelles
 
-##### Les quatres valeurs du Manifest Agile
+Une méthode "traditionnelle" est composée d'étapes qui se succèdent les
+unes après les autres. Par exemple pour le modèle en Cascade :
+
+* **Recueil des exigences du client**.
+* **Constitution du cahier des charges fonctionnel** par analyse des exigences du
+  client et ajout de celles demandées par des normes.
+* **Conception du produit** afin qu'il soit fabriqué en série et remplisse les
+  exigences du cahier des charges
+* **Pre-Production** : le produit est assemblé et déployé
+* **Validation** : le produit est testé afin de voir s'il répond aux exigences
+* **Production** : le produit est installé et utilisé.
+
+![Méthode en cascade](cascade.png)
+
+Chacune de ces étapes ne peut commencer sans que la précédente ne soit terminée,
+conduisant à un **effet tunnel**. Il peut se passer de très longues périodes
+entre l'expression des besoins du client et la mise en service du produit.
+
+Lors de la livraison, même si le délai est respecté, on constate souvent des
+écarts entre les besoins exprimés par le client et le produit livré. De plus,
+certaines fonctionnalités se révèlent finalement inutiles alors que d'autres,
+découvertes en cours de route, pourraient donner plus de valeur au produit.
+
+#### Les méthodes Agiles
+
+Les méthodologies agiles sont différentes au sens où le développement d'un
+produit devient incrémentale et donne une place importante au client tout au
+long de ce processus.
+
+Au démarrage du projet, on ne s'attache qu'à déterminer des objectifs à court
+terme pour en élaborer une première version. Ensuite en fonction du retour du
+client et des résultats des tests, le produit évolue à chaque itération en
+cherchant toujours à répondre aux besoins du client.
+
+Les méthodes agiles mettent un point d’honneur à renforcer les relations entre
+les membres de l’équipe projet, mais également entre l’équipe et le client.
+
+**Quelques méthodes Agiles** : RAD (rapid application development), Scrum, XP
+(eXtreme Programming), ASD (Adaptive software development), FDD (feature driven
+development), BDD (Behavior-driven development), Crystal Clear, ... Safe et Less
+
+### Le manifest Agile
+
+En 2001, dix-sept grands noms du développement logiciel se sont réunis pour
+tenter d'unifier leurs méthodes respectives. De cette réunion est née le
+[**manifest Agile**](https://agilemanifesto.org/iso/fr/manifesto.html). Ce
+manifest agile s'appuie sur quatre valeurs et de douze principes fondateurs.
+
+### Les quatre valeurs du Manifest Agile
 
 Les 4 valeurs du manifest Agile :
 
@@ -118,52 +173,77 @@ Les 4 valeurs du manifest Agile :
 Les quatre valeurs du manifeste agile ont été déclinées en douze principes afin
 d'aider opérationnellement les équipes qui souhaitaient les suivre.
 
-##### Les 12 principes Agile
+### Les 12 principes Agile
 
-1. Notre plus haute priorité est de satisfaire le client en livrant rapidement et
-régulièrement des fonctionnalités à grande valeur ajoutée.
+1. Notre plus haute priorité est de satisfaire le client en livrant rapidement
+   et régulièrement des fonctionnalités à grande valeur ajoutée.
 2. Accueillez positivement les changements de besoins, même tard dans le projet.
-Les processus Agiles exploitent le changement pour donner un avantage compétitif
-au client.
-3. Livrez fréquemment un logiciel opérationnel avec des cycles de quelques semaines
-à quelques mois et une préférence pour les plus courts.
-4. Les utilisateurs ou leurs représentants et les développeurs doivent travailler
-ensemble quotidiennement tout au long du projet.
+   Les processus Agiles exploitent le changement pour donner un avantage compétitif
+   au client.
+3. Livrez fréquemment un logiciel opérationnel avec des cycles de quelques
+   semaines à quelques mois et une préférence pour les plus courts.
+4. Les utilisateurs ou leurs représentants et les développeurs doivent
+   travailler ensemble quotidiennement tout au long du projet.
 5. Réalisez les projets avec des personnes motivées. Fournissez-leur
-l’environnement et le soutien dont ils ont besoin et faites-leur confiance pour
-atteindre les objectifs fixés.
-6. La méthode la plus simple et la plus efficace pour transmettre de l’information
-à l'équipe de développement et à l’intérieur de celle-ci est le dialogue en face
-à face.
+   l’environnement et le soutien dont ils ont besoin et faites-leur confiance pour
+   atteindre les objectifs fixés.
+6. La méthode la plus simple et la plus efficace pour transmettre de
+   l’information à l'équipe de développement et à l’intérieur de celle-ci est le
+   dialogue en face à face.
 7. Un logiciel opérationnel est la principale mesure d’avancement.
 8. Les processus Agiles encouragent un rythme de développement soutenable.
-Ensemble, les commanditaires, les développeurs et les utilisateurs devraient
-être capables de maintenir indéfiniment un rythme constant.
+   Ensemble, les commanditaires, les développeurs et les utilisateurs devraient
+   être capables de maintenir indéfiniment un rythme constant.
 9. Une attention continue à l'excellence technique et à une bonne conception
-renforce l’Agilité.
+   renforce l’Agilité.
 10. La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile –
-est essentielle.
+    est essentielle.
 11. Les meilleures architectures, spécifications et conceptions émergent d'équipes
-autoorganisées.
+    autoorganisées.
 12. À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace,
-puis règle et modifie son comportement en conséquence.
+    puis règle et modifie son comportement en conséquence.
 
+## Pourquoi la démarche DevOps est-elle apparue ?
 
-##
+Maintenant que nous avons vu les différentes méthodes de production et de
+gestion de projets attachons à comprendre pourquoi la démarche DevOps est-elle
+apparue. Quel problème tente-t-elle de résoudre ?
 
-Ces méthodes agiles étaient appliquées dans les équipes de développement alors
-que les équipes des opérations elles continuaient à travailler en méthode
-traditionnelle. Mais pourquoi donc ?
+Il faut se rappeler qu'en 2008, cette date marque les débuts de ce mouvement,
+une grande majorité des entreprises était découpé en équipes. Parmi ces équipes
+on retrouvait :
 
-##
+* **les développeurs** : en charge d'écrire du code, d'apporter de nouvelles
+  fonctionnalités et de corriger des bugs. Leurs préoccupations : apportés le
+  plus rapidement des changements pour répondre aux besoins du client.
+* **les opérations** : en charge de créer et de maintenir l'infrastructure
+  hébergeant ces applications. Leurs préoccupations : stabiliser et garantir la
+  disponibilité de celle-ci pour répondre aux exigences du client. Dans les
+  opérationnelles, on trouve les personnes en charge de d'administrer, de
+  sécuriser et de connecter les équipements.
 
-## Conclusion
+Nous voyons bien que ces équipes ayant des préoccupations antagonistes ne sont
+pas faites pour s'entendre. En effet, les mises en production régulières font
+peser un risque sur la stabilité d’une application.
+
+Pour ne pas arranger les choses, les équipes de développement utilisaient de
+plus en plus les méthodes agiles augmentant le nombre de mises en production,
+alors que celles des "ops" continuaient à travailler en méthode traditionnelle.
+De plus ces équipes avaient des budgets et des managers différents et ne
+communiquaient que par le biais de demandes de services, _request_ en anglais,
+et de changements, _change_ en anglais. Cela conduisait à des incompréhensions,
+des allers-retours à répétition, a beaucoup d'incidents, mais surtout à une
+faible vélocité.
 
 Dans de telles conditions, un changement devenait nécessaire. Ces deux équipes
-devaient se rapprocher et travailler avec les mêmes objectifs et les mêmes
-méthodes. Ce à partir de ce moment que Pierre Debois a introduit le terme de
-DevOps (en 2009). Une contraction de Development et Operations pour symboliser
-leur rapprochement nécessaire.
+devaient se rapprocher et travailler ensemble avec les mêmes objectifs et les
+mêmes méthodes.
 
+C'est à travers des conférences dont les DevOpsDays qu'est né cette démarche de
+réconciliation. D'ailleurs le mot DevOps s'est imposé lors de l'organisation de
+la première d'entre elles par Patrick Debois en 2009 dans la ville de Gand en
+Belgique. **Une contraction de Development et Operations pour symboliser leur
+rapprochement nécessaire.**
 
-Sources : Wikipedia
+Dans le prochain chapitre, nous verrons sur quelles méthodes et outils reposent
+le DevOps.

@@ -1,124 +1,128 @@
 # Qu'est-ce que le Devops
 
-DevOps est une combinaison de philosophies culturelles, de pratiques et d'outils
-qui améliorent la capacité d'une entreprise à livrer des applications et des
-services à un rythme élevé.
+<!-- toc -->
 
-Il permet de faire évoluer et d’optimiser les produits plus rapidement que les
-entreprises utilisant des processus traditionnels de développement de logiciels
-et de gestion de l’infrastructure.
+La philosophie DevOps est une combinaison de principes, de pratiques et d'outils
+visant à améliorer la capacité d'une entreprise à livrer à un rythme élevé des
+applications et des services d'infrastructures.
 
-# La méthode CALMS
+Ils tirent ses racines des méthodes Agiles et du Lean que nous avons vu dans le
+chapitre précédent. Il est important de comprendre tout de suite que le DevOps
+n'est pas une méthode, mais plutôt une culture. De même, il ne repose pas sur
+l'utilisation d'outil précis, mais plutôt, il les utilise pour atteindre les
+objectifs fixés. D'ailleurs quels sont ces objectifs ?
 
-CALMS, acronyme de « culture, automation, lean, measurement et sharing »
-(culture, automatisation, rationalisation, mesure et partage), est une
-infrastructure conceptuelle favorisant l'intégration des groupes, des fonctions
-et des systèmes de développement et d'exploitation au sein d'une organisation.
+## Les Objectifs du DevOps
 
-## [C]ulture
+Sans directions claires comment définir le chemin à emprunter. Donc les auteurs
+ont fixé des objectifs clairs et atteignables. Chacun pouvant les adapter à son
+niveau de connaissances et de pratique, mais en cherchant sans cesse à
+s'améliorer.
+
+### La vélocité
+
+Plus vite, vous publiez de nouvelles fonctionnalités et corrigez des bogues,
+plus vite, vous pourrez répondre aux besoins de vos clients et gagner en
+vélocité.
+
+### Fiabilité
+
+Il faut généraliser l'utilisation des pratiques comme l'intégration et le
+déploiement continus (nous les verrons plus tard) pour assurer la qualité du
+delivery. Il faut aussi généraliser l'utilisation des systèmes de supervision et
+de journalisation pour rester informé sur les performances de l'application.
+
+### Sécurité
+
+La sécurité ne doit pas être sacrifiée lors de la mise en pratique du DevOps. Il
+faut mettre en place des outils de conformité automatisés pour vérifier que le
+code n'embarque pas des secrets et que la configuration d'un équipement ou d'un
+middleware ne laisse une faille ouverte. Par contre, si les personnes en charge
+de la sécurité imposent des restrictions aux développeurs, elles doivent aussi
+fournir des solutions pour ne pas tuer la créativité.
+
+### Évolutivité
+
+Afin de garantir l'évolutivité, nous devons garantir que les environnements de
+développement, de tests, de préproduction sont à l'image de ceux de la
+production. Par exemple, l'infrastructure as code peut nous aider à gérer ces
+environnements de manière efficace.
+
+### La satisfaction du client
+
+C'est l'objectif le plus important. Nous devons répondre à ses besoins et à ses
+exigences dans un délai raisonnable.
+
+## Les principes du Devops
+
+Le Devops repose avant tout sur des principes, c'est pour cela que nous parlons
+de philosophie ou culture DevOps. Parmi les principes, nous retrouvons ceux
+définis en 2010 par Damon Edwards et John Willis avec l'Acronyme CAMS qui a
+évolué ensuite vers CALMS.
+
+### Le CALMS
+
+CALMS est l'acronyme de « Culture, Automation, Lean, Measurement and Sharing »
+(culture, automatisation, rationalisation, mesure et partage) où toutes les
+notions importantes. DevOps ne se limite pas à de l'automatisation comme on
+l'entend souvent.
+
+#### [C]ulture
 
 Pour qu'un projet aboutisse, nous devons partager la même vision, les mêmes
 objectifs et le même vocabulaire. Il faudra donc veiller à ce que tout le monde
 soit formé.
 
-## [A]utomatisation
+#### [A]utomatisation
 
-On va alors automatiser pour libérer les employés des tâches répétitives, de
-réduire les erreurs et optimiser les processus.
+On va alors automatiser pour libérer les employés des tâches répétitives sans
+valeur ajoutée. Elle permet également de limiter les erreurs (surtout humaine)
+et optimiser les processus.
 
-DevOps pousse à identifier et automatiser les taches chronophages sans valeur
-ajoutée pour que chacun puisse se concentrer sur ce qui en ajoute réellement.
+Mais attentions à ne pas construire des usines à gaz, appelé communément appelés
+monolithes, où la complexité limitera la créativité, demandera beaucoup de
+maintenance et finira inexorablement en échec.
 
-## [L]ean : Se concentrer sur ce qui donne de la valeur à notre produit
+#### [L]ean : Se concentrer sur ce qui donne de la valeur à notre produit
 
-L’amélioration continue est encouragée par des retours entre chaque membre de
-l’équipe, ce qui permet d’anticiper, au moment du développement, de potentiels
-risques d’exploitation ou de déstabilisation du système d’information.
+La rationalisation implique la réduction des excès et des gaspillages. Par
+exemple en limitant le nombre et la durée des réunions, réduisant la taille des
+équipes, en évitant de recourir à des outils inadaptés et onéreux ne couvrant
+qu'une partie d'un besoin. Cela passe aussi par l'optimisation de toutes les
+tâches pouvant provoquer des goulets d'étranglement ou consommateur de temps CPU
+comme l'analyse de code, l'intégration, de tests, de scans de sécurité. Même si
+ces tâches sont masquées, car effectuées automatiquement, elles ont un cout. On
+parle dans ce cadre de FinOps.
 
-La rationalisation implique la réduction des excès : par exemple, il faut
-limiter minimum le nombre et la durée des réunions, la taille des équipes et le
-nombre d'outils susceptibles de fournir les résultats attendus.
+#### [M]easurement : A-t-on atteint l'objectif ?
 
-## [M]easurement : A-t-on atteint l'objectif ?
+Pour pouvoir contrôler que des objectifs sont atteints et mettre en place des
+plans d'actions pour corriger ou améliorer si besoin, il est nécessaire de
+mettre en place des indicateurs pertinents. Parmi ces indicateurs, on retrouve :
 
-Sans la capacité à obtenir des informations sur l’atteinte des objectifs, il est
-difficile d’évaluer les performances et de mettre en place les plans d’action
-pour s’améliorer. Donc en premier lieu, il est indispensable de mettre en place
-des indicateurs pertinents.
-
-**Exemple de KPI** :
-
-* **Mean-time to recovery** (MTTR): temps moyen pour réparer, exprime la moyenne
-   des temps de tâches de réparation. Il est calculé en additionnant les temps
-   actifs de maintenance ainsi que les temps annexes de maintenance, le tout
-   divisé par le nombre d'interventions
-* **Feature Usage** : il est primordial de mesurer si un composant est utilisé
-   par les utilisateurs. En agilité, nous parlons de la construction d'un MVP
-   (Minimum viable product), c'est-à-dire le fait de se concentrer uniquement
-   sur les fonctionnalités à plus forte valeur ajoutée.
-* **Time To Market** (TTM) : il s'agit du temps qui sépare la décision de
-   conception (l'idée) à sa mise en production. L'objectif est de mesurer par
-   exemple l'efficacité de la méthodologie projet ou de la collaboration entre
-   équipes. Les méthodes agiles comme SCRUM ont été créées pour réduire le TTM
-   en optimisant la productivité, la créativité et la flexibilité.
-* **Satisfaction utilisateur** : l'idée est d'obtenir un continous feedback de
-   la part des utilisateurs. Il faut comprendre les usages, mais également
-   comprendre si l'utilisateur est content d'une fonctionnalité et du produit.
-   C'est la donnée qui à mon sens est la plus importante, car elle représente la
-   finalité du travail effectué.
 * **Time to deploy** : Mesurer le temps pour déployer un applicatif, ou pour
-   mettre en production la modification d'une seule ligne de code, est pertinent
-   pour mesurer l'efficacité du pipeline de delivery, à partir du commit dans
-   le gestionnaire de sources à son déploiement en production.
+   mettre en production la modification d'une seule ligne de code. On calcule le
+  temps passé depuis le commit dans le gestionnaire de sources jusqu'à son
+   déploiement.
+* **User Satisfaction** : l'idée est d'obtenir un retour continue de la part des
+   utilisateurs. Il faut comprendre les usages, mais également comprendre si
+   l'utilisateur est content d'une fonctionnalité et du produit. C'est la donnée
+   qui à mon sens est la plus importante, car elle représente la finalité du
+   travail effectué.
+* **Mean-Time To Recovery**: temps moyen pour réparer, exprime la moyenne des
+   temps de tâches de réparation. Il est calculé en additionnant les temps
+   actifs de maintenance ainsi que les temps annexes de maintenance, le tout
+   divisé par le nombre d'interventions.
 * Et bien d'autres...
 
-## [S]haring Travailler ensemble pour atteindre nos objectifs
+#### [S]haring Travailler ensemble pour atteindre nos objectifs
 
-Traditionnellement, les équipes de développement et des opérations travaillent
-de manière cloisonnée, et ont chacun des intérêts pouvant être qualifiés de
-contradictoires. Les opérations ont pour responsabilité de garantir la stabilité
-et la performance des applications. L’équipe de développement, elle, a pour
-objectif de développer puis mettre en production régulièrement de nouvelles
-fonctionnalités. Or, des mises en production régulières font peser un risque sur
-la stabilité d’une application.
+Il est nécessaire que les personnes composant cette équipe soit transparente et
+partage leurs connaissances. Mais aussi entendent les opinions, les remarques,
+les difficultés voir les échecs de chacun.
 
-C’est pour cette raison que se développe la démarche DevOps. Elle vise à faire
-travailler ensemble ces équipes en bonne intelligence collective, et dans la
-même optique : améliorer le produit.
+### Pratiquer le CALMS
 
-# Les Objectifs du DevOps
-
-## Fiabilité
-
-Assurons la qualité des mises à jour d'applications et des changements
-d'infrastructure afin de livrer en toute confiance nos produits à un rythme
-accéléré tout en continuant de proposer une expérience positive aux utilisateurs
-finaux. Il faut généraliser l'utilisation des pratiques comme l'intégration
-continue et la livraison continue pour nous assurer que chaque changement est
-fonctionnel et sûr. Nous devons utiliser les systèmes de supervision et de
-journalisation pour rester informé sur les performances en temps réel.
-
-## Sécurité
-
-Avançons rapidement tout en gardant le contrôle et en préservant la conformité.
-On peut adopter un modèle DevOps sans sacrifier la sécurité, en utilisant des
-politiques de conformité automatisées, des contrôles plus rigoureux et des
-techniques de gestion de la configuration. Par exemple, avec l'infrastructure as
-code et la security as code , nous pouvons définir et suivre la conformité à
-n'importe quelle échelle.
-
-## Évolutivité
-
-L'automatisation et la cohérence nous aident à gérer les systèmes complexes ou
-changeants de manière efficace et moins risquée. Par exemple, l'infrastructure
-as code peut nous aider à gérer nos environnements de développement, de test et
-de production de façon répétitive et plus efficace.
-
-## Livraison rapide
-
-Augmentons le rythme et la fréquence des publications de manière à innover et à
-optimiser nos produits plus rapidement. Plus vite, nous publions de nouvelles
-fonctionnalités et corrigeons des bogues, plus vite, nous pouvons répondre aux
-besoins de nos clients et gagner en compétitivité. L’intégration continue et le
-déploiement continu sont des pratiques qui automatisent le processus de
-publication de logiciel, du codage au déploiement.
+Il s'agit de garder à l'esprit ces cinq principes, à les cultiver et les
+renforcer sans cesse. Ce cadre n'est pas restrictif, mais peut s'adapter aux
+particularités de chaque équipe ou entreprise.
