@@ -14,7 +14,7 @@ j'ai décidé de créer ce dépôt Github**
 
 Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 
-* [La démarche DevOps](devops/)
+* [La démarche DevOps](demarche-devops/)
 * [Un certain nombre de type d'outils ou de technologies](outils/)** dont la
   liste est fonction du poste que vous souhaitez occuper où que vous occupez.
 
@@ -38,9 +38,9 @@ sont développés, en permanence, alors tous ne seront pas dans ce livre.
 
 * [La démarche DevOps](demarche-devops/) : L'historique, les principes de la démarche
   DevOps.
-  * [Origine du DevOps](demarche-devops/origine.md)
-  * [Qu'est-ce que le Devops](demarche-devops/devops.md)
-  * [Le cycle de vie DevOps](demarche-devops/cycle-devops.md)
+  * [Origine du DevOps](demarche-devops/origine/README.md)
+  * [Qu'est-ce que le Devops](demarche-devops/introduction/README.md)
+  * [Le cycle de vie DevOps](demarche-devops/cycle/README.md)
 * [Les fiches Métiers](metiers/) : Les `fiches de poste` des Métiers pouvant
   utiliser la démarche DevOps.
   * [Développeur](metiers/developpeur/)
