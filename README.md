@@ -36,31 +36,48 @@ développement logiciel, cela signifie que vous travaillez avec de nombreuses
 technologies. De plus, DevOps continue d'évoluer et de nombreux nouveaux outils
 sont développés, en permanence, alors tous ne seront pas dans ce livre.
 
-* [La démarche DevOps](demarche-devops/) : L'historique, les principes de la démarche
+* [La démarche DevOps](demarche-devops/README.md) : L'historique, les principes de la démarche
   DevOps.
   * [Les racines du DevOps](demarche-devops/racine/README.md)
   * [Qu'est-ce que le Devops](demarche-devops/introduction/README.md)
   * [Le cycle de vie DevOps](demarche-devops/cycle/README.md)
-* [Les fiches Métiers](metiers/) : Les `fiches de poste` des Métiers pouvant
-  utiliser la démarche DevOps.
-  * [Développeur](metiers/developpeur/)
-  * [Ingénieur Systèmes](metiers/systeme/)
-  * [Ingénieur en Automatisation](metiers/automate/)
-  * [Ingénieurs de Tests](metiers/tests/)
-* [Les outils DevOps](outils/)
-  * [Administrations de serveurs](outils/admin-serveurs/)
-  * [Langage de Programmation](outils/langages-programmation/)
-    * [Python](outils/langages-programmation/python/)
-  * [Réseaux et Sécurité](outils/reseau-securite/)
-  * [Configuration de serveurs](outils/configuration-serveurs/)
-  * [Infrastructure As Code](outils/infra-as-code/)
-    * [Provisionnement](outils/infra-as-code/provision/)
-    * [Gestion de Configuration](outils/infra-as-code/gestion-configuration/)
-  * [Pipelines CI/CD](outils/ci-cd/)
-  * [Conteneurs et Orchestrateurs](outils/conteneur-orchestration/)
-  * [Cloud](outils/cloud/)
-  * [Monitoring et Surveillance](outils/surveillance/)
-* [Les liens Devops](bookmarks/) : Une grande liste de liens, de comptes
+* [Les fiches Métiers](metiers/README.md)
+  * [Développeur](metiers/developpeur/README.md)
+  * [Ingénieur Systèmes](metiers/systeme/README.md)
+  * [Ingénieur en Automatisation](metiers/automate/README.md)
+  * [Ingénieurs de Tests](metiers/tests/README.md)
+* [Les outils DevOps](outils/README.md)
+  * [Administration de serveurs](outils/admin-serveurs/README.md)
+    * [Linux](outils/admin-serveurs/linux/README.md)
+    * [Windows](outils/admin-serveurs/windows/README.md)
+  * [Langage de Programmation](outils/langages-programmation/README.md)
+    * [Python](outils/langages-programmation/python/README.md)
+    * [Golang](outils/langages-programmation/golang/README.md)
+    * [Rust](outils/langages-programmation/rust/README.md)
+    * [Ruby](outils/langages-programmation/ruby/README.md)
+    * [PHP](outils/langages-programmation/php/README.md)
+  * [Gestion de Version de Code](outils/gestion-version-code/README.md)
+    * [Git](outils/langages-programmation/git/README.md)
+  * [Outils de Build](outils/build/README.md)
+  * [Editeurs de Code](outils/editeurs/README.md)
+    * [vim](outils/editeurs/vim/README.md)
+    * [vscode](outils/editeurs/vscode/README.md)
+  * [Réseaux et Sécurité](outils/reseau-securite/README.md)
+  * [Configuration de serveurs](outils/configuration-serveurs/README.md)
+  * [Infrastructure As Code](outils/infra-as-code/README.md)
+    * [Gestion de Configuration](outils/infra-as-code/gestion-configuration/README.md)
+      * [Ansible](outils/infra-as-code/gestion-configuration/ansible/README.md)
+      * [Chef](outils/infra-as-code/gestion-configuration/chef/README.md)
+      * [Puppet](outils/infra-as-code/gestion-configuration/puppet/README.md)
+      * [Salt](outils/infra-as-code/gestion-configuration/salt/README.md)
+    * [Provisionnement](outils/infra-as-code/provision/README.md)
+      * [Vagrant](outils/infra-as-code/provision/vagrant/README.md)
+      * [CloudFormation](outils/infra-as-code/provision/cloudformation/README.md)
+      * [Terraform](outils/infra-as-code/provision/terraform/README.md)
+  * [Pipelines CI/CD](outils/ci-cd/README.md)
+  * [Conteneurs et Orchestrateurs](outils/conteneur-orchestration/README.md)
+  * [Cloud](outils/cloud/README.md)
+  * [Monitoring et Surveillance](outils/surveillance/README.md)
+* [Les liens Devops](bookmarks/README.md) : Une grande liste de liens, de comptes
   twitter, de comptes slack, de chaines youtube et des conférences.
-* [Contribuer](contribute/) : Comment contribuer au projet.
-
+* [Contribuer](contribute/README.md)
