@@ -8,8 +8,8 @@ lecture de ces trois ouvrages en français :
 * [Mettre en œuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile](https://amzn.to/3e0d4pg)
 * [DevOps - Intégrez et déployez en continu](https://amzn.to/3fRVnsA) de Ernesto Leite
 
-D'ailleurs ce chapitre en est une petite synthèse.
+D'ailleurs ce chapitre est en sorte une petite synthèse.
 
-* Origine du DevOps
-* Qu'est ce que la démarche DevOps
-*
+* [Racine du DevOps](/demarche-devops/racine/README.md)
+* [Qu'est-ce que le DevOps](/demarche-devops/introduction/README.md)
+* [Le cycle Devops](/demarche-devops/cycle/)

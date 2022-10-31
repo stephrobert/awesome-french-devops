@@ -29,11 +29,18 @@ Pour **mettre en œuvre avec succès le DevOps**, on se doit de connaître :
 
 ## Structure du projet
 
-Le dépôt/livre contient un ensemble de chapitres qui abordent les différents
-points.
+Ce dépôt est devenu aussi un projet de livre et donc sa structure correspond à
+un ensemble de chapitres couvrant l'ensemble de la formation à la démarche
+DevOps. Étant donné que DevOps couvre l'ensemble du cycle de vie du
+développement logiciel, cela signifie que vous travaillez avec de nombreuses
+technologies. De plus, DevOps continue d'évoluer et de nombreux nouveaux outils
+sont développés, en permanence, alors tous ne seront pas dans ce livre.
 
 * [La démarche DevOps](demarche-devops/) : L'historique, les principes de la démarche
   DevOps.
+  * [Origine du DevOps](demarche-devops/origine.md)
+  * [Qu'est-ce que le Devops](demarche-devops/devops.md)
+  * [Le cycle de vie DevOps](demarche-devops/cycle-devops.md)
 * [Les fiches Métiers](metiers/) : Les `fiches de poste` des Métiers pouvant
   utiliser la démarche DevOps.
   * [Développeur](metiers/developpeur/)
@@ -57,8 +64,3 @@ points.
   twitter, de comptes slack, de chaines youtube et des conférences.
 * [Contribuer](contribute/) : Comment contribuer au projet.
 
-**Remarque importante** :
-Étant donné que DevOps couvre l'ensemble du cycle de vie du développement
-logiciel, cela signifie que vous travaillez avec de nombreuses technologies. De
-plus, DevOps continue d'évoluer et de nombreux nouveaux outils sont développés
-en permanence.

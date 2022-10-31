@@ -1,9 +1,10 @@
 [book]
 authors = ["Stéphane ROBERT"]
-language = "en"
+language = "fr"
 multilingual = false
 src = "./"
 title = "Awesome French Devops"
+description = ""
 
 [preprocessor.toc]
 command = "mdbook-toc"
@@ -11,5 +12,5 @@ renderer = ["html"]
 
 [output.html]
 # site-url = "/mdBook/"
-git-repository-url = "https://github.com/stephrobert/awesome-french-devops"
+git-repository-url = "https://github.com/stephrobert/french-devops.git"
 git-repository-icon = "fa-github"
