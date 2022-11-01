@@ -1,0 +1,433 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Les racines du DevOps - Awesome French Devops</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../avant-propos.html"><strong aria-hidden="true">1.</strong> Avant-Propos</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/index.html"><strong aria-hidden="true">2.</strong> La démarche DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../demarche-devops/racine/index.html" class="active"><strong aria-hidden="true">2.1.</strong> Les racines du DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/introduction/index.html"><strong aria-hidden="true">2.2.</strong> Qu'est-ce que le Devops</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/cycle/index.html"><strong aria-hidden="true">2.3.</strong> Le cycle de vie DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/meo/index.html"><strong aria-hidden="true">2.4.</strong> Mettre en Oeuvre DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/cicd/index.html"><strong aria-hidden="true">2.5.</strong> L'approche CI/CD</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/outils/index.html"><strong aria-hidden="true">2.6.</strong> Chaine d'Outils Devops</a></li></ol></li><li class="chapter-item expanded "><a href="../../metiers/index.html"><strong aria-hidden="true">3.</strong> Les équipes Devops</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../metiers/developpeur/index.html"><strong aria-hidden="true">3.1.</strong> Développeur</a></li><li class="chapter-item expanded "><a href="../../metiers/systeme/index.html"><strong aria-hidden="true">3.2.</strong> Administrateur Systémes</a></li><li class="chapter-item expanded "><a href="../../metiers/reseau/index.html"><strong aria-hidden="true">3.3.</strong> Administrateur Réseaux</a></li><li class="chapter-item expanded "><a href="../../metiers/securité/index.html"><strong aria-hidden="true">3.4.</strong> Administrateur Sécurité</a></li><li class="chapter-item expanded "><a href="../../metiers/tests/index.html"><strong aria-hidden="true">3.5.</strong> Testeurs</a></li><li class="chapter-item expanded "><a href="../../metiers/sre/index.html"><strong aria-hidden="true">3.6.</strong> Ingénieur en Fiabilité</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/index.html"><strong aria-hidden="true">4.</strong> Les outils DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/index.html"><strong aria-hidden="true">4.1.</strong> Administration de serveurs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/linux/index.html"><strong aria-hidden="true">4.1.1.</strong> Linux</a></li><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/windows/index.html"><strong aria-hidden="true">4.1.2.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/index.html"><strong aria-hidden="true">4.2.</strong> Langage de Programmation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/langages-programmation/python/index.html"><strong aria-hidden="true">4.2.1.</strong> Python</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/golang/index.html"><strong aria-hidden="true">4.2.2.</strong> Golang</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/rust/index.html"><strong aria-hidden="true">4.2.3.</strong> Rust</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/ruby/index.html"><strong aria-hidden="true">4.2.4.</strong> Ruby</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/php/index.html"><strong aria-hidden="true">4.2.5.</strong> PHP</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/gestion-version-code/index.html"><strong aria-hidden="true">4.3.</strong> Gestion de Version de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/langages-programmation/git/index.html"><strong aria-hidden="true">4.3.1.</strong> Git</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/build/index.html"><strong aria-hidden="true">4.4.</strong> Outils de Build</a></li><li class="chapter-item expanded "><a href="../../outils/editeurs/index.html"><strong aria-hidden="true">4.5.</strong> Editeurs de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/editeurs/vim/index.html"><strong aria-hidden="true">4.5.1.</strong> vim</a></li><li class="chapter-item expanded "><a href="../../outils/editeurs/vscode/index.html"><strong aria-hidden="true">4.5.2.</strong> vscode</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/reseau-securite/index.html"><strong aria-hidden="true">4.6.</strong> Réseaux et Sécurité</a></li><li class="chapter-item expanded "><a href="../../outils/configuration-serveurs/index.html"><strong aria-hidden="true">4.7.</strong> Configuration de serveurs</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/index.html"><strong aria-hidden="true">4.8.</strong> Infrastructure As Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/index.html"><strong aria-hidden="true">4.8.1.</strong> Gestion de Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/ansible/index.html"><strong aria-hidden="true">4.8.1.1.</strong> Ansible</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/chef/index.html"><strong aria-hidden="true">4.8.1.2.</strong> Chef</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/puppet/index.html"><strong aria-hidden="true">4.8.1.3.</strong> Puppet</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/salt/index.html"><strong aria-hidden="true">4.8.1.4.</strong> Salt</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/index.html"><strong aria-hidden="true">4.8.2.</strong> Provisionnement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/vagrant/index.html"><strong aria-hidden="true">4.8.2.1.</strong> Vagrant</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/cloudformation/index.html"><strong aria-hidden="true">4.8.2.2.</strong> CloudFormation</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/terraform/index.html"><strong aria-hidden="true">4.8.2.3.</strong> Terraform</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../outils/ci-cd/index.html"><strong aria-hidden="true">4.9.</strong> Pipelines CI/CD</a></li><li class="chapter-item expanded "><a href="../../outils/conteneur-orchestration/index.html"><strong aria-hidden="true">4.10.</strong> Conteneurs et Orchestrateurs</a></li><li class="chapter-item expanded "><a href="../../outils/cloud/index.html"><strong aria-hidden="true">4.11.</strong> Cloud</a></li><li class="chapter-item expanded "><a href="../../outils/surveillance/index.html"><strong aria-hidden="true">4.12.</strong> Monitoring et Surveillance</a></li></ol></li><li class="chapter-item expanded "><a href="../../bookmarks/index.html"><strong aria-hidden="true">5.</strong> Les liens Devops</a></li><li class="chapter-item expanded "><a href="../../contribute/index.html"><strong aria-hidden="true">6.</strong> Contribuer</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Awesome French Devops</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/stephrobert/french-devops.git" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="comment-est-née-la-démarche-devops"><a class="header" href="#comment-est-née-la-démarche-devops">Comment est née la démarche DevOps</a></h1>
+<ul>
+<li><a href="#un-peu-dhistoire">Un peu d'histoire</a>
+<ul>
+<li><a href="#m%C3%A9thodes-dorganisation-du-travail">Méthodes d'organisation du travail</a>
+<ul>
+<li><a href="#lorganisation-scientifique-du-travail">L'organisation Scientifique du Travail</a></li>
+<li><a href="#le-toyotisme-appel%C3%A9-lean">Le Toyotisme appelé Lean</a></li>
+</ul>
+</li>
+<li><a href="#la-gestion-de-projets">La gestion de projets</a>
+<ul>
+<li><a href="#les-m%C3%A9thodes-traditionnelles">Les méthodes traditionnelles</a></li>
+<li><a href="#les-m%C3%A9thodes-agiles">Les méthodes Agiles</a></li>
+</ul>
+</li>
+<li><a href="#le-manifest-agile">Le manifest Agile</a></li>
+<li><a href="#les-quatre-valeurs-du-manifest-agile">Les quatre valeurs du Manifest Agile</a></li>
+<li><a href="#les-12-principes-agile">Les 12 principes Agile</a></li>
+</ul>
+</li>
+<li><a href="#pourquoi-la-d%C3%A9marche-devops-est-elle-apparue-">Pourquoi la démarche DevOps est-elle apparue ?</a></li>
+</ul>
+<p>Contrairement à des normes, comme l'ITIL qui ont été commandé par des
+organisations ou des gouvernements, le mouvement DevOps est lui issu d'une
+succession de conférences, dont les <a href="https://devopsdays.org/"><strong>DevOpsDays</strong></a>,
+qui se sont déroulées à partir de 2008. C'est pour cette raison qu'il n'existe
+pas de définition écrite ou de manifeste comme pour les méthodes agiles. Parmi
+les noms les plus connus et reconnus, nous retrouvons :</p>
+<ul>
+<li><strong>Andrew Shafer</strong> organisateur de la première conférence “Agile Infrastructure.”
+en aout 2008 à Toronto. Il n'y eut qu'une seule personne présente Patrick
+Debois.</li>
+<li><strong>John Allspaw</strong> et <strong>Paul Hammond</strong> qui en Juin 2009 donne une conférence
+intitulé &quot;10 déploiements par jour : coopération Dev et Ops sur Flickr.&quot;</li>
+<li><strong>Patrick Debois</strong> qui est à l'origine du mot DevOps en créant les DevOpsDays.</li>
+<li><strong>Damon Edwards</strong> et <strong>John Willis</strong> auteur des principes connus sous le nom
+de CAMS ou CALMS.</li>
+<li><strong>Jez Humble</strong> auteur du livre <a href="https://amzn.to/3zR5cyb"><em>Accelerate</em></a></li>
+<li><strong>Gene Kim</strong> auteur du livre <a href="https://amzn.to/3UcOotc"><em>The Phoenix Project</em></a></li>
+</ul>
+<p>Le constat qu'ils tiraient est que le cloisonnement des équipes de développement
+et des opérations était contre-productif.</p>
+<h2 id="un-peu-dhistoire"><a class="header" href="#un-peu-dhistoire">Un peu d'histoire</a></h2>
+<p>Revenons en arrière pour comprendre d'où le DevOps tire ses racines. On va
+partir loin dans le temps jusqu'au début de l'ère industrielle. Nous allons nous
+intéresser aux méthodes d'organisation du travail, puis aux méthodes de gestion
+de projets sans trop rentrer dans les détails. Pour le moment cela vous paraitra
+étrange, mais au fil de la lecture, vous comprendrez pourquoi certaines méthodes
+ont été retenues dans la démarche DevOps au fil de son élaboration.</p>
+<h3 id="méthodes-dorganisation-du-travail"><a class="header" href="#méthodes-dorganisation-du-travail">Méthodes d'organisation du travail</a></h3>
+<p>Dès l'aube de la révolution industrielle, on est au XVIIIe siècle, on a
+cherché à améliorer la productivité pour passer de l'artisanat à la production
+de masse de biens de consommation.</p>
+<h4 id="lorganisation-scientifique-du-travail"><a class="header" href="#lorganisation-scientifique-du-travail">L'organisation Scientifique du Travail</a></h4>
+<p>La première fut le <em>taylorisme</em> ou aussi appelé <em>OST</em>, organisation scientifique
+du travail. Taylor est parti du constat qu'il est impossible de réaliser une
+<em>production de masse</em> sans un minimum d'organisation et de discipline. Les
+grands principes :</p>
+<ul>
+<li>Le travail complexe est décomposé en tâches élémentaires et hiérarchisées qui
+s'exécutent de manière successive et répétitive</li>
+<li>Chaque titulaire de tâche se voit assigner un poste physiquement fixe (ou
+comportant très peu de déplacements)</li>
+<li>Les objets à produire ou transformés sont rendus mobiles par un procédé de
+convoyage adapté.</li>
+</ul>
+<p>Mais, largement critiqué par <strong>Charlie Chaplin</strong> dans <strong>les temps Modernes</strong>
+cette méthode de travail montre ses limites par son côté aliénant ayant même des
+répercutions sur la santé physique et mentale des opérateurs. Les hommes étaient
+devenus des machines où il n'y avait plus de place pour la réflexion. Pourtant,
+ces méthodes d'Organisation existent toujours dans certains domaines.</p>
+<h4 id="le-toyotisme-appelé-lean"><a class="header" href="#le-toyotisme-appelé-lean">Le Toyotisme appelé Lean</a></h4>
+<p>Le Lean, <em>maigre</em> en anglais, est une méthode de gestion de production mise au
+point au Japon dans les années 50, par Toyota, d'où son nom de Toyotisme. Cette
+méthode est axée sur la recherche de la performance que ce soit en termes de
+productivité, de qualité, de délais, et de coûts. Son émergence est due au
+contexte devenu de plus en plus concurrentiel : car les consommateurs
+recherchent avant tout le meilleur rapport qualité/prix.</p>
+<p>Le Lean, cette fois fait appel à l'ensemble des employés d'une entreprise pour
+identifier puis éliminer toutes les activités non rentables de l'entreprise. Le
+Lean cherche donc à supprimer tous les gaspillages, <strong>muda</strong> en japonais :</p>
+<ul>
+<li>La surproduction générant de stocks inutiles et coûteux.</li>
+<li>Les stocks inutiles entre les postes.</li>
+<li>Les goulets d'étranglement donnant des délais d'attente inutiles.</li>
+<li>Les traitements superflus n'apportant pas de valeur ajoutée.</li>
+<li>Les déplacements inutiles pour éviter les pertes de temps.</li>
+<li>Les outils inadaptés faisant baisser la qualité de production.</li>
+<li>Les défauts de fabrication afin d'éviter les retouches et les rebuts.</li>
+</ul>
+<p>Cette démarche ne s'arrête jamais, car elle repose sur la notion
+<strong>d'amélioration continue</strong>, <strong>kaizen</strong> en japonais, avec la participation de
+tous les employés.</p>
+<p>Pour répondre à ses objectifs de nombreux outils ont été mis au point. On
+retrouve la méthode des 5S, le SMED, le TOM, le PDCA ou aussi appelé roue de
+Deming. PCDA pour Plan ➔ Do ➔ Check ➔ Act. Ce cycle reboucle jusqu'à ce qu'une
+solution atteigne l'objectif fixé.</p>
+<p><img src="deming.png" alt="Roue de deming" /></p>
+<p>Par la suite le Lean a été décliné à d'autres domaines que l'industrie :</p>
+<ul>
+<li>A la gestion des organisations avec le <em>Lean management</em>.</li>
+<li>à l'industrie informatique avec le <em>Lean IT</em></li>
+<li>au développement Logiciel avec <em>Lean software development</em></li>
+<li>aux services <em>Lean Services</em></li>
+<li>...</li>
+</ul>
+<h3 id="la-gestion-de-projets"><a class="header" href="#la-gestion-de-projets">La gestion de projets</a></h3>
+<p>Les méthodes d'organisation du travail ne s'attachent qu'à la recherche de
+l'optimisation de la productivité. Mais quelles méthodes existent pour gérer des
+projets ? Petit ou grand. Des projets l'homme en a toujours eu sinon nous ne
+serions où nous en sommes actuellement. Pour construire une pyramide, un temple
+ou un pont voir une centrale nucléaire, il faut s'organiser sinon on va perdre
+du temps voir rencontrer un échec. En effet, il va falloir coordonner un
+ensemble d’activités et d’actions dans le but de répondre à un besoin client, et
+cela, dans un délai déterminé. Je vais détailler les deux grandes familles de
+méthodes de gestion de projets que l'on rencontre dans le domaine du
+développement logiciel.</p>
+<h4 id="les-méthodes-traditionnelles"><a class="header" href="#les-méthodes-traditionnelles">Les méthodes traditionnelles</a></h4>
+<p>Une méthode &quot;traditionnelle&quot; est composée d'étapes qui se succèdent les
+unes après les autres. Par exemple pour le modèle en Cascade :</p>
+<ul>
+<li><strong>Recueil des exigences du client</strong>.</li>
+<li><strong>Constitution du cahier des charges fonctionnel</strong> par analyse des exigences du
+client et ajout de celles demandées par des normes.</li>
+<li><strong>Conception du produit</strong> afin qu'il soit fabriqué en série et remplisse les
+exigences du cahier des charges</li>
+<li><strong>Pre-Production</strong> : le produit est assemblé et déployé</li>
+<li><strong>Validation</strong> : le produit est testé afin de voir s'il répond aux exigences</li>
+<li><strong>Production</strong> : le produit est installé et utilisé.</li>
+</ul>
+<p><img src="cascade.png" alt="Méthode en cascade" /></p>
+<p>Chacune de ces étapes ne peut commencer sans que la précédente ne soit terminée,
+conduisant à un <strong>effet tunnel</strong>. Il peut se passer de très longues périodes
+entre l'expression des besoins du client et la mise en service du produit.</p>
+<p>Lors de la livraison, même si le délai est respecté, on constate souvent des
+écarts entre les besoins exprimés par le client et le produit livré. De plus,
+certaines fonctionnalités se révèlent finalement inutiles alors que d'autres,
+découvertes en cours de route, pourraient donner plus de valeur au produit.</p>
+<h4 id="les-méthodes-agiles"><a class="header" href="#les-méthodes-agiles">Les méthodes Agiles</a></h4>
+<p>Les méthodologies agiles sont différentes au sens où le développement d'un
+produit devient incrémentale et donne une place importante au client tout au
+long de ce processus.</p>
+<p>Au démarrage du projet, on ne s'attache qu'à déterminer des objectifs à court
+terme pour en élaborer une première version. Ensuite en fonction du retour du
+client et des résultats des tests, le produit évolue à chaque itération en
+cherchant toujours à répondre aux besoins du client.</p>
+<p>Les méthodes agiles mettent un point d’honneur à renforcer les relations entre
+les membres de l’équipe projet, mais également entre l’équipe et le client.</p>
+<p><strong>Quelques méthodes Agiles</strong> : RAD (rapid application development), Scrum, XP
+(eXtreme Programming), ASD (Adaptive software development), FDD (feature driven
+development), BDD (Behavior-driven development), Crystal Clear, ... Safe et Less</p>
+<h3 id="le-manifest-agile"><a class="header" href="#le-manifest-agile">Le manifest Agile</a></h3>
+<p>En 2001, dix-sept grands noms du développement logiciel se sont réunis pour
+tenter d'unifier leurs méthodes respectives. De cette réunion est née le
+<a href="https://agilemanifesto.org/iso/fr/manifesto.html"><strong>manifest Agile</strong></a>. Ce
+manifest agile s'appuie sur quatre valeurs et de douze principes fondateurs.</p>
+<h3 id="les-quatre-valeurs-du-manifest-agile"><a class="header" href="#les-quatre-valeurs-du-manifest-agile">Les quatre valeurs du Manifest Agile</a></h3>
+<p>Les 4 valeurs du manifest Agile :</p>
+<ul>
+<li>Les individus et leurs interactions plus que les processus et les outils</li>
+<li>Des logiciels opérationnels plus qu’une documentation exhaustive</li>
+<li>La collaboration avec les clients plus que la négociation contractuelle</li>
+<li>L’adaptation au changement plus que le suivi d’un plan</li>
+</ul>
+<p>Les quatre valeurs du manifeste agile ont été déclinées en douze principes afin
+d'aider opérationnellement les équipes qui souhaitaient les suivre.</p>
+<h3 id="les-12-principes-agile"><a class="header" href="#les-12-principes-agile">Les 12 principes Agile</a></h3>
+<ol>
+<li>Notre plus haute priorité est de satisfaire le client en livrant rapidement
+et régulièrement des fonctionnalités à grande valeur ajoutée.</li>
+<li>Accueillez positivement les changements de besoins, même tard dans le projet.
+Les processus Agiles exploitent le changement pour donner un avantage compétitif
+au client.</li>
+<li>Livrez fréquemment un logiciel opérationnel avec des cycles de quelques
+semaines à quelques mois et une préférence pour les plus courts.</li>
+<li>Les utilisateurs ou leurs représentants et les développeurs doivent
+travailler ensemble quotidiennement tout au long du projet.</li>
+<li>Réalisez les projets avec des personnes motivées. Fournissez-leur
+l’environnement et le soutien dont ils ont besoin et faites-leur confiance pour
+atteindre les objectifs fixés.</li>
+<li>La méthode la plus simple et la plus efficace pour transmettre de
+l’information à l'équipe de développement et à l’intérieur de celle-ci est le
+dialogue en face à face.</li>
+<li>Un logiciel opérationnel est la principale mesure d’avancement.</li>
+<li>Les processus Agiles encouragent un rythme de développement soutenable.
+Ensemble, les commanditaires, les développeurs et les utilisateurs devraient
+être capables de maintenir indéfiniment un rythme constant.</li>
+<li>Une attention continue à l'excellence technique et à une bonne conception
+renforce l’Agilité.</li>
+<li>La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile –
+est essentielle.</li>
+<li>Les meilleures architectures, spécifications et conceptions émergent d'équipes
+autoorganisées.</li>
+<li>À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace,
+puis règle et modifie son comportement en conséquence.</li>
+</ol>
+<h2 id="pourquoi-la-démarche-devops-est-elle-apparue-"><a class="header" href="#pourquoi-la-démarche-devops-est-elle-apparue-">Pourquoi la démarche DevOps est-elle apparue ?</a></h2>
+<p>Maintenant que nous avons vu les différentes méthodes de production et de
+gestion de projets attachons à comprendre pourquoi la démarche DevOps est-elle
+apparue. Quel problème tente-t-elle de résoudre ?</p>
+<p>Il faut se rappeler qu'en 2008, cette date marque les débuts de ce mouvement,
+une grande majorité des entreprises était découpé en équipes. Parmi ces équipes
+on retrouvait :</p>
+<ul>
+<li><strong>les développeurs</strong> : en charge d'écrire du code, d'apporter de nouvelles
+fonctionnalités et de corriger des bugs. Leurs préoccupations : apportés le
+plus rapidement des changements pour répondre aux besoins du client.</li>
+<li><strong>les opérations</strong> : en charge de créer et de maintenir l'infrastructure
+hébergeant ces applications. Leurs préoccupations : stabiliser et garantir la
+disponibilité de celle-ci pour répondre aux exigences du client. Dans les
+opérationnelles, on trouve les personnes en charge de d'administrer, de
+sécuriser et de connecter les équipements.</li>
+</ul>
+<p>Nous voyons bien que ces équipes ayant des préoccupations antagonistes ne sont
+pas faites pour s'entendre. En effet, les mises en production régulières font
+peser un risque sur la stabilité d’une application.</p>
+<p>Pour ne pas arranger les choses, les équipes de développement utilisaient de
+plus en plus les méthodes agiles augmentant le nombre de mises en production,
+alors que celles des &quot;ops&quot; continuaient à travailler en méthode traditionnelle.
+De plus ces équipes avaient des budgets et des managers différents et ne
+communiquaient que par le biais de demandes de services, <em>request</em> en anglais,
+et de changements, <em>change</em> en anglais. Cela conduisait à des incompréhensions,
+des allers-retours à répétition, a beaucoup d'incidents, mais surtout à une
+faible vélocité.</p>
+<p>Dans de telles conditions, un changement devenait nécessaire. Ces deux équipes
+devaient se rapprocher et travailler ensemble avec les mêmes objectifs et les
+mêmes méthodes.</p>
+<p>C'est à travers des conférences dont les DevOpsDays qu'est né cette démarche de
+réconciliation. D'ailleurs le mot DevOps s'est imposé lors de l'organisation de
+la première d'entre elles par Patrick Debois en 2009 dans la ville de Gand en
+Belgique. <strong>Une contraction de Development et Operations pour symboliser leur
+rapprochement nécessaire.</strong></p>
+<p>Dans le prochain chapitre, nous verrons sur quelles méthodes et outils reposent
+le DevOps.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../demarche-devops/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../demarche-devops/introduction/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../demarche-devops/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../demarche-devops/introduction/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

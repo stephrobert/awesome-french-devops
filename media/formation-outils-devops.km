@@ -1,0 +1,1272 @@
+{
+    "root": {
+        "data": {
+            "id": "cnd8h41yqp40",
+            "created": 1664896279561,
+            "text": "Formation Devops",
+            "expandState": "expand",
+            "font-family": "sans-serif",
+            "background": "#4f81bd",
+            "color": "#ffffff"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cnd8r9xvouo0",
+                    "created": 1664897076016,
+                    "text": "Administration de Serveurs",
+                    "priority": 1,
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -2.4999999006589633,
+                        "y": 45.833331512080406
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnd8t3mm45s0",
+                            "created": 1664897219003,
+                            "text": "Linux",
+                            "layout": null,
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnd8u3a2x680",
+                            "created": 1664897296609,
+                            "text": "Windows",
+                            "background": "#4bacc6",
+                            "color": "#ffffff",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd8kcsg8rk0",
+                    "created": 1664896533669,
+                    "text": "Langages",
+                    "priority": 2,
+                    "expandState": "expand",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -12.499999503294816,
+                        "y": 56.66666441493578
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Programmation",
+                            "background": "#fabf8f",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnd8kzqbhjc0",
+                                    "created": 1664896583606,
+                                    "text": "Python",
+                                    "layout": null,
+                                    "expandState": "expand",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnd8wlrc85k0",
+                                    "created": 1664897493563,
+                                    "text": "Rust",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnd8wat2jeo0",
+                                    "created": 1664897469723,
+                                    "text": "Go",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnd8woccktk0",
+                                    "created": 1664897499188,
+                                    "text": "Ruby",
+                                    "background": "#ffff00",
+                                    "color": "#000000",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Format",
+                            "background": "#fabf8f",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnd8m6if0g00",
+                                    "created": 1664896676730,
+                                    "text": "Yaml",
+                                    "background": "#5f497a",
+                                    "expandState": "expand",
+                                    "layout": null,
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnd8w8ms3ls0",
+                                    "created": 1664897464989,
+                                    "text": "Json",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnd8wlrc85k0",
+                                    "created": 1664897493563,
+                                    "text": "XML",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Divers",
+                            "background": "#fabf8f",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnd8m6if0g00",
+                                    "created": 1664896676730,
+                                    "text": "API Rest",
+                                    "background": "#5f497a",
+                                    "expandState": "expand",
+                                    "layout": null,
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd8qjvw8kg0",
+                    "created": 1664897019300,
+                    "text": "Réseau et Sécurité",
+                    "priority": 3,
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -14.999999776482753,
+                        "y": 62.08333555401998
+                    },
+                    "layout": null,
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Protocoles",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 49.66666222943218,
+                                "y": -5.666666600439271
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda2n4acjk0",
+                                    "created": 1664900787817,
+                                    "text": "Layer 3 / Network Layer",
+                                    "background": "#fabf8f",
+                                    "layout_right_offset": {
+                                        "x": 49.66666222943218,
+                                        "y": -5.666666600439271
+                                    },
+                                    "expandState": "expand",
+                                    "font-weight": "bold"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "IP",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cnda2n4a1u80",
+                                                    "created": 1664900787817,
+                                                    "text": "IPv4",
+                                                    "background": "#5f497a",
+                                                    "color": "#ffffff",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cnda3q9u5c00",
+                                                    "created": 1664900873048,
+                                                    "text": "IPv6",
+                                                    "background": "#4bacc6",
+                                                    "color": "#ffffff"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "ICMP",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda3q9u5c00",
+                                            "created": 1664900873048,
+                                            "text": "IPSec",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4acjk0",
+                                    "created": 1664900787817,
+                                    "text": "Layer 4 / Transport Layer",
+                                    "background": "#fabf8f",
+                                    "layout_right_offset": {
+                                        "x": 49.66666222943218,
+                                        "y": -5.666666600439271
+                                    },
+                                    "expandState": "expand",
+                                    "font-weight": "bold"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "TCP",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "UDP",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4acjk0",
+                                    "created": 1664900787817,
+                                    "text": "Layer 7 / Application Layer",
+                                    "background": "#fabf8f",
+                                    "layout_right_offset": {
+                                        "x": 66,
+                                        "y": 0
+                                    },
+                                    "expandState": "expand",
+                                    "font-weight": "bold"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "HTTP / HTTPS ",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "SSH",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "TLS / mTLS ",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda2n4a1u80",
+                                            "created": 1664900787817,
+                                            "text": "DNS",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda3q9u5c00",
+                                            "created": 1664900873048,
+                                            "text": "LDAP",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda3q9u5c00",
+                                            "created": 1664900873048,
+                                            "text": "SMTP",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Outils",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 64,
+                                "y": 2
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda2n4a1u80",
+                                    "created": 1664900787817,
+                                    "text": "SSH",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4aoqw0",
+                                    "created": 1664900787818,
+                                    "text": "openssl",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4aoqw0",
+                                    "created": 1664900787818,
+                                    "text": "Public/Private Key",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u5c00",
+                                    "created": 1664900873048,
+                                    "text": "RBAC / ABAC",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd8tl7mrmg0",
+                    "created": 1664897257279,
+                    "text": "Build",
+                    "priority": 4,
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -7.083333952145438,
+                        "y": 56.25000090027828
+                    },
+                    "layout": null,
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda2n4acjk0",
+                            "created": 1664900787817,
+                            "text": "Repository",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 90.66666222943218,
+                                "y": 5.333333399560729
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda2n4a1u80",
+                                    "created": 1664900787817,
+                                    "text": "Artifactory",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4aoqw0",
+                                    "created": 1664900787818,
+                                    "text": "Nexus",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda2n4ag140",
+                                    "created": 1664900787818,
+                                    "text": "Gitlab Package & Container",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u5c00",
+                                    "created": 1664900873048,
+                                    "text": "Harbor",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda2n4aots0",
+                            "created": 1664900787818,
+                            "text": "Gestion de Versions de code",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 59.83333310153739,
+                                "y": 30.166666302416047
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda2n4ahqo0",
+                                    "created": 1664900787818,
+                                    "text": "Git",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u5c00",
+                                    "created": 1664900873048,
+                                    "text": "SVN",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9ud8g0",
+                                    "created": 1664900873048,
+                                    "text": "CVS",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd923izaow0",
+                    "created": 1664897924060,
+                    "text": "Serveurs",
+                    "layout_mind_offset": {
+                        "x": -13.666666004392823,
+                        "y": 113.8333305186697
+                    },
+                    "layout": null,
+                    "priority": 5,
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda3q9tn5c0",
+                            "created": 1664900873047,
+                            "text": "Web",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 155.83332714107314,
+                                "y": -4.999999801317813
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda3q9tiqo0",
+                                    "created": 1664900873047,
+                                    "text": "Apache",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9tic80",
+                                    "created": 1664900873047,
+                                    "text": "Nginx",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u4ps0",
+                                    "created": 1664900873048,
+                                    "text": "Tomcat",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda3q9ug7c0",
+                            "created": 1664900873048,
+                            "text": "Cache",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 144.99999423821782,
+                                "y": 3.3333332008785987
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda3q9u4q80",
+                                    "created": 1664900873048,
+                                    "text": "Redis",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9ua7s0",
+                                    "created": 1664900873048,
+                                    "text": "Memcache",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u4ps0",
+                                    "created": 1664900873048,
+                                    "text": "Infinispan",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda3q9unrc0",
+                            "created": 1664900873048,
+                            "text": "Base de Données",
+                            "background": "#fabf8f",
+                            "layout_right_offset": {
+                                "x": 135.83332793580144,
+                                "y": 4.999999801317813
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda3q9u8ls0",
+                                    "created": 1664900873048,
+                                    "text": "MySQL/MariaDB",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9ukzc0",
+                                    "created": 1664900873048,
+                                    "text": "PostgreSQL",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9u5c00",
+                                    "created": 1664900873048,
+                                    "text": "MongoDB",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda3q9ud8g0",
+                                    "created": 1664900873048,
+                                    "text": "OracleDB",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd8tj62xk00",
+                    "created": 1664897252831,
+                    "text": "Infra As Code",
+                    "priority": 6,
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -64.83333162383894,
+                        "y": -3.416663067622636
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda1pelaf40",
+                            "created": 1664900714430,
+                            "text": "Gestion de Configuration",
+                            "background": "#fabf8f",
+                            "layout_left_offset": {
+                                "x": -5,
+                                "y": -20
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda1pel7qw0",
+                                    "created": 1664900714430,
+                                    "text": "Ansible",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda1pelaa80",
+                                    "created": 1664900714430,
+                                    "text": "Puppet",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda1pem2400",
+                                    "created": 1664900714431,
+                                    "text": "Chef",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda1pelurs0",
+                                    "created": 1664900714431,
+                                    "text": "Salt",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda1peln9k0",
+                            "created": 1664900714431,
+                            "text": "Provisionnement",
+                            "background": "#fabf8f",
+                            "expandState": "expand",
+                            "layout_left_offset": {
+                                "x": -11,
+                                "y": 20
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda1pels0o0",
+                                    "created": 1664900714431,
+                                    "text": "Terraform",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda1pelvqg0",
+                                    "created": 1664900714431,
+                                    "text": "AWS CloudFormation",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda1pem0g80",
+                                    "created": 1664900714431,
+                                    "text": "Pulumi",
+                                    "background": "#ffff00",
+                                    "color": "#000000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd9z7r6py80",
+                    "created": 1664900519281,
+                    "text": "CI/CD",
+                    "layout_mind_offset": {
+                        "x": -104.99999582767487,
+                        "y": 34.999998609224974
+                    },
+                    "priority": null,
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda44nenk00",
+                            "created": 1664900904343,
+                            "text": "Gitlab-CICD",
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda44netuw0",
+                            "created": 1664900904343,
+                            "text": "Github Actions",
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda44nevg00",
+                            "created": 1664900904343,
+                            "text": "Argo CD",
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda44nep9k0",
+                            "created": 1664900904343,
+                            "text": "Flux",
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda44neyhs0",
+                            "created": 1664900904344,
+                            "text": "Jenkins",
+                            "background": "#4bacc6",
+                            "color": "#ffffff",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd9zc958mg0",
+                    "created": 1664900529074,
+                    "text": "Clouds",
+                    "priority": 9,
+                    "layout_mind_offset": {
+                        "x": -114.08332897267434,
+                        "y": 46.74999892587476
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda4kdlqq80",
+                            "created": 1664900938579,
+                            "text": "AWS",
+                            "background": "#5f497a",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda4kdmam80",
+                            "created": 1664900938580,
+                            "text": "GCP",
+                            "background": "#4bacc6",
+                            "color": "#ffffff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda4kdmesg0",
+                            "created": 1664900938580,
+                            "text": "Azure",
+                            "background": "#ffff00",
+                            "color": "#000000"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cnda4kdmtmw0",
+                            "created": 1664900938581,
+                            "text": "Alibaba Cloud",
+                            "background": "#ffff00",
+                            "color": "#000000"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd9ze7zi1k0",
+                    "created": 1664900533358,
+                    "text": "Surveillance",
+                    "priority": 10,
+                    "layout_mind_offset": {
+                        "x": -96.49999632438039,
+                        "y": 419.99999463558214
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda9vut5280",
+                            "created": 1664901355385,
+                            "text": "Logging",
+                            "background": "#fabf8f",
+                            "layout_left_offset": {
+                                "x": -3,
+                                "y": -9
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda9vutelc0",
+                                    "created": 1664901355385,
+                                    "text": "Splunk",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda9vuu0rk0",
+                                    "created": 1664901355386,
+                                    "text": "ELK",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda9vuu0hc0",
+                                    "created": 1664901355386,
+                                    "text": "DataDog",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda9vuu7nk0",
+                            "created": 1664901355386,
+                            "text": "Monitoring",
+                            "background": "#fabf8f",
+                            "layout_left_offset": {
+                                "x": -1,
+                                "y": 14
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda9vuu8y00",
+                                    "created": 1664901355386,
+                                    "text": "Centreon",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda9vutvbk0",
+                                    "created": 1664901355386,
+                                    "text": "Zabbix",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda9vuu5000",
+                                    "created": 1664901355386,
+                                    "text": "Prometheus",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda9vuu1m00",
+                                    "created": 1664901355386,
+                                    "text": "Grafana",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnd9zb2qlw80",
+                    "created": 1664900526510,
+                    "text": "Cloud Native",
+                    "priority": 8,
+                    "layout_mind_offset": {
+                        "x": -79.16666292481955,
+                        "y": -102.16666590505173
+                    },
+                    "background": "#4f81bd",
+                    "color": "#ffffff"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnda5b7uxmg0",
+                            "created": 1664900997005,
+                            "text": "Conteneurs",
+                            "background": "#fabf8f"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda5b7v7ts0",
+                                    "created": 1664900997005,
+                                    "text": "Docker",
+                                    "background": "#5f497a",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda4kdmam80",
+                                    "created": 1664900938580,
+                                    "text": "Podman",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnda5b7vhfs0",
+                            "created": 1664900997005,
+                            "text": "Orchestrateurs",
+                            "background": "#fabf8f",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnda5b7vdmw0",
+                                    "created": 1664900997005,
+                                    "text": "Nomad",
+                                    "background": "#4bacc6",
+                                    "color": "#ffffff",
+                                    "layout_left_offset": {
+                                        "x": -5,
+                                        "y": 186
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda5b7uxmg0",
+                                    "created": 1664900997005,
+                                    "text": "Docker",
+                                    "background": "#fabf8f"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cnda5b7v7ts0",
+                                            "created": 1664900997005,
+                                            "text": "Docker Swarm",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda4kdmam80",
+                                            "created": 1664900938580,
+                                            "text": "Docker Compose",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cnda5b7uxmg0",
+                                    "created": 1664900997005,
+                                    "text": "Kubernetes",
+                                    "background": "#fabf8f",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cnda5b7v7ts0",
+                                            "created": 1664900997005,
+                                            "text": "K8S",
+                                            "background": "#5f497a",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda4kdmam80",
+                                            "created": 1664900938580,
+                                            "text": "Google Kubernetes Engine",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda4kdmam80",
+                                            "created": 1664900938580,
+                                            "text": "Azure Kubernetes Services",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda4kdmam80",
+                                            "created": 1664900938580,
+                                            "text": "Elastic Kubernetes Service",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda5b7vdmw0",
+                                            "created": 1664900997005,
+                                            "text": "OpenShift",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cnda5b7vdmw0",
+                                            "created": 1664900997005,
+                                            "text": "Tanzu",
+                                            "background": "#4bacc6",
+                                            "color": "#ffffff"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

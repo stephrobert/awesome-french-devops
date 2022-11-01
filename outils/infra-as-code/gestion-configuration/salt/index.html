@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Salt - Awesome French Devops</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../../../avant-propos.html"><strong aria-hidden="true">1.</strong> Avant-Propos</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/index.html"><strong aria-hidden="true">2.</strong> La démarche DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../demarche-devops/racine/index.html"><strong aria-hidden="true">2.1.</strong> Les racines du DevOps</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/introduction/index.html"><strong aria-hidden="true">2.2.</strong> Qu'est-ce que le Devops</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/cycle/index.html"><strong aria-hidden="true">2.3.</strong> Le cycle de vie DevOps</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/meo/index.html"><strong aria-hidden="true">2.4.</strong> Mettre en Oeuvre DevOps</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/cicd/index.html"><strong aria-hidden="true">2.5.</strong> L'approche CI/CD</a></li><li class="chapter-item expanded "><a href="../../../../demarche-devops/outils/index.html"><strong aria-hidden="true">2.6.</strong> Chaine d'Outils Devops</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../metiers/index.html"><strong aria-hidden="true">3.</strong> Les équipes Devops</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../metiers/developpeur/index.html"><strong aria-hidden="true">3.1.</strong> Développeur</a></li><li class="chapter-item expanded "><a href="../../../../metiers/systeme/index.html"><strong aria-hidden="true">3.2.</strong> Administrateur Systémes</a></li><li class="chapter-item expanded "><a href="../../../../metiers/reseau/index.html"><strong aria-hidden="true">3.3.</strong> Administrateur Réseaux</a></li><li class="chapter-item expanded "><a href="../../../../metiers/securité/index.html"><strong aria-hidden="true">3.4.</strong> Administrateur Sécurité</a></li><li class="chapter-item expanded "><a href="../../../../metiers/tests/index.html"><strong aria-hidden="true">3.5.</strong> Testeurs</a></li><li class="chapter-item expanded "><a href="../../../../metiers/sre/index.html"><strong aria-hidden="true">3.6.</strong> Ingénieur en Fiabilité</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/index.html"><strong aria-hidden="true">4.</strong> Les outils DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/admin-serveurs/index.html"><strong aria-hidden="true">4.1.</strong> Administration de serveurs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/admin-serveurs/linux/index.html"><strong aria-hidden="true">4.1.1.</strong> Linux</a></li><li class="chapter-item expanded "><a href="../../../../outils/admin-serveurs/windows/index.html"><strong aria-hidden="true">4.1.2.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/index.html"><strong aria-hidden="true">4.2.</strong> Langage de Programmation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/python/index.html"><strong aria-hidden="true">4.2.1.</strong> Python</a></li><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/golang/index.html"><strong aria-hidden="true">4.2.2.</strong> Golang</a></li><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/rust/index.html"><strong aria-hidden="true">4.2.3.</strong> Rust</a></li><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/ruby/index.html"><strong aria-hidden="true">4.2.4.</strong> Ruby</a></li><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/php/index.html"><strong aria-hidden="true">4.2.5.</strong> PHP</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/gestion-version-code/index.html"><strong aria-hidden="true">4.3.</strong> Gestion de Version de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/langages-programmation/git/index.html"><strong aria-hidden="true">4.3.1.</strong> Git</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/build/index.html"><strong aria-hidden="true">4.4.</strong> Outils de Build</a></li><li class="chapter-item expanded "><a href="../../../../outils/editeurs/index.html"><strong aria-hidden="true">4.5.</strong> Editeurs de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/editeurs/vim/index.html"><strong aria-hidden="true">4.5.1.</strong> vim</a></li><li class="chapter-item expanded "><a href="../../../../outils/editeurs/vscode/index.html"><strong aria-hidden="true">4.5.2.</strong> vscode</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/reseau-securite/index.html"><strong aria-hidden="true">4.6.</strong> Réseaux et Sécurité</a></li><li class="chapter-item expanded "><a href="../../../../outils/configuration-serveurs/index.html"><strong aria-hidden="true">4.7.</strong> Configuration de serveurs</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/index.html"><strong aria-hidden="true">4.8.</strong> Infrastructure As Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/gestion-configuration/index.html"><strong aria-hidden="true">4.8.1.</strong> Gestion de Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/gestion-configuration/ansible/index.html"><strong aria-hidden="true">4.8.1.1.</strong> Ansible</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/gestion-configuration/chef/index.html"><strong aria-hidden="true">4.8.1.2.</strong> Chef</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/gestion-configuration/puppet/index.html"><strong aria-hidden="true">4.8.1.3.</strong> Puppet</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/gestion-configuration/salt/index.html" class="active"><strong aria-hidden="true">4.8.1.4.</strong> Salt</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/provision/index.html"><strong aria-hidden="true">4.8.2.</strong> Provisionnement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/provision/vagrant/index.html"><strong aria-hidden="true">4.8.2.1.</strong> Vagrant</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/provision/cloudformation/index.html"><strong aria-hidden="true">4.8.2.2.</strong> CloudFormation</a></li><li class="chapter-item expanded "><a href="../../../../outils/infra-as-code/provision/terraform/index.html"><strong aria-hidden="true">4.8.2.3.</strong> Terraform</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../../outils/ci-cd/index.html"><strong aria-hidden="true">4.9.</strong> Pipelines CI/CD</a></li><li class="chapter-item expanded "><a href="../../../../outils/conteneur-orchestration/index.html"><strong aria-hidden="true">4.10.</strong> Conteneurs et Orchestrateurs</a></li><li class="chapter-item expanded "><a href="../../../../outils/cloud/index.html"><strong aria-hidden="true">4.11.</strong> Cloud</a></li><li class="chapter-item expanded "><a href="../../../../outils/surveillance/index.html"><strong aria-hidden="true">4.12.</strong> Monitoring et Surveillance</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../bookmarks/index.html"><strong aria-hidden="true">5.</strong> Les liens Devops</a></li><li class="chapter-item expanded "><a href="../../../../contribute/index.html"><strong aria-hidden="true">6.</strong> Contribuer</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Awesome French Devops</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/stephrobert/french-devops.git" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="salt"><a class="header" href="#salt">Salt</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../../outils/infra-as-code/gestion-configuration/puppet/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../../../outils/infra-as-code/provision/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../../outils/infra-as-code/gestion-configuration/puppet/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../../../outils/infra-as-code/provision/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

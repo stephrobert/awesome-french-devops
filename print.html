@@ -1,0 +1,1908 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Awesome French Devops</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="avant-propos.html"><strong aria-hidden="true">1.</strong> Avant-Propos</a></li><li class="chapter-item expanded "><a href="demarche-devops/index.html"><strong aria-hidden="true">2.</strong> La démarche DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="demarche-devops/racine/index.html"><strong aria-hidden="true">2.1.</strong> Les racines du DevOps</a></li><li class="chapter-item expanded "><a href="demarche-devops/introduction/index.html"><strong aria-hidden="true">2.2.</strong> Qu'est-ce que le Devops</a></li><li class="chapter-item expanded "><a href="demarche-devops/cycle/index.html"><strong aria-hidden="true">2.3.</strong> Le cycle de vie DevOps</a></li><li class="chapter-item expanded "><a href="demarche-devops/meo/index.html"><strong aria-hidden="true">2.4.</strong> Mettre en Oeuvre DevOps</a></li><li class="chapter-item expanded "><a href="demarche-devops/cicd/index.html"><strong aria-hidden="true">2.5.</strong> L'approche CI/CD</a></li><li class="chapter-item expanded "><a href="demarche-devops/outils/index.html"><strong aria-hidden="true">2.6.</strong> Chaine d'Outils Devops</a></li></ol></li><li class="chapter-item expanded "><a href="metiers/index.html"><strong aria-hidden="true">3.</strong> Les équipes Devops</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="metiers/developpeur/index.html"><strong aria-hidden="true">3.1.</strong> Développeur</a></li><li class="chapter-item expanded "><a href="metiers/systeme/index.html"><strong aria-hidden="true">3.2.</strong> Administrateur Systémes</a></li><li class="chapter-item expanded "><a href="metiers/reseau/index.html"><strong aria-hidden="true">3.3.</strong> Administrateur Réseaux</a></li><li class="chapter-item expanded "><a href="metiers/securité/index.html"><strong aria-hidden="true">3.4.</strong> Administrateur Sécurité</a></li><li class="chapter-item expanded "><a href="metiers/tests/index.html"><strong aria-hidden="true">3.5.</strong> Testeurs</a></li><li class="chapter-item expanded "><a href="metiers/sre/index.html"><strong aria-hidden="true">3.6.</strong> Ingénieur en Fiabilité</a></li></ol></li><li class="chapter-item expanded "><a href="outils/index.html"><strong aria-hidden="true">4.</strong> Les outils DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/admin-serveurs/index.html"><strong aria-hidden="true">4.1.</strong> Administration de serveurs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/admin-serveurs/linux/index.html"><strong aria-hidden="true">4.1.1.</strong> Linux</a></li><li class="chapter-item expanded "><a href="outils/admin-serveurs/windows/index.html"><strong aria-hidden="true">4.1.2.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="outils/langages-programmation/index.html"><strong aria-hidden="true">4.2.</strong> Langage de Programmation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/langages-programmation/python/index.html"><strong aria-hidden="true">4.2.1.</strong> Python</a></li><li class="chapter-item expanded "><a href="outils/langages-programmation/golang/index.html"><strong aria-hidden="true">4.2.2.</strong> Golang</a></li><li class="chapter-item expanded "><a href="outils/langages-programmation/rust/index.html"><strong aria-hidden="true">4.2.3.</strong> Rust</a></li><li class="chapter-item expanded "><a href="outils/langages-programmation/ruby/index.html"><strong aria-hidden="true">4.2.4.</strong> Ruby</a></li><li class="chapter-item expanded "><a href="outils/langages-programmation/php/index.html"><strong aria-hidden="true">4.2.5.</strong> PHP</a></li></ol></li><li class="chapter-item expanded "><a href="outils/gestion-version-code/index.html"><strong aria-hidden="true">4.3.</strong> Gestion de Version de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/langages-programmation/git/index.html"><strong aria-hidden="true">4.3.1.</strong> Git</a></li></ol></li><li class="chapter-item expanded "><a href="outils/build/index.html"><strong aria-hidden="true">4.4.</strong> Outils de Build</a></li><li class="chapter-item expanded "><a href="outils/editeurs/index.html"><strong aria-hidden="true">4.5.</strong> Editeurs de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/editeurs/vim/index.html"><strong aria-hidden="true">4.5.1.</strong> vim</a></li><li class="chapter-item expanded "><a href="outils/editeurs/vscode/index.html"><strong aria-hidden="true">4.5.2.</strong> vscode</a></li></ol></li><li class="chapter-item expanded "><a href="outils/reseau-securite/index.html"><strong aria-hidden="true">4.6.</strong> Réseaux et Sécurité</a></li><li class="chapter-item expanded "><a href="outils/configuration-serveurs/index.html"><strong aria-hidden="true">4.7.</strong> Configuration de serveurs</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/index.html"><strong aria-hidden="true">4.8.</strong> Infrastructure As Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/infra-as-code/gestion-configuration/index.html"><strong aria-hidden="true">4.8.1.</strong> Gestion de Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/infra-as-code/gestion-configuration/ansible/index.html"><strong aria-hidden="true">4.8.1.1.</strong> Ansible</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/gestion-configuration/chef/index.html"><strong aria-hidden="true">4.8.1.2.</strong> Chef</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/gestion-configuration/puppet/index.html"><strong aria-hidden="true">4.8.1.3.</strong> Puppet</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/gestion-configuration/salt/index.html"><strong aria-hidden="true">4.8.1.4.</strong> Salt</a></li></ol></li><li class="chapter-item expanded "><a href="outils/infra-as-code/provision/index.html"><strong aria-hidden="true">4.8.2.</strong> Provisionnement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="outils/infra-as-code/provision/vagrant/index.html"><strong aria-hidden="true">4.8.2.1.</strong> Vagrant</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/provision/cloudformation/index.html"><strong aria-hidden="true">4.8.2.2.</strong> CloudFormation</a></li><li class="chapter-item expanded "><a href="outils/infra-as-code/provision/terraform/index.html"><strong aria-hidden="true">4.8.2.3.</strong> Terraform</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="outils/ci-cd/index.html"><strong aria-hidden="true">4.9.</strong> Pipelines CI/CD</a></li><li class="chapter-item expanded "><a href="outils/conteneur-orchestration/index.html"><strong aria-hidden="true">4.10.</strong> Conteneurs et Orchestrateurs</a></li><li class="chapter-item expanded "><a href="outils/cloud/index.html"><strong aria-hidden="true">4.11.</strong> Cloud</a></li><li class="chapter-item expanded "><a href="outils/surveillance/index.html"><strong aria-hidden="true">4.12.</strong> Monitoring et Surveillance</a></li></ol></li><li class="chapter-item expanded "><a href="bookmarks/index.html"><strong aria-hidden="true">5.</strong> Les liens Devops</a></li><li class="chapter-item expanded "><a href="contribute/index.html"><strong aria-hidden="true">6.</strong> Contribuer</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Awesome French Devops</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/stephrobert/french-devops.git" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="avant-propos"><a class="header" href="#avant-propos">Avant-Propos</a></h1>
+<p>Écrire un livre sur la démarche et les outils DevOps, un sujet brûlant que
+certains aimeraient voir disparaître.</p>
+<p>Pour moi, point de doute après toutes ces années passées à améliorer, fiabiliser,
+automatiser et optimiser les chaînes de livraison sur lesquels j'ai travaillé.</p>
+<ul>
+<li>C'est quoi DevOps ?</li>
+<li>Par quoi dois-je commencer ?</li>
+<li>Comment je débute si je veux maîtriser les outils Devops ?</li>
+</ul>
+<p><strong>Ce sont des questions qui reviennent souvent. C'est pour y répondre que
+j'ai décidé de créer ce dépôt sous Github</strong></p>
+<h2 id="objectifs-de-ce-livre"><a class="header" href="#objectifs-de-ce-livre">Objectifs de ce livre</a></h2>
+<p>Pour <strong>mettre en œuvre avec succès le DevOps</strong>, on se doit de connaître :</p>
+<ul>
+<li><a href="devops/"><strong>La démarche DevOps</strong></a></li>
+<li><a href="outils/"><strong>Un certain nombre de types d'outils ou de technologies</strong></a> dont la
+liste est fonction du poste que vous souhaitez occuper où que vous occupez.</li>
+</ul>
+<p><strong>Donc ce livre a pour objectifs</strong> :</p>
+<ul>
+<li>D'aider à <strong>démarrer sa formation</strong> et à <strong>monter en compétences</strong> sur la
+<strong>culture et/ou les outils DevOps</strong>.</li>
+<li>De <strong>recenser tous les liens pointant sur du contenu en français et gratuit</strong>
+pour remplir cet objectif.</li>
+<li>D'évoluer au fil du temps via vos <a href="/contribute/"><strong>contributions</strong></a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="la-démarche-devops"><a class="header" href="#la-démarche-devops">La démarche DevOps</a></h1>
+<p>Dans cette partie, je vais juste rappeler un peu l'histoire, les grands principes et objectifs de
+la démarche DevOps. Si vous voulez en apprendre plus je vous renvoie à la
+lecture de ces trois ouvrages en français :</p>
+<ul>
+<li><a href="https://amzn.to/3roccO9">Découvrir DevOps - 2e éd. : L'essentiel pour tous les métiers</a></li>
+<li><a href="https://amzn.to/3e0d4pg">Mettre en œuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile</a></li>
+<li><a href="https://amzn.to/3fRVnsA">DevOps - Intégrez et déployez en continu</a> de Ernesto Leite</li>
+</ul>
+<p>D'ailleurs ce chapitre est en sorte une petite synthèse.</p>
+<ul>
+<li><a href="demarche-devops//demarche-devops/racine/README.html">Racine du DevOps</a></li>
+<li><a href="demarche-devops//demarche-devops/introduction/README.html">Qu'est-ce que le DevOps</a></li>
+<li><a href="demarche-devops//demarche-devops/cycle/">Le cycle Devops</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="comment-est-née-la-démarche-devops"><a class="header" href="#comment-est-née-la-démarche-devops">Comment est née la démarche DevOps</a></h1>
+<ul>
+<li><a href="demarche-devops/racine/index.html#un-peu-dhistoire">Un peu d'histoire</a>
+<ul>
+<li><a href="demarche-devops/racine/index.html#m%C3%A9thodes-dorganisation-du-travail">Méthodes d'organisation du travail</a>
+<ul>
+<li><a href="demarche-devops/racine/index.html#lorganisation-scientifique-du-travail">L'organisation Scientifique du Travail</a></li>
+<li><a href="demarche-devops/racine/index.html#le-toyotisme-appel%C3%A9-lean">Le Toyotisme appelé Lean</a></li>
+</ul>
+</li>
+<li><a href="demarche-devops/racine/index.html#la-gestion-de-projets">La gestion de projets</a>
+<ul>
+<li><a href="demarche-devops/racine/index.html#les-m%C3%A9thodes-traditionnelles">Les méthodes traditionnelles</a></li>
+<li><a href="demarche-devops/racine/index.html#les-m%C3%A9thodes-agiles">Les méthodes Agiles</a></li>
+</ul>
+</li>
+<li><a href="demarche-devops/racine/index.html#le-manifest-agile">Le manifest Agile</a></li>
+<li><a href="demarche-devops/racine/index.html#les-quatre-valeurs-du-manifest-agile">Les quatre valeurs du Manifest Agile</a></li>
+<li><a href="demarche-devops/racine/index.html#les-12-principes-agile">Les 12 principes Agile</a></li>
+</ul>
+</li>
+<li><a href="demarche-devops/racine/index.html#pourquoi-la-d%C3%A9marche-devops-est-elle-apparue-">Pourquoi la démarche DevOps est-elle apparue ?</a></li>
+</ul>
+<p>Contrairement à des normes, comme l'ITIL qui ont été commandé par des
+organisations ou des gouvernements, le mouvement DevOps est lui issu d'une
+succession de conférences, dont les <a href="https://devopsdays.org/"><strong>DevOpsDays</strong></a>,
+qui se sont déroulées à partir de 2008. C'est pour cette raison qu'il n'existe
+pas de définition écrite ou de manifeste comme pour les méthodes agiles. Parmi
+les noms les plus connus et reconnus, nous retrouvons :</p>
+<ul>
+<li><strong>Andrew Shafer</strong> organisateur de la première conférence “Agile Infrastructure.”
+en aout 2008 à Toronto. Il n'y eut qu'une seule personne présente Patrick
+Debois.</li>
+<li><strong>John Allspaw</strong> et <strong>Paul Hammond</strong> qui en Juin 2009 donne une conférence
+intitulé &quot;10 déploiements par jour : coopération Dev et Ops sur Flickr.&quot;</li>
+<li><strong>Patrick Debois</strong> qui est à l'origine du mot DevOps en créant les DevOpsDays.</li>
+<li><strong>Damon Edwards</strong> et <strong>John Willis</strong> auteur des principes connus sous le nom
+de CAMS ou CALMS.</li>
+<li><strong>Jez Humble</strong> auteur du livre <a href="https://amzn.to/3zR5cyb"><em>Accelerate</em></a></li>
+<li><strong>Gene Kim</strong> auteur du livre <a href="https://amzn.to/3UcOotc"><em>The Phoenix Project</em></a></li>
+</ul>
+<p>Le constat qu'ils tiraient est que le cloisonnement des équipes de développement
+et des opérations était contre-productif.</p>
+<h2 id="un-peu-dhistoire"><a class="header" href="#un-peu-dhistoire">Un peu d'histoire</a></h2>
+<p>Revenons en arrière pour comprendre d'où le DevOps tire ses racines. On va
+partir loin dans le temps jusqu'au début de l'ère industrielle. Nous allons nous
+intéresser aux méthodes d'organisation du travail, puis aux méthodes de gestion
+de projets sans trop rentrer dans les détails. Pour le moment cela vous paraitra
+étrange, mais au fil de la lecture, vous comprendrez pourquoi certaines méthodes
+ont été retenues dans la démarche DevOps au fil de son élaboration.</p>
+<h3 id="méthodes-dorganisation-du-travail"><a class="header" href="#méthodes-dorganisation-du-travail">Méthodes d'organisation du travail</a></h3>
+<p>Dès l'aube de la révolution industrielle, on est au XVIIIe siècle, on a
+cherché à améliorer la productivité pour passer de l'artisanat à la production
+de masse de biens de consommation.</p>
+<h4 id="lorganisation-scientifique-du-travail"><a class="header" href="#lorganisation-scientifique-du-travail">L'organisation Scientifique du Travail</a></h4>
+<p>La première fut le <em>taylorisme</em> ou aussi appelé <em>OST</em>, organisation scientifique
+du travail. Taylor est parti du constat qu'il est impossible de réaliser une
+<em>production de masse</em> sans un minimum d'organisation et de discipline. Les
+grands principes :</p>
+<ul>
+<li>Le travail complexe est décomposé en tâches élémentaires et hiérarchisées qui
+s'exécutent de manière successive et répétitive</li>
+<li>Chaque titulaire de tâche se voit assigner un poste physiquement fixe (ou
+comportant très peu de déplacements)</li>
+<li>Les objets à produire ou transformés sont rendus mobiles par un procédé de
+convoyage adapté.</li>
+</ul>
+<p>Mais, largement critiqué par <strong>Charlie Chaplin</strong> dans <strong>les temps Modernes</strong>
+cette méthode de travail montre ses limites par son côté aliénant ayant même des
+répercutions sur la santé physique et mentale des opérateurs. Les hommes étaient
+devenus des machines où il n'y avait plus de place pour la réflexion. Pourtant,
+ces méthodes d'Organisation existent toujours dans certains domaines.</p>
+<h4 id="le-toyotisme-appelé-lean"><a class="header" href="#le-toyotisme-appelé-lean">Le Toyotisme appelé Lean</a></h4>
+<p>Le Lean, <em>maigre</em> en anglais, est une méthode de gestion de production mise au
+point au Japon dans les années 50, par Toyota, d'où son nom de Toyotisme. Cette
+méthode est axée sur la recherche de la performance que ce soit en termes de
+productivité, de qualité, de délais, et de coûts. Son émergence est due au
+contexte devenu de plus en plus concurrentiel : car les consommateurs
+recherchent avant tout le meilleur rapport qualité/prix.</p>
+<p>Le Lean, cette fois fait appel à l'ensemble des employés d'une entreprise pour
+identifier puis éliminer toutes les activités non rentables de l'entreprise. Le
+Lean cherche donc à supprimer tous les gaspillages, <strong>muda</strong> en japonais :</p>
+<ul>
+<li>La surproduction générant de stocks inutiles et coûteux.</li>
+<li>Les stocks inutiles entre les postes.</li>
+<li>Les goulets d'étranglement donnant des délais d'attente inutiles.</li>
+<li>Les traitements superflus n'apportant pas de valeur ajoutée.</li>
+<li>Les déplacements inutiles pour éviter les pertes de temps.</li>
+<li>Les outils inadaptés faisant baisser la qualité de production.</li>
+<li>Les défauts de fabrication afin d'éviter les retouches et les rebuts.</li>
+</ul>
+<p>Cette démarche ne s'arrête jamais, car elle repose sur la notion
+<strong>d'amélioration continue</strong>, <strong>kaizen</strong> en japonais, avec la participation de
+tous les employés.</p>
+<p>Pour répondre à ses objectifs de nombreux outils ont été mis au point. On
+retrouve la méthode des 5S, le SMED, le TOM, le PDCA ou aussi appelé roue de
+Deming. PCDA pour Plan ➔ Do ➔ Check ➔ Act. Ce cycle reboucle jusqu'à ce qu'une
+solution atteigne l'objectif fixé.</p>
+<p><img src="demarche-devops/racine/deming.png" alt="Roue de deming" /></p>
+<p>Par la suite le Lean a été décliné à d'autres domaines que l'industrie :</p>
+<ul>
+<li>A la gestion des organisations avec le <em>Lean management</em>.</li>
+<li>à l'industrie informatique avec le <em>Lean IT</em></li>
+<li>au développement Logiciel avec <em>Lean software development</em></li>
+<li>aux services <em>Lean Services</em></li>
+<li>...</li>
+</ul>
+<h3 id="la-gestion-de-projets"><a class="header" href="#la-gestion-de-projets">La gestion de projets</a></h3>
+<p>Les méthodes d'organisation du travail ne s'attachent qu'à la recherche de
+l'optimisation de la productivité. Mais quelles méthodes existent pour gérer des
+projets ? Petit ou grand. Des projets l'homme en a toujours eu sinon nous ne
+serions où nous en sommes actuellement. Pour construire une pyramide, un temple
+ou un pont voir une centrale nucléaire, il faut s'organiser sinon on va perdre
+du temps voir rencontrer un échec. En effet, il va falloir coordonner un
+ensemble d’activités et d’actions dans le but de répondre à un besoin client, et
+cela, dans un délai déterminé. Je vais détailler les deux grandes familles de
+méthodes de gestion de projets que l'on rencontre dans le domaine du
+développement logiciel.</p>
+<h4 id="les-méthodes-traditionnelles"><a class="header" href="#les-méthodes-traditionnelles">Les méthodes traditionnelles</a></h4>
+<p>Une méthode &quot;traditionnelle&quot; est composée d'étapes qui se succèdent les
+unes après les autres. Par exemple pour le modèle en Cascade :</p>
+<ul>
+<li><strong>Recueil des exigences du client</strong>.</li>
+<li><strong>Constitution du cahier des charges fonctionnel</strong> par analyse des exigences du
+client et ajout de celles demandées par des normes.</li>
+<li><strong>Conception du produit</strong> afin qu'il soit fabriqué en série et remplisse les
+exigences du cahier des charges</li>
+<li><strong>Pre-Production</strong> : le produit est assemblé et déployé</li>
+<li><strong>Validation</strong> : le produit est testé afin de voir s'il répond aux exigences</li>
+<li><strong>Production</strong> : le produit est installé et utilisé.</li>
+</ul>
+<p><img src="demarche-devops/racine/cascade.png" alt="Méthode en cascade" /></p>
+<p>Chacune de ces étapes ne peut commencer sans que la précédente ne soit terminée,
+conduisant à un <strong>effet tunnel</strong>. Il peut se passer de très longues périodes
+entre l'expression des besoins du client et la mise en service du produit.</p>
+<p>Lors de la livraison, même si le délai est respecté, on constate souvent des
+écarts entre les besoins exprimés par le client et le produit livré. De plus,
+certaines fonctionnalités se révèlent finalement inutiles alors que d'autres,
+découvertes en cours de route, pourraient donner plus de valeur au produit.</p>
+<h4 id="les-méthodes-agiles"><a class="header" href="#les-méthodes-agiles">Les méthodes Agiles</a></h4>
+<p>Les méthodologies agiles sont différentes au sens où le développement d'un
+produit devient incrémentale et donne une place importante au client tout au
+long de ce processus.</p>
+<p>Au démarrage du projet, on ne s'attache qu'à déterminer des objectifs à court
+terme pour en élaborer une première version. Ensuite en fonction du retour du
+client et des résultats des tests, le produit évolue à chaque itération en
+cherchant toujours à répondre aux besoins du client.</p>
+<p>Les méthodes agiles mettent un point d’honneur à renforcer les relations entre
+les membres de l’équipe projet, mais également entre l’équipe et le client.</p>
+<p><strong>Quelques méthodes Agiles</strong> : RAD (rapid application development), Scrum, XP
+(eXtreme Programming), ASD (Adaptive software development), FDD (feature driven
+development), BDD (Behavior-driven development), Crystal Clear, ... Safe et Less</p>
+<h3 id="le-manifest-agile"><a class="header" href="#le-manifest-agile">Le manifest Agile</a></h3>
+<p>En 2001, dix-sept grands noms du développement logiciel se sont réunis pour
+tenter d'unifier leurs méthodes respectives. De cette réunion est née le
+<a href="https://agilemanifesto.org/iso/fr/manifesto.html"><strong>manifest Agile</strong></a>. Ce
+manifest agile s'appuie sur quatre valeurs et de douze principes fondateurs.</p>
+<h3 id="les-quatre-valeurs-du-manifest-agile"><a class="header" href="#les-quatre-valeurs-du-manifest-agile">Les quatre valeurs du Manifest Agile</a></h3>
+<p>Les 4 valeurs du manifest Agile :</p>
+<ul>
+<li>Les individus et leurs interactions plus que les processus et les outils</li>
+<li>Des logiciels opérationnels plus qu’une documentation exhaustive</li>
+<li>La collaboration avec les clients plus que la négociation contractuelle</li>
+<li>L’adaptation au changement plus que le suivi d’un plan</li>
+</ul>
+<p>Les quatre valeurs du manifeste agile ont été déclinées en douze principes afin
+d'aider opérationnellement les équipes qui souhaitaient les suivre.</p>
+<h3 id="les-12-principes-agile"><a class="header" href="#les-12-principes-agile">Les 12 principes Agile</a></h3>
+<ol>
+<li>Notre plus haute priorité est de satisfaire le client en livrant rapidement
+et régulièrement des fonctionnalités à grande valeur ajoutée.</li>
+<li>Accueillez positivement les changements de besoins, même tard dans le projet.
+Les processus Agiles exploitent le changement pour donner un avantage compétitif
+au client.</li>
+<li>Livrez fréquemment un logiciel opérationnel avec des cycles de quelques
+semaines à quelques mois et une préférence pour les plus courts.</li>
+<li>Les utilisateurs ou leurs représentants et les développeurs doivent
+travailler ensemble quotidiennement tout au long du projet.</li>
+<li>Réalisez les projets avec des personnes motivées. Fournissez-leur
+l’environnement et le soutien dont ils ont besoin et faites-leur confiance pour
+atteindre les objectifs fixés.</li>
+<li>La méthode la plus simple et la plus efficace pour transmettre de
+l’information à l'équipe de développement et à l’intérieur de celle-ci est le
+dialogue en face à face.</li>
+<li>Un logiciel opérationnel est la principale mesure d’avancement.</li>
+<li>Les processus Agiles encouragent un rythme de développement soutenable.
+Ensemble, les commanditaires, les développeurs et les utilisateurs devraient
+être capables de maintenir indéfiniment un rythme constant.</li>
+<li>Une attention continue à l'excellence technique et à une bonne conception
+renforce l’Agilité.</li>
+<li>La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile –
+est essentielle.</li>
+<li>Les meilleures architectures, spécifications et conceptions émergent d'équipes
+autoorganisées.</li>
+<li>À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace,
+puis règle et modifie son comportement en conséquence.</li>
+</ol>
+<h2 id="pourquoi-la-démarche-devops-est-elle-apparue-"><a class="header" href="#pourquoi-la-démarche-devops-est-elle-apparue-">Pourquoi la démarche DevOps est-elle apparue ?</a></h2>
+<p>Maintenant que nous avons vu les différentes méthodes de production et de
+gestion de projets attachons à comprendre pourquoi la démarche DevOps est-elle
+apparue. Quel problème tente-t-elle de résoudre ?</p>
+<p>Il faut se rappeler qu'en 2008, cette date marque les débuts de ce mouvement,
+une grande majorité des entreprises était découpé en équipes. Parmi ces équipes
+on retrouvait :</p>
+<ul>
+<li><strong>les développeurs</strong> : en charge d'écrire du code, d'apporter de nouvelles
+fonctionnalités et de corriger des bugs. Leurs préoccupations : apportés le
+plus rapidement des changements pour répondre aux besoins du client.</li>
+<li><strong>les opérations</strong> : en charge de créer et de maintenir l'infrastructure
+hébergeant ces applications. Leurs préoccupations : stabiliser et garantir la
+disponibilité de celle-ci pour répondre aux exigences du client. Dans les
+opérationnelles, on trouve les personnes en charge de d'administrer, de
+sécuriser et de connecter les équipements.</li>
+</ul>
+<p>Nous voyons bien que ces équipes ayant des préoccupations antagonistes ne sont
+pas faites pour s'entendre. En effet, les mises en production régulières font
+peser un risque sur la stabilité d’une application.</p>
+<p>Pour ne pas arranger les choses, les équipes de développement utilisaient de
+plus en plus les méthodes agiles augmentant le nombre de mises en production,
+alors que celles des &quot;ops&quot; continuaient à travailler en méthode traditionnelle.
+De plus ces équipes avaient des budgets et des managers différents et ne
+communiquaient que par le biais de demandes de services, <em>request</em> en anglais,
+et de changements, <em>change</em> en anglais. Cela conduisait à des incompréhensions,
+des allers-retours à répétition, a beaucoup d'incidents, mais surtout à une
+faible vélocité.</p>
+<p>Dans de telles conditions, un changement devenait nécessaire. Ces deux équipes
+devaient se rapprocher et travailler ensemble avec les mêmes objectifs et les
+mêmes méthodes.</p>
+<p>C'est à travers des conférences dont les DevOpsDays qu'est né cette démarche de
+réconciliation. D'ailleurs le mot DevOps s'est imposé lors de l'organisation de
+la première d'entre elles par Patrick Debois en 2009 dans la ville de Gand en
+Belgique. <strong>Une contraction de Development et Operations pour symboliser leur
+rapprochement nécessaire.</strong></p>
+<p>Dans le prochain chapitre, nous verrons sur quelles méthodes et outils reposent
+le DevOps.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quest-ce-que-le-devops"><a class="header" href="#quest-ce-que-le-devops">Qu'est-ce que le Devops</a></h1>
+<ul>
+<li><a href="demarche-devops/introduction/index.html#les-objectifs-du-devops">Les Objectifs du DevOps</a>
+<ul>
+<li><a href="demarche-devops/introduction/index.html#la-v%C3%A9locit%C3%A9">La vélocité</a></li>
+<li><a href="demarche-devops/introduction/index.html#fiabilit%C3%A9">Fiabilité</a></li>
+<li><a href="demarche-devops/introduction/index.html#s%C3%A9curit%C3%A9">Sécurité</a></li>
+<li><a href="demarche-devops/introduction/index.html#%C3%89volutivit%C3%A9">Évolutivité</a></li>
+<li><a href="demarche-devops/introduction/index.html#la-satisfaction-du-client">La satisfaction du client</a></li>
+</ul>
+</li>
+<li><a href="demarche-devops/introduction/index.html#les-principes-du-devops">Les principes du Devops</a>
+<ul>
+<li><a href="demarche-devops/introduction/index.html#le-calms">Le CALMS</a>
+<ul>
+<li><a href="demarche-devops/introduction/index.html#culture">[C]ulture</a></li>
+<li><a href="demarche-devops/introduction/index.html#automatisation">[A]utomatisation</a></li>
+<li><a href="demarche-devops/introduction/index.html#lean--se-concentrer-sur-ce-qui-donne-de-la-valeur-%C3%A0-notre-produit">[L]ean : Se concentrer sur ce qui donne de la valeur à notre produit</a></li>
+<li><a href="demarche-devops/introduction/index.html#measurement--a-t-on-atteint-lobjectif-">[M]easurement : A-t-on atteint l'objectif ?</a></li>
+<li><a href="demarche-devops/introduction/index.html#sharing-travailler-ensemble-pour-atteindre-nos-objectifs">[S]haring Travailler ensemble pour atteindre nos objectifs</a></li>
+</ul>
+</li>
+<li><a href="demarche-devops/introduction/index.html#pratiquer-le-calms">Pratiquer le CALMS</a></li>
+</ul>
+</li>
+</ul>
+<p>La philosophie DevOps est une combinaison de principes, de pratiques et d'outils
+visant à améliorer la capacité d'une entreprise à livrer à un rythme élevé des
+applications et des services d'infrastructures.</p>
+<p>Ils tirent ses racines des méthodes Agiles et du Lean que nous avons vu dans le
+chapitre précédent. Il est important de comprendre tout de suite que le DevOps
+n'est pas une méthode, mais plutôt une culture. De même, il ne repose pas sur
+l'utilisation d'outil précis, mais plutôt, il les utilise pour atteindre les
+objectifs fixés. D'ailleurs quels sont ces objectifs ?</p>
+<h2 id="les-objectifs-du-devops"><a class="header" href="#les-objectifs-du-devops">Les Objectifs du DevOps</a></h2>
+<p>Sans directions claires comment définir le chemin à emprunter. Donc les auteurs
+ont fixé des objectifs clairs et atteignables. Chacun pouvant les adapter à son
+niveau de connaissances et de pratique, mais en cherchant sans cesse à
+s'améliorer.</p>
+<h3 id="la-vélocité"><a class="header" href="#la-vélocité">La vélocité</a></h3>
+<p>Plus vite, vous publiez de nouvelles fonctionnalités et corrigez des bogues,
+plus vite, vous pourrez répondre aux besoins de vos clients et gagner en
+vélocité.</p>
+<h3 id="fiabilité"><a class="header" href="#fiabilité">Fiabilité</a></h3>
+<p>Il faut généraliser l'utilisation des pratiques comme l'intégration et le
+déploiement continus (nous les verrons plus tard) pour assurer la qualité du
+delivery. Il faut aussi généraliser l'utilisation des systèmes de supervision et
+de journalisation pour rester informé sur les performances de l'application.</p>
+<h3 id="sécurité"><a class="header" href="#sécurité">Sécurité</a></h3>
+<p>La sécurité ne doit pas être sacrifiée lors de la mise en pratique du DevOps. Il
+faut mettre en place des outils de conformité automatisés pour vérifier que le
+code n'embarque pas des secrets et que la configuration d'un équipement ou d'un
+middleware ne laisse une faille ouverte. Par contre, si les personnes en charge
+de la sécurité imposent des restrictions aux développeurs, elles doivent aussi
+fournir des solutions pour ne pas tuer la créativité.</p>
+<h3 id="Évolutivité"><a class="header" href="#Évolutivité">Évolutivité</a></h3>
+<p>Afin de garantir l'évolutivité, nous devons garantir que les environnements de
+développement, de tests, de préproduction sont à l'image de ceux de la
+production. Par exemple, l'infrastructure as code peut nous aider à gérer ces
+environnements de manière efficace.</p>
+<h3 id="la-satisfaction-du-client"><a class="header" href="#la-satisfaction-du-client">La satisfaction du client</a></h3>
+<p>C'est l'objectif le plus important. Nous devons répondre à ses besoins et à ses
+exigences dans un délai raisonnable.</p>
+<h2 id="les-principes-du-devops"><a class="header" href="#les-principes-du-devops">Les principes du Devops</a></h2>
+<p>Le Devops repose avant tout sur des principes, c'est pour cela que nous parlons
+de philosophie ou culture DevOps. Parmi les principes, nous retrouvons ceux
+définis en 2010 par Damon Edwards et John Willis avec l'Acronyme CAMS qui a
+évolué ensuite vers CALMS.</p>
+<h3 id="le-calms"><a class="header" href="#le-calms">Le CALMS</a></h3>
+<p>CALMS est l'acronyme de « Culture, Automation, Lean, Measurement and Sharing »
+(culture, automatisation, rationalisation, mesure et partage) où toutes les
+notions importantes. DevOps ne se limite pas à de l'automatisation comme on
+l'entend souvent.</p>
+<h4 id="culture"><a class="header" href="#culture">[C]ulture</a></h4>
+<p>Pour qu'un projet aboutisse, nous devons partager la même vision, les mêmes
+objectifs et le même vocabulaire. Il faudra donc veiller à ce que tout le monde
+soit formé.</p>
+<h4 id="automatisation"><a class="header" href="#automatisation">[A]utomatisation</a></h4>
+<p>On va alors automatiser pour libérer les employés des tâches répétitives sans
+valeur ajoutée. Elle permet également de limiter les erreurs (surtout humaine)
+et optimiser les processus.</p>
+<p>Mais attentions à ne pas construire des usines à gaz, appelé communément appelés
+monolithes, où la complexité limitera la créativité, demandera beaucoup de
+maintenance et finira inexorablement en échec.</p>
+<h4 id="lean--se-concentrer-sur-ce-qui-donne-de-la-valeur-à-notre-produit"><a class="header" href="#lean--se-concentrer-sur-ce-qui-donne-de-la-valeur-à-notre-produit">[L]ean : Se concentrer sur ce qui donne de la valeur à notre produit</a></h4>
+<p>La rationalisation implique la réduction des excès et des gaspillages. Par
+exemple en limitant le nombre et la durée des réunions, réduisant la taille des
+équipes, en évitant de recourir à des outils inadaptés et onéreux ne couvrant
+qu'une partie d'un besoin. Cela passe aussi par l'optimisation de toutes les
+tâches pouvant provoquer des goulets d'étranglement ou consommateur de temps CPU
+comme l'analyse de code, l'intégration, de tests, de scans de sécurité. Même si
+ces tâches sont masquées, car effectuées automatiquement, elles ont un cout. On
+parle dans ce cadre de FinOps.</p>
+<h4 id="measurement--a-t-on-atteint-lobjectif-"><a class="header" href="#measurement--a-t-on-atteint-lobjectif-">[M]easurement : A-t-on atteint l'objectif ?</a></h4>
+<p>Pour pouvoir contrôler que des objectifs sont atteints et mettre en place des
+plans d'actions pour corriger ou améliorer si besoin, il est nécessaire de
+mettre en place des indicateurs pertinents. Parmi ces indicateurs, on retrouve :</p>
+<ul>
+<li><strong>Time to deploy</strong> : Mesurer le temps pour déployer un applicatif, ou pour
+mettre en production la modification d'une seule ligne de code. On calcule le
+temps passé depuis le commit dans le gestionnaire de sources jusqu'à son
+déploiement.</li>
+<li><strong>User Satisfaction</strong> : l'idée est d'obtenir un retour continue de la part des
+utilisateurs. Il faut comprendre les usages, mais également comprendre si
+l'utilisateur est content d'une fonctionnalité et du produit. C'est la donnée
+qui à mon sens est la plus importante, car elle représente la finalité du
+travail effectué.</li>
+<li><strong>Mean-Time To Recovery</strong>: temps moyen pour réparer, exprime la moyenne des
+temps de tâches de réparation. Il est calculé en additionnant les temps
+actifs de maintenance ainsi que les temps annexes de maintenance, le tout
+divisé par le nombre d'interventions.</li>
+<li>Et bien d'autres...</li>
+</ul>
+<h4 id="sharing-travailler-ensemble-pour-atteindre-nos-objectifs"><a class="header" href="#sharing-travailler-ensemble-pour-atteindre-nos-objectifs">[S]haring Travailler ensemble pour atteindre nos objectifs</a></h4>
+<p>Il est nécessaire que les personnes composant cette équipe soit transparente et
+partage leurs connaissances. Mais aussi entendent les opinions, les remarques,
+les difficultés voir les échecs de chacun.</p>
+<h3 id="pratiquer-le-calms"><a class="header" href="#pratiquer-le-calms">Pratiquer le CALMS</a></h3>
+<p>Il s'agit de garder à l'esprit ces cinq principes, à les cultiver et les
+renforcer sans cesse. Ce cadre n'est pas restrictif, mais peut s'adapter aux
+particularités de chaque équipe ou entreprise.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="le-cycle-de-vie-devops"><a class="header" href="#le-cycle-de-vie-devops">Le cycle de vie DevOps</a></h1>
+<ul>
+<li><a href="demarche-devops/cycle/index.html#les-diff%C3%A9rentes-phases-du-cycle-de-vie-devops">Les différentes phases du cycle de vie DevOps</a></li>
+</ul>
+<p>Le cycle de vie Devops est représenté par un signe infini permettant de bien
+rappeler sa nature continue et itérative. On retrouve dans cette représentation
+la suite des phases par lequel un projet doit passer à chaque révolution. Une
+révolution, appelée Sprint, doit avoir une durée limitée dans le temps, en
+général 2 semaines.</p>
+<p><img src="demarche-devops/cycle/cycle.png" alt="Cycle Devops" /></p>
+<h2 id="les-différentes-phases-du-cycle-de-vie-devops"><a class="header" href="#les-différentes-phases-du-cycle-de-vie-devops">Les différentes phases du cycle de vie DevOps</a></h2>
+<ul>
+<li><strong>Plan</strong> : Cette phase permet de définir les objectifs et les
+exigences attendues à la fin d'un cycle.</li>
+<li><strong>Create</strong> : Cette phase inclut la conception logicielle et la création du
+code logiciel et s'appuie sur des logiciels de gestion de version.</li>
+<li><strong>Verify</strong> : Cette phase comprend des tests, qu'ils soient manuels ou
+automatisés, visant à assurer une non-régression du code suite à une
+modification.</li>
+<li><strong>Package</strong> : Cette phase consiste à assembler le code et intégrer ses
+composants dont il dépend et d'en faire un artefact qui sera utilisé sur
+l'ensemble des environnements.</li>
+<li><strong>Release</strong> : Cette phase consiste à déployer les artefacts en s'appuyant sur
+des outils permettant de séquencer ces opérations.</li>
+<li><strong>Configure</strong> : Cette phase consiste à configurer les environnements.</li>
+<li><strong>Monitor</strong> : Cette phase permet de collecter des informations permettant
+d'identifier des problèmes affectant le logiciel en production.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="mettre-en-oeuvre-la-démarche-devops"><a class="header" href="#mettre-en-oeuvre-la-démarche-devops">Mettre en Oeuvre la démarche DevOps</a></h1>
+<p>Maintenant que vous connaissez la démarche DevOps et que vous avez compris qu'il
+s'agit en fait d'une philosophie plutôt qu'une méthode, nous
+allons comment le mettre en place dans votre entreprise.</p>
+<p>Le plus important des principes de la démarche DevOps est d'abattre les murs
+entre les équipes afin de favoriser la communication. Il est donc fortement
+recommandé de promouvoir le travail entre les équipes et pas simplement de
+développement et d'exploitation. Il est important de réunir toutes les personnes
+en charge du développement d'un produit et de son exploitation sur une
+infrastructure informatique. Cela comprend les développeurs, les testeurs, les
+administrateurs systèmes, les administrateurs réseau, les administrateurs
+sécurité, mais aussi les personnes en charge de l'assurance qualité qui
+collectent les mesures et le retour client. Leur objectif commun étant de mettre
+en œuvre pour fournir et déployer un logiciel, et cela, de manière faible et
+sûre. En fait ce sont toutes les personnes que l'on retrouve dans les
+différentes phases du cycle de vie Devops : Planification, Création, Tests,
+Intégration, Déploiement, Configuration et Mesure.</p>
+<h2 id="mise-en-place-dune-équipe-transverse"><a class="header" href="#mise-en-place-dune-équipe-transverse">Mise en place d'une équipe transverse</a></h2>
+<p>La première étape est de ce fait la constitution de cette équipe transverse
+regroupant toutes les personnes intervenant dans le cycle Devops. Cela ne va pas
+sans heurter les habitudes et ce changement doit être conduit. Il ne faut pas
+non plus sortir complètement chacun de ses intervenants de leurs équipes
+respectives, sinon chacune utilisera ses méthodes et ses outils et il n'y aura
+plus de cohérence au sein de l'entreprise.</p>
+<p>Par exemple votre équipe transverse Devops peut être constitué d'un chef
+d'équipe, d'un responsable produit, d'un coach agile, d'un architecte,
+d'ingénieurs systèmes et réseau, d'un ingénieur sécurité, de développeurs, d'un
+intégrateur et d'un testeur.</p>
+<p>Vous avez remarqué à aucun moment, je n'ai parlé d'un ingénieur Devops. En fait
+cela n'existe pas. Une équipe est Devops est une équipe où chacun est
+responsable de tout. En fait le coach agile et le manager d'équipe doit être
+compétent sur la Démarche DevOps et ce sont eux qui doivent guider le reste de
+l'équipe. Pour garantir la cohérence du système informatique, il est important
+que les architectes des différentes équipes travaillent ensemble.</p>
+<h2 id="culture-déchange"><a class="header" href="#culture-déchange">Culture d'échange</a></h2>
+<p>Afin de ne pas retomber dans les travers de la mise en place de silos par
+produit cette fois, il est important de mettre en place des rituels favorisant
+l'échange entre toutes les équipes produits. Durant ces rituels, ils pourront
+échanger sur leurs victoires, mais aussi sur leurs défaites respectives.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="lapproche-cicd"><a class="header" href="#lapproche-cicd">L'approche CI/CD</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="chaine-doutils-devops"><a class="header" href="#chaine-doutils-devops">Chaine d'Outils Devops</a></h1>
+<p>Les adeptes des pratiques DevOps intègrent souvent des outils compatibles DevOps
+dans leur « chaîne d'outils » pour rationaliser, accélérer et automatiser
+davantage les différentes étapes du workflow (ou « pipeline ») de fourniture des
+logiciels. Ces outils renforcent les principes fondamentaux du DevOps tels que
+l'automatisation, la collaboration et l'intégration entre les équipes chargées
+du développement et des opérations. Voici quelques exemples d'outils employés à
+différentes étapes du cycle de vie DevOps.</p>
+<ul>
+<li><strong>Planification</strong>: Jira, Azure DevOps,</li>
+<li><strong>Réalisation</strong>:</li>
+<li><strong>Assemblage</strong>: Docker, Ansible, Puppet, Chef, Gradle, Maven ou JFrog,
+Artifactory.</li>
+<li><strong>Test</strong>: JUnit, Codeception, Selenium, Vagrant, TestNG ou BlazeMeter, .</li>
+<li><strong>Déploiement</strong>: Puppet, Chef, Ansible, Jenkins, Kubernetes, OpenShift,
+OpenStack, Docker ou Jira.</li>
+<li><strong>Exploitation</strong>: Ansible, Puppet, PowerShell, Chef, Salt ou Otter.</li>
+<li><strong>Supervision</strong>: New Relic, Datadog, Grafana, Wireshark, Splunk,
+Nagios ou Slack</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="les-fiches-métiers"><a class="header" href="#les-fiches-métiers">Les fiches Métiers</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="developpeur"><a class="header" href="#developpeur">Developpeur</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="intégrateur"><a class="header" href="#intégrateur">Intégrateur</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="administrateur-réseaux"><a class="header" href="#administrateur-réseaux">Administrateur Réseaux</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="administrateur-sécurité"><a class="header" href="#administrateur-sécurité">Administrateur Sécurité</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ingénieurs-de-tests"><a class="header" href="#ingénieurs-de-tests">Ingénieurs de Tests</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="sre"><a class="header" href="#sre">SRE</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="les-outils-devops"><a class="header" href="#les-outils-devops">Les outils Devops</a></h1>
+<p>Maintenant que vous avez de bonnes notions de ce qu'est la démarche DevOps, il
+est temps d'aborder les outils permettant d'en atteindre les objectifs.</p>
+<p>Je vous propose ce <strong>mind-map</strong> qui représente un peu tous les
+outils que vous serez amené à <strong>rencontrer le plus souvent</strong> :</p>
+<ul>
+<li><strong>en violet</strong> les plus courants</li>
+<li><strong>en bleu</strong> les moins courants</li>
+<li><strong>en jaune</strong> les très peu rencontrés (mais c'est bien de les connaître de nom)</li>
+</ul>
+<p><em>Si vous débutez, il faut suivre l'ordre indiqué par les nombres devant les
+grands sujets</em></p>
+<p><img src="outils//media/formation-outils-devops.png" alt="mind mapping outils devops" /></p>
+<ol>
+<li><strong><a href="outils//outils/admin-serveurs/">Administration de serveurs</a></strong>: Savoir configurer et dépanner un serveur Linux ou Windows</li>
+<li><strong><a href="outils//outils/langages-programmation/">Langages de Programmation</a></strong>: Savoir écrire des petits programmes</li>
+<li><strong>Connaitre les <a href="outils//outils/reseau-securite/">rudiments des réseaux et de la Sécurité
+Informatique</a></strong>(Adresse IP, Firewalls, Routage)</li>
+<li><strong><a href="outils//outils/configuration-serveurs/">Configuration et maintenance de serveurs</a></strong>: WEB, Cache et de Base de Données.</li>
+<li><strong>Savoir écrire du <a href="outils//outils/infra-as-code/">code d'infrastructure</a></strong></li>
+<li><strong>Savoir écrire des <a href="outils//outils/ci-cd/">pipelines de CI/CD</a></strong></li>
+<li><strong>Savoir <a href="outils//outils/conteneur-orchestration/">construire et Orchestrer des conteneurs</a></strong>: applications cloud native</li>
+<li><strong>Connaître les principaux <a href="outils//outils/cloud/">Clouders</a></strong>.</li>
+<li><strong>Mise en place d'outils de <a href="outils//outils/surveillance/">Surveillance et de Centralisation de logs</a></strong></li>
+</ol>
+<p>Vous pouvez démarrer plusieurs sujets en parallèle, mais pas trop tout de même.
+Par exemple pour la partie Administration de Serveurs, vous pouvez lire en //
+la configuration réseau. Vous pouvez aussi regarder la construction de VM avec
+<strong>Vagrant</strong> out <strong>Terraform</strong> pour réaliser vos exercices.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="administration-de-serveurs"><a class="header" href="#administration-de-serveurs">Administration de serveurs</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="linux"><a class="header" href="#linux">Linux</a></h1>
+<ul>
+<li><a href="outils/admin-serveurs/linux/index.html#livres-gratuits">Livres gratuits</a></li>
+<li><a href="outils/admin-serveurs/linux/index.html#livres">Livres</a></li>
+<li><a href="outils/admin-serveurs/linux/index.html#mooc">MOOC</a></li>
+<li><a href="outils/admin-serveurs/linux/index.html#sites">Sites</a></li>
+<li><a href="outils/admin-serveurs/linux/index.html#vid%C3%A9os">Vidéos</a></li>
+</ul>
+<h2 id="livres-gratuits"><a class="header" href="#livres-gratuits">Livres gratuits</a></h2>
+<ul>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/1/1a/Programmation_Bash-fr.pdf">Programmation Bash</a></li>
+<li><a href="https://abs.traduc.org/abs-fr/">Guide avancé d'écriture des scripts Bash</a></li>
+<li><a href="https://debian-handbook.info/browse/fr-FR/stable/">Le cahier de l'administrateur Debian</a></li>
+<li><a href="https://riptutorial.com/Download/bash-fr.pdf">Apprenez BASH</a></li>
+</ul>
+<h2 id="livres"><a class="header" href="#livres">Livres</a></h2>
+<ul>
+<li><a href="https://amzn.to/3e41hWE">LINUX - Maîtrisez l'administration du système (6e
+édition)</a> de Sébastien Rohaut</li>
+<li><a href="https://amzn.to/3QY8Igo">Administration Linux par la pratique - Tome 1 : les fondamentaux de
+l'administration système</a> de Sébastien Chazallet</li>
+<li><a href="https://amzn.to/3CC3L8D">Linux - Administration système et exploitation des services réseau (4e
+édition)</a> de Philippe Blanquet</li>
+<li>Administration Linux par la pratique de Kiki Novak
+<ul>
+<li><a href="https://amzn.to/3yhr5Ws">Tome 1 - Les fondamentaux de l'administration système</a></li>
+<li><a href="https://amzn.to/3EimS8T">Tome 2 - Configurer les services les plus courants</a></li>
+</ul>
+</li>
+<li><a href="https://amzn.to/3RKHgT8">LINUX : GUIDE DE SURVIE 2e édition</a> de Scott GRANNEMAN</li>
+<li><a href="https://amzn.to/3SMddvF">Haute disponibilité sous Linux - De l'infrastructure à l'orchestration de
+services (Heartbeat, Docker, Ansible, Kubernetes)</a> de Charles Sabourdin</li>
+</ul>
+<h2 id="mooc"><a class="header" href="#mooc">MOOC</a></h2>
+<ul>
+<li><a href="https://www.fun-mooc.fr/fr/cours/maitriser-le-shell-bash/">Maîtriser le shell Bash</a></li>
+</ul>
+<h2 id="sites"><a class="header" href="#sites">Sites</a></h2>
+<ul>
+<li><a href="https://frederic-lang.developpez.com/tutoriels/linux/prog-shell/">La programmation Shell</a></li>
+<li><a href="https://blog.microlinux.fr/">MicroLinux</a></li>
+<li><a href="https://wiki.archlinux.org/title/Main_page_(Fran%C3%A7ais)">Wiki Archlinux (version en francais)</a></li>
+</ul>
+<h2 id="vidéos"><a class="header" href="#vidéos">Vidéos</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWp1yRsq3-PyyisSIDg94ct9">xavki</a>
+84 vidéos</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="windows"><a class="header" href="#windows">Windows</a></h1>
+<ul>
+<li><a href="outils/admin-serveurs/windows/index.html#livres-gratuits">Livres gratuits</a></li>
+<li><a href="outils/admin-serveurs/windows/index.html#livres">Livres</a></li>
+<li><a href="outils/admin-serveurs/windows/index.html#mooc">MOOC</a></li>
+</ul>
+<h2 id="livres-gratuits-1"><a class="header" href="#livres-gratuits-1">Livres gratuits</a></h2>
+<h2 id="livres-1"><a class="header" href="#livres-1">Livres</a></h2>
+<h2 id="mooc-1"><a class="header" href="#mooc-1">MOOC</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="langages-de-programmation"><a class="header" href="#langages-de-programmation">Langages de Programmation</a></h1>
+<pre><code>* [Comptes twitter](#comptes-twitter)
+</code></pre>
+<ul>
+<li><a href="outils/langages-programmation/index.html#outils">Outils</a>
+<ul>
+<li><a href="outils/langages-programmation/index.html#gestion-de-versions-de-code">Gestion de versions de code</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="comptes-twitter"><a class="header" href="#comptes-twitter">Comptes twitter</a></h4>
+<ul>
+<li><a href="https://twitter.com/yOyO38">Yoan Bernabeu</a></li>
+<li><a href="https://twitter.com/happytodev">Happy To Dev</a></li>
+</ul>
+<h2 id="outils"><a class="header" href="#outils">Outils</a></h2>
+<h3 id="gestion-de-versions-de-code"><a class="header" href="#gestion-de-versions-de-code">Gestion de versions de code</a></h3>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="python"><a class="header" href="#python">Python</a></h1>
+<p><strong>Site officiel</strong> : <a href="https://www.python.org/">Python.org</a></p>
+<h2 id="livres-gratuits-2"><a class="header" href="#livres-gratuits-2">Livres gratuits</a></h2>
+<ul>
+<li><a href="https://python.sdv.univ-paris-diderot.fr/cours-python.pdf">Cours de Python</a></li>
+<li><a href="http://inforef.be/swi/python.htm">Apprendre à programmer avec Python</a></li>
+<li><a href="https://self-learning.info.ucl.ac.be/index/info1-exercises">Introduction à la programmation</a></li>
+<li><a href="https://python-guide-fr.readthedocs.io/fr/latest/">Le guide de l’auto-stoppeur pour Python!</a></li>
+<li><a href="https://perso.limsi.fr/pointal/python:courspython3">Une introduction à Python3</a></li>
+<li><a href="https://riptutorial.com/Download/python-language-fr.pdf">Apprenez Python</a></li>
+</ul>
+<h2 id="livres-2"><a class="header" href="#livres-2">Livres</a></h2>
+<ul>
+<li><a href="https://amzn.to/3QWe77T">Apprenez à programmer en Python</a> de Vincent Le Goff</li>
+<li><a href="https://amzn.to/3pNP76D">Python 3 - Les fondamentaux du langage</a> de Sébastien Chazallet</li>
+</ul>
+<h2 id="mooc-2"><a class="header" href="#mooc-2">MOOC</a></h2>
+<ul>
+<li><a href="https://www.fun-mooc.fr/fr/cours/python-3-des-fondamentaux-aux-concepts-avances-du-langage/">Python : des fondamentaux aux concepts avancés du langage</a></li>
+<li><a href="https://www.fun-mooc.fr/fr/cours/apprendre-a-coder-avec-python/">Apprendre à coder avec Python</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="golang"><a class="header" href="#golang">Golang</a></h1>
+<p><strong>Site officiel</strong> : <a href="https://go.dev/">Go.dev</a></p>
+<h2 id="livres-gratuits-3"><a class="header" href="#livres-gratuits-3">Livres Gratuits</a></h2>
+<h2 id="livres-3"><a class="header" href="#livres-3">Livres</a></h2>
+<ul>
+<li><a href="https://amzn.to/3e8LgPG">Le langage Go - Les fondamentaux du langage: Les fondamentaux du langage</a> de Frédéric G. Marand</li>
+<li><a href="https://amzn.to/3VazRiF">PROGRAMMER EN GO : Pourquoi ? Comment ?</a> de Rudy Rigot</li>
+</ul>
+<h2 id="mooc-3"><a class="header" href="#mooc-3">MOOC</a></h2>
+<h2 id="sites-1"><a class="header" href="#sites-1">Sites</a></h2>
+<p><strong>Site français</strong> : <a href="http://golang.io/fr/">golang.io/fr/</a> : Des informations et
+des tutoriels.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="rust"><a class="header" href="#rust">Rust</a></h1>
+<p><strong>Site officiel</strong> : <a href="https://www.rust-lang.org/fr">Rust-lang.org</a> (Fr).</p>
+<h2 id="livres-gratuits-4"><a class="header" href="#livres-gratuits-4">Livres Gratuits</a></h2>
+<ul>
+<li>
+<p><a href="https://riptutorial.com/Download/rust-fr.pdf">Apprenez Rust</a></p>
+</li>
+<li>
+<p><a href="https://jimskapt.github.io/rust-book-fr/">Traduction du Rust book en
+français</a></p>
+</li>
+</ul>
+<h2 id="livres-4"><a class="header" href="#livres-4">Livres</a></h2>
+<ul>
+<li><a href="https://amzn.to/3McIYvg">Programmer avec Rust - pour une programmation système rapide et sûre</a> de Jim Blandy et Jason Orendorff</li>
+<li><a href="https://amzn.to/3ehaxHh">Rust: Développez des programmes robustes et sécurisés</a> de Benoît Prieur</li>
+</ul>
+<h2 id="mooc-4"><a class="header" href="#mooc-4">MOOC</a></h2>
+<h2 id="sites-2"><a class="header" href="#sites-2">Sites</a></h2>
+<ul>
+<li><a href="https://blog.guillaume-gomez.fr/Rust/">Tutoriels Rust</a> (pleins de liens)</li>
+</ul>
+<h2 id="videos"><a class="header" href="#videos">Videos</a></h2>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=--2ssQxE5EU&amp;t=15s">Introduction au langage Rust avec Visual Studio Code et
+Rustlings</a> par
+Pentiminax</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/c/ParlonspeuparlonsRust/videos">Parlons peu, parlons rust</a> par @o0ignition0o</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ruby"><a class="header" href="#ruby">Ruby</a></h1>
+<p><strong>Site officiel</strong> : <a href="https://www.ruby-lang.org/fr/">Ruby-lang.fr</a> (Fr).</p>
+<h2 id="livres-gratuits-5"><a class="header" href="#livres-gratuits-5">Livres Gratuits</a></h2>
+<ul>
+<li><a href="https://riptutorial.com/Download/mysql-fr.pdf">Apprenez Ruby</a></li>
+</ul>
+<h2 id="livres-5"><a class="header" href="#livres-5">Livres</a></h2>
+<ul>
+<li><a href="https://amzn.to/3rAUbwn">Ruby on Rails</a> de Dave Thomas</li>
+</ul>
+<h2 id="mooc-5"><a class="header" href="#mooc-5">MOOC</a></h2>
+<h2 id="sites-3"><a class="header" href="#sites-3">Sites</a></h2>
+<ul>
+<li><a href="https://www.ruby-lang.org/fr/documentation/quickstart/">Ruby en vingt minutes</a></li>
+<li><a href="https://www.ruby-lang.org/fr/documentation/ruby-from-other-languages/">Venir à Ruby après un autre langage</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="php"><a class="header" href="#php">PHP</a></h1>
+<p><strong>Site officiel</strong> : <a href="https://www.php.net/manual/fr/">www.php.net/manual/fr</a></p>
+<h3 id="livres-gratuits-6"><a class="header" href="#livres-gratuits-6">Livres Gratuits</a></h3>
+<ul>
+<li><a href="http://g-rossolini.developpez.com/tutoriels/php/cours/?page=introduction">Cours de PHP 5</a></li>
+<li><a href="https://web.archive.org/web/20220327155108/lincoste.com/ebooks/pdf/informatique/programmer_php.pdf">Programmer en PHP</a></li>
+<li><a href="https://riptutorial.com/Download/php-fr.pdf">Apprenez PHP</a></li>
+</ul>
+<h3 id="livres-6"><a class="header" href="#livres-6">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3fuDEHo">PHP 8 - Développez un site web dynamique et
+interactif</a> de Olivier Heurtel</li>
+<li><a href="https://amzn.to/3Coj58m">Design Patterns en PHP - Les 23 modèles de conception : descriptions et
+solutions illustrées en UML2 et PHP (2e édition)</a> de Sébastien Ferrandez</li>
+</ul>
+<h3 id="mooc-6"><a class="header" href="#mooc-6">MOOC</a></h3>
+<h3 id="sites-4"><a class="header" href="#sites-4">Sites</a></h3>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="gestion-de-version-de-code"><a class="header" href="#gestion-de-version-de-code">Gestion de Version de Code</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="git"><a class="header" href="#git">Git</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="outils-de-build"><a class="header" href="#outils-de-build">Outils de Build</a></h1>
+<h2 id="makefile"><a class="header" href="#makefile">Makefile</a></h2>
+<h3 id="livres-gratuis"><a class="header" href="#livres-gratuis">Livres gratuis</a></h3>
+<ul>
+<li><a href="http://eric.bachard.free.fr/UTBM_LO22/P07/C/Documentation/C/make/intro_makefile.pdf">Introduction aux
+Makefile</a> PDF</li>
+<li><a href="http://icps.u-strasbg.fr/people/loechner/public_html/enseignement/GL/make.pdf">Concevoir un
+Makefile</a> PDF</li>
+</ul>
+<h3 id="sites-5"><a class="header" href="#sites-5">Sites</a></h3>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="editeurs-de-code"><a class="header" href="#editeurs-de-code">Editeurs de Code</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="vim"><a class="header" href="#vim">Vim</a></h1>
+<h2 id="livres-gratuits-7"><a class="header" href="#livres-gratuits-7">Livres gratuits</a></h2>
+<ul>
+<li><a href="https://vimebook.com/fr">LA MEILLEURE FAÇON DE RESTER PRODUCTIF EN APPRENANT VIM</a></li>
+<li><a href="https://riptutorial.com/Download/vim-fr.pdf">Apprenez VIM</a></li>
+</ul>
+<h2 id="liens"><a class="header" href="#liens">Liens</a></h2>
+<ul>
+<li><a href="http://yannesposito.com/Scratch/fr/blog/Learn-Vim-Progressively/">Apprenez Vim Progressivement</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="vscode"><a class="header" href="#vscode">Vscode</a></h1>
+<h2 id="liens-1"><a class="header" href="#liens-1">Liens</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="réseaux-et-sécurité-informatique"><a class="header" href="#réseaux-et-sécurité-informatique">Réseaux et Sécurité Informatique</a></h1>
+<ul>
+<li><a href="outils/reseau-securite/index.html#r%C3%A9seaux">Réseaux</a>
+<ul>
+<li><a href="outils/reseau-securite/index.html#livres-gratuits">Livres gratuits</a></li>
+<li><a href="outils/reseau-securite/index.html#livres">Livres</a></li>
+<li><a href="outils/reseau-securite/index.html#mooc">MOOC</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="réseaux"><a class="header" href="#réseaux">Réseaux</a></h2>
+<h3 id="livres-gratuits-8"><a class="header" href="#livres-gratuits-8">Livres gratuits</a></h3>
+<h3 id="livres-7"><a class="header" href="#livres-7">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3dWVQJs">Réseaux 6e édition</a> de Andrew Tanenbaum</li>
+</ul>
+<h3 id="mooc-7"><a class="header" href="#mooc-7">MOOC</a></h3>
+<p><a href="https://www.fun-mooc.fr/fr/cours/les-reseaux-locaux/">Les Réseaux Locaux</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="configuration-et-maintenance-de-serveurs"><a class="header" href="#configuration-et-maintenance-de-serveurs">Configuration et maintenance de Serveurs</a></h1>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#1-serveurs-web">1. Serveurs WEB</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#11-apache">1.1. Apache</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#111-livres-gratuits">1.1.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#112-livres">1.1.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#113-mooc">1.1.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#114-sites">1.1.4. Sites</a></li>
+<li><a href="outils/configuration-serveurs/index.html#115-vid%C3%A9os">1.1.5. Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#12-nginx">1.2. Nginx</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#121-livres-gratuits">1.2.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#122-livres">1.2.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#123-mooc">1.2.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#124-sites">1.2.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#2-serveurs-de-cache">2. Serveurs de Cache</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#21-redis">2.1. Redis</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#211-livres-gratuits">2.1.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#212-livres">2.1.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#213-mooc">2.1.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#214-sites">2.1.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#22-memcached">2.2. Memcached</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#221-livres-gratuits">2.2.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#222-livres">2.2.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#223-mooc">2.2.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#224-sites">2.2.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#3-base-de-donn%C3%A9es">3. Base de Données</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#31-g%C3%A9n%C3%A9ralit%C3%A9s">3.1. Généralités</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#311-livres-gratuits">3.1.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#312-livres">3.1.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#313-sites">3.1.3. Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#32-mysql-et-mariadb">3.2. MySQL et MariaDB</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#321-livres-gratuits">3.2.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#322-livres">3.2.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#323-mooc">3.2.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#324-sites">3.2.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#33-postgresql">3.3. PostgreSQL</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#331-livres-gratuits">3.3.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#332-livres">3.3.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#333-mooc">3.3.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#334-sites">3.3.4. Sites</a></li>
+<li><a href="outils/configuration-serveurs/index.html#335-vid%C3%A9os">3.3.5. Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#34-mongodb">3.4. MongoDB</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#341-livres-gratuits">3.4.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#342-livres">3.4.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#343-mooc">3.4.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#344-sites">3.4.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/configuration-serveurs/index.html#35-oracledb">3.5. OracleDB</a>
+<ul>
+<li><a href="outils/configuration-serveurs/index.html#351-livres-gratuits">3.5.1. Livres Gratuits</a></li>
+<li><a href="outils/configuration-serveurs/index.html#352-livres">3.5.2. Livres</a></li>
+<li><a href="outils/configuration-serveurs/index.html#353-mooc">3.5.3. MOOC</a></li>
+<li><a href="outils/configuration-serveurs/index.html#354-sites">3.5.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="1-serveurs-web"><a class="header" href="#1-serveurs-web">1. <a name='ServeursWEB'></a>Serveurs WEB</a></h2>
+<h3 id="11-apache"><a class="header" href="#11-apache">1.1. <a name='Apache'></a>Apache</a></h3>
+<p><strong>Site officiel</strong>: <a href="https://httpd.apache.org/docs/2.4/fr/getting-started.html">apachage.org</a></p>
+<h4 id="111-livres-gratuits"><a class="header" href="#111-livres-gratuits">1.1.1. <a name='LivresGratuits'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/apache-fr.pdf">Apprenez Apache</a></li>
+</ul>
+<h4 id="112-livres"><a class="header" href="#112-livres">1.1.2. <a name='Livres'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3D6e3Oe">Installation et configuration d'un serveur internet - (BIND, Apache, NGINX,
+Dovecot, Postfix...)</a> Robert La Lau</li>
+<li><a href="https://amzn.to/3yU20kO">Apache 2.4 - Installation et configuration</a> de
+Nicolas Martinez</li>
+</ul>
+<h4 id="113-mooc"><a class="header" href="#113-mooc">1.1.3. <a name='MOOC'></a>MOOC</a></h4>
+<h4 id="114-sites"><a class="header" href="#114-sites">1.1.4. <a name='Sites'></a>Sites</a></h4>
+<h4 id="115-vidéos"><a class="header" href="#115-vidéos">1.1.5. <a name='Vidos'></a>Vidéos</a></h4>
+<ul>
+<li><a href="https://grafikart.fr/tutoriels/apache-687#sommaire">Mettre en place un serveur Web Apache</a></li>
+</ul>
+<h3 id="12-nginx"><a class="header" href="#12-nginx">1.2. <a name='Nginx'></a>Nginx</a></h3>
+<h4 id="121-livres-gratuits"><a class="header" href="#121-livres-gratuits">1.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/nginx-fr.pdf">Apprenez nginx</a></li>
+</ul>
+<h4 id="122-livres"><a class="header" href="#122-livres">1.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/redis-fr.pdf">Nginx en Action</a> de Derek Dejonghe</li>
+<li><a href="https://amzn.to/3D6e3Oe">Installation et configuration d'un serveur internet - (BIND, Apache, NGINX,
+Dovecot, Postfix...)</a> de Robert La Lau</li>
+</ul>
+<h4 id="123-mooc"><a class="header" href="#123-mooc">1.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="124-sites"><a class="header" href="#124-sites">1.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h2 id="2-serveurs-de-cache"><a class="header" href="#2-serveurs-de-cache">2. <a name='ServeursdeCache'></a>Serveurs de Cache</a></h2>
+<h3 id="21-redis"><a class="header" href="#21-redis">2.1. <a name='Redis'></a>Redis</a></h3>
+<h4 id="211-livres-gratuits"><a class="header" href="#211-livres-gratuits">2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/redis-fr.pdf">Apprenez redis</a></li>
+</ul>
+<h4 id="212-livres"><a class="header" href="#212-livres">2.1.2. <a name='Livres-1'></a>Livres</a></h4>
+<h4 id="213-mooc"><a class="header" href="#213-mooc">2.1.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="214-sites"><a class="header" href="#214-sites">2.1.4. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="22-memcached"><a class="header" href="#22-memcached">2.2. <a name='Memcached'></a>Memcached</a></h3>
+<h4 id="221-livres-gratuits"><a class="header" href="#221-livres-gratuits">2.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="222-livres"><a class="header" href="#222-livres">2.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<h4 id="223-mooc"><a class="header" href="#223-mooc">2.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="224-sites"><a class="header" href="#224-sites">2.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h2 id="3-base-de-données"><a class="header" href="#3-base-de-données">3. <a name='BasedeDonnes'></a>Base de Données</a></h2>
+<h3 id="31-généralités"><a class="header" href="#31-généralités">3.1. <a name='Gnralits'></a>Généralités</a></h3>
+<h4 id="311-livres-gratuits"><a class="header" href="#311-livres-gratuits">3.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="312-livres"><a class="header" href="#312-livres">3.1.2. <a name='Livres-1'></a>Livres</a></h4>
+<h5 id="311-mooc"><a class="header" href="#311-mooc">3.1.1. <a name='MOOC'></a>MOOC</a></h5>
+<ul>
+<li><a href="https://www.fun-mooc.fr/fr/cours/bases-de-donnees-relationnelles-apprendre-pour-utiliser/">Bases de données relationnelles : apprendre pour utiliser</a></li>
+</ul>
+<h4 id="313-sites"><a class="header" href="#313-sites">3.1.3. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="32-mysql-et-mariadb"><a class="header" href="#32-mysql-et-mariadb">3.2. <a name='MySQLetMariaDB'></a>MySQL et MariaDB</a></h3>
+<h4 id="321-livres-gratuits"><a class="header" href="#321-livres-gratuits">3.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/mysql-fr.pdf">Apprenez Mysql</a></li>
+</ul>
+<h4 id="322-livres"><a class="header" href="#322-livres">3.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3EnxN0U">MySQL 8 - Administration et optimisation</a> de Stéphane Combaudon</li>
+<li><a href="https://amzn.to/3McK5uW">MariaDB - Administration et optimisation</a> de Stéphane Combaudon</li>
+</ul>
+<h4 id="323-mooc"><a class="header" href="#323-mooc">3.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="324-sites"><a class="header" href="#324-sites">3.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="33-postgresql"><a class="header" href="#33-postgresql">3.3. <a name='PostgreSQL'></a>PostgreSQL</a></h3>
+<h4 id="331-livres-gratuits"><a class="header" href="#331-livres-gratuits">3.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/postgresql-fr.pdf">Apprenez PostgreSQL</a></li>
+</ul>
+<h4 id="332-livres"><a class="header" href="#332-livres">3.3.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3fE1YGL">PostgreSQL – Architecture et notions avancées</a> de Guillaume Lelarge et Julien Rouhaud</li>
+<li><a href="https://amzn.to/3ecuUFt">PostgreSQL - Principes de base de l'utilisation de la base de données</a> de Sébastien Lardière</li>
+<li><a href="https://amzn.to/3ynGhBA">PostgreSQL - Administration et exploitation de vos bases de données (4e
+édition)</a> de Sébastien Lardière</li>
+</ul>
+<h4 id="333-mooc"><a class="header" href="#333-mooc">3.3.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="334-sites"><a class="header" href="#334-sites">3.3.4. <a name='Sites-1'></a>Sites</a></h4>
+<h4 id="335-vidéos"><a class="header" href="#335-vidéos">3.3.5. <a name='Vidos-1'></a>Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWonHjoGXXSIXJWYzPSy2FeJ">xavki</a></li>
+</ul>
+<h3 id="34-mongodb"><a class="header" href="#34-mongodb">3.4. <a name='MongoDB'></a>MongoDB</a></h3>
+<p><strong>Site Officiel</strong> : <a href="https://www.mongodb.com/fr-fr">mongodb.com</a> (fr)</p>
+<h4 id="341-livres-gratuits"><a class="header" href="#341-livres-gratuits">3.4.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/mongodb-fr.pdf">Apprenez MongoDB</a></li>
+</ul>
+<h4 id="342-livres"><a class="header" href="#342-livres">3.4.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3CNoLIl">MongoDB - Comprendre et optimiser l'exploitation de vos
+données</a> de Sebastien Fernandez</li>
+</ul>
+<h4 id="343-mooc"><a class="header" href="#343-mooc">3.4.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<ul>
+<li><a href="https://openclassrooms.com/fr/courses/4462426-maitrisez-les-bases-de-donnees-nosql/4474601-decouvrez-le-fonctionnement-de-mongodb">Découvrez le fonctionnement de MongoDB</a></li>
+</ul>
+<h4 id="344-sites"><a class="header" href="#344-sites">3.4.4. <a name='Sites-1'></a>Sites</a></h4>
+<ul>
+<li><a href="https://welovedevs.com/fr/articles/mongodb/">MongoDB : Le guide complet</a></li>
+</ul>
+<h3 id="35-oracledb"><a class="header" href="#35-oracledb">3.5. <a name='OracleDB'></a>OracleDB</a></h3>
+<p><strong>Site Officiel</strong> <a href="https://www.oracle.com/fr/">Oracle.com</a> (fr)</p>
+<h4 id="351-livres-gratuits"><a class="header" href="#351-livres-gratuits">3.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="352-livres"><a class="header" href="#352-livres">3.5.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3D6big0">Oracle 19c - Administration</a> de Olivier HEURTEL</li>
+</ul>
+<h4 id="353-mooc"><a class="header" href="#353-mooc">3.5.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="354-sites"><a class="header" href="#354-sites">3.5.4. <a name='Sites-1'></a>Sites</a></h4>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="infra-as-code-iac"><a class="header" href="#infra-as-code-iac">Infra As Code (IAC)</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="gestion-de-configuration"><a class="header" href="#gestion-de-configuration">Gestion de Configuration</a></h1>
+<h2 id="ansible"><a class="header" href="#ansible">Ansible</a></h2>
+<ul>
+<li>
+<p>Site officiel : <a href="https://www.ansible.com/">Ansible.com</a></p>
+</li>
+<li>
+<p>Documentation : <a href="https://docs.ansible.com/ansible/latest/index.html">Documentation</a></p>
+</li>
+</ul>
+<h3 id="livres-gratuits-9"><a class="header" href="#livres-gratuits-9">Livres Gratuits</a></h3>
+<ul>
+<li><a href="https://riptutorial.com/Download/ansible-fr.pdf">Apprenez Ansible</a></li>
+</ul>
+<h3 id="livres-8"><a class="header" href="#livres-8">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3EpmxBp">Ansible - Gérez la configuration de vos serveurs et le déploiement de vos
+applications (2e édition)</a> de <a href="https://twitter.com/YannigPerre">Yannig
+Perré</a></li>
+<li><a href="https://amzn.to/3fP937I">Red Hat Ansible Engine - Gérez l'automatisation de vos configurations
+Linux</a> de Philippe Pinchon</li>
+</ul>
+<h3 id="mooc-8"><a class="header" href="#mooc-8">MOOC</a></h3>
+<ul>
+<li><a href="https://openclassrooms.com/fr/courses/2035796-utilisez-ansible-pour-automatiser-vos-taches-de-configuration">OpenClassRooms - Utilisez Ansible pour automatiser vos tâches de configuration</a></li>
+</ul>
+<h3 id="sites-6"><a class="header" href="#sites-6">Sites</a></h3>
+<ul>
+<li><a href="http://blog.stephane-robert.info/post/introduction-ansible/">Apprendre et Maitriser Ansible l'outil de gestion de configuration</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ecriture-de-playbooks-ansible/">Écrire, Exécuter et Debugger des playbooks Ansible</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-ecrire-roles/">Écrire des rôles Ansible pour factoriser votre code</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-filtres-advanced/">Manipuler les données avec les filtres Ansible Partie 1</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-filtres-advanced-2/">Manipuler les données avec les filtres Ansible Partie 2</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-filtres-advanced-3/">Manipuler les données avec les filtres Ansible Partie 3</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-molecule/">Tester vos rôles Ansible avec molecule</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-template-jinja/">Comment utiliser les templates Jinja</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-blocks/">Comment utiliser des blocks dans vos playbooks et rôles Ansible</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-inventaire-static-precedence-tips/">Maîtriser les inventaires statiques Ansible</a></li>
+<li><a href="https://blog.stephane-robert.info/post/ansible-inventaire-dynamique-vagrant/">Utiliser les inventaires dynamiques Ansible</a></li>
+<li><a href="https://www.formatux.fr/formatux-devops/module-020-ansible-niveau1/index.html">Formatux :Ansible niveau 1</a></li>
+<li><a href="https://www.formatux.fr/formatux-devops/module-021-ansible-niveau2/index.html">Formatux :Ansible niveau 2</a></li>
+</ul>
+<h3 id="videos-1"><a class="header" href="#videos-1">Videos</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWoCpLKOSw3mXCqbRocnhrh-">Xavki - La playlist sur Ansible (127 vidéos)</a></li>
+</ul>
+<h2 id="puppet"><a class="header" href="#puppet">Puppet</a></h2>
+<p><strong>Site Officiel</strong> : <a href="https://puppet.com/">puppet.com</a></p>
+<h3 id="livres-gratuits-10"><a class="header" href="#livres-gratuits-10">Livres Gratuits</a></h3>
+<h3 id="livres-9"><a class="header" href="#livres-9">Livres</a></h3>
+<h3 id="mooc-9"><a class="header" href="#mooc-9">MOOC</a></h3>
+<h3 id="sites-7"><a class="header" href="#sites-7">Sites</a></h3>
+<ul>
+<li><a href="https://www.formatux.fr/formatux-devops/module-010-puppet/index.html">Gestion de configurations avec Puppet</a></li>
+<li><a href="https://blog.stephane-robert.info/post/introduction-puppet/">Introduction à Puppet</a></li>
+<li><a href="https://blog.engineering.publicissapient.fr/2014/01/20/puppet-recipes-01-gerer-un-fichier-avec-puppet/">Gérer un fichier avec Puppet</a></li>
+<li><a href="https://blog.engineering.publicissapient.fr/2014/02/19/puppet-recipes-02-hiera/">Hiera</a></li>
+<li><a href="https://blog.engineering.publicissapient.fr/2014/05/21/puppet-recipes-03-tests-unitaires/">Test Unitaires</a></li>
+</ul>
+<h2 id="chef"><a class="header" href="#chef">Chef</a></h2>
+<h3 id="livres-gratuits-11"><a class="header" href="#livres-gratuits-11">Livres Gratuits</a></h3>
+<h3 id="livres-10"><a class="header" href="#livres-10">Livres</a></h3>
+<h3 id="mooc-10"><a class="header" href="#mooc-10">MOOC</a></h3>
+<h3 id="sites-8"><a class="header" href="#sites-8">Sites</a></h3>
+<ul>
+<li><a href="http://localhost:1313/post/introduction-chef-solo/">Chef - Introduction à l'outil de Gestion de Configuration Chef Infra</a></li>
+</ul>
+<h2 id="salt"><a class="header" href="#salt">Salt</a></h2>
+<h3 id="livres-gratuits-12"><a class="header" href="#livres-gratuits-12">Livres Gratuits</a></h3>
+<h3 id="livres-11"><a class="header" href="#livres-11">Livres</a></h3>
+<h3 id="mooc-11"><a class="header" href="#mooc-11">MOOC</a></h3>
+<h3 id="sites-9"><a class="header" href="#sites-9">Sites</a></h3>
+<h2 id="azure-resource-manager"><a class="header" href="#azure-resource-manager">Azure Resource Manager</a></h2>
+<h3 id="livres-gratuits-13"><a class="header" href="#livres-gratuits-13">Livres Gratuits</a></h3>
+<h3 id="livres-12"><a class="header" href="#livres-12">Livres</a></h3>
+<h3 id="mooc-12"><a class="header" href="#mooc-12">MOOC</a></h3>
+<h3 id="sites-10"><a class="header" href="#sites-10">Sites</a></h3>
+<ul>
+<li><a href="https://learn.microsoft.com/fr-fr/azure/azure-resource-manager/management/">Documentation officielle Azure Resource Manager</a></li>
+</ul>
+<h2 id="chaos-monkey"><a class="header" href="#chaos-monkey">Chaos Monkey</a></h2>
+<ul>
+<li>Site officiel : <a href="https://netflix.github.io/chaosmonkey/">Chaos Monkey</a></li>
+</ul>
+<h3 id="livres-gratuits-14"><a class="header" href="#livres-gratuits-14">Livres Gratuits</a></h3>
+<h3 id="livres-13"><a class="header" href="#livres-13">Livres</a></h3>
+<h3 id="mooc-13"><a class="header" href="#mooc-13">MOOC</a></h3>
+<h3 id="sites-11"><a class="header" href="#sites-11">Sites</a></h3>
+<ul>
+<li><a href="https://medium.com/@crochefolle/ing%C3%A9nierie-du-chaos-chaos-engineering-in-french-ea17310c8824">Ingénierie du chaos — Chaos Engineering in French — Partie 1 : pourquoi ?</a></li>
+<li><a href="https://medium.com/paris-chaos-engineering-community/ing%C3%A9nierie-du-chaos-chaos-engineering-in-french-partie-2-o%C3%B9-en-sommes-nous-8e899e519832">Ingénierie du chaos — Chaos Engineering in French — Partie 2 : Où en sommes-nous ?</a></li>
+</ul>
+<h3 id="videos-2"><a class="header" href="#videos-2">Videos</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=zM5KE1DC9U0&amp;t=159s">Chaos Monkey - Devops - La Minute Agile Scrum 125</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ansible-1"><a class="header" href="#ansible-1">Ansible</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="chef-1"><a class="header" href="#chef-1">Chef</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="puppet-1"><a class="header" href="#puppet-1">Puppet</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="salt-1"><a class="header" href="#salt-1">Salt</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="provisionnement"><a class="header" href="#provisionnement">Provisionnement</a></h1>
+<ul>
+<li><a href="outils/infra-as-code/provision/index.html#vagrant">Vagrant</a>
+<ul>
+<li><a href="outils/infra-as-code/provision/index.html#livres-gratuits">Livres Gratuits</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#livres">Livres</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#mooc">MOOC</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#vid%C3%A9os">Vidéos</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#sites">Sites</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#vid%C3%A9os-1">Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/infra-as-code/provision/index.html#terraform">Terraform</a>
+<ul>
+<li><a href="outils/infra-as-code/provision/index.html#livres-gratuits-1">Livres Gratuits</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#livres-1">Livres</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#mooc-1">MOOC</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#sites-1">Sites</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#vid%C3%A9os-2">Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/infra-as-code/provision/index.html#cloudformation">CloudFormation</a>
+<ul>
+<li><a href="outils/infra-as-code/provision/index.html#livres-gratuits-2">Livres Gratuits</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#livres-2">Livres</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#mooc-2">MOOC</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#vid%C3%A9o">Vidéo</a></li>
+<li><a href="outils/infra-as-code/provision/index.html#sites-2">Sites</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="vagrant"><a class="header" href="#vagrant">Vagrant</a></h2>
+<p><strong>Site officiel</strong> <a href="https://www.vagrantup.com/">vagrantup.com</a>
+<strong>Documentation</strong> <a href="https://www.vagrantup.com/docs">vagrantup.com/docs</a></p>
+<h3 id="livres-gratuits-15"><a class="header" href="#livres-gratuits-15">Livres Gratuits</a></h3>
+<h3 id="livres-14"><a class="header" href="#livres-14">Livres</a></h3>
+<h3 id="mooc-14"><a class="header" href="#mooc-14">MOOC</a></h3>
+<h3 id="vidéos-1"><a class="header" href="#vidéos-1">Vidéos</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Q0bIwwZj0JI">Vagrant : commande de base</a></li>
+<li><a href="https://www.youtube.com/watch?v=Vcs_9U88EzI">Vagrant : cluster Kubernetes</a></li>
+</ul>
+<h3 id="sites-12"><a class="header" href="#sites-12">Sites</a></h3>
+<ul>
+<li><a href="http://blog.stephane-robert.info/post/introduction-vagrant/">Apprendre et Maitriser Vagrant</a></li>
+<li><a href="https://grafikart.fr/tutoriels/vagrant">Apprendre Vagrant</a></li>
+<li><a href="https://blog.stephane-robert.info/post/vagrant-ansible-inventaire-dynamique.md/">Utiliser les inventaires dynamiques Vagrant avec ansible</a></li>
+<li><a href="https://blog.stephane-robert.info/post/vagrant-libvirt-disk-qcow2/">Ajouter des disques à vagrant tournant sous libvirt</a></li>
+<li><a href="https://blog.stephane-robert.info/post/vagrant-wsl2-docker/">Utiliser des boxes Vagrant Docker avec Windows Sytem Linux 2</a></li>
+<li><a href="https://loopbin.dev/tutos/vagrant-les-commandes-a-retenir/">Vagrant - Les commandes à retenir</a></li>
+<li><a href="https://www.synbioz.com/blog/tech/vagrant-et-la-virtualisation-pour-faciliter-le-developpement">Vagrant et la virtualisation pour faciliter le développement</a></li>
+</ul>
+<h3 id="vidéos-2"><a class="header" href="#vidéos-2">Vidéos</a></h3>
+<ul>
+<li><a href="https://grafikart.fr/tutoriels/vm-vagrant-chef-solo-482">Tutoriel vidéo Vagrant : Créer une VM avec Vagrant | Grafikart</a></li>
+<li><a href="https://www.youtube.com/watch?v=z4209uoIbmk">Formation Gratuite Complète Vagrant pour DevOps : Déployez vos outils DevOps automatiquement + labs</a></li>
+</ul>
+<h2 id="terraform"><a class="header" href="#terraform">Terraform</a></h2>
+<p><strong>Site Officiel</strong> : <a href="https://www.terraform.io/">terraform.io</a>
+<strong>Documentation</strong> : <a href="https://www.terraform.io/docs">terraform.io/docs</a></p>
+<h3 id="livres-gratuits-16"><a class="header" href="#livres-gratuits-16">Livres Gratuits</a></h3>
+<h3 id="livres-15"><a class="header" href="#livres-15">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3VpfTkt">DevOps - Intégrez et déployez en continu (avec exemple clés en main)</a></li>
+</ul>
+<h3 id="mooc-15"><a class="header" href="#mooc-15">MOOC</a></h3>
+<h3 id="sites-13"><a class="header" href="#sites-13">Sites</a></h3>
+<ul>
+<li><a href="https://blog.stephane-robert.info/post/introduction-terraform/">Apprendre et Maitriser Terraform l'outil d'Infrastructure As Code</a></li>
+<li><a href="https://cloud.google.com/docs/terraform/best-practices-for-terraform">Comprendre Terraform (infra-as-code) en 5 minutes</a></li>
+<li><a href="https://cloud.google.com/docs/terraform/best-practices-for-terraform">Best practices Terraform (Google Cloud)</a></li>
+<li><a href="https://blog.ippon.fr/2022/04/04/terraform-dans-tous-ses-etats-1-2/">Comprendre et manipuler ses fichiers d'état Terraform</a></li>
+<li><a href="https://blog.ippon.fr/2022/04/11/terraform-dans-tous-ses-etats-2-2/">Industrialiser la manipulation des fichiers d'état Terraform</a></li>
+<li><a href="https://connect.ed-diamond.com/GNU-Linux-Magazine/glmf-216/infrastructure-as-code-sous-aws-avec-terraform">Infrastructure As Code sous AWS avec Terraform</a></li>
+</ul>
+<h3 id="vidéos-3"><a class="header" href="#vidéos-3">Vidéos</a></h3>
+<ul>
+<li><a href="https://youtu.be/oNHABU-8xfs?t=307">Comment développer votre propre plugin Terraform ? | FRANCE DEVOPS</a></li>
+</ul>
+<h2 id="cloudformation"><a class="header" href="#cloudformation">CloudFormation</a></h2>
+<p><strong>Site Officiel</strong> : <a href="https://aws.amazon.com/fr/cloudformation/">CloudFormation</a></p>
+<h3 id="livres-gratuits-17"><a class="header" href="#livres-gratuits-17">Livres Gratuits</a></h3>
+<h3 id="livres-16"><a class="header" href="#livres-16">Livres</a></h3>
+<h3 id="mooc-16"><a class="header" href="#mooc-16">MOOC</a></h3>
+<ul>
+<li><a href="https://openclassrooms.com/fr/courses/2035756-deployez-vos-systemes-et-reseaux-dans-le-cloud-avec-aws">Déployez vos systèmes et réseaux dans le cloud avec AWS</a></li>
+<li><a href="https://scalastic.io/aws-cloudformation-infrastructure-as-code/">AWS CloudFormation - Infrastructure as Code</a></li>
+</ul>
+<h3 id="vidéo"><a class="header" href="#vidéo">Vidéo</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Ti9RXxWcaNg">Cloudformation: Un service pour les gouverner tous (Infra as
+code)</a> par cocadmin</li>
+</ul>
+<h3 id="sites-14"><a class="header" href="#sites-14">Sites</a></h3>
+<ul>
+<li><a href="https://easyteam.fr/cloudformation-dans-aws-loutil-indispensable-pour-tirer-pleinement-parti-de-vos-infrastructures-dans-le-cloud/">CloudFormation dans AWS</a></li>
+<li><a href="https://blog.wescale.fr/aws-cloudformation-utiliser-les-custom-resources">Comment utiliser les Custom Resources ?</a></li>
+<li><a href="https://www.hebergeurcloud.com/comment-fonctionne-cloudformation-comment-creer-un-vpc-avec-ce-modele/">Comment fonctionne CloudFormation ? Comment créer un VPC avec ce modèle ?</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="vagrant-1"><a class="header" href="#vagrant-1">Vagrant</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cloudformation-1"><a class="header" href="#cloudformation-1">CloudFormation</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="terraform-1"><a class="header" href="#terraform-1">Terraform</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pipelines-de-cicd-"><a class="header" href="#pipelines-de-cicd-">Pipelines de CI/CD :</a></h1>
+<ul>
+<li><a href="outils/ci-cd/index.html#gitlab-cicd">Gitlab-CI/CD</a>
+<ul>
+<li><a href="outils/ci-cd/index.html#livres-gratuits">Livres Gratuits</a></li>
+<li><a href="outils/ci-cd/index.html#livres">Livres</a></li>
+<li><a href="outils/ci-cd/index.html#mooc">MOOC</a></li>
+<li><a href="outils/ci-cd/index.html#sites">Sites</a></li>
+<li><a href="outils/ci-cd/index.html#vid%C3%A9os">Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/ci-cd/index.html#github-actions">Github Actions</a>
+<ul>
+<li><a href="outils/ci-cd/index.html#livres-gratuits-1">Livres Gratuits</a></li>
+<li><a href="outils/ci-cd/index.html#livres-1">Livres</a></li>
+<li><a href="outils/ci-cd/index.html#mooc-1">MOOC</a></li>
+<li><a href="outils/ci-cd/index.html#sites-1">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/ci-cd/index.html#jenkins">Jenkins</a>
+<ul>
+<li><a href="outils/ci-cd/index.html#livres-gratuits-2">Livres Gratuits</a></li>
+<li><a href="outils/ci-cd/index.html#livres-2">Livres</a></li>
+<li><a href="outils/ci-cd/index.html#mooc-2">MOOC</a></li>
+<li><a href="outils/ci-cd/index.html#sites-2">Sites</a></li>
+<li><a href="outils/ci-cd/index.html#vid%C3%A9os-1">Vidéos</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="gitlab-cicd"><a class="header" href="#gitlab-cicd">Gitlab-CI/CD</a></h2>
+<p><strong>Site officiel</strong> : <a href="https://about.gitlab.com/fr-fr/">about.gitlab.com</a>
+<strong>Documentation</strong> : <a href="https://docs.gitlab.com/">docs.gitlab.com</a></p>
+<h3 id="livres-gratuits-18"><a class="header" href="#livres-gratuits-18">Livres Gratuits</a></h3>
+<h3 id="livres-17"><a class="header" href="#livres-17">Livres</a></h3>
+<h3 id="mooc-17"><a class="header" href="#mooc-17">MOOC</a></h3>
+<h3 id="sites-15"><a class="header" href="#sites-15">Sites</a></h3>
+<ul>
+<li><a href="https://dev.to/jphi_baconnais/commencer-simplement-avec-gitlabci-53fa">Commencer simplement avec GitLab CI</a></li>
+<li><a href="https://dev.to/zenika/comment-organiser-son-travail-avec-gitlab-42da">Comment organiser son travail avec GitLab</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-cli/">Utilisation la CLI de gitlab</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-valider-ci-yml/">Valider son Gitlab CI et le lancer localement</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-pipeline-dynamique/">Utiliser des pipelines dynamiques</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-container-docker-registry/">Utiliser la container registry</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-rules/">Utiliser les règles de conditions</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-trigger/">Utiliser des pipelines parent-enfant</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-template-ci/">Utiliser des templates de pipelines</a></li>
+<li><a href="https://blog.stephane-robert.info/post/dag-needs-gitlab-ci/">Optimiser la durée de vos pipelines avec les DAG</a></li>
+<li><a href="https://blog.stephane-robert.info/post/gitlab-ci-release/">Créer des releases</a></li>
+<li><a href="https://connect.ed-diamond.com/linux-pratique/lp-128/comment-tester-un-role-ansible-avec-molecule">Comment tester un rôle Ansible avec Molecule ?</a></li>
+</ul>
+<h3 id="vidéos-4"><a class="header" href="#vidéos-4">Vidéos</a></h3>
+<ul>
+<li><a href="https://xavki.blog/gitlab-tutorials-et-formation/">xavki</a> 127 Vidéos</li>
+</ul>
+<h2 id="github-actions"><a class="header" href="#github-actions">Github Actions</a></h2>
+<p><strong>Site Officiel</strong> : <a href="https://fr.github.com/">github.com</a></p>
+<h3 id="livres-gratuits-19"><a class="header" href="#livres-gratuits-19">Livres Gratuits</a></h3>
+<ul>
+<li><a href="https://riptutorial.com/Download/github-fr.pdf">Apprenez Github</a></li>
+</ul>
+<h3 id="livres-18"><a class="header" href="#livres-18">Livres</a></h3>
+<h3 id="mooc-18"><a class="header" href="#mooc-18">MOOC</a></h3>
+<h3 id="sites-16"><a class="header" href="#sites-16">Sites</a></h3>
+<h2 id="jenkins"><a class="header" href="#jenkins">Jenkins</a></h2>
+<p><strong>Site officiel</strong> : <a href="https://www.jenkins.io/">jenkins.io</a>
+<strong>Blog</strong> : <a href="https://www.jenkins.io/node/">Jenkins Community Blog</a></p>
+<h3 id="livres-gratuits-20"><a class="header" href="#livres-gratuits-20">Livres Gratuits</a></h3>
+<h3 id="livres-19"><a class="header" href="#livres-19">Livres</a></h3>
+<h3 id="mooc-19"><a class="header" href="#mooc-19">MOOC</a></h3>
+<h3 id="sites-17"><a class="header" href="#sites-17">Sites</a></h3>
+<ul>
+<li><a href="https://www.formatux.fr/formatux-devops/module-040-jenkins/index.html">Formatux : Serveur d’Intégration Continue Jenkins</a></li>
+<li><a href="https://connect.ed-diamond.com/Linux-Pratique/lp-115/introduction-aux-deploiements-et-configurations-automatises-avec-puppet">Introduction aux déploiements et configurations automatisés avec Puppet</a></li>
+</ul>
+<h3 id="vidéos-5"><a class="header" href="#vidéos-5">Vidéos</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWr19VXuoVgIr32HCu0MGNt9">xavki</a>
+35 vidéos</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="conteneurs-et-orchestrateurs"><a class="header" href="#conteneurs-et-orchestrateurs">Conteneurs et Orchestrateurs</a></h1>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#conteneurs">Conteneurs</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#docker">Docker</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites">Sites</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#vid%C3%A9os">Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/conteneur-orchestration/index.html#podman">Podman</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits-1">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres-1">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc-1">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites-1">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/conteneur-orchestration/index.html#docker-compose">Docker-compose</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits-2">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres-2">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc-2">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites-2">Sites</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#vid%C3%A9os-1">Vidéos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="outils/conteneur-orchestration/index.html#orchestrateurs">Orchestrateurs</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#kubernetes">Kubernetes</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits-3">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres-3">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc-3">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites-3">Sites</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#vid%C3%A9os-2">Vidéos</a></li>
+</ul>
+</li>
+<li><a href="outils/conteneur-orchestration/index.html#nomad">Nomad</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits-4">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres-4">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc-4">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites-4">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/conteneur-orchestration/index.html#docker-swarm">Docker Swarm</a>
+<ul>
+<li><a href="outils/conteneur-orchestration/index.html#livres-gratuits-5">Livres Gratuits</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#livres-5">Livres</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#mooc-5">MOOC</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#sites-5">Sites</a></li>
+<li><a href="outils/conteneur-orchestration/index.html#vid%C3%A9os-3">Vidéos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="conteneurs"><a class="header" href="#conteneurs">Conteneurs</a></h2>
+<h3 id="docker"><a class="header" href="#docker">Docker</a></h3>
+<p><strong>Site Officiel</strong>: <a href="https://www.docker.com/">docker.com</a></p>
+<h4 id="livres-gratuits-21"><a class="header" href="#livres-gratuits-21">Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://halshs.archives-ouvertes.fr/cel-02285669/file/Introduction%20%C3%A0%20Docker.pdf">Introduction à Docker [PDF]</a></li>
+<li><a href="https://riptutorial.com/Download/docker-fr.pdf">Apprenez Docker</a></li>
+<li><a href="https://www.ssi.gouv.fr/uploads/2020/12/docker_fiche_technique.pdf">Recommentation de sécurité relatives aux déploiement de conteneur Docker</a> ANSSI-FT-082</li>
+</ul>
+<h4 id="livres-20"><a class="header" href="#livres-20">Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3CHdHxe">Docker - Pratique des architectures à base de conteneurs - 2e éd.: Pratique
+des architectures à base de conteneurs</a> de
+Pierre-Yves Cloux
+<a href="https://amzn.to/3Mifxbo">Docker et conteneurs - 3e éd.: Architectures, développement, usages et outils</a> de
+Pierre-Yves Cloux</li>
+</ul>
+<h4 id="mooc-20"><a class="header" href="#mooc-20">MOOC</a></h4>
+<ul>
+<li><a href="https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker/6211458-lancez-votre-premier-conteneur-en-local">Optimisez votre déploiement en créant des conteneurs avec Docker</a></li>
+<li><a href="https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section">devopssec.fr : Apprendre Docker</a></li>
+</ul>
+<h4 id="sites-18"><a class="header" href="#sites-18">Sites</a></h4>
+<ul>
+<li><a href="https://blog.stephane-robert.info/post/introduction-docker/">Démarrer avec les conteneurs Docker</a></li>
+<li><a href="https://xebia-france.github.io/docker-initiation/groups/io.html">Initiation à Docker</a></li>
+<li><a href="https://blog.stephane-robert.info/post/docker-rootless-securite-seccomp-namespace-capabilities/">Sécuriser l'utilisation de Docker</a></li>
+<li><strong>Chérie, j'ai rétréci Docker</strong>: Optimisation de la taille des images
+<ul>
+<li><a href="https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part1/">Partie 1</a></li>
+<li><a href="https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/">Partie 2</a></li>
+<li><a href="https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/">Partie 3</a></li>
+</ul>
+</li>
+<li><a href="https://blog.stephane-robert.info/post/introduction-docker/">Démarrer avec Docker</a></li>
+<li><a href="https://docker.avec.une-tasse-de.cafe/">Apprendre Docker avec une tasse de café</a></li>
+</ul>
+<h4 id="vidéos-6"><a class="header" href="#vidéos-6">Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fdlZqRZXWOc">xavki</a> 30 Vidéos</li>
+<li><a href="https://www.youtube.com/playlist?list=PL8SZiccjllt1jz9DsD4MPYbbiGOR_FYHu">cocadmin : Débutez de Zéro avec Docker</a> 8 Vidéos</li>
+<li><a href="https://www.youtube.com/watch?v=8VAYSn2DmJM">Docker sur Windows et Mac : Devoxx France</a></li>
+</ul>
+<h3 id="podman"><a class="header" href="#podman">Podman</a></h3>
+<ul>
+<li><a href="https://podman.io/">Site Officiel</a></li>
+<li><a href="https://podman.io/blogs/">Blog Officiel</a></li>
+</ul>
+<h4 id="livres-gratuits-22"><a class="header" href="#livres-gratuits-22">Livres Gratuits</a></h4>
+<h4 id="livres-21"><a class="header" href="#livres-21">Livres</a></h4>
+<h4 id="mooc-21"><a class="header" href="#mooc-21">MOOC</a></h4>
+<h4 id="sites-19"><a class="header" href="#sites-19">Sites</a></h4>
+<ul>
+<li><a href="https://www.grottedubarbu.fr/podman-containers-dockerless/">Podman : Containers Dockerless</a></li>
+<li><a href="https://pandorafms.com/blog/fr/quest-ce-que-podman-2/">Découvrez qu'est-ce que Podman, concurrent de Docker, l'actuel roi des conteneurs</a></li>
+</ul>
+<h3 id="docker-compose"><a class="header" href="#docker-compose">Docker-compose</a></h3>
+<h4 id="livres-gratuits-23"><a class="header" href="#livres-gratuits-23">Livres Gratuits</a></h4>
+<h4 id="livres-22"><a class="header" href="#livres-22">Livres</a></h4>
+<h4 id="mooc-22"><a class="header" href="#mooc-22">MOOC</a></h4>
+<h4 id="sites-20"><a class="header" href="#sites-20">Sites</a></h4>
+<h4 id="vidéos-7"><a class="header" href="#vidéos-7">Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWqaC1pdx02SrrgOaL2ZL7G0">xavki</a>
+25 vidéos</li>
+</ul>
+<h2 id="orchestrateurs"><a class="header" href="#orchestrateurs">Orchestrateurs</a></h2>
+<h3 id="kubernetes"><a class="header" href="#kubernetes">Kubernetes</a></h3>
+<h4 id="livres-gratuits-24"><a class="header" href="#livres-gratuits-24">Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/kubernetes-fr.pdf">Apprenez Kubernetes</a></li>
+</ul>
+<h4 id="livres-23"><a class="header" href="#livres-23">Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3CG12e8">Kubernetes - Maîtrisez l'orchestrateur des infrastructures du futur:
+Maîtrisez l'orchestrateur des infrastructures du
+futur</a> de Kelsey Hightower</li>
+<li><a href="https://amzn.to/3Tfa5IM">Understanding Kubernetes in a visual way</a> - Aurélie Vache</li>
+<li><a href="https://amzn.to/3CQJVF8">Kubernetes: Gérez la plateforme de déploiement de vos applications conteneurisées</a> - Yannig Perré</li>
+</ul>
+<h4 id="mooc-23"><a class="header" href="#mooc-23">MOOC</a></h4>
+<h4 id="sites-21"><a class="header" href="#sites-21">Sites</a></h4>
+<ul>
+<li><a href="https://kubernetes.io/docs/home/">Documentation</a></li>
+<li><a href="https://kubernetes.io/fr/docs/home/">Documentation française</a></li>
+<li><a href="https://kubernetes.io/blog/">Blog</a></li>
+<li><a href="https://discuss.kubernetes.io/">Discuss Kubernetes</a></li>
+<li><a href="https://wiki.sfeir.com/kubernetes/">Wiki SFEIR Kubernetes</a></li>
+<li><a href="https://blog.stephane-robert.info/post/introduction-kubernetes/">Introduction à Kubernetes</a></li>
+</ul>
+<h4 id="vidéos-8"><a class="header" href="#vidéos-8">Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg">Aurélie Vache</a> 20 Vidéos</li>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWqfzaosSgX2XEKpse5VY2v5">xavki</a>
+72 vidéos</li>
+</ul>
+<h3 id="nomad"><a class="header" href="#nomad">Nomad</a></h3>
+<h4 id="livres-gratuits-25"><a class="header" href="#livres-gratuits-25">Livres Gratuits</a></h4>
+<h4 id="livres-24"><a class="header" href="#livres-24">Livres</a></h4>
+<h4 id="mooc-24"><a class="header" href="#mooc-24">MOOC</a></h4>
+<h4 id="sites-22"><a class="header" href="#sites-22">Sites</a></h4>
+<ul>
+<li><a href="https://blog.stephane-robert.info/post/introduction-hashicorp-nomad/">Introduction à l'orchestrateur Nomad</a></li>
+</ul>
+<h3 id="docker-swarm"><a class="header" href="#docker-swarm">Docker Swarm</a></h3>
+<h4 id="livres-gratuits-26"><a class="header" href="#livres-gratuits-26">Livres Gratuits</a></h4>
+<h4 id="livres-25"><a class="header" href="#livres-25">Livres</a></h4>
+<h4 id="mooc-25"><a class="header" href="#mooc-25">MOOC</a></h4>
+<h4 id="sites-23"><a class="header" href="#sites-23">Sites</a></h4>
+<ul>
+<li><a href="https://www.grottedubarbu.fr/introduction-docker-swarm/">Introduction à Docker-Swarm</a></li>
+<li><a href="https://devopssec.fr/article/comprendre-gerer-manipuler-un-cluster-docker-swarm">Comprendre, Gérer et Manipuler un cluster Docker Swarm</a></li>
+<li><a href="https://www.aneo.eu/lorchestration-docker-swarm/">L’orchestration avec Docker Swarm</a></li>
+<li><a href="https://www.webblog.tophebergeur.com/tutoriel-docker-swarm.html">Tutoriel Docker Swarm</a></li>
+</ul>
+<h4 id="vidéos-9"><a class="header" href="#vidéos-9">Vidéos</a></h4>
+<ul>
+<li>Xavki :
+<ul>
+<li><a href="https://www.youtube.com/watch?v=uQ5PpdVmaBw">PLAY WITH DOCKER</a></li>
+<li><a href="https://www.youtube.com/watch?v=U_chRBeEiyU">INITIALISATION DU CLUSTER</a></li>
+<li><a href="https://www.youtube.com/watch?v=0ndWQd2nEsg">Lancement d'un premier service</a></li>
+<li><a href="https://www.youtube.com/watch?v=eRAIUwi36Vc">Déploiement en multi-service</a></li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cloud"><a class="header" href="#cloud">Cloud</a></h1>
+<ul>
+<li><a href="outils/cloud/index.html#aws">AWS</a>
+<ul>
+<li><a href="outils/cloud/index.html#livres-gratuits">Livres Gratuits</a></li>
+<li><a href="outils/cloud/index.html#livres">Livres</a></li>
+<li><a href="outils/cloud/index.html#mooc">MOOC</a></li>
+<li><a href="outils/cloud/index.html#sites">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/cloud/index.html#gcp">GCP</a>
+<ul>
+<li><a href="outils/cloud/index.html#livres-gratuits-1">Livres Gratuits</a></li>
+<li><a href="outils/cloud/index.html#livres-1">Livres</a></li>
+<li><a href="outils/cloud/index.html#mooc-1">MOOC</a></li>
+<li><a href="outils/cloud/index.html#sites-1">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/cloud/index.html#azure">Azure</a>
+<ul>
+<li><a href="outils/cloud/index.html#livres-gratuits-2">Livres Gratuits</a></li>
+<li><a href="outils/cloud/index.html#livres-2">Livres</a></li>
+<li><a href="outils/cloud/index.html#mooc-2">MOOC</a></li>
+<li><a href="outils/cloud/index.html#sites-2">Sites</a></li>
+</ul>
+</li>
+<li><a href="outils/cloud/index.html#autres">Autres</a>
+<ul>
+<li><a href="outils/cloud/index.html#livres-gratuits-3">Livres Gratuits</a></li>
+<li><a href="outils/cloud/index.html#livres-3">Livres</a></li>
+<li><a href="outils/cloud/index.html#mooc-3">MOOC</a></li>
+<li><a href="outils/cloud/index.html#sites-3">Sites</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="aws"><a class="header" href="#aws">AWS</a></h2>
+<h3 id="livres-gratuits-27"><a class="header" href="#livres-gratuits-27">Livres Gratuits</a></h3>
+<h3 id="livres-26"><a class="header" href="#livres-26">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3T2fSkl">AWS : Gérez votre infrastructure sur la plateforme cloud d'Amazon</a> de Nicolas Duminil</li>
+<li><a href="https://amzn.to/3RJAMUk">Amazon Web Service Guide de l'administrateur - Les bonnes pratiques pour administrer le cloud d'Amazon - collection O'Reilly</a> de Federico Lucifredi</li>
+</ul>
+<h3 id="mooc-26"><a class="header" href="#mooc-26">MOOC</a></h3>
+<h3 id="sites-24"><a class="header" href="#sites-24">Sites</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/fr/blogs/france/podcasts/">Le podcast AWS en français</a></li>
+<li><a href="https://aws.amazon.com/fr/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&amp;getting-started-all.sort-order=asc&amp;awsf.getting-started-category=*all&amp;awsf.getting-started-level=*all&amp;awsf.getting-started-content-type=*all">Trouver les didacticiels de prise en main adaptés à vos besoins AWS</a></li>
+</ul>
+<h2 id="gcp"><a class="header" href="#gcp">GCP</a></h2>
+<h3 id="livres-gratuits-28"><a class="header" href="#livres-gratuits-28">Livres Gratuits</a></h3>
+<h3 id="livres-27"><a class="header" href="#livres-27">Livres</a></h3>
+<h3 id="mooc-27"><a class="header" href="#mooc-27">MOOC</a></h3>
+<h3 id="sites-25"><a class="header" href="#sites-25">Sites</a></h3>
+<h2 id="azure"><a class="header" href="#azure">Azure</a></h2>
+<h3 id="livres-gratuits-29"><a class="header" href="#livres-gratuits-29">Livres Gratuits</a></h3>
+<h3 id="livres-28"><a class="header" href="#livres-28">Livres</a></h3>
+<ul>
+<li><a href="https://amzn.to/3C9folC">Débuter avec Azure - Concepts fondamentaux et mise en œuvre</a> de Thierry Bollet</li>
+<li><a href="https://amzn.to/3CAsyZt">Microsoft Azure - Gérez votre Système d'Information dans le Cloud</a> de Philippe Païola</li>
+</ul>
+<h3 id="mooc-28"><a class="header" href="#mooc-28">MOOC</a></h3>
+<h3 id="sites-26"><a class="header" href="#sites-26">Sites</a></h3>
+<h2 id="autres"><a class="header" href="#autres">Autres</a></h2>
+<h3 id="livres-gratuits-30"><a class="header" href="#livres-gratuits-30">Livres Gratuits</a></h3>
+<h3 id="livres-29"><a class="header" href="#livres-29">Livres</a></h3>
+<h3 id="mooc-29"><a class="header" href="#mooc-29">MOOC</a></h3>
+<h3 id="sites-27"><a class="header" href="#sites-27">Sites</a></h3>
+<ul>
+<li><a href="https://blog.zenika.com/2022/03/18/decouverte-dalibaba-cloud/">Expérimentations sur Alibabacloud</a></li>
+<li><a href="https://blog.zenika.com/2022/09/07/a-la-decouverte-de-scaleway-public-cloud/">À la découverte de Scaleway Public Cloud</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="surveillance"><a class="header" href="#surveillance">Surveillance</a></h1>
+<p>{!toc}</p>
+<h2 id="logging"><a class="header" href="#logging">Logging</a></h2>
+<h3 id="zabbix"><a class="header" href="#zabbix">Zabbix</a></h3>
+<p><strong>Site officiel</strong> : <a href="https://www.zabbix.com/">zabbix.com</a></p>
+<h4 id="livres-gratuits-31"><a class="header" href="#livres-gratuits-31">Livres Gratuits</a></h4>
+<h4 id="livres-30"><a class="header" href="#livres-30">Livres</a></h4>
+<h4 id="mooc-30"><a class="header" href="#mooc-30">MOOC</a></h4>
+<h4 id="sites-28"><a class="header" href="#sites-28">Sites</a></h4>
+<h3 id="centreon"><a class="header" href="#centreon">Centreon</a></h3>
+<h4 id="livres-gratuits-32"><a class="header" href="#livres-gratuits-32">Livres Gratuits</a></h4>
+<h4 id="livres-31"><a class="header" href="#livres-31">Livres</a></h4>
+<h4 id="mooc-31"><a class="header" href="#mooc-31">MOOC</a></h4>
+<h4 id="sites-29"><a class="header" href="#sites-29">Sites</a></h4>
+<h3 id="prometheus"><a class="header" href="#prometheus">Prometheus</a></h3>
+<p><strong>Site Officiel</strong> : <a href="https://prometheus.io/">prometheus.io</a>
+<strong>Projet</strong> : <a href="https://github.com/prometheus/prometheus">prometheus</a></p>
+<h4 id="livres-gratuits-33"><a class="header" href="#livres-gratuits-33">Livres Gratuits</a></h4>
+<h4 id="livres-32"><a class="header" href="#livres-32">Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3C32ENz">Prometheus et Grafana - Surveillez vos applications et composants
+système</a> de Yannig Perré</li>
+</ul>
+<h4 id="mooc-32"><a class="header" href="#mooc-32">MOOC</a></h4>
+<h4 id="sites-30"><a class="header" href="#sites-30">Sites</a></h4>
+<ul>
+<li><a href="https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/">Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes</a></li>
+</ul>
+<h4 id="videos-3"><a class="header" href="#videos-3">Videos</a></h4>
+<ul>
+<li><a href="https://xavki.blog/prometheus-grafana-tutoriaux-francais/">Prometheus x Grafana par
+Xavki</a> 53 vidéos</li>
+</ul>
+<h3 id="grafana"><a class="header" href="#grafana">Grafana</a></h3>
+<p><strong>Site Officiel</strong> : <a href="https://grafana.com/">grafana.com</a>
+<strong>Projet</strong> : <a href="https://github.com/grafana/grafana">Grafana</a></p>
+<h4 id="livres-gratuits-34"><a class="header" href="#livres-gratuits-34">Livres Gratuits</a></h4>
+<h4 id="livres-33"><a class="header" href="#livres-33">Livres</a></h4>
+<ul>
+<li><a href="https://blog.octo.com/exemple-dutilisation-de-prometheus-et-grafana-pour-le-monitoring-dun-cluster-kubernetes/">Exemple d’utilisation de Prometheus et Grafana pour le monitoring d’un cluster Kubernetes</a></li>
+</ul>
+<h4 id="mooc-33"><a class="header" href="#mooc-33">MOOC</a></h4>
+<h4 id="sites-31"><a class="header" href="#sites-31">Sites</a></h4>
+<ul>
+<li><a href="https://blog.zwindler.fr/2020/04/13/decouvrir-prometheus-et-grafana-par-lexemple/">Découvrir Prometheus et Grafana par l’exemple</a></li>
+<li><a href="https://www.tech2tech.fr/grafana-superviser-tous-vos-serveurs-et-peripheriques/">Grafana : Superviser tous vos serveurs et périphériques avec classe</a></li>
+</ul>
+<h3 id="opentelemetry"><a class="header" href="#opentelemetry">OpenTelemetry</a></h3>
+<p><strong>Site Officiel</strong> : <a href="https://opentelemetry.io/">opentelemetry.io</a>
+<strong>Projet</strong> : <a href="https://github.com/open-telemetry">OpenTelemetry</a></p>
+<h4 id="livres-gratuits-35"><a class="header" href="#livres-gratuits-35">Livres Gratuits</a></h4>
+<h4 id="livres-34"><a class="header" href="#livres-34">Livres</a></h4>
+<h4 id="mooc-34"><a class="header" href="#mooc-34">MOOC</a></h4>
+<h4 id="sites-32"><a class="header" href="#sites-32">Sites</a></h4>
+<ul>
+<li><a href="https://geekflare.com/fr/opentelemetry-introduction/">Introduction à OpenTelemetry pour les débutants</a></li>
+<li><a href="https://itexpert.fr/blog/opentelemetry/">OpenTelemetry : le feedback utilisateur à la portée de tous.</a></li>
+</ul>
+<h3 id="videos-4"><a class="header" href="#videos-4">Videos</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=dGMN3keJuXA">Comment OpenTelemetry peut transformer votre monitoring en unifiant vos logs</a></li>
+<li><a href="https://youtu.be/NXYAtkEm_hk">Suivez vos applications à la trace grâce à OpenTelemetry</a></li>
+</ul>
+<h2 id="monitoring-"><a class="header" href="#monitoring-">Monitoring :</a></h2>
+<h3 id="splunk"><a class="header" href="#splunk">Splunk</a></h3>
+<ul>
+<li><strong>Site officiel</strong> : <a href="https://www.splunk.com/">Splunk.com/</a></li>
+<li><strong>Blog officiel</strong> : <a href="https://www.splunk.com/en_us/blog">https://www.splunk.com/en_us/blog</a></li>
+</ul>
+<h4 id="livres-gratuits-36"><a class="header" href="#livres-gratuits-36">Livres Gratuits</a></h4>
+<h4 id="livres-35"><a class="header" href="#livres-35">Livres</a></h4>
+<h4 id="mooc-35"><a class="header" href="#mooc-35">MOOC</a></h4>
+<h4 id="sites-33"><a class="header" href="#sites-33">Sites</a></h4>
+<h3 id="elk"><a class="header" href="#elk">ELK</a></h3>
+<h4 id="livres-gratuits-37"><a class="header" href="#livres-gratuits-37">Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/elasticsearch-fr.pdf">Apprenez ElasticSearch</a></li>
+</ul>
+<h4 id="livres-36"><a class="header" href="#livres-36">Livres</a></h4>
+<h4 id="mooc-36"><a class="header" href="#mooc-36">MOOC</a></h4>
+<h4 id="sites-34"><a class="header" href="#sites-34">Sites</a></h4>
+<h4 id="vidéos-10"><a class="header" href="#vidéos-10">Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWrgJXXvbjlFPyHf8Q5a9n2b">xavki</a>
+80 vidéos</li>
+</ul>
+<h3 id="datadog"><a class="header" href="#datadog">Datadog</a></h3>
+<ul>
+<li><strong>Site officiel</strong> : <a href="https://www.datadoghq.com/">Datadog.com</a></li>
+<li><strong>Blog officiel</strong> : <a href="https://www.datadoghq.com/blog/">https://www.datadoghq.com/blog</a></li>
+</ul>
+<h4 id="livres-gratuits-38"><a class="header" href="#livres-gratuits-38">Livres Gratuits</a></h4>
+<h4 id="livres-37"><a class="header" href="#livres-37">Livres</a></h4>
+<h4 id="mooc-37"><a class="header" href="#mooc-37">MOOC</a></h4>
+<h4 id="sites-35"><a class="header" href="#sites-35">Sites</a></h4>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="les-liens-devops"><a class="header" href="#les-liens-devops">Les liens DevOps</a></h1>
+<h2 id="sites-parlant-du-devops"><a class="header" href="#sites-parlant-du-devops">Sites parlant du Devops</a></h2>
+<p>Voici une liste non exhaustive où vous trouverez de bons articles sur les
+<strong>outils Devops</strong>. Regardez dans le dépôt, j'y ai déposé mon export
+<a href="https://feedly.com/">feedly</a> avec tous les flux RSS et Atom que je suis pour
+faire ma veille techno. Je la mettrai à jour régulièrement. <a href="bookmarks/./feedly.opml">feedly.opml</a></p>
+<h3 id="blogs-perso"><a class="header" href="#blogs-perso">Blogs Perso</a></h3>
+<ul>
+<li><a href="https://blog.levassb.ovh/">Bruno Levasseur</a></li>
+<li><a href="https://www.dadall.info">dadall</a></li>
+<li><a href="https://www.damyr.fr">damyr</a></li>
+<li><a href="https://www.webofmars.com/blog/">Frédéric Léger</a></li>
+<li><a href="https://www.grottedubarbu.fr">grottedubarbu</a></li>
+<li><a href="https://www.jesuisundev.com">jesuisundev</a></li>
+<li><a href="https://lafor.ge/">la forge</a></li>
+<li><a href="https://www.mcorbin.fr/">mcorbin</a></li>
+<li><a href="https://scalastic.io/">scalastic</a></li>
+<li><a href="https://blog.stephane-robert.info/">Stephane ROBERT</a></li>
+<li><a href="https://tferdinand.net">tferdinand</a></li>
+<li><a href="https://thebidouilleur.xyz">TheBidouilleur</a></li>
+<li><a href="https://blog.zwindler.fr/">Zwindler's Reflection</a></li>
+</ul>
+<h3 id="sociétés"><a class="header" href="#sociétés">Sociétés</a></h3>
+<ul>
+<li><a href="https://april.org/">April : Promouvoir et défendre le logiciel libre</a></li>
+<li><a href="https://bearstech.com/societe/blog/">Bearstech</a></li>
+<li><a href="https://www.blackcreeper.com/blog/">Blackcreeper</a></li>
+<li><a href="https://blog.revolve.team/">Devoteam Revolve</a></li>
+<li><a href="https://easyteam.fr/blog/">EasyTeam</a></li>
+<li><a href="https://eazytraining.fr/blog/">Eazytraining</a></li>
+<li><a href="https://blog.eleven-labs.com">Eleven Labs</a></li>
+<li><a href="https://enix.io/fr/blog/">Enix</a></li>
+<li><a href="https://blog.ippon.fr">Ippon</a></li>
+<li><a href="https://www.journalduhacker.net">Le Journal Du Hacker</a></li>
+<li><a href="https://blog.link-value.fr/">LinkValue</a></li>
+<li><a href="https://notsosecure.com/blog">NotSoSecure Claranet Cyber Security</a></li>
+<li><a href="https://blog.ovhcloud.com/">OVHcloud</a></li>
+<li><a href="http://blog.engineering.publicissapient.fr">Publicis Sapient</a></li>
+<li><a href="https://www.redhat.com/fr/blog">Red Hat</a></li>
+<li><a href="https://blog.scaleway.com">Scaleway</a></li>
+<li><a href="https://blog.soat.fr">Soat</a></li>
+<li><a href="https://blog.wescale.fr">Wescale</a></li>
+<li><a href="https://blog.zenika.com/">Zenika</a></li>
+<li><a href="https://www.webofmars.com/blog/">Webofmars</a></li>
+</ul>
+<h3 id="articles"><a class="header" href="#articles">Articles</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/fr/devops/what-is-devops/">Mieux comprendre DevOps</a></li>
+<li><a href="https://blog.zenika.com/2021/08/18/accelerate-vu-par-zenika/">Accelerate vu par Zenika</a></li>
+</ul>
+<h2 id="livres-38"><a class="header" href="#livres-38">Livres</a></h2>
+<h2 id="communautés"><a class="header" href="#communautés">Communautés</a></h2>
+<ul>
+<li><a href="https://www.compagnons-devops.fr/">Compagnons du Devops</a></li>
+<li><a href="https://sre-france.github.io/">SRE France</a></li>
+<li><a href="https://discord.gg/kKUty5pfCQ">DevObs</a></li>
+<li><a href="https://bit.ly/2RmZttz">OpenBaR - build-and-run</a></li>
+<li><a href="https://www.francedevops.fr/">France DevOps</a></li>
+</ul>
+<h2 id="mooc-38"><a class="header" href="#mooc-38">Mooc</a></h2>
+<ul>
+<li><a href="https://devopssec.fr/category/comprendre-le-devops">DevOpsSec</a></li>
+<li><a href="https://openclassrooms.com/fr/courses/6093671-decouvrez-la-methodologie-devops">Découvrez la méthodologie DevOps sur
+OpenClassRooms</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWrBPMKFniOiMyLMdxlgFhrG">Devenir Devops (vidéos) par
+xavki</a>
+60 vidéos</li>
+</ul>
+<h2 id="chaines-youtube"><a class="header" href="#chaines-youtube">Chaines Youtube</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg">Aurelie Vache</a></li>
+<li><a href="https://www.youtube.com/c/cocadmin">CocAdmin</a></li>
+<li><a href="https://www.youtube.com/c/LesCompagnonsduDevOps">Compagnons du Devops</a></li>
+<li><a href="https://www.youtube.com/channel/UC5cs06DgLFeyLIF_II7lWCQ">Cookie Connecté</a></li>
+<li><a href="https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA">Cloud Nord</a></li>
+<li><a href="https://www.youtube.com/c/DevoxxFRvideos">Devoxx FR</a></li>
+<li><a href="https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA">France DevOps</a></li>
+<li><a href="https://www.youtube.com/channel/UCM0mnsNbecIi_IAPXtHb-TA">KrustyHack</a></li>
+<li><a href="https://www.youtube.com/channel/UCIlCglg-Gl6eNtllSB95gMA">Le TechLab de Christophe Casalegno</a></li>
+<li><a href="https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw">Limawi</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU">Inpulse.tv * Playlist Devops &amp; cloud</a></li>
+<li><a href="https://www.youtube.com/c/xavki-linux">Xavki</a></li>
+</ul>
+<h2 id="des-comptes-twitters"><a class="header" href="#des-comptes-twitters">Des comptes Twitters</a></h2>
+<ul>
+<li><a href="https://mobile.twitter.com/aurelievache">Aurélie Vache</a></li>
+<li><a href="https://twitter.com/cocadmin">Cocadmin</a></li>
+<li><a href="https://twitter.com/damyr_fr">DamyR</a></li>
+<li><a href="https://twitter.com/dadideo">David Aparicio</a></li>
+<li><a href="https://twitter.com/idriss_neumann">Idriss Neumann</a></li>
+<li><a href="https://twitter.com/ImraneSubstack">Imrane</a></li>
+<li><a href="https://twitter.com/jpetazzo">Jerôme Petazzoni</a></li>
+<li><a href="https://twitter.com/ajuliettedev">Juliette Audema</a></li>
+<li><a href="https://mobile.twitter.com/katia_tal">Katia HIMEUR TALHI</a></li>
+<li><a href="https://twitter.com/_mcorbin">Mcorbin</a></li>
+<li><a href="https://twitter.com/MicheeLengronne">Michée Lengronne</a></li>
+<li><a href="https://twitter.com/KrustyHack">Nicolas Hug</a></li>
+<li><a href="https://twitter.com/RobertStphane19">Stéphane ROBERT</a></li>
+<li><a href="https://twitter.com/TheBidouilleur">TheBidouilleur</a></li>
+<li><a href="https://twitter.com/xavki_off">Xavki</a></li>
+<li><a href="https://twitter.com/zwindler">Zwindler</a></li>
+</ul>
+<h2 id="des-slacks"><a class="header" href="#des-slacks">Des slacks</a></h2>
+<ul>
+<li><a href="https://t.co/kQcXNqtoNZ">comwork-cloud</a></li>
+</ul>
+<h2 id="podcasts"><a class="header" href="#podcasts">Podcasts</a></h2>
+<ul>
+<li><a href="https://dtk.p7t.tech/">Dans ton kube</a> Parle de Kubernetes</li>
+<li><a href="https://devobs.p7t.tech/">DevObs</a> Le magazine et observatoire du DevOps</li>
+<li><a href="https://podcasts.audiomeans.fr/electro-monkeys-0c9902cdaea8/">Electro
+Monkeys</a> Les concepts et les technologies cloud natives</li>
+<li><a href="https://www.libreavous.org/154-devops-le-monde-du-libre-sobriete-energetique">Émission libre à vous de l'april #154</a></li>
+<li><a href="https://www.clever-cloud.com/fr/podcast/">Message à caractère informatique</a></li>
+<li><a href="https://lydra.fr/radio-devops/">Radio DevOps</a> Le mouvement DevOps</li>
+<li><a href="https://www.podcastics.com/podcast/wespeakcloud/">WeSpeakCloud</a> Les
+problématiques complexes comme la sécurité ou le DevOps</li>
+</ul>
+<h2 id="conférences"><a class="header" href="#conférences">Conférences</a></h2>
+<ul>
+<li>Une liste des conférences DevOps est disponible sur ce dépôt : <a href="https://github.com/saphoooo/impressionnant">saphoooo/impressionnant</a></li>
+<li>Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : <a href="https://github.com/scraly/developers-conferences-agenda">scraly/developers-conferences-agenda</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contribuer"><a class="header" href="#contribuer">Contribuer</a></h1>
+<p>Vos contributions sont toutes les bienvenues ! Elles doivent être non
+commerciales. Je me garde le droit de ne pas accepter certaines demandes.</p>
+<h2 id="lignes-directrices"><a class="header" href="#lignes-directrices">Lignes directrices</a></h2>
+<ul>
+<li>Ajoutez un lien ou plusieurs par <a href="https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc">pull
+request</a>
+ou par <a href="https://github.com/stephrobert/awesome-french-devops/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">Issue</a></li>
+<li>Le lien pointe sur du contenu en français. Excepté les liens vers les sites
+officiels des produits cités.</li>
+<li>Ajoutez une section si nécessaire.</li>
+<li>Évitez les doublons.</li>
+<li>Vérifiez votre orthographe et votre grammaire.</li>
+<li>Supprimez tout espace blanc de fin.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>

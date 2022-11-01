@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Configuration de serveurs - Awesome French Devops</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../avant-propos.html"><strong aria-hidden="true">1.</strong> Avant-Propos</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/index.html"><strong aria-hidden="true">2.</strong> La démarche DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../demarche-devops/racine/index.html"><strong aria-hidden="true">2.1.</strong> Les racines du DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/introduction/index.html"><strong aria-hidden="true">2.2.</strong> Qu'est-ce que le Devops</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/cycle/index.html"><strong aria-hidden="true">2.3.</strong> Le cycle de vie DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/meo/index.html"><strong aria-hidden="true">2.4.</strong> Mettre en Oeuvre DevOps</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/cicd/index.html"><strong aria-hidden="true">2.5.</strong> L'approche CI/CD</a></li><li class="chapter-item expanded "><a href="../../demarche-devops/outils/index.html"><strong aria-hidden="true">2.6.</strong> Chaine d'Outils Devops</a></li></ol></li><li class="chapter-item expanded "><a href="../../metiers/index.html"><strong aria-hidden="true">3.</strong> Les équipes Devops</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../metiers/developpeur/index.html"><strong aria-hidden="true">3.1.</strong> Développeur</a></li><li class="chapter-item expanded "><a href="../../metiers/systeme/index.html"><strong aria-hidden="true">3.2.</strong> Administrateur Systémes</a></li><li class="chapter-item expanded "><a href="../../metiers/reseau/index.html"><strong aria-hidden="true">3.3.</strong> Administrateur Réseaux</a></li><li class="chapter-item expanded "><a href="../../metiers/securité/index.html"><strong aria-hidden="true">3.4.</strong> Administrateur Sécurité</a></li><li class="chapter-item expanded "><a href="../../metiers/tests/index.html"><strong aria-hidden="true">3.5.</strong> Testeurs</a></li><li class="chapter-item expanded "><a href="../../metiers/sre/index.html"><strong aria-hidden="true">3.6.</strong> Ingénieur en Fiabilité</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/index.html"><strong aria-hidden="true">4.</strong> Les outils DevOps</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/index.html"><strong aria-hidden="true">4.1.</strong> Administration de serveurs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/linux/index.html"><strong aria-hidden="true">4.1.1.</strong> Linux</a></li><li class="chapter-item expanded "><a href="../../outils/admin-serveurs/windows/index.html"><strong aria-hidden="true">4.1.2.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/index.html"><strong aria-hidden="true">4.2.</strong> Langage de Programmation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/langages-programmation/python/index.html"><strong aria-hidden="true">4.2.1.</strong> Python</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/golang/index.html"><strong aria-hidden="true">4.2.2.</strong> Golang</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/rust/index.html"><strong aria-hidden="true">4.2.3.</strong> Rust</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/ruby/index.html"><strong aria-hidden="true">4.2.4.</strong> Ruby</a></li><li class="chapter-item expanded "><a href="../../outils/langages-programmation/php/index.html"><strong aria-hidden="true">4.2.5.</strong> PHP</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/gestion-version-code/index.html"><strong aria-hidden="true">4.3.</strong> Gestion de Version de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/langages-programmation/git/index.html"><strong aria-hidden="true">4.3.1.</strong> Git</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/build/index.html"><strong aria-hidden="true">4.4.</strong> Outils de Build</a></li><li class="chapter-item expanded "><a href="../../outils/editeurs/index.html"><strong aria-hidden="true">4.5.</strong> Editeurs de Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/editeurs/vim/index.html"><strong aria-hidden="true">4.5.1.</strong> vim</a></li><li class="chapter-item expanded "><a href="../../outils/editeurs/vscode/index.html"><strong aria-hidden="true">4.5.2.</strong> vscode</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/reseau-securite/index.html"><strong aria-hidden="true">4.6.</strong> Réseaux et Sécurité</a></li><li class="chapter-item expanded "><a href="../../outils/configuration-serveurs/index.html" class="active"><strong aria-hidden="true">4.7.</strong> Configuration de serveurs</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/index.html"><strong aria-hidden="true">4.8.</strong> Infrastructure As Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/index.html"><strong aria-hidden="true">4.8.1.</strong> Gestion de Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/ansible/index.html"><strong aria-hidden="true">4.8.1.1.</strong> Ansible</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/chef/index.html"><strong aria-hidden="true">4.8.1.2.</strong> Chef</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/puppet/index.html"><strong aria-hidden="true">4.8.1.3.</strong> Puppet</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/gestion-configuration/salt/index.html"><strong aria-hidden="true">4.8.1.4.</strong> Salt</a></li></ol></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/index.html"><strong aria-hidden="true">4.8.2.</strong> Provisionnement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/vagrant/index.html"><strong aria-hidden="true">4.8.2.1.</strong> Vagrant</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/cloudformation/index.html"><strong aria-hidden="true">4.8.2.2.</strong> CloudFormation</a></li><li class="chapter-item expanded "><a href="../../outils/infra-as-code/provision/terraform/index.html"><strong aria-hidden="true">4.8.2.3.</strong> Terraform</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../outils/ci-cd/index.html"><strong aria-hidden="true">4.9.</strong> Pipelines CI/CD</a></li><li class="chapter-item expanded "><a href="../../outils/conteneur-orchestration/index.html"><strong aria-hidden="true">4.10.</strong> Conteneurs et Orchestrateurs</a></li><li class="chapter-item expanded "><a href="../../outils/cloud/index.html"><strong aria-hidden="true">4.11.</strong> Cloud</a></li><li class="chapter-item expanded "><a href="../../outils/surveillance/index.html"><strong aria-hidden="true">4.12.</strong> Monitoring et Surveillance</a></li></ol></li><li class="chapter-item expanded "><a href="../../bookmarks/index.html"><strong aria-hidden="true">5.</strong> Les liens Devops</a></li><li class="chapter-item expanded "><a href="../../contribute/index.html"><strong aria-hidden="true">6.</strong> Contribuer</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Awesome French Devops</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/stephrobert/french-devops.git" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="configuration-et-maintenance-de-serveurs"><a class="header" href="#configuration-et-maintenance-de-serveurs">Configuration et maintenance de Serveurs</a></h1>
+<ul>
+<li><a href="#1-serveurs-web">1. Serveurs WEB</a>
+<ul>
+<li><a href="#11-apache">1.1. Apache</a>
+<ul>
+<li><a href="#111-livres-gratuits">1.1.1. Livres Gratuits</a></li>
+<li><a href="#112-livres">1.1.2. Livres</a></li>
+<li><a href="#113-mooc">1.1.3. MOOC</a></li>
+<li><a href="#114-sites">1.1.4. Sites</a></li>
+<li><a href="#115-vid%C3%A9os">1.1.5. Vidéos</a></li>
+</ul>
+</li>
+<li><a href="#12-nginx">1.2. Nginx</a>
+<ul>
+<li><a href="#121-livres-gratuits">1.2.1. Livres Gratuits</a></li>
+<li><a href="#122-livres">1.2.2. Livres</a></li>
+<li><a href="#123-mooc">1.2.3. MOOC</a></li>
+<li><a href="#124-sites">1.2.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#2-serveurs-de-cache">2. Serveurs de Cache</a>
+<ul>
+<li><a href="#21-redis">2.1. Redis</a>
+<ul>
+<li><a href="#211-livres-gratuits">2.1.1. Livres Gratuits</a></li>
+<li><a href="#212-livres">2.1.2. Livres</a></li>
+<li><a href="#213-mooc">2.1.3. MOOC</a></li>
+<li><a href="#214-sites">2.1.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="#22-memcached">2.2. Memcached</a>
+<ul>
+<li><a href="#221-livres-gratuits">2.2.1. Livres Gratuits</a></li>
+<li><a href="#222-livres">2.2.2. Livres</a></li>
+<li><a href="#223-mooc">2.2.3. MOOC</a></li>
+<li><a href="#224-sites">2.2.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#3-base-de-donn%C3%A9es">3. Base de Données</a>
+<ul>
+<li><a href="#31-g%C3%A9n%C3%A9ralit%C3%A9s">3.1. Généralités</a>
+<ul>
+<li><a href="#311-livres-gratuits">3.1.1. Livres Gratuits</a></li>
+<li><a href="#312-livres">3.1.2. Livres</a></li>
+<li><a href="#313-sites">3.1.3. Sites</a></li>
+</ul>
+</li>
+<li><a href="#32-mysql-et-mariadb">3.2. MySQL et MariaDB</a>
+<ul>
+<li><a href="#321-livres-gratuits">3.2.1. Livres Gratuits</a></li>
+<li><a href="#322-livres">3.2.2. Livres</a></li>
+<li><a href="#323-mooc">3.2.3. MOOC</a></li>
+<li><a href="#324-sites">3.2.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="#33-postgresql">3.3. PostgreSQL</a>
+<ul>
+<li><a href="#331-livres-gratuits">3.3.1. Livres Gratuits</a></li>
+<li><a href="#332-livres">3.3.2. Livres</a></li>
+<li><a href="#333-mooc">3.3.3. MOOC</a></li>
+<li><a href="#334-sites">3.3.4. Sites</a></li>
+<li><a href="#335-vid%C3%A9os">3.3.5. Vidéos</a></li>
+</ul>
+</li>
+<li><a href="#34-mongodb">3.4. MongoDB</a>
+<ul>
+<li><a href="#341-livres-gratuits">3.4.1. Livres Gratuits</a></li>
+<li><a href="#342-livres">3.4.2. Livres</a></li>
+<li><a href="#343-mooc">3.4.3. MOOC</a></li>
+<li><a href="#344-sites">3.4.4. Sites</a></li>
+</ul>
+</li>
+<li><a href="#35-oracledb">3.5. OracleDB</a>
+<ul>
+<li><a href="#351-livres-gratuits">3.5.1. Livres Gratuits</a></li>
+<li><a href="#352-livres">3.5.2. Livres</a></li>
+<li><a href="#353-mooc">3.5.3. MOOC</a></li>
+<li><a href="#354-sites">3.5.4. Sites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="1-serveurs-web"><a class="header" href="#1-serveurs-web">1. <a name='ServeursWEB'></a>Serveurs WEB</a></h2>
+<h3 id="11-apache"><a class="header" href="#11-apache">1.1. <a name='Apache'></a>Apache</a></h3>
+<p><strong>Site officiel</strong>: <a href="https://httpd.apache.org/docs/2.4/fr/getting-started.html">apachage.org</a></p>
+<h4 id="111-livres-gratuits"><a class="header" href="#111-livres-gratuits">1.1.1. <a name='LivresGratuits'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/apache-fr.pdf">Apprenez Apache</a></li>
+</ul>
+<h4 id="112-livres"><a class="header" href="#112-livres">1.1.2. <a name='Livres'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3D6e3Oe">Installation et configuration d'un serveur internet - (BIND, Apache, NGINX,
+Dovecot, Postfix...)</a> Robert La Lau</li>
+<li><a href="https://amzn.to/3yU20kO">Apache 2.4 - Installation et configuration</a> de
+Nicolas Martinez</li>
+</ul>
+<h4 id="113-mooc"><a class="header" href="#113-mooc">1.1.3. <a name='MOOC'></a>MOOC</a></h4>
+<h4 id="114-sites"><a class="header" href="#114-sites">1.1.4. <a name='Sites'></a>Sites</a></h4>
+<h4 id="115-vidéos"><a class="header" href="#115-vidéos">1.1.5. <a name='Vidos'></a>Vidéos</a></h4>
+<ul>
+<li><a href="https://grafikart.fr/tutoriels/apache-687#sommaire">Mettre en place un serveur Web Apache</a></li>
+</ul>
+<h3 id="12-nginx"><a class="header" href="#12-nginx">1.2. <a name='Nginx'></a>Nginx</a></h3>
+<h4 id="121-livres-gratuits"><a class="header" href="#121-livres-gratuits">1.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/nginx-fr.pdf">Apprenez nginx</a></li>
+</ul>
+<h4 id="122-livres"><a class="header" href="#122-livres">1.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/redis-fr.pdf">Nginx en Action</a> de Derek Dejonghe</li>
+<li><a href="https://amzn.to/3D6e3Oe">Installation et configuration d'un serveur internet - (BIND, Apache, NGINX,
+Dovecot, Postfix...)</a> de Robert La Lau</li>
+</ul>
+<h4 id="123-mooc"><a class="header" href="#123-mooc">1.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="124-sites"><a class="header" href="#124-sites">1.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h2 id="2-serveurs-de-cache"><a class="header" href="#2-serveurs-de-cache">2. <a name='ServeursdeCache'></a>Serveurs de Cache</a></h2>
+<h3 id="21-redis"><a class="header" href="#21-redis">2.1. <a name='Redis'></a>Redis</a></h3>
+<h4 id="211-livres-gratuits"><a class="header" href="#211-livres-gratuits">2.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/redis-fr.pdf">Apprenez redis</a></li>
+</ul>
+<h4 id="212-livres"><a class="header" href="#212-livres">2.1.2. <a name='Livres-1'></a>Livres</a></h4>
+<h4 id="213-mooc"><a class="header" href="#213-mooc">2.1.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="214-sites"><a class="header" href="#214-sites">2.1.4. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="22-memcached"><a class="header" href="#22-memcached">2.2. <a name='Memcached'></a>Memcached</a></h3>
+<h4 id="221-livres-gratuits"><a class="header" href="#221-livres-gratuits">2.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="222-livres"><a class="header" href="#222-livres">2.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<h4 id="223-mooc"><a class="header" href="#223-mooc">2.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="224-sites"><a class="header" href="#224-sites">2.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h2 id="3-base-de-données"><a class="header" href="#3-base-de-données">3. <a name='BasedeDonnes'></a>Base de Données</a></h2>
+<h3 id="31-généralités"><a class="header" href="#31-généralités">3.1. <a name='Gnralits'></a>Généralités</a></h3>
+<h4 id="311-livres-gratuits"><a class="header" href="#311-livres-gratuits">3.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="312-livres"><a class="header" href="#312-livres">3.1.2. <a name='Livres-1'></a>Livres</a></h4>
+<h5 id="311-mooc"><a class="header" href="#311-mooc">3.1.1. <a name='MOOC'></a>MOOC</a></h5>
+<ul>
+<li><a href="https://www.fun-mooc.fr/fr/cours/bases-de-donnees-relationnelles-apprendre-pour-utiliser/">Bases de données relationnelles : apprendre pour utiliser</a></li>
+</ul>
+<h4 id="313-sites"><a class="header" href="#313-sites">3.1.3. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="32-mysql-et-mariadb"><a class="header" href="#32-mysql-et-mariadb">3.2. <a name='MySQLetMariaDB'></a>MySQL et MariaDB</a></h3>
+<h4 id="321-livres-gratuits"><a class="header" href="#321-livres-gratuits">3.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/mysql-fr.pdf">Apprenez Mysql</a></li>
+</ul>
+<h4 id="322-livres"><a class="header" href="#322-livres">3.2.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3EnxN0U">MySQL 8 - Administration et optimisation</a> de Stéphane Combaudon</li>
+<li><a href="https://amzn.to/3McK5uW">MariaDB - Administration et optimisation</a> de Stéphane Combaudon</li>
+</ul>
+<h4 id="323-mooc"><a class="header" href="#323-mooc">3.2.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="324-sites"><a class="header" href="#324-sites">3.2.4. <a name='Sites-1'></a>Sites</a></h4>
+<h3 id="33-postgresql"><a class="header" href="#33-postgresql">3.3. <a name='PostgreSQL'></a>PostgreSQL</a></h3>
+<h4 id="331-livres-gratuits"><a class="header" href="#331-livres-gratuits">3.3.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/postgresql-fr.pdf">Apprenez PostgreSQL</a></li>
+</ul>
+<h4 id="332-livres"><a class="header" href="#332-livres">3.3.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3fE1YGL">PostgreSQL – Architecture et notions avancées</a> de Guillaume Lelarge et Julien Rouhaud</li>
+<li><a href="https://amzn.to/3ecuUFt">PostgreSQL - Principes de base de l'utilisation de la base de données</a> de Sébastien Lardière</li>
+<li><a href="https://amzn.to/3ynGhBA">PostgreSQL - Administration et exploitation de vos bases de données (4e
+édition)</a> de Sébastien Lardière</li>
+</ul>
+<h4 id="333-mooc"><a class="header" href="#333-mooc">3.3.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="334-sites"><a class="header" href="#334-sites">3.3.4. <a name='Sites-1'></a>Sites</a></h4>
+<h4 id="335-vidéos"><a class="header" href="#335-vidéos">3.3.5. <a name='Vidos-1'></a>Vidéos</a></h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLn6POgpklwWonHjoGXXSIXJWYzPSy2FeJ">xavki</a></li>
+</ul>
+<h3 id="34-mongodb"><a class="header" href="#34-mongodb">3.4. <a name='MongoDB'></a>MongoDB</a></h3>
+<p><strong>Site Officiel</strong> : <a href="https://www.mongodb.com/fr-fr">mongodb.com</a> (fr)</p>
+<h4 id="341-livres-gratuits"><a class="header" href="#341-livres-gratuits">3.4.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<ul>
+<li><a href="https://riptutorial.com/Download/mongodb-fr.pdf">Apprenez MongoDB</a></li>
+</ul>
+<h4 id="342-livres"><a class="header" href="#342-livres">3.4.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3CNoLIl">MongoDB - Comprendre et optimiser l'exploitation de vos
+données</a> de Sebastien Fernandez</li>
+</ul>
+<h4 id="343-mooc"><a class="header" href="#343-mooc">3.4.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<ul>
+<li><a href="https://openclassrooms.com/fr/courses/4462426-maitrisez-les-bases-de-donnees-nosql/4474601-decouvrez-le-fonctionnement-de-mongodb">Découvrez le fonctionnement de MongoDB</a></li>
+</ul>
+<h4 id="344-sites"><a class="header" href="#344-sites">3.4.4. <a name='Sites-1'></a>Sites</a></h4>
+<ul>
+<li><a href="https://welovedevs.com/fr/articles/mongodb/">MongoDB : Le guide complet</a></li>
+</ul>
+<h3 id="35-oracledb"><a class="header" href="#35-oracledb">3.5. <a name='OracleDB'></a>OracleDB</a></h3>
+<p><strong>Site Officiel</strong> <a href="https://www.oracle.com/fr/">Oracle.com</a> (fr)</p>
+<h4 id="351-livres-gratuits"><a class="header" href="#351-livres-gratuits">3.5.1. <a name='LivresGratuits-1'></a>Livres Gratuits</a></h4>
+<h4 id="352-livres"><a class="header" href="#352-livres">3.5.2. <a name='Livres-1'></a>Livres</a></h4>
+<ul>
+<li><a href="https://amzn.to/3D6big0">Oracle 19c - Administration</a> de Olivier HEURTEL</li>
+</ul>
+<h4 id="353-mooc"><a class="header" href="#353-mooc">3.5.3. <a name='MOOC-1'></a>MOOC</a></h4>
+<h4 id="354-sites"><a class="header" href="#354-sites">3.5.4. <a name='Sites-1'></a>Sites</a></h4>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../outils/reseau-securite/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../outils/infra-as-code/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../outils/reseau-securite/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../outils/infra-as-code/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
