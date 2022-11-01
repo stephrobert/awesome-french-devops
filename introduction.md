@@ -1,4 +1,6 @@
-# Avant-Propos
+![logo](logo.svg)
+
+# Introduction
 
 Écrire un livre sur la démarche et les outils DevOps, un sujet brûlant que
 certains aimeraient voir disparaître.
