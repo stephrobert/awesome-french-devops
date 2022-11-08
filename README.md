@@ -191,6 +191,21 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 
+
+## Des comptes Mastodon
+
+* [Aurélie Vache](https://k8s.social/@scraly)
+* [Damy.R](https://mamot.fr/@DamyR)
+* [David Aparicio](https://framapiaf.org/@dadideo)
+* [Idriss Neumann](https://mastodon.comwork.io/@idrissneumann)
+* [Imrane Substack](https://pouet.chapril.org/@imranesubstack)
+* [Katia Himeur Talhi](https://fosstodon.org/@Katia)
+* [Mcorbin](https://twtr.plus/users/_mcorbin)
+* [Stéphane ROBERT](https://pouet.chapril.org/@robert_stephane)
+* [TheBidouilleur](https://mamot.fr/@TheBidouilleur)
+* [Xavki](https://twtr.plus/users/xavki_off)
+* [Zwindler](https://framapiaf.org/@zwindler)
+
 ##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 * [Aurélie Vache](https://mobile.twitter.com/aurelievache)
