@@ -185,10 +185,11 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
 * [France DevOps](https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA)
+* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [KrustyHack](https://www.youtube.com/channel/UCM0mnsNbecIi_IAPXtHb-TA)
 * [Le TechLab de Christophe Casalegno](https://www.youtube.com/channel/UCIlCglg-Gl6eNtllSB95gMA)
 * [Limawi](https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw)
-* [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
+* [Naitech](https://www.youtube.com/channel/UCWftacXxXdvOk6MnoggQYug)
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 
 
