@@ -22,12 +22,13 @@
 * 5. [Communautés](#Communauts)
 * 6. [Mooc](#Mooc)
 * 7. [Chaines Youtube](#ChainesYoutube)
-* 8. [Des comptes Twitters](#DescomptesTwitters)
-* 9. [Des slacks](#Desslacks)
-* 10. [Podcasts](#Podcasts)
-* 11. [Conférences](#Conferences)
-* 12. [Contribuer](#Contribuer)
-	* 12.1. [Lignes directrices](#Lignesdirectrices)
+* 8. [Des comptes Mastodon](#DescomptesMastodon)
+* 9. [Des comptes Twitters](#DescomptesTwitters)
+* 10. [Des slacks](#Desslacks)
+* 11. [Podcasts](#Podcasts)
+* 12. [Conférences](#Conferences)
+* 13. [Contribuer](#Contribuer)
+	* 13.1. [Lignes directrices](#Lignesdirectrices)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -193,7 +194,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 
 
-## Des comptes Mastodon
+## 8. <a name='DescomptesMastodon'> Des comptes Mastodon
 
 * [Aurélie Vache](https://k8s.social/@scraly)
 * [Damy.R](https://mamot.fr/@DamyR)
@@ -207,7 +208,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Xavki](https://twtr.plus/users/xavki_off)
 * [Zwindler](https://framapiaf.org/@zwindler)
 
-##  8. <a name='DescomptesTwitters'></a>Des comptes Twitters
+##  9. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 * [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 * [Cocadmin](https://twitter.com/cocadmin)
@@ -227,11 +228,11 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Zwindler](https://twitter.com/zwindler)
 
 
-##  9. <a name='Desslacks'></a>Des slacks
+##  10. <a name='Desslacks'></a>Des slacks
 
 * [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
-##  10. <a name='Podcasts'></a>Podcasts
+##  11. <a name='Podcasts'></a>Podcasts
 
 * [Dans ton kube](https://dtk.p7t.tech/) Parle de Kubernetes
 * [DevObs](https://devobs.p7t.tech/) Le magazine et observatoire du DevOps
@@ -243,17 +244,17 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [WeSpeakCloud](https://www.podcastics.com/podcast/wespeakcloud/) Les
   problématiques complexes comme la sécurité ou le DevOps
 
-## 11. <a name='Conferences'></a>Conférences
+## 12. <a name='Conferences'></a>Conférences
 
 * Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
 * Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : [scraly/developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda)
 
-##  12. <a name='Contribuer'></a>Contribuer
+##  13. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  12.1. <a name='Lignesdirectrices'></a>Lignes directrices
+###  13.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 * Ajoutez un lien ou plusieurs par [pull
   request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
