@@ -45,6 +45,17 @@
 		* 2.3.2. [Livres](#Livres-1)
 		* 2.3.3. [MOOC](#MOOC-1)
 		* 2.3.4. [Sites](#Sites-1)
+* 3. [Tracing :](#Tracing:)
+	* 3.1. [Dynatrace](#Dynatrace)
+		* 3.1.1. [Livres Gratuits](#LivresGratuits-1)
+		* 3.1.2. [Livres](#Livres-1)
+		* 3.1.3. [MOOC](#MOOC-1)
+		* 3.1.4. [Sites](#Sites-1)
+	* 3.2. [New Relic](#NewRelic)
+		* 3.2.1. [Livres Gratuits](#LivresGratuits-1)
+		* 3.2.2. [Livres](#Livres-1)
+		* 3.2.3. [MOOC](#MOOC-1)
+		* 3.2.4. [Sites](#Sites-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -181,3 +192,31 @@
 ####  2.3.3. <a name='MOOC-1'></a>MOOC
 
 ####  2.3.4. <a name='Sites-1'></a>Sites
+
+##  3. <a name='Tracing:'></a>Tracing :
+
+###  3.1. <a name='Dynatrace'></a>Dynatrace
+
+* **Site officiel** : [Dynatrace.com](https://www.dynatrace.com/)
+* **Blog officiel** : [https://www.dynatrace.com/news/blog](https://www.dynatrace.com/news/blog/)
+
+####  3.1.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+####  3.1.2. <a name='Livres-1'></a>Livres
+
+####  3.1.3. <a name='MOOC-1'></a>MOOC
+
+####  3.1.4. <a name='Sites-1'></a>Sites
+
+###  3.2. <a name='NewRelic'></a>New Relic
+
+* **Site officiel** : [Newrelic.com](https://newrelic.com/)
+* **Blog officiel** : [https://newrelic.com/blog](https://newrelic.com/blog/)
+
+####  3.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+
+####  3.2.2. <a name='Livres-1'></a>Livres
+
+####  3.2.3. <a name='MOOC-1'></a>MOOC
+
+####  3.2.4. <a name='Sites-1'></a>Sites
