@@ -128,6 +128,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 ###  3.2. <a name='Socits'></a>Sociétés
 
 * [April : Promouvoir et défendre le logiciel libre](https://april.org/)
+* [Adlere](https://www.adlere.com/)
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Blackcreeper](https://www.blackcreeper.com/blog/)
 * [Devoteam Revolve](https://blog.revolve.team/)
