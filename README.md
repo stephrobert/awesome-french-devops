@@ -159,6 +159,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Mettre en œuvre DevOps - 3e éd. - Comment évoluer vers une DSI agile :
   Comment évoluer vers une DSI agile Broché](https://amzn.to/3e0d4pg)
 * [DevOps - Intégrez et déployez en continu](https://amzn.to/3fRVnsA) de Ernesto Leite
+* [Automatisation : de Python à Ansible](https://pressbooks.pub/automatisation/) de Alex Faivre & Gilbert Moïsio
 
 ##  5. <a name='Communauts'></a>Communautés
 
