@@ -114,6 +114,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Bruno Levasseur](https://blog.levassb.ovh/)
 * [dadall](https://www.dadall.info)
 * [damyr](https://www.damyr.fr)
+* [filador](https://blog.filador.fr)
 * [Frédéric Léger](https://www.webofmars.com/blog/)
 * [grottedubarbu](https://www.grottedubarbu.fr)
 * [jesuisundev](https://www.jesuisundev.com)
