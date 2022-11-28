@@ -103,6 +103,7 @@
 **Documentation** : [terraform.io/docs](https://www.terraform.io/docs)
 
 #### 1.2.1. <a name='LivresGratuits-1'></a>Livres Gratuits
+* [Automatisation : de Python à Ansible](https://pressbooks.pub/automatisation/) de Alex Faivre & Gilbert Moïsio
 
 #### 1.2.2. <a name='Livres-1'></a>Livres
 
