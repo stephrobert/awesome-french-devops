@@ -120,6 +120,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [jesuisundev](https://www.jesuisundev.com)
 * [la forge](https://lafor.ge/)
 * [mcorbin](https://www.mcorbin.fr/)
+* [Rémi Verchère](https://www.vrchr.fr/)
 * [scalastic](https://scalastic.io/)
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
