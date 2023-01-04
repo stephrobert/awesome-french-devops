@@ -117,6 +117,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [filador](https://blog.filador.fr)
 * [Frédéric Léger](https://www.webofmars.com/blog/)
 * [grottedubarbu](https://www.grottedubarbu.fr)
+* [Idriss Neumann](https://www.ineumann.fr)
 * [jesuisundev](https://www.jesuisundev.com)
 * [la forge](https://lafor.ge/)
 * [mcorbin](https://www.mcorbin.fr/)
