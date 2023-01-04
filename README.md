@@ -186,6 +186,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Aurelie Vache](https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg)
 * [CocAdmin](https://www.youtube.com/c/cocadmin)
 * [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
+* [ComWorkIO](https://www.youtube.com/@comworkio)
 * [Cookie Connecté](https://www.youtube.com/channel/UC5cs06DgLFeyLIF_II7lWCQ)
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
