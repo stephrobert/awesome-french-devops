@@ -78,8 +78,8 @@
   * [Partie 1](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part1/)
   * [Partie 2](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
   * [Partie 3](https://enix.io/fr/blog/cherie-j-ai-retreci-docker-part2/)
-* [Démarrer avec Docker](https://blog.stephane-robert.info/post/introduction-docker/)
 * [Apprendre Docker avec une tasse de café](https://docker.avec.une-tasse-de.cafe/)
+* [Support de cours Docker : Découverte de Docker avec animation Asciinema](https://mickael-baron.fr/slides/soa/introduction-docker)
 
 ####  1.1.5. <a name='DockerVidos'></a>Vidéos
 
@@ -144,6 +144,8 @@
 * [Discuss Kubernetes](https://discuss.kubernetes.io/)
 * [Wiki SFEIR Kubernetes](https://wiki.sfeir.com/kubernetes/)
 * [Introduction à Kubernetes](https://blog.stephane-robert.info/post/introduction-kubernetes/)
+* [Support de cours Kubernetes : introduction aux principaux concepts](https://mickael-baron.fr/soa/microservices-mise-en-oeuvre-kubernetes)
+* [Tutoriel Kubernetes : les bases de K8s avec K3s ou K3d](https://github.com/mickaelbaron/microservices-kubernetes-gettingstarted-tutorial)
 
 ####  2.1.5. <a name='KubernetesVidos'></a>Vidéos
 
