@@ -111,6 +111,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 ###  3.1. <a name='BlogsPerso'></a>Blogs Perso
 
+* [Antoine Mayer](https://blog.antoinemayer.fr/)
 * [Bruno Levasseur](https://blog.levassb.ovh/)
 * [dadall](https://www.dadall.info)
 * [damyr](https://www.damyr.fr)
