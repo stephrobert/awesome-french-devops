@@ -124,6 +124,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [mcorbin](https://www.mcorbin.fr/)
 * [Rémi Verchère](https://www.vrchr.fr/)
 * [scalastic](https://scalastic.io/)
+* [Stephane Philippart](https://philippart-s.github.io/)
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
 * [TheBidouilleur](https://thebidouilleur.xyz)
