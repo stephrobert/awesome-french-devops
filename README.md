@@ -135,6 +135,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [April : Promouvoir et défendre le logiciel libre](https://april.org/)
 * [Bearstech](https://bearstech.com/societe/blog/)
 * [Blackcreeper](https://www.blackcreeper.com/blog/)
+* [Cockpit.io](https://blog.cockpitio.com/)
 * [Devoteam Revolve](https://blog.revolve.team/)
 * [EasyTeam](https://easyteam.fr/blog/)
 * [Eazytraining](https://eazytraining.fr/blog/)
