@@ -169,6 +169,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 ##  5. <a name='Communauts'></a>Communautés
 
+* [Le chalet](https://discord.gg/sHXFNWzz)
 * [Compagnons du Devops](https://www.compagnons-devops.fr/)
 * [SRE France](https://sre-france.github.io/)
 * [DevObs](https://discord.gg/kKUty5pfCQ)
