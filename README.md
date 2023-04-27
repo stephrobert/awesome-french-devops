@@ -27,6 +27,7 @@
 * 10. [Des slacks](#Desslacks)
 * 11. [Podcasts](#Podcasts)
 * 12. [Conférences](#Conferences)
+  * 12.1 [Les chaines Youtube des conférences](#videosconf)
 * 13. [Contribuer](#Contribuer)
 	* 13.1. [Lignes directrices](#Lignesdirectrices)
 
@@ -257,6 +258,11 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 * Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
 * Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : [scraly/developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda)
+
+### <a name='videosconf'></a>Les chaines youtube des conférences
+
+* [Cloud Nord](https://www.youtube.com/@cloudnord6827)
+* [DevoxxFR](https://youtube.com/@DevoxxFRvideos)
 
 ##  13. <a name='Contribuer'></a>Contribuer
 
