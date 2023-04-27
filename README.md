@@ -263,6 +263,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 
 * [Cloud Nord](https://www.youtube.com/@cloudnord6827)
 * [DevoxxFR](https://youtube.com/@DevoxxFRvideos)
+* [KCD France](https://www.youtube.com/@KubernetesCommunityDaysFr)
 
 ##  13. <a name='Contribuer'></a>Contribuer
 
