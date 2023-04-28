@@ -259,7 +259,8 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
 * Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : [scraly/developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda)
 
-### <a name='videosconf'></a>Les chaines youtube des conférences
+### 12.1 <a name='videosconf'></a>Les chaines youtube des conférences
+
 
 * [Cloud Nord](https://www.youtube.com/@cloudnord6827)
 * [DevoxxFR](https://youtube.com/@DevoxxFRvideos)
