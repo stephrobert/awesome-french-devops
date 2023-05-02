@@ -48,7 +48,7 @@
 * [Optimiser la durée de vos pipelines avec les DAG](https://blog.stephane-robert.info/post/dag-needs-gitlab-ci/)
 * [Créer des releases](https://blog.stephane-robert.info/post/gitlab-ci-release/)
 * [Comment tester un rôle Ansible avec Molecule ?](https://connect.ed-diamond.com/linux-pratique/lp-128/comment-tester-un-role-ansible-avec-molecule)
-* [Hub de template de pipeline CICD](https://gitlab.com/r2devops/hub)
+* [Marketplace de templates CICD GitLab](https://r2devops.io/marketplace)
 
 ###  1.5. <a name='Vidos'></a>Vidéos
 
