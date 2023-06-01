@@ -65,6 +65,9 @@
 
 ###  3.4. <a name='Sites-1'></a>Sites
 
+* [Blog de Stanislas Quastana](https://stanislas.io/)
+* [smartcloudarchitect](https://blog.smartcloudarchitect.fr/)
+
 ##  4. <a name='Autres'></a>Autres
 
 ###  4.1. <a name='LivresGratuits-1'></a>Livres Gratuits
