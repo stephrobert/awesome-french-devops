@@ -22,14 +22,15 @@
 * 5. [Communautés](#Communauts)
 * 6. [Mooc](#Mooc)
 * 7. [Chaines Youtube](#ChainesYoutube)
-* 8. [Des comptes Mastodon](#DescomptesMastodon)
-* 9. [Des comptes Twitters](#DescomptesTwitters)
-* 10. [Des slacks](#Desslacks)
-* 11. [Podcasts](#Podcasts)
-* 12. [Conférences](#Conferences)
-  * 12.1 [Les chaines Youtube des conférences](#videosconf)
-* 13. [Contribuer](#Contribuer)
-	* 13.1. [Lignes directrices](#Lignesdirectrices)
+* 8. [Chaines Twitch](#ChainesTiwtch)
+* 9. [Des comptes Mastodon](#DescomptesMastodon)
+* 10. [Des comptes Twitters](#DescomptesTwitters)
+* 11. [Des slacks](#Desslacks)
+* 12. [Podcasts](#Podcasts)
+* 13. [Conférences](#Conferences)
+  * 13.1 [Les chaines Youtube des conférences](#videosconf)
+* 14. [Contribuer](#Contribuer)
+  * 14.1. [Lignes directrices](#Lignesdirectrices)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -201,10 +202,16 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Le TechLab de Christophe Casalegno](https://www.youtube.com/channel/UCIlCglg-Gl6eNtllSB95gMA)
 * [Limawi](https://www.youtube.com/channel/UCxOvLOXTZFhy8NPMsxg5ogw)
 * [Naitech](https://www.youtube.com/channel/UCWftacXxXdvOk6MnoggQYug)
+* [PhilIT](https://www.youtube.com/@phil_it)
 * [Xavki](https://www.youtube.com/c/xavki-linux)
 
+## 8. <a name='ChainesTwitch'></a>Chaines Twitch
 
-## 8. <a name='DescomptesMastodon'> Des comptes Mastodon
+* [Nidouille77](https://m.twitch.tv/nidouille77)
+* [PhilIT](https://m.twitch.tv/philouit)
+
+
+## 9. <a name='DescomptesMastodon'> Des comptes Mastodon
 
 * [Aurélie Vache](https://k8s.social/@scraly)
 * [Damy.R](https://mamot.fr/@DamyR)
@@ -218,7 +225,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Xavki](https://twtr.plus/users/xavki_off)
 * [Zwindler](https://framapiaf.org/@zwindler)
 
-##  9. <a name='DescomptesTwitters'></a>Des comptes Twitters
+## 10. <a name='DescomptesTwitters'></a>Des comptes Twitters
 
 * [Aurélie Vache](https://mobile.twitter.com/aurelievache)
 * [Cocadmin](https://twitter.com/cocadmin)
@@ -238,11 +245,11 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Zwindler](https://twitter.com/zwindler)
 
 
-##  10. <a name='Desslacks'></a>Des slacks
+## 11. <a name='Desslacks'></a>Des slacks
 
 * [comwork-cloud](https://t.co/kQcXNqtoNZ)
 
-##  11. <a name='Podcasts'></a>Podcasts
+## 12. <a name='Podcasts'></a>Podcasts
 
 * [Dans ton kube](https://dtk.p7t.tech/) Parle de Kubernetes
 * [DevObs](https://devobs.p7t.tech/) Le magazine et observatoire du DevOps
@@ -254,24 +261,24 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [WeSpeakCloud](https://www.podcastics.com/podcast/wespeakcloud/) Les
   problématiques complexes comme la sécurité ou le DevOps
 
-## 12. <a name='Conferences'></a>Conférences
+## 13. <a name='Conferences'></a>Conférences
 
 * Une liste des conférences DevOps est disponible sur ce dépôt : [saphoooo/impressionnant](https://github.com/saphoooo/impressionnant)
 * Plus largement, une liste de toutes les conférences tech (Dev, DevOps, etc) avec les dates de CFP est disponible sur ce dépôt : [scraly/developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda)
 
-### 12.1 <a name='videosconf'></a>Les chaines youtube des conférences
+### 13.1 <a name='videosconf'></a>Les chaines youtube des conférences
 
 
 * [Cloud Nord](https://www.youtube.com/@cloudnord6827)
 * [DevoxxFR](https://youtube.com/@DevoxxFRvideos)
 * [KCD France](https://www.youtube.com/@KubernetesCommunityDaysFr)
 
-##  13. <a name='Contribuer'></a>Contribuer
+## 14. <a name='Contribuer'></a>Contribuer
 
 Vos contributions sont toutes les bienvenues ! Elles doivent être non
 commerciales. Je me garde le droit de ne pas accepter certaines demandes.
 
-###  13.1. <a name='Lignesdirectrices'></a>Lignes directrices
+### 14.1. <a name='Lignesdirectrices'></a>Lignes directrices
 
 * Ajoutez un lien ou plusieurs par [pull
   request](https://github.com/stephrobert/awesome-french-devops/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
