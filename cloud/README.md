@@ -66,7 +66,8 @@
 ###  3.4. <a name='Sites-1'></a>Sites
 
 * [Blog de Stanislas Quastana](https://stanislas.io/)
-* [smartcloudarchitect](https://blog.smartcloudarchitect.fr/)
+* [SmartcCloudArchitect](https://blog.smartcloudarchitect.fr/)
+* [Blog On azure Grave](https://onag.fr/)
 
 ##  4. <a name='Autres'></a>Autres
 
