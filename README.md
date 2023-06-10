@@ -239,6 +239,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Mcorbin](https://twitter.com/_mcorbin)
 * [Michée Lengronne](https://twitter.com/MicheeLengronne)
 * [Nicolas Hug](https://twitter.com/KrustyHack)
+* [Olivier Poncet](https://twitter.com/ponceto91)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [TheBidouilleur](https://twitter.com/TheBidouilleur)
 * [Xavki](https://twitter.com/xavki_off)
