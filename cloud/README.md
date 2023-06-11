@@ -68,6 +68,7 @@
 * [Blog de Stanislas Quastana](https://stanislas.io/)
 * [SmartcCloudArchitect](https://blog.smartcloudarchitect.fr/)
 * [Blog On azure Grave](https://onag.fr/)
+* [Blog de Wilfried Woivré](https://woivre.fr)
 
 ##  4. <a name='Autres'></a>Autres
 
