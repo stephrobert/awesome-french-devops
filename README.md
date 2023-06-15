@@ -242,6 +242,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Olivier Poncet](https://twitter.com/ponceto91)
 * [Stéphane ROBERT](https://twitter.com/RobertStphane19)
 * [TheBidouilleur](https://twitter.com/TheBidouilleur)
+* [wiki-tech](https://wiki-tech.io/)
 * [Xavki](https://twitter.com/xavki_off)
 * [Zwindler](https://twitter.com/zwindler)
 
