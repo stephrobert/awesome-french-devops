@@ -196,6 +196,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Cookie Connecté](https://www.youtube.com/channel/UC5cs06DgLFeyLIF_II7lWCQ)
 * [Cloud Nord](https://www.youtube.com/channel/UCD_iUcnDZgFlU_7fBmWH3tA)
 * [Devoxx FR](https://www.youtube.com/c/DevoxxFRvideos)
+* [Emile `iMil' Heitor](https://www.youtube.com/channel/UCqGZmYTiWmOl7vXb0XBbY_Q)
 * [France DevOps](https://www.youtube.com/channel/UC7Mwqt8IODoaQONPwMrOYQA)
 * [Inpulse.tv * Playlist Devops & cloud](https://www.youtube.com/playlist?list=PLORtqNVm6r7BVC3ldqwLK4Nl_FgjwpQpU)
 * [KrustyHack](https://www.youtube.com/channel/UCM0mnsNbecIi_IAPXtHb-TA)
