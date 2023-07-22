@@ -22,7 +22,7 @@
 * 5. [Communautés](#Communauts)
 * 6. [Mooc](#Mooc)
 * 7. [Chaines Youtube](#ChainesYoutube)
-* 8. [Chaines Twitch](#ChainesTiwtch)
+* 8. [Chaines Twitch](#ChainesTwitch)
 * 9. [Des comptes Mastodon](#DescomptesMastodon)
 * 10. [Des comptes Twitters](#DescomptesTwitters)
 * 11. [Des slacks](#Desslacks)
