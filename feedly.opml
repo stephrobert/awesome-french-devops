@@ -42,7 +42,7 @@
             <outline type="rss" text="Xavki" title="Xavki" xmlUrl="https://xavki.blog/feed/" htmlUrl="https://xavki.blog"/>
             <outline type="rss" text="devopssec.fr" title="devopssec.fr" xmlUrl="https://devopssec.fr/rss.xml" htmlUrl="https://devopssec.fr/articles"/>
             <outline type="rss" text="cocadmin" title="cocadmin" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVRJ6D343dX-x730MRP8tNw" htmlUrl="https://www.youtube.com/channel/UCVRJ6D343dX-x730MRP8tNw"/>
-            <outline type="rss" text="thebidouilleur" title="thebidouilleur" xmlUrl="https://thebidouilleur.xyz/blog/rss.xml" htmlUrl="https://thebidouilleur.xyz/"/>
+            <outline type="rss" text="Une tasse de café" title="Une tasse de café" xmlUrl="https://une-tasse-de.cafe/index.xml" htmlUrl="https://une-tasse-de.cafe/"/>
         </outline>
         <outline text="Cloud" title="Cloud">
             <outline type="rss" text="The DigitalOcean Blog" title="The DigitalOcean Blog" xmlUrl="https://www.digitalocean.com/blog/feed.atom" htmlUrl="https://www.digitalocean.com/blog/rss"/>
