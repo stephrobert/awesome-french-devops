@@ -129,7 +129,7 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 * [Stephane Philippart](https://philippart-s.github.io/blog)
 * [Stephane ROBERT](https://blog.stephane-robert.info/)
 * [tferdinand](https://tferdinand.net)
-* [TheBidouilleur](https://thebidouilleur.xyz)
+* [Une-tasse-de-café](https://une-tasse-de.cafe/)
 * [Zwindler's Reflection](https://blog.zwindler.fr/)
 
 ###  3.2. <a name='Socits'></a>Sociétés
