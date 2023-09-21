@@ -190,7 +190,6 @@ faire ma veille techno. Je la mettrai à jour régulièrement. [feedly.opml](./f
 ##  7. <a name='ChainesYoutube'></a>Chaines Youtube
 
 * [Aurelie Vache](https://www.youtube.com/channel/UCrRk0kOP58lBMl9B8ZS8Vlg)
-* [ChewieBeardy alias Kevin Sztern](https://www.youtube.com/@ChewieBeardy/featured)
 * [CocAdmin](https://www.youtube.com/c/cocadmin)
 * [Compagnons du Devops](https://www.youtube.com/c/LesCompagnonsduDevOps)
 * [ComWorkIO](https://www.youtube.com/@comworkio)
