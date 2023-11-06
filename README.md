@@ -1,5 +1,10 @@
 # Awesome French Devops [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+**Comme je ne reçois plus de contribution, j'ai décidé de construire [une
+section documentation sur mon blog
+perso](https://blog.stephane-robert.info/docs/) qui reprend tout ce contenu et
+plus.**
+
 🚩 Soutenez ce projet en y mettant simplement une petite étoile. 🌟
 
 <!-- vscode-markdown-toc -->
@@ -38,11 +43,6 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
-
-**Comme je ne reçois plus de contribution, j'ai décidé de construire [une
-section documentation sur mon blog
-perso](https://blog.stephane-robert.info/docs/) qui reprend tout ce contenu et
-plus.**
 
 Ce dépôt a pour objectifs de :
 
