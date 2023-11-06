@@ -39,6 +39,11 @@
 <!-- /vscode-markdown-toc -->
 ##  1. <a name='Introduction'></a>Introduction
 
+**Comme je ne reçois plus de contribution, j'ai décidé de construire [une
+section documentation sur mon blog
+perso](https://blog.stephane-robert.info/docs/) qui reprend tout ce contenu et
+plus.**
+
 Ce dépôt a pour objectifs de :
 
 * d'aider à démarrer sa formation et à monter en compétences sur la culture et
@@ -47,7 +52,7 @@ Ce dépôt a pour objectifs de :
 * recenser tous les liens pointant sur du contenu en Français pour remplir cet
   objectif.
 
-**C'est une question qui revient souvent. Comment je démarre si je veux
+**C'est une question qui revient souvent. Comment je commence si je veux
 maîtriser les outils Devops ? Par quoi dois-je commencer ?**
 
 Pour **mettre en œuvre avec succès le DevOps** on se doit de connaître un
