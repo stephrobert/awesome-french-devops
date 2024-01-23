@@ -5,6 +5,7 @@
 	* 1.2. [Livres](#Livres)
 	* 1.3. [MOOC](#MOOC)
 	* 1.4. [Sites](#Sites)
+	* 1.5. [Newsletters](#Newsletters)
 * 2. [GCP](#GCP)
 	* 2.1. [Livres Gratuits](#LivresGratuits-1)
 	* 2.2. [Livres](#Livres-1)
@@ -41,6 +42,10 @@
 
 * [Le podcast AWS en français](https://aws.amazon.com/fr/blogs/france/podcasts/)
 * [Trouver les didacticiels de prise en main adaptés à vos besoins AWS](https://aws.amazon.com/fr/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&getting-started-all.sort-order=asc&awsf.getting-started-category=*all&awsf.getting-started-level=*all&awsf.getting-started-content-type=*all)
+
+###  1.5. <a name='Newsletters'></a>Newsletters
+
+* [Nouveautés AWS](https://pmartin.substack.com/)
 
 ##  2. <a name='GCP'></a>GCP
 
